@@ -80,7 +80,14 @@ ev("Array.from(document.querySelectorAll('.nav-item')).find(n=>n.textContent.inc
 time.sleep(1.5)
 ev("(()=>{const t=document.querySelector('#chatInput'); t.value='How do I open a board presentation so they lean in instead of checking email?';})()")
 ev("document.querySelector('#chatSend').click()")
-time.sleep(9)
+# Wait for the stream to COMPLETE before capturing, otherwise the screenshot
+# shows a half-written answer and looks like a rendering bug.
+for _ in range(40):
+    done = ev("document.querySelector('#streamBubble')?.dataset.streaming === 'false'")
+    if done:
+        break
+    time.sleep(1.5)
+time.sleep(1.0)
 shot("07_tutor")
 
 # Studio

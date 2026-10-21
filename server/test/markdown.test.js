@@ -166,6 +166,34 @@ console.log('\n=== 10. Edge cases ===');
   ok('no throw on weird input', (() => { try { md('*&#*&*&#'); return true; } catch { return false; } })());
 }
 
+console.log('\n=== 11. Headings with NO blank line before them ===');
+{
+  // This is the shape the model actually produces: a heading immediately
+  // after a paragraph line. A blank-line splitter misses these entirely.
+  const doc = `Kill the throat-clearing. Their phones come out.
+### The Opening Formula
+Tension (The Stake): State the variance immediately.
+- Plant both feet beneath your hips.
+- Sweep the room for three seconds.
+Downward Inflection: Drop your pitch at the end.
+> They are not waiting for your agenda.
+**Do this next:** Record the opening.`;
+  const h = md(doc);
+  ok('heading recognised without a blank line', h.includes('<h3>The Opening Formula</h3>'), h);
+  ok('no literal ### in output', !h.includes('###'), h);
+  ok('bullet list recognised', h.includes('<ul>') && h.includes('<li>Plant both feet'), h);
+  ok('blockquote recognised', h.includes('<blockquote>'), h);
+  ok('bold inline works', h.includes('<strong>Do this next:</strong>'), h);
+  ok('heading is its own block', h.indexOf('<h3>') < h.indexOf('<ul>'), h);
+}
+
+console.log('\n=== 12. Single-line bold acts as a sub-heading ===');
+{
+  const h = md('**The Physical Mechanics of the Open**');
+  ok('becomes a heading', h.includes('<h3>'), h);
+  ok('not left as a paragraph', !h.includes('<p>'), h);
+}
+
 console.log(`\n${'='.repeat(50)}`);
 console.log(`${checks - failures}/${checks} checks passed`);
 if (failures) { console.log(`${failures} FAILURES`); process.exit(1); }
