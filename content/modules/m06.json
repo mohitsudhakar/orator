@@ -1,0 +1,771 @@
+{
+  "id": "m06",
+  "number": 6,
+  "title": "Body: Gesture, Movement, and Stagecraft",
+  "subtitle": "What the room sees while you talk",
+  "level": "Intermediate",
+  "durationMinutes": 90,
+  "outcome": "Design, rehearse, and own a physical delivery system - gesture vocabulary, movement plan, eye-contact pattern, and stagecraft for whatever room you are in - so that the room's attention stays on your argument rather than on your body.",
+  "abstract": "Your argument can be perfect and still lose the room, because what the room sees while you talk is a second, continuous argument about whether you are in charge of the material. This module treats the body as a delivery system to be designed rather than a temperament to be wished for. It is honest about the evidence: the famous 7-38-55 rule applies only to a narrow decoding task and is routinely over-extrapolated, Ekman's contributions are durable while his universality claims are contested, and posture psychology did not survive replication. What survives is more useful anyway - the gesture families and their diagnostic signatures, congruence between body and words, a named home position for the hands, a movement map that replaces pacing with intention, an eye-contact pattern that reads as attention rather than challenge, and stagecraft rules for rooms that are not stages. Every framework here is executable the same day and observable on a recording.",
+  "objectives": [
+    "Evaluate nonverbal communication research accurately - including the narrow scope of Mehrabian's 7-38-55 rule and the contested status of Ekman's universality claims - and adopt only the practices that survive scrutiny.",
+    "Classify your own gestures into the five families - illustrators, emphatics, regulators, adaptors, and their leakage - and eliminate the adaptors that leak discomfort.",
+    "Apply congruence between posture, gesture, and words so that the body supports the claim rather than contradicting it, and read open, closed, expanded, and collapsed posture in others.",
+    "Establish a named home position for the hands, assign every prop a job, and replace the dead hand with a deliberate, repeatable gesture vocabulary.",
+    "Build a movement map for a specific room, execute the plant-and-pivot technique, and eliminate pacing as the most visible amateur tell.",
+    "Apply the Triangle Scan and the three-second thought rule to distribute eye contact as attention rather than challenge, including from a stage and in a boardroom."
+  ],
+  "keyTerms": [
+    {
+      "term": "Kinesics",
+      "definition": "Ray Birdwhistell's term for the study of human body movement as a system of communication, parallel to language and governed by its own rules."
+    },
+    {
+      "term": "7-38-55 Rule",
+      "definition": "Mehrabian's finding that in decoding ambiguous messages about feelings and attitudes, listeners weight words at 7 percent, vocal delivery at 38 percent, and facial expression at 55 percent - a narrow decoding result, not a general law of persuasion."
+    },
+    {
+      "term": "Illustrators",
+      "definition": "Gestures that run alongside speech and map onto its content, depicting size, shape, direction, or movement."
+    },
+    {
+      "term": "Emphatics",
+      "definition": "Content-independent gestures that strike a note and mark emphasis, such as a single downward chop on a key phrase."
+    },
+    {
+      "term": "Regulators",
+      "definition": "Gestures that control the flow of the interaction itself, such as signalling to continue, to slow down, or to hold for a moment."
+    },
+    {
+      "term": "Adaptors",
+      "definition": "Self-directed, largely unconscious movements that manage tension, such as touching the face, adjusting a cuff, or rocking; the most visible source of leakage."
+    },
+    {
+      "term": "Leakage",
+      "definition": "Ekman's term for behaviour that escapes voluntary control and reveals internal state; adaptors are its clearest corporate expression."
+    },
+    {
+      "term": "Congruence",
+      "definition": "Consistency between what a speaker says and what the body signals; inconsistency tends to shift the listener's judgement toward the body."
+    },
+    {
+      "term": "Open and Closed Posture",
+      "definition": "Open posture presents the torso and hands and reads as available; closed posture shields the body and reads as guarded or defensive."
+    },
+    {
+      "term": "Collapsed Posture",
+      "definition": "A withdrawn, rounded, weight-shifted stance that reads as low energy or disengagement and physically restricts the size of your gesture vocabulary."
+    },
+    {
+      "term": "Home Position",
+      "definition": "The named, repeatable resting place of the hands between gestures - above the waist, in front of the body, and returned to after every gesture."
+    },
+    {
+      "term": "Movement Map",
+      "definition": "A pre-drawn plan of the three or four positions in a room you will occupy and the content section attached to each one."
+    },
+    {
+      "term": "Plant-and-Pivot",
+      "definition": "The technique of keeping the feet planted while turning the hips and torso to address a new section of the room, so that movement reads as intention."
+    },
+    {
+      "term": "Triangle Scan",
+      "definition": "A gaze pattern that cycles through the left eye, right eye, and mouth or forehead of a single person, or through three zones of a room, distributing attention without a fixed stare."
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "title": "What the Evidence Says About Nonverbal Communication - and What It Does Not",
+      "summary": "Two claims are true at once: the body communicates continuously, and people are poor at decoding it accurately. Between them sits the industry's most misquoted statistic, 7-38-55, which describes one narrow decoding experiment and is routinely inflated into a law of persuasion it never supported.",
+      "detail": "Two claims about body language are true simultaneously, and most popular advice fuses them into one false claim. First, the body communicates continuously: posture, gesture, gaze, and stillness all carry signal. Second, people are poor at decoding it accurately. The consequence is not \"stop using your body\" but: assume your body is being read, and do not try to control meaning at a level you cannot.\n\nThe most-quoted statistic in the field is Albert Mehrabian's 7-38-55 rule: with an ambiguous message, listeners weight words at 7 percent, vocal delivery at 38 percent, and facial expression at 55 percent. It is routinely inflated into \"93 percent of communication is nonverbal\" - not what the research says. Mehrabian's figures came from a narrow tradition on decoding inconsistent communications: short messages where the verbal channel was made ambiguous and the vocal channel manipulated so only the face carried usable information. As Burkart's critique makes clear, the percentages describe that specific decoding task. They are not a law of persuasion, and they were never evidence that a good body overrides good words. Use the statistic for what it is: when the words are unavailable, the face carries the judgement. An executive audience never lacks your words.\n\nEkman's contribution is durable and his legend is not. His Facial Action Coding System made the face measurably analysable, and his cross-cultural work established that some expressions are recognised across cultures - though his own studies reported lower recognition rates for non-Western participants, a finding usually dropped. The basic-emotion claim is genuinely contested: Lisa Feldman Barrett's constructionist account argues that emotion categories are built from context and concept rather than read off the face, and that recognition accuracy is more variable than textbooks suggest. Ekman is a safe source for \"the face is measurable\", not for \"the face is honest\".\n\nRay Birdwhistell's kinesics gave the field its operating idea: gesture is not decoration on speech but a parallel channel of meaning with its own grammar. He also named the trap that catches executives - the absence of a gesture is itself a message, and the room believes it.\n\n| Claim | Status |\n| --- | --- |\n| Body language is registered by audiences | Supported in general terms |\n| Most people decode it accurately | Not supported |\n| 7-38-55 generalises to all communication | Not supported; narrow decoding task |\n| Ekman's basic emotions are universal and automatically detected | Contested; Barrett and others |\n| Congruence between word and body is noticed | Consistently supported |\n\nUse your body to make your words legible, and to look like you belong. Never quote the 7-38-55 rule in a room that contains a statistician.",
+      "principles": [
+        "Assume your body is being read at all times, and do not attempt to control involuntary signal at a level the evidence does not support.",
+        "Quote 7-38-55 only with its scope attached - a narrow decoding experiment about ambiguous feelings and attitudes - or do not quote it at all.",
+        "Treat congruence between body and words as the load-bearing finding, because it is the one that survives scrutiny.",
+        "Use the body to make words legible and to signal belonging, not to substitute for evidence.",
+        "Do not repeat a contested claim in front of a sophisticated room; calibrated accuracy is itself a credibility signal."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Citing 7-38-55 as proof that delivery outweighs content, which is the exact misreading the research does not support.",
+          "fix": "State the scope whenever you use it: in a narrow decoding task, when the words are ambiguous and the vocal channel is also unclear, the face carried the judgement. Then note that in a business room the words are never ambiguous."
+        },
+        {
+          "failure": "Buying a course built on micro-expression reading, promising to decode every executive in the room.",
+          "fix": "Nonverbal accuracy is modest and highly variable in the research. Spend the budget on voice, evidence, and rehearsed physical behaviour, which are directly controllable."
+        },
+        {
+          "failure": "Delivering a technically excellent talk with a body that contradicts it, so the room believes the body.",
+          "fix": "Congruence is the one finding that holds. If you do not believe what you are about to say, do not say it - and if you do believe it, rehearse the posture and gesture that belongs to it."
+        },
+        {
+          "failure": "Treating stillness as the goal, then delivering a motionless talk that reads as disengagement rather than authority.",
+          "fix": "Absence of gesture is itself a message, in Birdwhistell's terms. Design a small, deliberate vocabulary instead of removing movement."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating the scope and limits of nonverbal communication research, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c2",
+      "title": "The Gesture Families: Illustrators, Emphatics, Regulators, and the Leakage of Adaptors",
+      "summary": "Not all hand movement is the same. The standard taxonomy separates gestures that carry meaning, gestures that mark emphasis, gestures that control the room, and gestures that betray you. The fourth family - adaptors - is the one that costs speakers credibility, because it is the visible residue of tension the voice is hiding.",
+      "detail": "The gesture literature converges on a five-family taxonomy, most associated with Paul Ekman and Virginia Friesen's early hand-movement work and extended by researchers such as Calvert Johnston. Executives rarely need the labels, but the labels explain something practical: not all hand movement is the same, and only some of it is worth engineering.\n\nIllustrators accompany speech and map onto its content - a hand describing size, shape, direction, or trajectory. They reinforce and clarify, and they are the only family that carries information the words do not. Emphatics are independent of content: they strike a note, punctuate, and mark emphasis, like a drumstick on a sentence. Regulators control the flow of the interaction itself - the small hand lift that says 'go on', the palm-down gesture that slows a room down, the open hand that signals 'one moment'. Adaptors are self-directed, largely unconscious movements that manage tension: scratching, adjusting a cuff, rubbing a neck, rocking, playing with a ring, reaching for a glass. Emphatics and adaptors are the two families most often confused, because from outside both look like nervous energy - and that is exactly the problem, because the audience reads the visual difference as effort.\n\nAdaptors are the source of Ekman's most useful term for this module: leakage. Leakage is behaviour that escapes voluntary control and reveals internal state. A single adaptor proves nothing - everyone touches their face, and the base rate problem is severe. What carries signal is change and clustering. A speaker whose adaptor rate triples at the moment they reach the revenue slide is telling the room something true, whether or not the room can articulate it. The same applies across the table: a counterparty who starts touching their neck when you name a number is not giving you a gift.\n\nTwo practical consequences. First, engineer the adaptors you cannot control: give your hands a job, keep them above the waist, and give them a defined default so that when they are not gesturing they are not available for mischief. Second, use the pause instead. The most common amateur tell in a business talk is not a nervous gesture; it is a nervous gesture plus a rushed sentence continuing straight through it.\n\nRead the same way, regulators are the most underused family available to an executive. You can regulate a room's pace with your hands and your pauses - and you can do it from a seated position, in a boardroom, without moving at all.",
+      "principles": [
+        "Classify every habitual movement before deciding to change it - illustrators and emphatics are worth keeping, adaptors are not.",
+        "Judge adaptors by rate and clustering, never by a single instance; one touch of the face is noise, a burst of them is a signal.",
+        "Give your hands a defined default so that there is no idle state available for tension to occupy.",
+        "Use a deliberate pause to absorb the urge to fidget rather than covering it with a rushed sentence.",
+        "Learn the regulator family - it is the only gesture family that changes the room rather than describing your content."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Mistaking an emphatic for an adaptor and killing the emphasis that was working.",
+          "fix": "Emphatics are content-independent and land on key phrases; adaptors are self-directed and land on nothing. If the gesture happened because of the sentence, keep it. If it happened because of your nerves, kill it."
+        },
+        {
+          "failure": "Interpreting a single adaptor in a counterparty as proof of discomfort, and changing your pitch in response.",
+          "fix": "Base rates are high. Look for a change in rate or a cluster at the moment you named a number, a date, or a request - and treat a single instance as noise."
+        },
+        {
+          "failure": "Filling every silence with a gesture, so the audience cannot tell a meaningful movement from a nervous one.",
+          "fix": "Deliberate silence with a planted stance reads as control. Leave a beat after a hard point and let the room do the work."
+        },
+        {
+          "failure": "Gesticulating in the same pattern for every idea, so the gesture stops carrying information.",
+          "fix": "Reserve illustrators for the two places where a picture genuinely helps - a size, a shape, a direction - and use nothing anywhere else."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating the five families of gesture and their diagnostic signatures, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c3",
+      "title": "Posture: Open, Closed, Expanded, Collapsed - and the Replication Problem",
+      "summary": "Four posture labels carry most of the business meaning: open or closed, expanded or collapsed. The popular hormone story attached to them did not survive replication, but the congruence finding - that listeners resolve disagreement between body and words in favour of the body - did, and it is the more useful one.",
+      "detail": "Four posture labels do most of the work in business. Open means the torso is available - arms uncrossed, hands visible, chest not shielded by a laptop or a folded arm. Closed means the body is protecting itself: arms folded, hands in pockets, one hand gripping the other, shoulders drawn in. Expanded means the body occupies space - chest lifted, shoulders back, head up. Collapsed means it withdraws - rounded shoulders, head forward, weight on one hip, torso leaning away.\n\nThe interpretation is common knowledge and mostly uncontroversial: closed reads as guarded, expanded as confident or energetic, collapsed as disengaged or low-status. A speaker who sits with hands hidden in a boardroom removes signal the room is used to reading. What must be flagged is the popular mechanistic story attached to it. Amy Cuddy's power-posing work claimed that holding an expansive posture produced hormonal and behavioural changes - lower cortisol, higher testosterone, greater risk appetite. Direct replication attempts failed to find the hormonal effect, and a large multi-lab effort recovered some self-reported feelings of power and some hormonal measures in some analyses, but not the original pattern. The defensible claim is narrow: posture may influence how you feel, and therefore how you behave. The claim that a stance rewrites your hormones is contested and should never be sold to a room as settled science.\n\nThe part that survives scrutiny should carry your practice, and it is congruence. When the verbal and non-verbal channels disagree, listeners tend to resolve the disagreement in favour of the body, and they tend to read the inconsistency as information about the speaker rather than about the topic. This holds across the attitude and deception literature and is one of the most consistent findings in the area. The rule is direct: make the body say what the words are claiming. If you are about to say something you do not believe, do not say it - the room will take the body, and it will be right to.\n\nSecond rule: posture is the most visible and most controllable signal you have, but it is not a costume. A rigid power stance held for forty minutes reads as aggression in a boardroom, or as a photograph of a person trying to look like a leader. What you want is a settled, open, stable baseline with a small, comfortable range of variation, and a register that matches the room. Boardrooms reward stillness and economy. Conference stages reward travel. A talk delivered with conference energy to a board is a costume error, not an effort error.",
+      "principles": [
+        "Adopt posture practices on the basis of low risk and plausibility, and never repeat the hormone claims as established fact.",
+        "Make the body congruent with the claim; when the two conflict, the room will believe the body.",
+        "Keep hands visible and the chest available as a baseline - visibility is what allows the room to read you at all.",
+        "Hold a settled, open, stable posture with a small range of variation rather than one rigid 'power' stance.",
+        "Match the register of the room: boardrooms reward economy of movement, conference stages reward travel."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Delivering a bad-news slide with an expanded, triumphant posture, so the body contradicts the message.",
+          "fix": "Congruence does the work. Bad news wants a level, settled, still body - the absence of celebration reads as candour before you have said a word."
+        },
+        {
+          "failure": "Sustaining a rigid power stance for a full hour because it was supposed to work.",
+          "fix": "It reads as aggression and it is physically tiring, and fatigue shows. Build a neutral open baseline and let specific moments be specific - one strong posture for one strong claim, then release it."
+        },
+        {
+          "failure": "Collapsing behind a laptop screen, which hides both your face and the whole gestural channel.",
+          "fix": "Angle the laptop and lower it, or move to a standing position for the sections that matter. A board that cannot see your body is a board that is reading only your voice, and your voice is not doing all the work."
+        },
+        {
+          "failure": "Reading your own posture as evidence of how the talk is going, and spiralling mid-sentence.",
+          "fix": "Posture is an output, not an input. Run a fixed pre-stage check - feet, hands, breath, first line - and then stop monitoring yourself."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram contrasting open and closed and expanded and collapsed posture, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c4",
+      "title": "The Home Position and the Object in Your Hand",
+      "summary": "The cheapest fix in this module: give your hands a named, repeatable default, and return to it after every gesture. The return is what makes a gesture read as deliberate. A dead hand is worse than no hands because stillness is itself a message - and a nervous hand with nothing to do is worse than either.",
+      "detail": "Most talks are not lost on content. They are lost in the forty seconds during which a founder stands with both arms pinned to their sides, or hands clasped so tightly the knuckles whiten, and the audience decides something about them that was never in the argument.\n\nThe fix is a default. The home position is the resting place of your hands when they are not gesturing - a single, named, repeatable position you return to after every gesture. The return is what makes a gesture read as deliberate: a gesture that begins and ends is punctuation; a hand that never comes home is noise.\n\nA workable home position has four properties: above the waist, in front of the body or just outside the hip line, visible, and physically relaxed. The belt-buckle join with both hands loosely overlapping is the most reliable default for a standing speaker with nothing in hand; arms at the sides, shoulders down, fingers open, is easiest to sustain. Hands behind the back, in pockets, or clasped low in front are the defaults to avoid: they conceal the gestural channel and read as constraint.\n\nThe dead-hand problem is worth stating plainly because the advice is counterintuitive. A completely motionless speaker is not neutral: stillness is a signal, and the absence of a gesture is itself a message. A dead hand reads as either anxiety, or an attempt at control so rigid that it is visibly costing something. Both lose. A body with no gestural vocabulary also loses, because the listener is receiving a secondary channel that should reinforce your key phrases. Movement is not the enemy. Unowned movement is.\n\nThe object problem. Whatever is in your hand changes what you look like, so decide deliberately what each object is for.\n\n- A clicker: hold it in the hand that does not lead your gestures, keep it at home position, and never use it as a pointer - miming a point with a clicker reads as fake, because it is. To point, use the laser or indicate with the whole arm, briefly, then turn back. Looking at the screen to check a figure is fine; the fear of looking away from the audience is a myth. Bring a backup.\n- A glass of water: a prop that must be handled. It clinks, it makes you drink at a moment you did not choose, and it leaves a ring on the table. Under ten minutes, put it down out of sight; for a long session, place it where you can reach it without looking and sip only at a break.\n- Notes: one low card with three anchors and one number. A page read verbatim tells the room you are not present; a card glanced at says you are.\n\nAn object is a tool with a job, not a place to put your nerves. If your hand needs somewhere to go, it goes home.",
+      "principles": [
+        "Name one home position and rehearse the gesture-return cycle; the return is what makes a gesture read as deliberate.",
+        "Keep the home position above the waist, in front of the body, and visible to the room and to a camera.",
+        "Give every prop a single assigned job - clicker, glass, card - and never let a prop become a fidget surface.",
+        "Treat stillness as a signal rather than as neutrality; a dead hand reads as anxiety or rigid control, and both cost credibility.",
+        "Point with a whole arm and a hand or with a laser, never by miming with a clicker."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Spending a whole talk with hands clasped in front of the body, which suppresses every gesture and reads as guarded.",
+          "fix": "Drop the hands to the home position, uncrossed and visible. If clasp anxiety is the trigger, give yourself a prop with a job, and rehearse the unclasping."
+        },
+        {
+          "failure": "Reading a slide from the screen, or worse, from notes on the lectern, during the section that matters most.",
+          "fix": "One card, three anchors, one number, held low. Turn to the screen only to check a figure, and make the glance short and deliberate rather than agonised."
+        },
+        {
+          "failure": "Carrying a clicker and using it as a pointing device, or clicking it during a pause so the room hears a click in the silence.",
+          "fix": "The clicker advances slides and does nothing else. If you want to point, turn and indicate, then turn back to the room."
+        },
+        {
+          "failure": "Keeping a glass of water in view and sipping at arbitrary moments, which breaks the rhythm and covers the mouth during key lines.",
+          "fix": "Set it down before you begin. Take a drink only at a natural break, and only if the session is long enough to justify it."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating the home position of the hands and the three prop rules, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c5",
+      "title": "The Movement Map: Owning the Space, and Why Pacing Is the Amateur Tell",
+      "summary": "Movement should be authored, not generated. A movement map assigns three or four positions in the room to three or four sections of the talk, so that travel has a reason. Pacing is the most common amateur tell in business speaking because it is produced by adrenaline, not chosen - and the audience reads it as evidence that you are not ready.",
+      "detail": "Movement should be designed before it is performed. The movement map is the plan of where you will stand at each point in the talk, so travel is authored rather than generated by nervous energy. Without a map, movement is one of two things: stillness, which reads as a slide come to life, or drift, which reads as anxiety. Both are legible.\n\nA useful map has three or four positions and no more. The home position is centre, where you begin and end. The two wing positions are stage left and stage right, or the two ends of the room; use them to address a section of the audience without crossing the floor. The advance position is one step closer, reserved for the one idea you most want landed or for the ask. Each move must be tied to a shift in meaning: you go somewhere because the content changed, not because your hands were empty.\n\nPacing is the most common amateur tell in business speaking, and it is worth being precise about why. It is generated, not chosen - adrenaline produces forward motion - and it is highly visible because it crosses an axis. A speaker moving side to side creates a visual oscillation, so the eye never settles. Worse, pacing draws attention to the speaker's discomfort and away from the argument, and it makes the talk harder to follow because the room cannot predict where you will be for the next sentence. A speaker who paces also hurries, and hurry plus movement reads as one signal - not ready.\n\nThree rules make movement legible. One: never move while delivering a key line. Plant, deliver, then move. Two: every move ends in a plant - feet planted, weight even - before you speak the next section. The stop is what makes travel look deliberate rather than anxious. Three: never cross in front of the screen, and never turn your back to the audience to check a slide; use the pointer, or turn your body open so the head turns while the chest stays visible.\n\nThe diagnostic is cheap. Record a talk and count the times you return to the same spot inside a thirty-second window. More than twice means you were not moving with intent - you were pacing, and the room saw it. The fix is not to move less. It is to move for a reason, and to end every move standing still.\n\nMovement is also the cheapest way to signal a change of mode. When the argument shifts from diagnosis to recommendation, walking to a new position and planting tells the room the content has changed before you say a word. The body does the editing.",
+      "principles": [
+        "Draw the movement map before the talk and attach each position to a content section; a position with no section attached will not be used.",
+        "Limit the map to three or four positions - more positions than sections means the movement is decoration.",
+        "Never move while speaking a key line: plant, deliver, then move.",
+        "End every move in a plant with the weight even and the feet still; the stop is what reads as control.",
+        "Audit pacing by counting returns to the same spot within a thirty-second window on a recording."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Pacing the stage because the room is large and the nerves have nowhere to go.",
+          "fix": "Give the adrenaline a job: two positions, each tied to a section. Assign the nervous energy to a planned walk to the advance position at the moment of the key number, and then stand still and deliver it."
+        },
+        {
+          "failure": "Turning your back to the audience to look at the slide, which costs you the room for the length of the turn.",
+          "fix": "Use a pointer, or use an open turn where the head turns and the chest stays visible. If you must walk to the screen, do it in a gap between sections, never mid-sentence."
+        },
+        {
+          "failure": "Moving constantly to signal energy, so the movement stops carrying meaning and becomes a tic.",
+          "fix": "Restrict movement to content changes. If you moved on the last three slides without a reason, the room has learned that your movement is noise."
+        },
+        {
+          "failure": "Standing dead centre and never moving at all because you were told that stillness is authority.",
+          "fix": "Stillness is a signal and it is not always the right one. Design three positions and use them; the room reads purpose, not stillness."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a movement map with home, wing, and advance positions tied to content sections, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c6",
+      "title": "Eye Contact: Scanning, Staring, and the Triangle Scan",
+      "summary": "Eye contact is the highest-bandwidth channel in the room and the one most speakers get wrong in two opposite directions: too little, and a locked stare. Kleinke's work supports the value of attention; it does not support the infinite stare, which reads as a dominance display and, in an evaluative room, as a challenge.",
+      "detail": "Eye contact is the highest-bandwidth channel in the room, and the one most speakers misuse in two opposite directions: too little, and a locked stare.\n\nThe research base is narrower than the folklore. Robert Kleinke and colleagues' studies of gaze and perceived attributes found that greater eye contact was generally read as greater attentiveness, credibility, and attractiveness, and that gaze aversion was discounted - the mechanism is essentially \"she was paying attention to me, so she must have something worth hearing\". What that literature does not support is the infinite stare. Prolonged, unbroken direct gaze is one of the recognised components of a dominance display, along with reduced blinking and a forward head posture, which is why a locked stare in an evaluative room reads as challenge, pressure, or contempt rather than confidence. In a one-on-one negotiation the same behaviour can read as confidence. The signal must be read against the relationship and the register.\n\nTwo heuristics do the practical work, and both are practice rules rather than research findings - worth saying so you do not over-claim them. The three-second rule: hold your gaze on one person long enough to complete one thought, roughly three to five seconds, then release. Shorter reads as skimming the room; much longer reads as a confrontation. The triangle scan: on a one-to-one or a small group, cycle through left eye, right eye, and mouth or forehead. The point is to avoid the fixed single-point gaze that reads as blankness or hostility. In a room of more than about a dozen people you cannot make eye contact with individuals and should not try: look at the section of the room where the people are, and let your gaze dwell on one region for a full thought before moving on.\n\nThe common failure is the scanner, not the starer. Sweeping the room continuously, landing on nobody for more than a second, is the visible signature of a nervous speaker, and it produces the opposite of connection. A land-and-hold pattern is what you want.\n\nThree moves worth rehearsing. When someone asks a question, look at the asker for the first sentence of your answer, then turn to the room for the substance, so the reply does not become a private exchange. When you deliver the most important line, pick one person whose eyes you can see and give the line to them. And never look at the screen, your notes, or the ceiling during a key sentence; the temptation to check the slide at that moment is where most deliveries die.\n\nFinally, treat the room's eye contact as data about your delivery. If nobody is looking back at you for a stretch, it is usually because you are speaking too softly, too densely, or too fast - not because they are unconvinced.",
+      "principles": [
+        "Hold gaze for one completed thought, roughly three to five seconds, then release; shorter reads as skimming, much longer reads as a challenge.",
+        "Cycle the triangle - left eye, right eye, mouth or forehead - in one-on-one and small-group settings to avoid a fixed single-point stare.",
+        "In rooms of more than a dozen people, work in three zones and land fully on one zone per thought rather than sweeping continuously.",
+        "Answer to the room: hold the asker for the first sentence, then turn outward for the substance.",
+        "Never look at the screen, notes, or ceiling while delivering a key line; choose a face and give the line to it."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Locking eyes with one person for a full minute because you read somewhere that eye contact builds credibility.",
+          "fix": "The finding is that attention is read as credibility, not that unbroken gaze is. Release after one thought and move; a locked stare in a boardroom reads as pressure."
+        },
+        {
+          "failure": "Sweeping the room continuously so that you never actually land on anyone.",
+          "fix": "Land and hold. Pick one face, hold it for a full thought, then move - and count on a recording whether you actually did."
+        },
+        {
+          "failure": "Looking at the screen or the ceiling for the fraction of a second before each number, which is where nerves show.",
+          "fix": "Pre-load the number. Rehearse the sentence that carries it and deliver it to a chosen face with the eyes already there."
+        },
+        {
+          "failure": "Reading the room's low eye contact as disapproval and escalating your energy, which reduces eye contact further.",
+          "fix": "Low eye contact is usually a delivery symptom - too quiet, too fast, too dense - not a verdict on your argument. Fix the delivery before you change the content."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating the triangle scan and three-second gaze rule across a room and a single face, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c7",
+      "title": "Plant-and-Pivot, and Stagecraft for Rooms That Are Not Stages",
+      "summary": "The technique that makes directed movement look intentional is plant-and-pivot: feet down, turn from the hips, pause, then speak. And the biggest mistake in business speaking is assuming every room is a conference stage. A meeting room, a boardroom, and a doorway each have their own rules, and violating them is conspicuous.",
+      "detail": "Plant-and-pivot is the basic technique of directed movement, and it is more useful in a meeting room than on a stage. Plant both feet, weight even, hips square to the room. Then pivot - from the hips, torso turning with the head - to address a new section, and let your gaze travel with it. The plant preserves stability and reads as control; the pivot makes the change of address legible, so the room knows a new idea is starting.\n\nWhy it beats turning your head: a head turn alone is ambiguous - a glance at the screen, a distraction, a hunt for words. A pivot, supported by a planted base, reads as intention. The pattern in use is: pivot, pause, then speak. The pause is not optional; it is the beat that tells the room a section has changed, and stops the new section arriving on top of the old.\n\nStagecraft is making a room work for your message, and most business rooms are not stages.\n\nA small meeting room, eight people around a table, a five-minute item: standing up reads as theatrical, because a circle of seated peers has no front and the standing person blocks the table. Stay seated. Plant your feet under the table, keep your hands visible above the table edge rather than in your lap, and move the meeting with your gaze rather than your body. If you need a visual, stand only for the thirty seconds it takes to turn the screen, then sit. If you need to shift the room's energy, change your voice, not your altitude.\n\nA boardroom, ten people, and you are the only one standing: the standing position is a status display, and it changes the power geometry in a way you may not have intended. Stand for a defined section, at the side of the room rather than behind the head chair, with a sightline to every person, then sit back down. The return to the table keeps it from becoming dominance theatre. Never stand over a seated colleague.\n\nA doorway, a corridor, two people, ninety seconds: no stage, no screen, and an audience of one. Plant outside the threshold rather than blocking the exit, do not step into their path, keep your volume at theirs, deliver one idea rather than three, and define the exit line - \"I will send you three bullets by four\".\n\nAnd the failure everybody rehearses for: the clicker dies mid-sentence on a conference stage. The pause while an amateur looks at the ceiling is where the composure dies. The fix is rehearsed behaviour, not talent: keep talking through the click, cover the gap with the sentence you were already saying, walk to the screen and advance manually, or use your backup. The audience will forgive a dead clicker, but not the panicked face that follows it.",
+      "principles": [
+        "Plant, pivot, pause, then speak - the pause is what marks the section change and stops the new content landing on the old.",
+        "Pivot from the hips so the turn reads as intention rather than as a search for something to look at.",
+        "Read the room's geometry before you move in it: where is the front, the screen, the door, the decision-maker, and where must you not cross.",
+        "Match your physical register to the room - seated and low in a circle of peers, standing and defined in a boardroom, brief and contained in a doorway.",
+        "Rehearse the equipment failure. A dead clicker is a scripted moment, not an improvisation."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Standing to present a five-minute item in a small meeting room, which reads as theatre and blocks the table.",
+          "fix": "Stay seated, keep your hands visible above the table edge, and drive the room with your gaze. Stand only for the seconds it takes to turn a screen, then sit back down."
+        },
+        {
+          "failure": "Standing in a boardroom for the whole item and dominating the room you need to persuade.",
+          "fix": "Stand for a defined section, from the side rather than behind the head chair, and sit down again when the section ends. The return to the table is what keeps it from being a display of power."
+        },
+        {
+          "failure": "Blocking a doorway or standing in someone's path while delivering a corridor pitch.",
+          "fix": "Plant outside the threshold, keep your volume at theirs, deliver one idea, and name the follow-up with a time attached. Ninety seconds, then leave."
+        },
+        {
+          "failure": "Stopping mid-sentence to look at the ceiling when the clicker fails, which turns a technical problem into a visible loss of composure.",
+          "fix": "Keep talking through it, cover the gap with the sentence you were already saying, and have a backup ready. Rehearse the dead clicker once, badly, on purpose."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating plant and pivot technique and venue-specific stagecraft for stage, boardroom, meeting room, and doorway, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Home Position",
+      "summary": "A named, repeatable resting place for your hands that you return to after every gesture, so that your gesture vocabulary reads as deliberate rather than as nervous.",
+      "steps": [
+        "Choose one default and write it down as a physical instruction, not a feeling - for example 'hands together at the belt buckle, fingers loosely overlapping' rather than 'relaxed'.",
+        "Set the four constraints and check your choice against all of them: above the waist, in front of the body or just outside the hip line, visible to the room and to a camera, and physically relaxed rather than clenched.",
+        "Rehearse the cycle, not just the position: gesture out, return home, pause. The return is what makes a gesture read as punctuation, so rehearse the return as carefully as the gesture.",
+        "Assign every object a single job - clicker advances slides, glass is set down before you begin, card carries three anchors and one number - and never let a prop become a surface for your nerves.",
+        "Stand still for sixty seconds in front of a mirror or a camera and count how many times your hands leave the home position and fail to return. That count is your baseline.",
+        "In the first two weeks, return to home position deliberately at the end of every sentence. After that it should happen without a thought."
+      ],
+      "whenToUse": "Use it in every talk, every pitch, and every high-stakes conversation - it is the cheapest habit in this module and it is invisible when it works. Skip the formal drill and just keep your hands in view during a one-on-one coffee conversation, where the technique would be heavy-handed.",
+      "example": "A founder arrives at a Series B partner meeting with his hands behind his back. He names the home position before the meeting - hands together at the belt buckle - and rehearses the gesture-return cycle three times in front of a hotel mirror. In the meeting, when the partner asks about churn, he gestures once with an open palm to mark the point and returns to the buckle. When the partner pushes back on the bridge, he does not clasp, does not touch his face, and does not put his hands in his pockets; he returns to the buckle, which reads as composed rather than as defensive. The partner later says, unprompted, that he 'did not seem to be selling'. The clicker never leaves his right hand, low and still."
+    },
+    {
+      "name": "The Movement Map",
+      "summary": "A plan of three or four positions in a room, each assigned to a section of the talk, so that travel is authored by the content rather than generated by nerves.",
+      "steps": [
+        "Draw the room before you rehearse: mark the screen, the front edge, the door, the table, the decision-maker's seat, and the audience's cluster positions.",
+        "Set three or four positions and no more - home centre, stage left, stage right, and one advance position a step closer to the audience - and mark them on the drawing.",
+        "Assign each position to a content section, in order. A position with no section attached will not be used on the day.",
+        "Define the trigger: the exact sentence that sends you to the next position, so the move happens at a thought boundary and never mid-sentence.",
+        "Define the plant - feet still, weight even, hips square - and rehearse the stop as carefully as the walk, because the stop is what makes the travel look deliberate.",
+        "Audit on a recording: count returns to the same spot inside a thirty-second window. More than two means you were pacing, and the room saw it."
+      ],
+      "whenToUse": "Use it for any talk longer than five minutes in a room you have not used before, and for any talk in a large space where staying still would read as a slide with legs. Do not use it for a five-minute item in a small meeting room, where the correct map is a seated triangle and no travel at all.",
+      "example": "A COO is asked to present a 12-minute reorganisation plan to her executive team in a 20-person boardroom. She draws the room: long table, screen on the short wall, the CEO at the head. Her map has three positions - standing at the foot of the table for the diagnosis, a step to the right for the cost analysis, and back to the foot for the recommendation - and one seated section for the discussion. The trigger for each move is a specific sentence she has written on her card. In the room, she moves exactly twice, each time planting before she speaks, and sits down for the discussion. Her VP later reports that the reorganisation 'felt calm, which is what I wanted'."
+    },
+    {
+      "name": "The Triangle Scan",
+      "summary": "A gaze pattern that cycles through a person's eyes and mouth - or through three zones of a room - so that attention is distributed and never becomes a stare.",
+      "steps": [
+        "In a one-on-one or a group of six or fewer, cycle the triangle: left eye, right eye, then mouth or forehead, holding the whole triangle for one completed thought before moving on.",
+        "In rooms of more than about a dozen people, define three zones - left, centre, right - and land fully on one zone per thought instead of sweeping continuously.",
+        "Hold each landing for one completed thought, roughly three to five seconds. Shorter reads as skimming; much longer reads as a challenge.",
+        "Answer to the room: hold the person who asked for the first sentence of your answer, then turn outward to the rest of the room for the substance, so the reply does not become a private exchange.",
+        "For your single most important line, choose one person whose eyes you can actually see and give the line to them. Pre-select that person in the room read.",
+        "Ban the three glances during key lines: the screen, your notes, and the ceiling. Pre-load the number so the eyes are already there when it is spoken."
+      ],
+      "whenToUse": "Use it in every room, and rehearse it specifically on a recording - it is nearly impossible to feel honest about your own eye contact. In a one-on-one with a known counterpart, deliberately moderate it: the same gaze that reads as attention in a pitch reads as pressure in a negotiation.",
+      "example": "A founder is recording a 3-minute investor update. On the first take she locks onto the camera lens for 40 seconds and never looks away. On the second take she applies the triangle: with a colleague in the room she cycles eye, eye, mouth for each thought, and for the one line that matters - the net revenue retention figure - she picks the CFO, who is visible on the right, and gives the line to her. The colleague's note afterwards: 'I stopped looking at the screen twice, which means the number landed.'"
+    },
+    {
+      "name": "The Plant-and-Pivot",
+      "summary": "A four-beat technique for changing which part of the room you are addressing - plant, pivot, pause, speak - that makes directed movement read as intention rather than as a hunt for something to look at.",
+      "steps": [
+        "Plant: both feet down, weight even, hips square to the room, and the line under your shoulders level. Do this before you move, not as you move.",
+        "Pivot: turn from the hips so the torso rotates with the head, and let your gaze travel with the rotation to the new section. A head turn alone is ambiguous; a supported turn is not.",
+        "Pause: hold the new orientation for a beat. The pause is what announces the section change and stops the new content landing on top of the old.",
+        "Speak: deliver the first line of the new section from the plant, without moving, and keep the feet still until the section is finished.",
+        "Protect sightlines: never pivot so far that your back is to the room, never stand in front of the screen, and never stand over a seated colleague who needs to see both you and the slide.",
+        "Rehearse it in three contexts - a large stage, a boardroom table, and a small circle of seated peers - so the same four beats work in all three."
+      ],
+      "whenToUse": "Use it whenever you change who you are talking to: switching from a section of the room to another, handing the floor to a colleague, or turning to acknowledge a late arrival. Do not use it to turn towards the screen mid-sentence - use the pointer instead, or check the screen only at a thought boundary.",
+      "example": "A VP is presenting to a board of eleven when a director who missed the first item slips in late. The VP does not interrupt her sentence and does not gesture at the door. She finishes the sentence, plants, pivots 30 degrees toward the new arrival, pauses, and says, 'Good to have you with us, Marcus - we are on the third of five, and it is the unit economics.' Then she pivots back and continues. The pivot and the sentence take four seconds, and the board sees an acknowledgement rather than a disruption."
+    },
+    {
+      "name": "The Gesture Checklist",
+      "summary": "A pre-talk audit that classifies your habitual movements, assigns each one a verdict, and produces a short list of deliberate gestures matched to specific lines.",
+      "steps": [
+        "Record two minutes of yourself talking about your work with no preparation, and do not re-record it.",
+        "Log every movement by family: illustrators (maps onto content), emphatics (content-independent), regulators (controls the room), adaptors (self-directed and tension-managing), and dead hand (no movement at all).",
+        "For each adaptor, note the trigger - which words, which slides, which topic. Then delete the two that fire most often and redesign the moment that caused them.",
+        "Assign the emphatics: pick the two or three lines in your talk that must land, and give each exactly one emphatic. Everywhere else, no emphatic at all.",
+        "Choose at most two illustrators, at moments where a picture genuinely helps - a size, a shape, a direction - and rehearse them so they are recognisable and brief.",
+        "Write the one-line body plan on your card next to your three anchors: home position, movement map, eye-contact target for the key line, and the prop rule."
+      ],
+      "whenToUse": "Run it once before a talk that matters, and once a month on any real recorded material, so the list stays current as your content changes. It is most valuable on recordings rather than in your own memory, because self-assessment in the moment is systematically rosier than the tape.",
+      "example": "A founder's two-minute baseline shows 22 distinct hand movements, of which 14 are self-directed: four face touches, three cuff adjustments, two ring rotations, and five instances of picking up and putting down a pen. The two that fire most often both occur on the sentence about last quarter's revenue miss, so the redesign is structural: he moves the revenue slide to a 30-second section delivered from the plant with both hands in the home position, and he stops bringing the pen onto the podium. He assigns emphatics to exactly two sentences - the one about the number and the one about the ask - and the checklist becomes one line on his card: 'Home position, two emphatics, no pen, plant on the revenue slide.'"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "s1",
+      "title": "The recorded investor pitch where you can see your own pacing",
+      "setting": "You have recorded yourself delivering a 4-minute Series A update and you have watched it back for the first time. The company is raising 8 million. The footage shows you moving back and forth across the frame continuously, and your chief of staff, watching beside you, says 'you look like you are waiting for something'.",
+      "challenge": "The argument is strong and the numbers are good. But in the recording you never stand still for longer than about four seconds, your hands have no home position, and on the sentence about gross margin you can see yourself pacing harder than anywhere else in the talk.",
+      "objectives": [
+        "Diagnose the pacing as a design failure rather than as a nerves failure",
+        "Cut the number of positions from five to three and attach each to a content section",
+        "Establish a home position and return to it after every gesture"
+      ],
+      "options": [
+        {
+          "text": "Re-record the talk, this time trying to stand perfectly still in one spot for the full four minutes.",
+          "outcome": "You are now a slide with legs. The stillness reads as rigidity to anyone watching the video, and because you are fighting the urge to move, the delivery loses its energy and your gestures disappear entirely. You have replaced one legible tell with a worse one.",
+          "rating": "poor",
+          "feedback": "Stillness is not the opposite of pacing; it is a different symptom of the same problem, which is that movement is unowned. The fix is not zero movement - it is movement with an assigned reason. Three positions, three sections, and every move ends in a plant."
+        },
+        {
+          "text": "Keep the recording, log every movement by family, delete your two most frequent adaptors, assign emphatics to two specific lines, and draw a three-position movement map with a trigger sentence for each move.",
+          "outcome": "The second take has four visible moves instead of thirty, each one at a thought boundary, and your hands return to the belt buckle between gestures. Your chief of staff's comment changes from 'you look like you are waiting for something' to 'you look like you are about to tell me something'.",
+          "rating": "excellent",
+          "feedback": "This is the correct diagnosis. Note the second-order effect: because the movement is now authored, the energy that was leaking into pacing shows up in your delivery instead. Do the map in the actual room dimensions - a 4-minute pitch to investors is usually delivered standing at a table, not on a stage, and the map changes accordingly."
+        },
+        {
+          "text": "Cut the talk to 90 seconds, since the space between your points is where the pacing shows.",
+          "outcome": "You have removed the visible symptom by removing the content, and you have also removed the two minutes in which the investors would have learned what you actually do. The short version is tighter and lands faster, but the decision you needed them to make is no longer supported by enough evidence.",
+          "rating": "fair",
+          "feedback": "Brevity is a legitimate fix for a rambling talk, but it is the wrong fix for a pacing problem. Tighten by removing the weakest section, not the pacing - and do the map either way, because the next talk will have the same habit."
+        },
+        {
+          "text": "Ask your chief of staff to film you at the next team meeting so you can get a second angle on the pacing.",
+          "outcome": "A second angle is a reasonable diagnostic, but you have now spent the week gathering footage of a problem you can already see, and the habit will be reinforced in the meantime because nothing about it is changing.",
+          "rating": "poor",
+          "feedback": "Gathering more data on a problem you have already diagnosed is procrastination with a camera. You can see the pacing, you can see the missing home position, and you have a name for both. Act on the recording you have."
+        }
+      ],
+      "coachingNote": "Pacing is a design failure disguised as a nerves failure. The number of positions in a talk is a decision, not a symptom, and it can be set in advance. Count your returns to the same spot inside a thirty-second window on any recording; more than two means the room was watching you wander rather than listening."
+    },
+    {
+      "id": "s2",
+      "title": "The boardroom where you are the only one standing",
+      "setting": "A quarterly board meeting. Ten directors around a long table. You are presenting the FY27 plan because the CEO asked you to. You are standing at the side of the room with a clicker, presenting to eleven seated people who are all at least fifteen years your senior.",
+      "challenge": "The CFO, seated opposite, has a laptop open and a proposal in front of him that contradicts your capital allocation. You have eight minutes, and the physical geometry is working against you: you are above them, they are below you, and you have no stage.",
+      "objectives": [
+        "Use your standing position without turning it into a dominance display",
+        "Keep the geometry from making you the antagonist in the room",
+        "Deliver the capital allocation argument with your body supporting the words"
+      ],
+      "options": [
+        {
+          "text": "Stand in the centre of the room behind the head chair, and hold the clicker up while you speak.",
+          "outcome": "You have taken the position of the chair and made the room look like an audience at your performance. The directors, who are used to being the ones with power, register a subtle challenge, and the CFO's opposition hardens because your body has already positioned you against the table.",
+          "rating": "poor",
+          "feedback": "Geometry is a message. Standing behind the head chair claims the room's authority while the room keeps its decision rights, which reads as presumptuous. Move to the side, get a sightline to every face, and give the clicker a job."
+        },
+        {
+          "text": "Stand at the side of the room with a clear sightline to all eleven, deliver your eight minutes in three defined positions each tied to a section, and sit back down at the table for the discussion.",
+          "outcome": "The directors get the argument without a performance, and returning to the table after the presentation makes clear that you are one of them reporting, not an outside party presenting at them. When the CFO raises his contradiction, the room is in a discussion rather than a confrontation.",
+          "rating": "excellent",
+          "feedback": "Correct. The return to the chair is the part people skip, and it is what converts a status display into a report. Also plan the moment you sit: the pivot, the pause, and the hand-off - 'I will take questions now' - rehearsed, so that the transition looks like a plan rather than an awkward manoeuvre."
+        },
+        {
+          "text": "Stay seated and present from the chair like everyone else, using the screen for all of the material.",
+          "outcome": "Peer-level, which is comfortable, but you now have to compete with a screen for attention and you have no way to signal emphasis except with your voice. For an eight-minute plan with a contested capital allocation, the room's attention slides to the CFO's laptop within about two minutes.",
+          "rating": "fair",
+          "feedback": "Sitting is defensible and often better in a small room - but only if you can hold attention another way. If you sit, stand only for the section where you need the room's full attention, and use your hands and gaze more deliberately, because you have removed the movement as a tool."
+        },
+        {
+          "text": "Hand the presentation to the CEO and let them present your numbers.",
+          "outcome": "You have removed the physical problem by removing yourself, and you have also removed your credibility with the room. The CEO is now defending numbers they did not build, and your section becomes a document being read aloud. Any weakness in the plan is now the CEO's problem, which is exactly where you do not want it.",
+          "rating": "poor",
+          "feedback": "Never hand over the argument you were asked to make. If the geometry is wrong, fix the geometry - move to the side, shorten the presentation, sit down at the end. Handing over reads as avoidance or as being unwilling to be measured."
+        }
+      ],
+      "coachingNote": "Standing is a status display, and in a room where everyone else is seated it must be bounded. Stand to deliver, plant, and sit to discuss. The return to the table is what keeps the position from reading as dominance."
+    },
+    {
+      "id": "s3",
+      "title": "The clicker that dies on the main stage",
+      "setting": "You are on a 400-person conference stage, 25 minutes in, at the moment of the slide that carries your most important number. Your clicker has been working for 20 minutes. Your chief of staff is in the wings. The AV technician is on the left side of the stage.",
+      "challenge": "The clicker fails. You press it and nothing happens, and the slide behind you is still the previous one, and the number the room needs is on the next slide.",
+      "objectives": [
+        "Keep talking through the failure without a visible pause or a look at the ceiling",
+        "Recover the slide without abandoning your audience or your place on the stage",
+        "Turn an equipment failure into a moment that does not cost credibility"
+      ],
+      "options": [
+        {
+          "text": "Stop, look up at the screen, press the clicker again, then say 'sorry, technical issue, one moment' and wait.",
+          "outcome": "You have handed the room a problem to solve. The 400 people now have nothing to look at but you fumbling, and the pause has converted a technical problem into visible incompetence. Several people check their phones during the wait.",
+          "rating": "poor",
+          "feedback": "The worst version of this is the apology and the wait, because it tells the room the problem is now their responsibility. Cover the gap with the sentence you were already saying, and give them something to look at while you fix it."
+        },
+        {
+          "text": "Keep speaking - repeat the number aloud in the sentence you were in the middle of - walk to the screen, advance it manually, and continue from the new position without a comment on the failure.",
+          "outcome": "The room heard the key number from you, which is what they came for, and they watched you solve a problem in real time without being asked to. A brief physical action in front of an audience is often read as confidence, not embarrassment.",
+          "rating": "excellent",
+          "feedback": "This is the rehearsed version. Say the number out loud so the slide becomes reinforcement rather than the source. Walk deliberately - it is now legitimate movement - and plant before you resume. And always carry a backup: a presenter remote in the lectern, a second clicker in your pocket, or the deck on the screen in advance."
+        },
+        {
+          "text": "Signal the technician from the stage and continue presenting while they fix it.",
+          "outcome": "You have handed the room a 400-person problem and a visible stoppage, and you have spent your most valuable moment - the one attached to your most important number - on logistics. The number is now less memorable, not more.",
+          "rating": "poor",
+          "feedback": "Do not pull the AV into your moment. Handling a small problem yourself is far cheaper than a 400-person visible stoppage. The technician is there for the equipment, not for the show."
+        },
+        {
+          "text": "Ask the room to imagine the chart while you describe it, and skip the slide entirely.",
+          "outcome": "Sometimes correct, occasionally even stronger - the audience builds the picture with you. But used as a reflex after a failure, it is a retreat: you have just told the room that the visual evidence you had was optional.",
+          "rating": "fair",
+          "feedback": "A good instinct when the slide adds little, and a bad default when the slide carries the number they need. Decide before the talk which of your slides is essential; if the failure hits an essential slide, advance it manually. If it hits a decorative one, narrate and move on."
+        }
+      ],
+      "coachingNote": "Equipment failure is a stagecraft problem, not a composure test. Rehearse it once, badly, on purpose: cover the gap with speech, advance the slide, and never comment on the failure. The room forgives a dead clicker and never forgives the face that follows it."
+    },
+    {
+      "id": "s4",
+      "title": "The five-minute item in a small meeting room",
+      "setting": "A 20-person leadership team in a 9x4 metre meeting room. There is no stage and no screen on a wall - the deck is on a laptop at one end. You have five minutes in a 60-minute meeting to present a proposal that is genuinely contested: the team thinks you are expanding scope.",
+      "challenge": "Everything in your stage instincts says to stand up, walk to the screen, and project. The room is small, half the people are at a table, and there is no front to stand at.",
+      "objectives": [
+        "Match your physical register to a room with no stage and no front",
+        "Deliver a contested proposal without physically dominating it",
+        "Use your hands, gaze, and voice - not your altitude - to hold the room"
+      ],
+      "options": [
+        {
+          "text": "Stand up, walk to the laptop, and present the slides from the front of the table.",
+          "outcome": "You have blocked the line of sight of eight people, you have converted a five-minute team item into a performance, and the team reads the gesture as you needing the floor. A proposal that was already contested is now contested on two fronts.",
+          "rating": "poor",
+          "feedback": "Theatre in a small room is read as insecurity or as a bid for authority, and both cost you. Stay seated. Your tools in this room are your hands above the table edge, your gaze, and your voice - the room is close enough that the voice does more work than it would from a stage."
+        },
+        {
+          "text": "Stay seated, keep your hands visible above the table edge, drive the room with a deliberate gaze pattern, and stand only for the twenty seconds it takes to turn the laptop screen toward the group.",
+          "outcome": "The room stays in conversation with you rather than in a presentation at you, and the twenty seconds of standing is clearly a tool rather than a stance. The proposal is still contested, but it is contested on its merits rather than on your body language.",
+          "rating": "excellent",
+          "feedback": "Right, and the detail that makes it work is the seated hand position: visible above the table edge rather than in your lap, which is where most speakers put them and where the room loses you. Also name the single ask at the end - in a small room, the ask is what converts an item into a decision."
+        },
+        {
+          "text": "Sit at the table, skip the deck entirely, and make the case conversationally with one colleague who will back you.",
+          "outcome": "Sound, if the colleague is credible and the room trusts them, but you have handed a third of your authority to someone else and you have removed the only visual anchor for your data. If the colleague hesitates, the room now has nothing to look at.",
+          "rating": "fair",
+          "feedback": "A good instinct in a small room - fewer artefacts, more conversation - but the collateral support weakens your position and loses your evidence. Present your own material, turn the screen briefly, and make the case in your own voice."
+        },
+        {
+          "text": "Send the proposal as a one-page document and offer to take questions afterwards instead of presenting.",
+          "outcome": "You have removed the five minutes from the room's calendar and with them the only chance to make the argument. The document gets read - or does not - and the 'afterwards' becomes a scheduling negotiation that usually goes nowhere.",
+          "rating": "poor",
+          "feedback": "Do not substitute documentation for presence in a contested decision. A written proposal asks the room to do your work in private, at their own pace, without you in the room to answer the first question. The five minutes is the deliverable."
+        }
+      ],
+      "coachingNote": "Venue determines register, and the register is not a preference. A circle of seated peers gets a seated, conversational, contained body. A room with a front and a screen gets a standing, projected one. Copying conference stagecraft into a meeting room is the fastest way to look like an outsider in your own company."
+    },
+    {
+      "id": "s5",
+      "title": "The counterparty whose hands never stop",
+      "setting": "You are in a term-sheet negotiation with the lead investor's operating partner, across a table, with your CFO beside you. You are presenting the round. Halfway through, she starts touching her neck and then the corner of her mouth, and she stops writing in her notebook.",
+      "challenge": "Your own body is composed, but hers is not, and you have to decide what that means - and what to do about it - without changing your own delivery in a way that makes the negotiation worse.",
+      "objectives": [
+        "Read the behavioural cluster without over-claiming what it means",
+        "Avoid both the naive 'she is uncomfortable, I win' and the naive 'it is nothing'",
+        "Keep your own body congruent while you adjust what you say"
+      ],
+      "options": [
+        {
+          "text": "Conclude that she is uncomfortable with the terms and press harder on the ask.",
+          "outcome": "You have acted on a single inference from behaviour with a low base rate. If she was uncomfortable because the number is wrong, pressing hard damages the relationship you will need to close the round. Worse, you have changed your behaviour, and she will read the pressure as a sign that you are hiding something.",
+          "rating": "poor",
+          "feedback": "This is the base-rate error. Everyone touches their face; the signal is the change and the clustering, not the instance. And the meaning is ambiguous - discomfort, scepticism, disagreement, a thought about something else entirely. Change what you say, not how hard you press."
+        },
+        {
+          "text": "Slow down your own delivery, drop to a more concrete and specific part of the plan, and ask an open question about what matters most to her, while keeping your own posture settled and open.",
+          "outcome": "You have done the only thing that is genuinely useful with an observed cluster: you have lowered the pressure and shifted the conversation toward her concerns. If the cluster was discomfort with a specific term, you will find out which one. Your settled body also makes it harder for her to read you as rattled.",
+          "rating": "excellent",
+          "feedback": "This is the disciplined response. Change the conversation, not the volume of the ask, and let the cluster tell you what to ask about rather than telling you what to conclude. You can verify the signal by testing it - ask the open question and watch whether the behaviour stops or escalates."
+        },
+        {
+          "text": "Ask your CFO to take over the detail while you watch her body language.",
+          "outcome": "You have outsourced the presentation and turned the negotiation into surveillance. It also removes your main conversational tool - your own attention - and the CFO is now presenting a plan to a partner who has stopped taking notes.",
+          "rating": "fair",
+          "feedback": "The instinct to reduce pressure is right; the handover is heavy-handed. If you want to lower the temperature, take a different tack yourself - a pause, a concession on a detail, or a direct question about what she is weighing."
+        },
+        {
+          "text": "Mirror her behaviour deliberately, matching her touch rate, so that you appear relaxed and in sync with her.",
+          "outcome": "You have made your body a performance of relaxation while she is watching, and the mimicry is visible to anyone trained to spot it. It also leaves your own hands with nothing to do, because you are busy copying her.",
+          "rating": "poor",
+          "feedback": "Deliberate mirroring is theatre, and it makes your own behaviour less natural rather than more. If you want to lower the temperature, lower it vocally: slow down, soften, and ask a question. Your hands should be at home position, not busy."
+        }
+      ],
+      "coachingNote": "Observed behaviour is a weak single signal and a strong pattern signal. Never act on one instance; look for a change in rate or a cluster at the moment you named a number, a date, or a request. And when you see it, change the conversation rather than the pressure - the correct response to discomfort is usually a better question."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "title": "The gesture family audit",
+      "type": "recorded",
+      "durationMinutes": 25,
+      "instructions": "Record two minutes of yourself talking about your own work with no preparation and no re-recording. Then watch it at normal speed with a notebook, and log every movement you can see into one of five categories: illustrator (maps onto what you are saying), emphatic (marks emphasis, independent of content), regulator (controls the room - a hand lift to continue, a palm-down to slow down), adaptor (self-directed, tension-managing - face, cuff, ring, pen, hair), and dead hand (no movement at all across a stretch). For each adaptor, write the trigger word or the topic it clusters around. Then do a second two-minute recording with exactly three changes: the two most frequent adaptors deleted, the home position enforced between gestures, and emphatics assigned to no more than two sentences.",
+      "deliverable": "Two two-minute recordings plus a one-page gesture log with counts by family, the trigger for each adaptor, and the three changes made in the second take.",
+      "successCriteria": [
+        "The first recording is unedited, unrehearsed, and produced in a single take.",
+        "The log distinguishes the five families by function rather than by appearance - for example, the same hand lift is logged as a regulator in one place and an adaptor in another, with the reason stated.",
+        "The two most frequent adaptors are named, and the trigger for each is written down in words.",
+        "The second recording shows a visible return to a single home position between gestures, with no more than two emphatics in total.",
+        "The log identifies at least one dead-hand stretch longer than ten seconds in the first recording."
+      ],
+      "liveCoachPrompt": "We are going to log your movements, not fix your content, so do not polish what you are saying. Two minutes, one take, then we go through it together and put every movement into one of five buckets. The interesting part is always the adaptors and what triggers them - usually one sentence of the talk accounts for most of them. By the end I want you to know your two worst habits and where they live, and I want your second take to be visibly calmer than your first."
+    },
+    {
+      "id": "e2",
+      "title": "Build the movement map for a real room",
+      "type": "realWorld",
+      "durationMinutes": 30,
+      "instructions": "Pick a real talk you have coming in the next two weeks, in a room you have not used before. Walk the empty room if you can, or stand in the actual seat. Draw the room: screen, front edge, door, table, and where the decision-maker will sit. Mark three or four positions on the drawing and assign each one to a section of your talk, in order. Write the exact trigger sentence that sends you to each position, and specify the plant for each one - feet, weight, hips. Then rehearse the talk standing in the room, out loud, with a timer, and move only on your trigger sentences. Record one rehearsal. Afterwards, count the number of times you returned to the same spot inside a thirty-second window.",
+      "deliverable": "A hand-drawn or drawn map of the room with positions, section assignments, trigger sentences, and plant specifications, plus a recorded rehearsal and the return-count figure.",
+      "successCriteria": [
+        "The map has three or four positions, each attached to a named section of the talk, and each with a written trigger sentence.",
+        "Every position has a specified plant, and the rehearsal shows the plant happening before the first line of the new section.",
+        "The recorded rehearsal shows no move that occurs in the middle of a sentence.",
+        "The return-count figure is recorded honestly, and if it is above two in any thirty-second window you have identified which movement is generating it and changed the map.",
+        "The map reflects the actual geometry of the room, including the position of the screen and the door."
+      ],
+      "liveCoachPrompt": "Before anything else I need the room: how big, where is the screen, where will the decision-maker sit, and is there a table. Then we will place three or four positions and write the trigger sentence for each, because the trigger is what stops the wandering. Go and stand in the room before you rehearse, because the map drawn at your desk is always wrong about where the space actually is."
+    },
+    {
+      "id": "e3",
+      "title": "The triangle scan rehearsal",
+      "type": "recorded",
+      "durationMinutes": 20,
+      "instructions": "Set up a phone at eye level with three people in the room at three different positions - left, centre, right - or with a colleague and a wall chart if you are alone. Deliver a 90-second explanation of a real project. Take one take. Watch it and mark every point where your gaze landed and held for less than a second, and every point where it stayed on one person for more than five seconds. Take a second take applying the triangle scan: land fully on one zone for one completed thought, then move; and for your single most important sentence, pre-select one person whose eyes you can see and give the line to them. Take a third take with the same rule and a slower pace. Compare the three.",
+      "deliverable": "Three 90-second recordings and a one-page comparison of gaze pattern across the three, with a marked count of short landings and long holds in each.",
+      "successCriteria": [
+        "Take one shows a consistent pattern of short landings or a long hold on a single person, and the comparison identifies which.",
+        "In take two, each landing is held for a full thought and the count of sub-second landings is visibly lower.",
+        "The most important sentence is delivered to a pre-selected named person in takes two and three, with the eyes already there when the line starts.",
+        "The speaker does not look at the screen, notes, or ceiling during the key line in any take.",
+        "The written comparison states which take would actually be delivered live, and why."
+      ],
+      "liveCoachPrompt": "Three takes of the same ninety seconds, and we are only changing your eyes. The rule is simple: land on one person for one complete thought, then release, and give your most important line to one face you chose in advance. After the takes, tell me which one felt worse and which one looked better, because that gap is the whole exercise - your internal sense of eye contact is not a reliable instrument."
+    },
+    {
+      "id": "e4",
+      "title": "The five-minute item, seated, in a small room",
+      "type": "realWorld",
+      "durationMinutes": 25,
+      "instructions": "Find a real meeting in the next week with a small group - six to twelve people, ideally around a table - where you have an item. Decide in advance that you will stay seated for the entire item, and that your hands will be visible above the table edge the whole time, never in your lap and never in your pockets. Deliver your item without standing. Afterwards, write three lines: what the room's response was, whether you caught yourself with your hands out of sight, and whether standing would have actually helped - and if so, why. Then, as a second part, find a moment in the same meeting where the topic turns difficult, and plant your feet deliberately and keep your body level through it, and note how that felt and how it read.",
+      "deliverable": "The delivered item, plus a five-line written note on the seated register, the visibility of your hands, and the physical choice you made at the hard moment.",
+      "successCriteria": [
+        "The entire item was delivered seated, with no standing except to turn a screen if a screen was needed.",
+        "Your hands were visible above the table edge for the whole item, and you note honestly how often they were not.",
+        "You describe one concrete physical choice you made at the difficult moment and what you observed in response.",
+        "The note distinguishes between 'standing would have been more visible' and 'standing would have changed the power relationship', and only one of those is usually true.",
+        "The item ended with a clear, specific ask delivered from a settled posture."
+      ],
+      "liveCoachPrompt": "This one is about restraint, which is harder than it sounds. Stay in your chair for the whole item, and keep your hands where the room can see them - that last part is the thing people miss. The second half matters more: when the conversation turns to the part they disagree with, plant your feet and keep your body level, and then tell me what you observed in their faces when you did."
+    },
+    {
+      "id": "e5",
+      "title": "The plant-and-pivot drill in three venues",
+      "type": "realWorld",
+      "durationMinutes": 30,
+      "instructions": "Rehearse the same 60-second section three times, in three venues: a large room where you can walk, a boardroom with a long table and seated people, and a small circle of six colleagues. In each, change your address three times using plant-and-pivot: plant both feet with weight even, pivot from the hips to the new section, pause for a beat, then speak the first line without moving. Record all three. Then have a colleague or a camera assess one question per venue: does the turn read as intention, or as searching for something? In the boardroom version, you must also sit down at the end and stay seated - rehearse the hand-off line. Finally, on a stage or in a large room, deliberately kill your clicker mid-rehearsal and recover it: cover the gap by speaking the number aloud, walk to the screen, advance manually, and resume from the new position without commenting on the failure.",
+      "deliverable": "Three 60-second recordings, one per venue, plus a written note on how the pivot reads in each and a rehearsed description of the dead-clicker recovery.",
+      "successCriteria": [
+        "All three venue versions use the same four beats - plant, pivot, pause, speak - and the pause is visible in the recording.",
+        "The feet do not shuffle or shift weight during any pivot; the hips lead the turn.",
+        "The boardroom version ends with the speaker seated and the hand-off line delivered without a pause.",
+        "The dead-clicker recovery is completed without a look at the ceiling, an apology, or a break in speech.",
+        "The written note identifies which venue produced the most natural pivot and explains why the other two felt more effortful."
+      ],
+      "liveCoachPrompt": "Same sixty seconds, three rooms, one technique: plant, pivot, pause, then speak. The order matters - if you talk through the pivot, the turn reads as a hunt for your words. Do the boardroom version last, and finish it by sitting down, because sitting down is part of the technique. We will also kill the clicker on purpose at some point, so that the failure is a rehearsed move rather than a surprise."
+    },
+    {
+      "id": "e6",
+      "title": "The body audit on a real recorded talk",
+      "type": "analytical",
+      "durationMinutes": 30,
+      "instructions": "Take the most recent recorded talk of any length that was not a rehearsal - a real meeting, a real presentation, a real pitch. Watch it at 1.5x with a pen and produce four counts: the number of distinct hand positions, the number of returns to the same spot inside a thirty-second window, the longest stretch of complete stillness, and the number of times you turned away from the audience or looked at a screen or notes. Then watch a second time, at normal speed, and mark every moment your body contradicted your words - the classic ones are a bright tone with a collapsed posture, or a confident claim with a shrinking gesture. Write down the three moments that were most incongruent, and for each one, say whether the body was right and the words were wrong, or the words were right and the body was wrong.",
+      "deliverable": "A one-page audit with the four counts, the three incongruent moments with timestamps, and a verdict for each one on whether the body or the words were wrong.",
+      "successCriteria": [
+        "All four counts are from the recording, not estimated, and one of them surprises the speaker.",
+        "At least three incongruent moments are identified with timestamps, and each gets a verdict.",
+        "At least one verdict concludes that the body was right and the words needed changing.",
+        "The audit names one specific change for the next talk rather than a general intention to be calmer.",
+        "The return-count figure is compared against the threshold of two per thirty seconds, and a conclusion is drawn."
+      ],
+      "liveCoachPrompt": "This is a forensic exercise, so bring the recording and expect the counts to be slightly worse than your memory. Four numbers, then three specific moments where your body and your words disagreed, and for each one we decide which of the two was lying. The verdict matters more than the count - especially the moment where the body was right."
+    },
+    {
+      "id": "e7",
+      "title": "Write your one-page body plan",
+      "type": "reflection",
+      "durationMinutes": 25,
+      "instructions": "Write a single page that governs your body in every talk from now on. It must contain six fields: (1) your home position, written as a physical instruction; (2) your two most frequent adaptors, and the redesign for each; (3) the two lines in a talk that carry an emphatic, and the rule that nowhere else does; (4) the prop rule - what is in your hand, what job it does, and where it goes when it is not doing that job; (5) the eye-contact rule, including who you pick for the key line; (6) the movement rule, including the plant and the rule against moving during a key line. Underneath, add a one-line pre-stage checklist you can run in 30 seconds. Then find a talk in the next two weeks and put the six fields on a single index card, and keep the card in the room with you for that talk.",
+      "deliverable": "A completed one-page body plan with all six fields, a 30-second pre-stage checklist, and the index card prepared for a real upcoming talk.",
+      "successCriteria": [
+        "All six fields are present, specific, and written as instructions rather than intentions.",
+        "The home position is described in physical terms - for example, 'hands together at the belt buckle' - and not as a feeling.",
+        "The two adaptors named are the two that actually appear most often in the gesture audit, and each has a concrete redesign.",
+        "The pre-stage checklist can be run in under 30 seconds and contains no step that requires thought.",
+        "The index card for a real upcoming talk has been printed or written and carries all six fields in abbreviated form."
+      ],
+      "liveCoachPrompt": "One page, six fields, and it has to work in every room you speak in, not just the one you are thinking of. The test is whether someone else could read it and know exactly what to do with their hands. Give me your two worst adaptors and the two sentences that matter most in a typical talk, and we will write the rest together - then you take it into a real room this month and tell me which field you actually used."
+    }
+  ],
+  "assessment": {
+    "id": "a6",
+    "title": "The live presence audit",
+    "brief": "You will deliver a 7-minute segment on a topic you genuinely need a decision on, in a venue you have not used before, and you will be assessed on what the room sees as well as what it hears. Before the session you submit your movement map for that room, your one-page Gesture Checklist, and a 90-second baseline recording. On the day, the panel is seated in three clusters, one of which is two minutes late and enters during your third section. You are given a clicker and a slide deck with a mid-deck failure point. A talk with a superb argument and a restless body, or a calm body and no argument, both fail this assessment.",
+    "rubric": [
+      {
+        "dimension": "Gesture discipline and hand management",
+        "weight": 18,
+        "excellent": "A named home position is evident throughout and the speaker returns to it after every gesture, so that gestures read as deliberate punctuation. Illustrators appear only where a picture genuinely helps, emphatics land on the two or three key phrases and no others, and there are no repeated self-directed adaptors - no face-touching, cuff-adjusting, or object-fiddling clusters. The prop in hand is used for one job and stays at rest between uses.",
+        "adequate": "Gestures are present and broadly appropriate, but the hands have no settled default: they drift between several positions, and at least one nervous habit recurs, usually around the highest-stakes number. Emphasis lands more often than it should, so the key phrases lose their distinctiveness. A prop is used for a second job, such as pointing with a clicker or reading a card.",
+        "poor": "The hands are either dead - pinned to the sides, clasped, or hidden - or continuously busy with a single repeated adaptor. Gesture and emphasis are indistinguishable, so nothing is marked. A prop is read from verbatim, or the speaker is visibly performing a pose the body does not support."
+      },
+      {
+        "dimension": "Movement, spatial command, and pacing",
+        "weight": 18,
+        "excellent": "The speaker occupies three or four defined positions, each tied to a content section, and every move ends in a planted stance before the next section begins. Travel is slow, direct, and crossed at a diagonal rather than laterally. The speaker never crosses in front of the screen or turns their back to the room. On inspection, there is no pattern of repeated returns to the same spot inside a thirty-second window - there is no pacing.",
+        "adequate": "The speaker uses the space and is not frozen, but the movement is loosely connected to the argument: one or two moves happen for no reason, one move occurs mid-sentence, and the speaker sometimes turns toward the screen to check it. Returns to the same position inside a thirty-second window occur, and read more as nervous energy than as intention.",
+        "poor": "The speaker paces - a repetitive lateral or forward-back pattern, with no clear stop points - or does not move at all. Movement repeatedly coincides with the delivery of key lines, or the speaker's back is turned to the room during an important section."
+      },
+      {
+        "dimension": "Eye contact and audience connection",
+        "weight": 15,
+        "excellent": "Gaze lands and holds for one completed thought on a named person or a defined zone, then releases, in a consistent pattern across all three audience clusters. A deliberate choice of audience for the single most important line is visible. When the panelist arrives late, the speaker acknowledges them with a brief look and a sentence, then returns to the argument. There is no sustained lock on a single person and no continuous scanning.",
+        "adequate": "Contact is made and mostly sustained, but the pattern is inconsistent: the speaker holds some people too long, drops others entirely, or looks at the screen or the ceiling during at least one key sentence. Late arrival is handled without a stall, but not with any deliberate signal of acknowledgement.",
+        "poor": "The speaker avoids eye contact - reading notes, the screen, or the floor for most of the talk - or fixes a stare on one person, most often the decision-maker, for extended stretches. Late arrival causes a visible derailment."
+      },
+      {
+        "dimension": "Posture, openness, and congruence",
+        "weight": 15,
+        "excellent": "Baseline posture is settled, open, and stable, with the chest available and the hands visible; it is relaxed rather than rigid, and it varies deliberately with content - a still, level body for a hard number, an expansion for a positive turn. Body and words agree throughout, including at the point where the material turns difficult. The speaker does not repeat posture claims the evidence does not support.",
+        "adequate": "Posture is generally consistent and open enough to read, but it is somewhat rigid, or it stays unchanged through every section, including the one where the message is hard. One point of body-word incongruence is visible, usually around an awkward number or an unwelcome transition.",
+        "poor": "Posture is closed, collapsed, or theatrical - arms folded, shoulders rounded, weight on one hip, or a held power stance that reads as aggressive. Body and words visibly conflict, and the room can be seen discounting the words."
+      },
+      {
+        "dimension": "Stagecraft and adaptation to the venue",
+        "weight": 17,
+        "excellent": "The physical register matches the room precisely - seated and contained if the room is a circle, standing and defined if the room expects a presentation, no theatre in either case. Sightlines are protected: nobody is stood over, nobody is blocked from the screen, and the front edge is respected. The clicker failure at the scripted point is covered without a pause, a look at the ceiling, or a drop in composure, and the speaker's hands, feet, and position are all visibly under control while it happens.",
+        "adequate": "The register is broadly appropriate but slightly off - a hint of stage energy in a small room, or a bit flat in a room that needed lift. The equipment failure produces a visible, brief hesitation that is recovered from. Sightlines are mostly protected, with one minor obstruction.",
+        "poor": "The delivery is transplanted from a conference stage into a room that does not want it, or vice versa: the speaker dominates a small table, or under-performs in a large venue. The equipment failure visibly breaks composure, and the speaker spends the recovery looking at the ceiling or at the back of the room."
+      },
+      {
+        "dimension": "Calibration: evidence-based choices and self-assessment accuracy",
+        "weight": 17,
+        "excellent": "The submitted movement map, Gesture Checklist, and baseline recording show a specific diagnosis of the speaker's own behaviour, anchored to timestamps or named habits, and the delivered talk visibly implements the chosen changes. The speaker's self-assessment matches what the recording shows. Where the speaker describes a research claim, the scope is stated accurately - for example, 7-38-55 is described as a narrow decoding finding rather than a general law, and posture claims are not overstated.",
+        "adequate": "The preparation artefacts exist and are reasonable, but the diagnosis is generic - 'I was nervous' rather than three named, observable behaviours - and only some of the changes are visible in the delivery. The self-assessment is broadly honest but misses at least one behaviour the recording clearly shows.",
+        "poor": "There is no real diagnosis, or the submitted artefacts do not match the delivery. The speaker attributes the result to nerves or charisma rather than to specific behaviour, overstates what body-language research supports, or believes a change landed that the recording shows did not."
+      }
+    ],
+    "passMark": 70
+  },
+  "readingList": [
+    {
+      "title": "Nonverbal Communication in Human Interaction",
+      "author": "Knapp, Hall, and Cooley",
+      "why": "The standard academic reference for the field's vocabulary - kinesics, proxemics, regulators, adaptors, and the display rules - with a much more sceptical eye than the popular books. Pairs directly with the research-calibration concept in m06 and with the room-dynamics material in m10."
+    },
+    {
+      "title": "The Magic of Body Language",
+      "author": "Eva Siegel",
+      "why": "The classic practical treatment of body mapping - matching a physical movement to a specific meaning - and the origin of much of the coaching vocabulary in use today. Pairs with the movement map and the gesture checklist. Read it as a craft manual rather than as a scientific claim, because it is confident where the research is not."
+    },
+    {
+      "title": "What Every BODY Is Saying",
+      "author": "Joe Navarro",
+      "why": "A former FBI agent's field guide to behaviour clusters - especially the way several small behaviours read together rather than one behaviour alone. Directly useful for the adaptor-cluster and base-rate argument in m06, and for reading a counterparty across a table."
+    },
+    {
+      "title": "Resonate",
+      "author": "Nancy Duarte",
+      "why": "The best current treatment of how a speaker's physical presence and spatial language serve the argument, including the 'what is' versus 'what could be' structure and the idea of carrying an audience across a line. Pairs with the plant-and-pivot and stagecraft material in m06 and with the persuasion frameworks in m08."
+    },
+    {
+      "title": "The Speaker's Guidebook: Making Words Come Alive",
+      "author": "Judith Weston",
+      "why": "The most usable book on stagecraft for non-theatre audiences - movement, stance, gesture design, and how to rehearse the physical layer of a talk rather than only the words. Pairs with the home position, the movement map, and the recorded exercises in m06."
+    },
+    {
+      "title": "How Emotions Are Made",
+      "author": "Lisa Feldman Barrett",
+      "why": "The scientific case against universal facial expression decoding, and the read on Ekman's legacy that a sophisticated audience may know. Pairs with the research-calibration concept in m06 and with the credibility work in m01 - use it to check your own citations before someone else does."
+    }
+  ],
+  "masteryChecklist": [
+    "I can state the scope of Mehrabian's 7-38-55 finding accurately in one sentence, and explain why it does not license the claim that my body overrides my words.",
+    "I can classify my own habitual gestures into illustrators, emphatics, regulators, and adaptors, and name the three adaptors I am going to eliminate.",
+    "I can hold a named home position - above the waist, visible, repeatable - and return to it after every gesture without thinking about it.",
+    "I can build a movement map for an unfamiliar room in ten minutes, with three or four positions each tied to a section of the talk.",
+    "I can execute plant-and-pivot without shuffling, and I can tell the difference between a pivot and a turn of the head in a recorded clip.",
+    "I can run the Triangle Scan and the three-second thought rule, and I can tell scanning apart from staring on a recording.",
+    "I can adjust my physical register to a boardroom, a small meeting room, and a conference stage without thinking about it, and I have a rehearsed plan for the dead clicker."
+  ]
+}

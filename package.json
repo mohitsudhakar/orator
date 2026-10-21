@@ -7,8 +7,11 @@
   "scripts": {
     "start": "node server/index.js",
     "dev": "node --watch server/index.js",
-    "test": "node server/test/metrics.test.js",
-    "seed": "node server/seed.js"
+    "test": "node server/test/fft.test.js && node server/test/metrics.test.js && node server/test/word_timing.test.js",
+    "test:live": "node server/test/live.e2e.mjs",
+    "test:browser": "python3 server/test/browser_e2e.py",
+    "seed": "node server/seed.js",
+    "validate": "node -e \"import('./server/curriculum.js').then(m=>{const v=m.validateAll();console.log(v.ok?'CURRICULUM OK ('+v.count+' modules)':'INVALID');v.errors.forEach(e=>console.log(e));process.exit(v.ok?0:1)})\""
   },
   "dependencies": {
     "@google/genai": "^1.11.0",

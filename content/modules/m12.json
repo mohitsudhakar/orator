@@ -12,25 +12,66 @@
     "Write a Point of View Statement that survives the only-you substitution test, and diagnose the dilution risk in a portfolio that covers many topics.",
     "Design a speaking portfolio in which every engagement has a named function and a named asset, and sequence keynotes, panels, podcasts, internal, customer, and media work deliberately.",
     "Evaluate a keynote by pipeline contribution rather than fee, and install the follow-through system that turns an audience into a business channel.",
-    "Take a public position using the Regret-Minimization Test, and disagree with an opposing view without tribal alignment or overclaiming.",
-    "Maintain a Reputation Ledger that tracks deposits, withdrawals, mentoring, and trajectory, and measure your own progress honestly rather than by applause.",
-    "Distinguish personal brand from professional reputation, and decide where your limited effort belongs."
+    "Take a public position using the Regret-Minimization Test, disagree with an opposing view without tribal alignment or overclaiming, and distinguish personal brand from professional reputation when deciding where your limited effort belongs.",
+    "Maintain a Reputation Ledger that tracks deposits, withdrawals, mentoring, and trajectory, and measure your own progress honestly rather than by applause."
   ],
   "keyTerms": [
-    { "term": "Compounding Asset", "definition": "A speaking asset whose value increases with each use because each appearance leaves behind artifacts, relationships, and evidence that make later appearances more effective." },
-    { "term": "Compound Reputation", "definition": "The stock of trust accumulated over time that converts one visible performance into advantages in rooms the speaker never enters." },
-    { "term": "Trust Transfer", "definition": "The tendency for trust earned in one context to carry over to another - from a stage to a procurement decision, from a customer to a board, from a peer to an investor." },
-    { "term": "Point of View Statement", "definition": "A single, specific, falsifiable, consequential claim that a named audience can attribute to you and that you can defend with evidence you gathered yourself." },
-    { "term": "Only-You Claim", "definition": "The test that a point of view is genuinely yours: for a specific audience, you are the only person who can make this particular claim, because of what you have seen, built, or measured." },
-    { "term": "Body of Work", "definition": "A set of artifacts whose combined force is greater than the sum of the individual pieces because they all make the same underlying claim in different forms." },
-    { "term": "Content Flywheel", "definition": "The self-reinforcing loop in which a talk produces writing, writing produces a sharper talk, a product monetises the demand, and the product's users generate the next talk." },
-    { "term": "Speaking Portfolio Ladder", "definition": "The deliberate mix of venues - keynote, panel, podcast, internal, customer, media - each assigned a function and an asset it produces." },
-    { "term": "Venue Function", "definition": "The specific job a speaking engagement does for the career: reach, depth, trust, pipeline, evidence, or learning." },
-    { "term": "Pipeline Attribution", "definition": "The work of tracing which engagements produced which conversations, opportunities, and revenue, usually over a six-to-eighteen-month horizon." },
-    { "term": "Regret-Minimization Test", "definition": "A pre-commitment check that asks whether you will still hold a public position in three years and whether you would defend it to the people it costs." },
-    { "term": "Reputation Ledger", "definition": "A running record of deposits and withdrawals against your professional reputation, including mentoring given and positions abandoned without explanation." },
-    { "term": "Professional Reputation", "definition": "A conferred judgement by others about your reliability, candour, and competence that you cannot issue, maintain, or inflate - and that transfers across employers and clients." },
-    { "term": "Personal Brand", "definition": "A partly self-authored and market-facing construction that amplifies a reputation but can be produced, refreshed, and abandoned independently of it." }
+    {
+      "term": "Compounding Asset",
+      "definition": "A speaking asset whose value increases with each use because each appearance leaves behind artifacts, relationships, and evidence that make later appearances more effective."
+    },
+    {
+      "term": "Compound Reputation",
+      "definition": "The stock of trust accumulated over time that converts one visible performance into advantages in rooms the speaker never enters."
+    },
+    {
+      "term": "Trust Transfer",
+      "definition": "The tendency for trust earned in one context to carry over to another - from a stage to a procurement decision, from a customer to a board, from a peer to an investor."
+    },
+    {
+      "term": "Point of View Statement",
+      "definition": "A single, specific, falsifiable, consequential claim that a named audience can attribute to you and that you can defend with evidence you gathered yourself."
+    },
+    {
+      "term": "Only-You Claim",
+      "definition": "The test that a point of view is genuinely yours: for a specific audience, you are the only person who can make this particular claim, because of what you have seen, built, or measured."
+    },
+    {
+      "term": "Body of Work",
+      "definition": "A set of artifacts whose combined force is greater than the sum of the individual pieces because they all make the same underlying claim in different forms."
+    },
+    {
+      "term": "Content Flywheel",
+      "definition": "The self-reinforcing loop in which a talk produces writing, writing produces a sharper talk, a product monetises the demand, and the product's users generate the next talk."
+    },
+    {
+      "term": "Speaking Portfolio Ladder",
+      "definition": "The deliberate mix of venues - keynote, panel, podcast, internal, customer, media - each assigned a function and an asset it produces."
+    },
+    {
+      "term": "Venue Function",
+      "definition": "The specific job a speaking engagement does for the career: reach, depth, trust, pipeline, evidence, or learning."
+    },
+    {
+      "term": "Pipeline Attribution",
+      "definition": "The work of tracing which engagements produced which conversations, opportunities, and revenue, usually over a six-to-eighteen-month horizon."
+    },
+    {
+      "term": "Regret-Minimization Test",
+      "definition": "A pre-commitment check that asks whether you will still hold a public position in three years and whether you would defend it to the people it costs."
+    },
+    {
+      "term": "Reputation Ledger",
+      "definition": "A running record of deposits and withdrawals against your professional reputation, including mentoring given and positions abandoned without explanation."
+    },
+    {
+      "term": "Professional Reputation",
+      "definition": "A conferred judgement by others about your reliability, candour, and competence that you cannot issue, maintain, or inflate - and that transfers across employers and clients."
+    },
+    {
+      "term": "Personal Brand",
+      "definition": "A partly self-authored and market-facing construction that amplifies a reputation but can be produced, refreshed, and abandoned independently of it."
+    }
   ],
   "concepts": [
     {
@@ -46,10 +87,22 @@
         "Optimise for the five-year strategy, not the next four quarters - the two are frequently in direct conflict, and the conflict is where the decision is made."
       ],
       "pitfalls": [
-        { "failure": "Measuring the year by speaking income, which always looks like progress and never distinguishes a transaction from an asset.", "fix": "Track the number of reusable artifacts, cited claims, and inbound opportunities that arrived without you soliciting them. Fee income is a lagging indicator of a career that may not exist." },
-        { "failure": "Accepting every invitation because the calendar looks full, so there is no time to build the assets that would make the next year easier.", "fix": "Reserve a fixed fraction of your annual speaking hours for building artifacts. If a year contains no new piece of published work, you have worked a year of gigs." },
-        { "failure": "Confusing a growing list of appearances with a growing reputation, and using the appearances to cover for a claim that has not been made.", "fix": "Ask a colleague who has heard you speak twice what they would say you are known for. If they cannot complete the sentence in ten words, you have a list, not a reputation." },
-        { "failure": "Giving away your best thinking in free rooms, so the compounding happens for someone else.", "fix": "Choose your giving deliberately. Adam Grant's givers outperform precisely because their giving is selective and structured; scattered generosity with no claim attached produces a following, not a reputation." }
+        {
+          "failure": "Measuring the year by speaking income, which always looks like progress and never distinguishes a transaction from an asset.",
+          "fix": "Track the number of reusable artifacts, cited claims, and inbound opportunities that arrived without you soliciting them. Fee income is a lagging indicator of a career that may not exist."
+        },
+        {
+          "failure": "Accepting every invitation because the calendar looks full, so there is no time to build the assets that would make the next year easier.",
+          "fix": "Reserve a fixed fraction of your annual speaking hours for building artifacts. If a year contains no new piece of published work, you have worked a year of gigs."
+        },
+        {
+          "failure": "Confusing a growing list of appearances with a growing reputation, and using the appearances to cover for a claim that has not been made.",
+          "fix": "Ask a colleague who has heard you speak twice what they would say you are known for. If they cannot complete the sentence in ten words, you have a list, not a reputation."
+        },
+        {
+          "failure": "Giving away your best thinking in free rooms, so the compounding happens for someone else.",
+          "fix": "Choose your giving deliberately. Adam Grant's givers outperform precisely because their giving is selective and structured; scattered generosity with no claim attached produces a following, not a reputation."
+        }
       ],
       "imagePrompt": "A clean instructional diagram contrasting a transaction career with a compounding asset trajectory over time, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -66,10 +119,22 @@
         "Let the point of view be the product: a talk that does not advance the claim is a talk you should decline."
       ],
       "pitfalls": [
-        { "failure": "Making a claim so general that nobody could disagree - 'leadership is changing'.", "fix": "Add the mechanism, the population, and the timeframe. A claim that cannot be wrong cannot be memorable." },
-        { "failure": "Confusing a well-received talk with a clear position: the room enjoyed it, and the hallway question is 'so what did she say'.", "fix": "Ask three attendees to write your one-sentence claim from memory. If they produce three different sentences, the talk had no claim." },
-        { "failure": "Borrowing a position because it is currently fashionable, which dates the position faster than the audience dates.", "fix": "Run the Regret-Minimization Test before adopting any borrowed position: three years from now, will you still defend this, and to whom?" },
-        { "failure": "Treating breadth of interest as evidence of credibility, and adding a second and third subject to a career that had one.", "fix": "Pick the one, and put the others into a deliberate portfolio function - a customer talk, a podcast, a panel - where they are supported by the primary claim rather than competing with it." }
+        {
+          "failure": "Making a claim so general that nobody could disagree - 'leadership is changing'.",
+          "fix": "Add the mechanism, the population, and the timeframe. A claim that cannot be wrong cannot be memorable."
+        },
+        {
+          "failure": "Confusing a well-received talk with a clear position: the room enjoyed it, and the hallway question is 'so what did she say'.",
+          "fix": "Ask three attendees to write your one-sentence claim from memory. If they produce three different sentences, the talk had no claim."
+        },
+        {
+          "failure": "Borrowing a position because it is currently fashionable, which dates the position faster than the audience dates.",
+          "fix": "Run the Regret-Minimization Test before adopting any borrowed position: three years from now, will you still defend this, and to whom?"
+        },
+        {
+          "failure": "Treating breadth of interest as evidence of credibility, and adding a second and third subject to a career that had one.",
+          "fix": "Pick the one, and put the others into a deliberate portfolio function - a customer talk, a podcast, a panel - where they are supported by the primary claim rather than competing with it."
+        }
       ],
       "imagePrompt": "A clean instructional diagram showing a point of view statement decomposed into audience specificity falsifiability consequence and first-hand evidence, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -86,10 +151,22 @@
         "Feed customer outcomes and user questions back into the next talk, so the loop closes on real demand rather than on your own interests."
       ],
       "pitfalls": [
-        { "failure": "Treating the slide deck as the reusable asset and redistributing it without the argument.", "fix": "A deck is a container; the asset is the claim and its evidence. Write the piece that the deck was hiding." },
-        { "failure": "Running a publishing cadence with no claim, so the archive shows breadth and no position.", "fix": "Before publishing, write the single sentence the piece advances. If you cannot, do not publish it - publish something else." },
-        { "failure": "Announcing a product before the demand is evidenced, and discovering that people will not pay for the thing you assume they want.", "fix": "Let the flywheel run two turns before you build. The second turn tells you what people actually ask for, which is usually not what you planned to sell." },
-        { "failure": "Handing the whole machine to a content hire and outsourcing the point of view along with it.", "fix": "Delegate production, never the claim. The person who writes must be able to argue the position in the room without you." }
+        {
+          "failure": "Treating the slide deck as the reusable asset and redistributing it without the argument.",
+          "fix": "A deck is a container; the asset is the claim and its evidence. Write the piece that the deck was hiding."
+        },
+        {
+          "failure": "Running a publishing cadence with no claim, so the archive shows breadth and no position.",
+          "fix": "Before publishing, write the single sentence the piece advances. If you cannot, do not publish it - publish something else."
+        },
+        {
+          "failure": "Announcing a product before the demand is evidenced, and discovering that people will not pay for the thing you assume they want.",
+          "fix": "Let the flywheel run two turns before you build. The second turn tells you what people actually ask for, which is usually not what you planned to sell."
+        },
+        {
+          "failure": "Handing the whole machine to a content hire and outsourcing the point of view along with it.",
+          "fix": "Delegate production, never the claim. The person who writes must be able to argue the position in the room without you."
+        }
       ],
       "imagePrompt": "A clean instructional diagram illustrating a circular content flywheel connecting talk to writing to talk to product and back, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -106,10 +183,22 @@
         "Judge the year by reading your artifacts in sequence, not by counting stages."
       ],
       "pitfalls": [
-        { "failure": "Insisting on being new every time, so nothing accumulates and every audience must start from zero.", "fix": "Keep the claim constant and the form new. Novelty belongs in the evidence, the setting, and the consequence - not in the position." },
-        { "failure": "Producing a body of work with no sequencing, so the pieces sit beside each other and readers cannot find the thread.", "fix": "Reissue the core claim every time, and mark the progression openly: what you believed in 2021, what changed, and what you hold now." },
-        { "failure": "Letting the work be defined by the organisers, so the archive is a catalogue of other people's themes.", "fix": "Before accepting an external brief, translate it into your claim. If you cannot, the appearance belongs to the portfolio under a different function - not to the body of work." },
-        { "failure": "Using the body of work only to look authoritative, and refusing to revise anything in public.", "fix": "A body of work with no visible revision reads as marketing. Publish one revision, with the reason and the new evidence, and your later claims get cheaper to make." }
+        {
+          "failure": "Insisting on being new every time, so nothing accumulates and every audience must start from zero.",
+          "fix": "Keep the claim constant and the form new. Novelty belongs in the evidence, the setting, and the consequence - not in the position."
+        },
+        {
+          "failure": "Producing a body of work with no sequencing, so the pieces sit beside each other and readers cannot find the thread.",
+          "fix": "Reissue the core claim every time, and mark the progression openly: what you believed in 2021, what changed, and what you hold now."
+        },
+        {
+          "failure": "Letting the work be defined by the organisers, so the archive is a catalogue of other people's themes.",
+          "fix": "Before accepting an external brief, translate it into your claim. If you cannot, the appearance belongs to the portfolio under a different function - not to the body of work."
+        },
+        {
+          "failure": "Using the body of work only to look authoritative, and refusing to revise anything in public.",
+          "fix": "A body of work with no visible revision reads as marketing. Publish one revision, with the reason and the new evidence, and your later claims get cheaper to make."
+        }
       ],
       "imagePrompt": "A clean instructional diagram contrasting a body of work with a roster of appearances as connected and disconnected artifact sets, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -126,10 +215,22 @@
         "Judge venues by downstream conversations per hour, not by audience size or stage prestige."
       ],
       "pitfalls": [
-        { "failure": "Taking the highest fee, from a room with no buying authority and no overlap with your buyers.", "fix": "Build a profile of the audience before accepting: who buys, at what size, in what segment, and would they be in the room. A 4,000-person generalist conference is worth less than 80 people from your target customer base." },
-        { "failure": "Following up with a deck and a brochure, which is what the room already had and asks for nothing in return.", "fix": "Send the memo or the framework, offer a 20-minute conversation, and give a date. Value first, then an ask, then a date." },
-        { "failure": "Declaring victory on the strength of a busy post-event week, and concluding the venue was great.", "fix": "Follow the cohort for two quarters. Impressions and compliments are not pipeline, and a channel judged on week-one sentiment will be over-invested in bright, useless rooms." },
-        { "failure": "Saying yes to a fee that is below your floor because the room looked prestigious.", "fix": "Set a floor in advance and protect it publicly. Underpricing a keynote teaches the market that your stage is cheap, and the second booking will reflect it." }
+        {
+          "failure": "Taking the highest fee, from a room with no buying authority and no overlap with your buyers.",
+          "fix": "Build a profile of the audience before accepting: who buys, at what size, in what segment, and would they be in the room. A 4,000-person generalist conference is worth less than 80 people from your target customer base."
+        },
+        {
+          "failure": "Following up with a deck and a brochure, which is what the room already had and asks for nothing in return.",
+          "fix": "Send the memo or the framework, offer a 20-minute conversation, and give a date. Value first, then an ask, then a date."
+        },
+        {
+          "failure": "Declaring victory on the strength of a busy post-event week, and concluding the venue was great.",
+          "fix": "Follow the cohort for two quarters. Impressions and compliments are not pipeline, and a channel judged on week-one sentiment will be over-invested in bright, useless rooms."
+        },
+        {
+          "failure": "Saying yes to a fee that is below your floor because the room looked prestigious.",
+          "fix": "Set a floor in advance and protect it publicly. Underpricing a keynote teaches the market that your stage is cheap, and the second booking will reflect it."
+        }
       ],
       "imagePrompt": "A clean instructional diagram illustrating keynote pipeline attribution with a funnel from stage to artifact to conversation to revenue over a lagged timeline, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -146,10 +247,22 @@
         "Review the quarterly mix and treat a quarter that is 80 percent reach as a portfolio failure, not a triumph."
       ],
       "pitfalls": [
-        { "failure": "Saying yes to every invitation because the platform list is growing, so the portfolio has no design at all.", "fix": "Write the quarterly mix before the invitations arrive, and decline against a written plan. The plan is what makes declining legitimate." },
-        { "failure": "Treating the internal talk as a warm-up before the real event, and therefore over-preparing for it and under-preparing for the keynote.", "fix": "The internal talk is the hardest room you will ever speak in and the only one where your record is complete. It should get the most preparation, not the least." },
-        { "failure": "Saying yes to a panel to get the logo, then matching the other panelists' generic consensus.", "fix": "Bring the position nobody else on the panel will hold, and make it small enough to be right. A panel where you agree with everyone changes nothing about how you are known." },
-        { "failure": "Confusing media appearances with media coverage, and expecting a platform to distribute your argument.", "fix": "Treat media as a test of the claim under pressure, not as a distribution channel you control. The output is a quotable, survivable position and a relationship with a journalist." }
+        {
+          "failure": "Saying yes to every invitation because the platform list is growing, so the portfolio has no design at all.",
+          "fix": "Write the quarterly mix before the invitations arrive, and decline against a written plan. The plan is what makes declining legitimate."
+        },
+        {
+          "failure": "Treating the internal talk as a warm-up before the real event, and therefore over-preparing for it and under-preparing for the keynote.",
+          "fix": "The internal talk is the hardest room you will ever speak in and the only one where your record is complete. It should get the most preparation, not the least."
+        },
+        {
+          "failure": "Saying yes to a panel to get the logo, then matching the other panelists' generic consensus.",
+          "fix": "Bring the position nobody else on the panel will hold, and make it small enough to be right. A panel where you agree with everyone changes nothing about how you are known."
+        },
+        {
+          "failure": "Confusing media appearances with media coverage, and expecting a platform to distribute your argument.",
+          "fix": "Treat media as a test of the claim under pressure, not as a distribution channel you control. The output is a quotable, survivable position and a relationship with a journalist."
+        }
       ],
       "imagePrompt": "A clean instructional diagram showing a speaking portfolio ladder with venue types assigned to distinct functions and produced assets, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -166,10 +279,22 @@
         "Revise publicly, with a date and a reason; the ability to audit a position is worth more than the appearance of never having been wrong."
       ],
       "pitfalls": [
-        { "failure": "Adopting a fashionable position because the room is nodding, and discovering in eighteen months that you cannot defend it.", "fix": "Run the test at the moment of adoption, not at the moment of criticism. A position you would regret defending to the affected party is not yours to take." },
-        { "failure": "Disagreeing in a way that makes the other person feel their competence is the issue, so the disagreement becomes personal and the relationship closes.", "fix": "Disagree about the mechanism and the evidence, and credit the parts of their position that survive your argument. Never characterise the reasoning." },
-        { "failure": "Presenting an inference as an observation, so that when the inference is challenged you appear to have been caught out.", "fix": "Label it in the sentence: 'I saw X in forty accounts, I read that as Y, and I think Z.' The label costs nothing and buys a lot of latitude." },
-        { "failure": "Never revising anything, so your archive accumulates claims rather than a record of thinking.", "fix": "Publish one dated revision this year, with the new evidence and the reasoning. It converts your past certainty into a track record of judgement." }
+        {
+          "failure": "Adopting a fashionable position because the room is nodding, and discovering in eighteen months that you cannot defend it.",
+          "fix": "Run the test at the moment of adoption, not at the moment of criticism. A position you would regret defending to the affected party is not yours to take."
+        },
+        {
+          "failure": "Disagreeing in a way that makes the other person feel their competence is the issue, so the disagreement becomes personal and the relationship closes.",
+          "fix": "Disagree about the mechanism and the evidence, and credit the parts of their position that survive your argument. Never characterise the reasoning."
+        },
+        {
+          "failure": "Presenting an inference as an observation, so that when the inference is challenged you appear to have been caught out.",
+          "fix": "Label it in the sentence: 'I saw X in forty accounts, I read that as Y, and I think Z.' The label costs nothing and buys a lot of latitude."
+        },
+        {
+          "failure": "Never revising anything, so your archive accumulates claims rather than a record of thinking.",
+          "fix": "Publish one dated revision this year, with the new evidence and the reasoning. It converts your past certainty into a track record of judgement."
+        }
       ],
       "imagePrompt": "A clean instructional diagram illustrating a two-gate pre-commitment filter separating defensible public positions from regretted ones, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -177,7 +302,7 @@
       "id": "c8",
       "title": "Personal Brand, Professional Reputation, and the Dilution Risk of Rapid Growth",
       "summary": "Personal brand is a construction you can partly author; professional reputation is a judgement others confer and you cannot issue. Most speakers invest in the brand first because it is more visible and more controllable, and then discover that the reputation is what actually carries the career. Growth breaks this before anyone notices.",
-      "detail": "The distinction matters because the two fail differently. Anne Green and John Brock, in their chapter on the nature of organizational reputation in the Oxford Handbook of Corporate Reputation, treat reputation as a collective perception formed by stakeholders, not an attribute the organisation can simply declare - and the same logic transfers directly to a person. A professional reputation is granted. It is composed of judgements about your reliability, your candour under pressure, and your competence, made by people who have watched you behave, and it transfers with you: to a new employer, a new client, a new board, a new industry conversation. Personal brand is a partly self-authored, market-facing construction - a distinctiveness plus a distribution plus a coherent presentation - and it is genuinely useful, because it makes the reputation findable. But it can be produced in a weekend, it can be abandoned in a quarter, and it is worthless without a reputation underneath it. The practical order is reputation first, brand second. Brand amplifies; reputation is the load-bearing structure.\n\nRapid growth is where this breaks, and it breaks quietly. Bookings increase faster than substance, so you begin accepting engagements that require a claim you do not hold, giving panel answers on topics you have not studied, and publishing at a cadence set by a schedule rather than by an argument. Each individual appearance is defensible. The cumulative effect is that the association that made you valuable - the one clear thing - is replaced by a list, and the list is worth much less than the thing. This is the dilution risk, and it is the reason growth produces a ceiling. The fix is counter-intuitive: constrain the number of distinct things you say, refuse the engagements that would attach a new label, and treat a season as a unit of positioning in which you say one thing many ways.\n\nThe second half of the module's arithmetic is the ladder above you. A career that only extracts is a career that runs out - the material is finite and the audience is finite. Adam Grant's finding is that givers outperform, and the mechanism is relational capital, which grows when others can do more because of you. In practice this is mentorship with an artifact: not advice, but the framework, the template, the honest account of the mistake, handed over so the person can use it without you. The Reputation Ledger, taught in this module, records both the deposits and the mentoring, because both compound and neither appears in a fee schedule. And trajectory must be measured honestly: leading indicators - claims you can defend with primary evidence, artifacts published, recommendations received, mentees advancing, inbound opportunities you did not solicit - sit above lagging indicators like fees and follower counts. A year can look busy and be empty.",
+      "detail": "The distinction matters because the two fail differently. Anne Green and John Brock, in their chapter on the nature of organizational reputation in the Oxford Handbook of Corporate Reputation, treat reputation as a collective perception formed by stakeholders, not an attribute the organisation can simply declare - and the same logic transfers to a person. A professional reputation is granted. It is composed of judgements about your reliability, your candour under pressure, and your competence, made by people who have watched you behave, and it transfers with you: to a new employer, a new client, a new board. Personal brand is a partly self-authored, market-facing construction - distinctiveness plus distribution plus a coherent presentation - and it is genuinely useful, because it makes the reputation findable. But it can be produced in a weekend, abandoned in a quarter, and is worthless without a reputation underneath it. The practical order is reputation first, brand second. Brand amplifies; reputation is load-bearing.\n\nRapid growth is where this breaks, and it breaks quietly. Bookings increase faster than substance, so you begin accepting engagements that require a claim you do not hold, giving panel answers on topics you have not studied, and publishing at a cadence set by a schedule rather than by an argument. Each individual appearance is defensible. The cumulative effect is that the association that made you valuable - the one clear thing - is replaced by a list, and a list is worth much less than the thing. This is the dilution risk, and it is the reason growth produces a ceiling. The fix is counter-intuitive: constrain the number of distinct things you say, refuse engagements that would attach a new label, and treat a season as a unit of positioning in which you say one thing many ways.\n\nThe second half of the arithmetic is the ladder above you. A career that only extracts runs out - the material is finite and so is the audience. Adam Grant's finding is that givers outperform, and the mechanism is relational capital, which grows when others can do more because of you. In practice this is mentorship with an artifact: not advice, but the framework, the template, the honest account of the mistake, handed over so the person can use it without you. The Reputation Ledger taught in this module records both the deposits and the mentoring, because both compound and neither appears in a fee schedule. Trajectory must be measured honestly: leading indicators - claims you can defend with primary evidence, artifacts published, unsolicited inbound, mentees advancing - sit above lagging indicators like fees and follower counts. A year can look busy and be empty.",
       "principles": [
         "Invest in professional reputation first, because it is conferred and transfers; invest in personal brand second, because it amplifies what the reputation already supports.",
         "Constrain the number of distinct claims you make - one per season - and refuse the engagement that would attach a new label to your name.",
@@ -186,17 +311,446 @@
         "Keep a quarterly Reputation Ledger of deposits, withdrawals, mentoring given, and positions revised, and read it before you accept the next invitation."
       ],
       "pitfalls": [
-        { "failure": "Investing heavily in visibility while reputation is thin, so the brand raises expectations the substance cannot meet.", "fix": "Check the ratio quarterly: for every hour spent increasing visibility, spend one hour producing evidence that justifies it. If visibility is outrunning evidence, the growth is borrowed." },
-        { "failure": "Saying yes to a speaking slot outside your claim because bookings are the metric the board sees.", "fix": "Replace the booking count with a compounding measure - qualified conversations, published artifacts, unsolicited inbound. Take the board to the ledger, not the calendar." },
-        { "failure": "Mentoring verbally, in a conversation, with nothing the other person can keep or reuse.", "fix": "Give them the artifact: the one-page framework, the pre-mortem template, the honest account of the decision you got wrong and what it cost. Mentorship that does not scale is advice." },
-        { "failure": "Confusing a busy year with a compounding year, and hitting a ceiling that feels like the market's fault.", "fix": "Read the ledger. A year with many engagements and no new artifacts, no revised positions, and no unsolicited inbound is a year of gigs, no matter the fee total." }
+        {
+          "failure": "Investing heavily in visibility while reputation is thin, so the brand raises expectations the substance cannot meet.",
+          "fix": "Check the ratio quarterly: for every hour spent increasing visibility, spend one hour producing evidence that justifies it. If visibility is outrunning evidence, the growth is borrowed."
+        },
+        {
+          "failure": "Saying yes to a speaking slot outside your claim because bookings are the metric the board sees.",
+          "fix": "Replace the booking count with a compounding measure - qualified conversations, published artifacts, unsolicited inbound. Take the board to the ledger, not the calendar."
+        },
+        {
+          "failure": "Mentoring verbally, in a conversation, with nothing the other person can keep or reuse.",
+          "fix": "Give them the artifact: the one-page framework, the pre-mortem template, the honest account of the decision you got wrong and what it cost. Mentorship that does not scale is advice."
+        },
+        {
+          "failure": "Confusing a busy year with a compounding year, and hitting a ceiling that feels like the market's fault.",
+          "fix": "Read the ledger. A year with many engagements and no new artifacts, no revised positions, and no unsolicited inbound is a year of gigs, no matter the fee total."
+        }
       ],
       "imagePrompt": "A clean instructional diagram contrasting personal brand and professional reputation as layered structures with different ownership and transfer properties, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     }
   ],
-  "frameworks": [],
-  "scenarios": [],
-  "exercises": [],
+  "frameworks": [
+    {
+      "name": "The Point of View Statement",
+      "summary": "A single-sentence, falsifiable claim with a named audience, a stated consequence, and first-hand evidence - the actual product you sell when you take the stage.",
+      "steps": [
+        "Name the audience as a role and a situation, not a crowd: 'the CFO of a 50 to 200 person B2B software company weighing its first usage-based pricing change', not 'business leaders'.",
+        "Bound the claim: the segment, the stage of the decision, and the timeframe it applies to. A claim without a boundary is a topic.",
+        "State it in a form that can be wrong: 'X is causing Y for Z over the next N quarters', and add the mechanism you believe produces it - the why, not only the what.",
+        "Attach the consequence: say what a person in that audience should do differently because of your claim. If nothing follows from it, you have an observation, not a position.",
+        "Attach the evidence and its provenance: the accounts you saw, the metric you measured, the launch you ran, the post-mortem you wrote. Give the number and where it came from - provenance is the part competitors cannot copy.",
+        "Run the only-you test: hand the sentence to three credible peers in your field and ask whether they could say it word for word. If yes, you have a topic - return to step 3 and add the mechanism or the population.",
+        "Date it, write it down, and commit to revisiting it in public within twelve months. An undated claim is a slogan; a dated one is a position you can be held to and can revise."
+      ],
+      "whenToUse": "Use it before any talk, panel, podcast, article, or podcast appearance you accept, and immediately before you reply to any invitation that would attach a new label to your name. It is also the filter for the published version: if the claim cannot be written in one sentence with a named audience and a consequence, the talk is not ready to be scheduled. Do not use it to decide whether the fee is worth taking - that is a separate calculation with a separate scorecard.",
+      "example": "A founder of a 140-person B2B data infrastructure company writes: 'Most enterprise data platforms are being consolidated for budget reasons rather than product dissatisfaction, so any vendor with renewal exposure concentrated in the first quarter has roughly eighteen months to replace a third of its base.' The audience is a named role, the claim can be shown wrong, the consequence is a renewal-book decision, and the evidence is forty enterprise accounts the founder personally reviewed. Two peers in the field try to make the same claim and cannot, which is what makes it hers."
+    },
+    {
+      "name": "The Speaking Portfolio Ladder",
+      "summary": "A design method for a quarter of speaking engagements in which every venue is assigned a function and produces a named asset, instead of being ranked by stage size and fee.",
+      "steps": [
+        "List every candidate engagement for the quarter on one page, including the invitations you have already declined, with date, audience size, and fee.",
+        "Assign each candidate one function: reach, depth, trust, pipeline, evidence, or learning. One function per engagement. If you cannot name one in five words, it does not belong in the quarter.",
+        "Name the asset each engagement produces and the date it will exist - a memo, a framework, a dataset, a case study, a named relationship, a quotable position. An engagement with no asset is a transaction, whatever it pays.",
+        "Check the mix. A healthy quarter for a founder carrying a forty to sixty percent speaking load runs roughly a quarter internal and customer work (the evidence engines), a quarter podcasts and panels (depth and evidence), a quarter keynotes (reach and pipeline), and the balance in media and deliberate learning. A quarter that is eighty percent reach is a design failure, not a triumph.",
+        "Sequence from evidence outward: internal talks and customer sessions first, then panels and podcasts, then keynotes and media. Presenting a claim you have not tested in the room where the facts are known is a reputational exposure you do not need to take.",
+        "Fix next quarter's targets before the invitations arrive: how many artifacts, how many qualified conversations, and which one high-prestige engagement you will decline on purpose.",
+        "Review the mix quarterly and re-cut any engagement that ended up doing a different job from the one you assigned it, rather than leaving the plan to drift after the calendar fills."
+      ],
+      "whenToUse": "Use it to design a quarter and to review a year, and any time the calendar is filling faster than the strategy. Use it before saying yes, not after. Do not use it to judge the quality of a single talk, and do not use it as a reason to decline - the plan exists so that declining is legitimate, not so that it is easy.",
+      "example": "A founder's quarter holds four items: a 90-person customer roundtable (trust and evidence, asset: a case study with the customer named), a podcast episode (depth, asset: a dated written piece), a 400-practitioner conference keynote (reach and pipeline, asset: a one-page framework distributed in the room), and an internal all-hands (trust, asset: a one-page operating memo). She declines a 4,000-person generalist conference because she cannot assign it a function, and she says so in writing with a reason attached."
+    },
+    {
+      "name": "The Content Flywheel",
+      "summary": "A five-stage loop in which a talk produces writing, the writing sharpens the next talk, demand produces a product, and the product's users produce the next talk - each turn cheaper to run than the last.",
+      "steps": [
+        "Capture: within twenty-four hours of every talk, write down the argument you made, the objections you could not answer, the question that recurred, and the pattern you noticed. Put it in one dated inbox. Most flywheels fail here, because the raw material evaporates in the taxi.",
+        "Convert: turn each capture into one written piece within two weeks, one claim per piece, dated, published where your buyers already are rather than where your peers are.",
+        "Sharpen: when you write the piece, mark every part of the argument you cannot actually support. Those gaps become the structure of the next talk, and the questions you could not answer become the evidence you need to gather.",
+        "Monetise: build one monetised expression of the recurring claim - a report, a workshop, a course, an advisory offering, a subscription. One product, not five. Without this stage the loop spins goodwill, and goodwill does not pay salaries.",
+        "Feed back: route customer outcomes, user questions, and referrals into the next capture, so the loop closes on demonstrated demand rather than on your own interests.",
+        "Measure the cost curve: track the hours spent on the second, third, and fourth talk built on the same claim. If the curve is not falling, you are producing a roster of appearances, not a body of work."
+      ],
+      "whenToUse": "Use it if you speak more than twice a quarter, if you publish at all, or if you sell anything that your speaking is supposed to support. Do not use it in the first six months of a claim: capture plus one written piece is the whole job at that stage, and building the product early is how people end up selling something nobody asked for.",
+      "example": "A founder delivers a twenty-minute keynote on renewal compression in the enterprise data market. Within twenty-four hours she captures the three objections she could not answer. Two weeks later she publishes a dated memo, 'Renewal Compression: What 40 Enterprise Accounts Did'. Marking the unsupported parts of her argument gives her the spine of the next talk. That talk lifts demand for the thing she already sells, so she builds a paid benchmarking report, and the report's subscribers become the raw material - and the first source of case studies - for the year of work that follows."
+    },
+    {
+      "name": "The Regret-Minimization Test",
+      "summary": "A two-gate pre-commitment filter for taking a public position: will you still hold it in three years, and would the people it costs call it honest?",
+      "steps": [
+        "Write the position as a single claim with a named population and a timeframe, in language that could be quoted without distortion.",
+        "Gate one, the time gate: will you still hold this in three years, and what evidence arriving tomorrow would make you drop it? If the honest answer is that you would abandon it the moment a competitor announced a counter-argument, it is an attention grab, not a position.",
+        "Gate two, the honesty gate: name the specific people who bear the cost - your customers, your employees, the customers of a competitor, the public - and ask whether they would recognise that you represented the trade-off accurately, even if they disagree with you. Disagreement is survivable; a misrepresentation is not.",
+        "Separate observation, inference, and belief in the wording, and label them audibly where the stakes warrant it: 'I saw X in forty accounts, I read that as Y, and I think Z.' Most credibility is lost by presenting an inference as an observation.",
+        "State the strongest version of the opposing case in one sentence and say who is right about what. If you cannot state it, you have not thought hard enough to publish.",
+        "Name the evidence that would change your mind, out loud. It costs nothing, and it separates a claim from a belief in the audience's estimation.",
+        "Pre-commit to a review date and a revision policy: when the evidence changes, publish the revision with its date and its reason. An unauditable position is a slogan, and slogans age badly in front of people who remember what you said last year."
+      ],
+      "whenToUse": "Use it before publishing anything, before taking a position on a stage or a panel, and before you disagree with a named person publicly - where the risk is that you spend a relationship to buy a point. Do not use it to suppress a necessary truth about your own company: candour about your own failures is not a position you take lightly, and it is governed by a different question - what does the evidence support, stated plainly and without inflation.",
+      "example": "A founder is offered a chance to claim publicly that a competitor's pricing model is unsustainable. Gate one passes - she has the renewal data to hold the claim for years. Gate two fails: the customers who would bear the cost are the ones who bought from the competitor, and she cannot represent their trade-off accurately because she has never spoken to them. She reframes to the position the evidence does support: 'Budget consolidation, not product dissatisfaction, is driving renewal decisions in this segment', which she can defend with forty accounts, and which costs nobody a false claim."
+    },
+    {
+      "name": "The Reputation Ledger",
+      "summary": "A dated quarterly record of deposits, withdrawals, mentoring given, and positions revised, used to judge whether a speaking career is compounding or merely busy.",
+      "steps": [
+        "Create the ledger with four columns: date, entry marked deposit or withdrawal, the people affected, and the artifact or action attached. No entry without a date and a name - undated entries are how honest accounting becomes unreliable accounting.",
+        "Log deposits as things a third party could verify: a published piece, a talk that produced a claim someone else repeated, a referral, a customer who says so publicly, a mentee who advanced, an unsolicited inbound request that arrived without you soliciting it.",
+        "Log withdrawals just as honestly: a position quietly dropped, a customer left disappointed, a colleague left on a panel unsupported, a claim you can no longer defend, a talk that overclaimed and got quoted without you.",
+        "Attach one mentoring line to every quarter: at least one person, one artifact, and a date. Advice delivered in a conversation does not enter the ledger; a framework, a template, or an honest account of a decision you got wrong does.",
+        "Record one dated public revision per year, with the reason and the new evidence, and log it as a deposit - auditable thinking is a credit, because it demonstrates judgement rather than certainty.",
+        "Score the quarter on leading indicators only: artifacts published, positions defended or revised, unsolicited inbound, qualified conversations traced to a stage, mentees advancing. Log fee income, follower counts, and booking volume separately as context, never as score.",
+        "Read the ledger before you accept the next invitation, and let a negative two-quarter balance on any single dimension stop the growth automatically rather than waiting for a reason to intervene."
+      ],
+      "whenToUse": "Use it quarterly, and before any decision that would attach a new label to your name. Do not use it as a self-esteem instrument - a quarter with fewer deposits than withdrawals is information about portfolio design, not a verdict on your worth. And do not use it to postpone: a ledger with no entries is not a neutral ledger, it is a career you are not measuring.",
+      "example": "A founder's second-quarter ledger reads: deposit, 14 May, a customer case study published with the customer named, artifact retained by nine sales teams; deposit, 28 May, a former colleague asked her to speak at his company's offsite, inbound and unsolicit; withdrawal, 3 June, a position on hiring-market predictions dropped without explanation to two journalists who noticed; mentoring, 22 May, one VP given the pricing-change pre-mortem template; revision, 30 June, a dated public revision of her 2025 claim on the same subject with the new evidence stated. Two quarters running, the artifact line is growing and the withdrawal line is empty. She has a career, not a calendar."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "s1",
+      "title": "The podcast you have nothing to say in",
+      "setting": "You co-founded a nine-person developer-tools company eight months ago. A well-liked podcast host with a self-selecting professional audience wants to start you on a weekly series, beginning with four recorded episodes. You have a large following from your previous job and no published work.",
+      "challenge": "You open a blank notebook and realise you have no position, no body of work, and nothing to say that is not already in your product's documentation. A weekly cadence is a forty-episode commitment and a permanent public record of you thinking in public.",
+      "objectives": [
+        "Decide whether a podcast is the right instrument before a cadence commits you to it",
+        "Avoid publishing months of content that dilute or embarrass the claim you want to build",
+        "Choose a first instrument that produces a claim rather than an audience"
+      ],
+      "options": [
+        {
+          "text": "Commit to the weekly series immediately - four episodes, recorded and published - and treat the first three as research.",
+          "outcome": "By episode three you are explaining your product roadmap and the general state of the industry. A colleague forwards episode two to a competitor's hiring lead. The archive is now a record of you having no point of view, and the audience you attract is a job-seeker audience rather than a buyer audience.",
+          "rating": "poor",
+          "feedback": "A cadence creates a public commitment you cannot revise, and the first three episodes are the ones people sample. Framing them as research is a rationalisation of a decision already made for visibility. Test the claim in writing first - one piece, one claim - and only then choose a format to carry it."
+        },
+        {
+          "text": "Decline the podcast and start a monthly written memo instead, without committing to a firm claim, to see what you have to say.",
+          "outcome": "You sustain two months of memos. They are competent and some people read them. You learn that you write better than you speak, and you still have not made a claim. The host has moved on to a founder who will say something on record.",
+          "rating": "fair",
+          "feedback": "This is a reasonable experiment with an incomplete design. Publishing without a claim produces breadth and no position, and the format is chosen for your comfort rather than for the job. The fix is not the medium - it is that each piece must advance a single sentence you are willing to defend."
+        },
+        {
+          "text": "Accept a single episode rather than a series, and use it to make your first public claim: one specific, falsifiable position with a named audience, delivered in the format that suits it.",
+          "outcome": "You spend three weeks on a claim you can defend, record one thirty-minute episode, and it is the strongest piece of your year. The host wants more - and now you have something to offer. The next appearance is the second piece of a body of work rather than the first episode of a habit.",
+          "rating": "good",
+          "feedback": "You have converted an audience commitment into an argument commitment, which is the right trade. Tighten it further by deciding in advance what the listener should be able to repeat to a colleague, and by writing the one claim the episode advances before you record a single take."
+        },
+        {
+          "text": "Decline the weekly series and propose a twelve-week experiment instead: one written claim per month with a named audience, ending in a single live recorded conversation, with the podcast as the destination of the fourth piece rather than the container for the year.",
+          "outcome": "The host agrees to one conversation once there is an argument to have, which is a better story than a media launch. The written pieces build the claim, the claim makes the episode worth doing, and the cadence you are left with is monthly writing you can sustain, which is where the flywheel actually turns.",
+          "rating": "excellent",
+          "feedback": "You have refused the visible thing in order to build the invisible asset, and you have offered the host a better version of the opportunity rather than a decline. The single published claim per month is the real output; the episode is the distribution event at the end of the fourth."
+        }
+      ],
+      "coachingNote": "A platform is not a strategy. The question is not whether to have a podcast; it is whether you have a claim worth the forty episodes it would take to prove. Cadence before claim produces an archive of a person searching, and searching is exactly what a category associates you with."
+    },
+    {
+      "id": "s2",
+      "title": "The invitation that would dilute the positioning",
+      "setting": "A four-thousand-person generalist business conference offers you the main stage, four months out, a large fee, a professionally produced video, and a prominent logo. The same month you are invited to a ninety-person practitioner summit in your own category, with no fee, where every attendee has read your work.",
+      "challenge": "The generalist organiser is offering the visibility that your competitors are chasing. The audience is largely mid-market operators with no budget authority over anything you sell. The summit is ninety people, and you have to decide which of the two is the better career move.",
+      "objectives": [
+        "Protect the single association you want to be known for",
+        "Judge both venues by function rather than by size, fee, and prestige",
+        "Make a decision you could defend to your co-founder and to your board"
+      ],
+      "options": [
+        {
+          "text": "Take the main stage. Visibility is visibility, and you can always do the category work later.",
+          "outcome": "You deliver a competent, broad talk and the people who come to hear you are not the people you sell to. Nothing in your field shifts, because none of the four thousand are in it. The video produces views from an audience you will never convert. You have traded a year of positioning for a week of exposure.",
+          "rating": "poor",
+          "feedback": "Audience size is a vanity metric when the audience is not the market. And 'later' is where positioning dies: once your name is attached to a generalist stage, the second thing you say has to be equally generalist, or it reads as erratic."
+        },
+        {
+          "text": "Take both, treating the generalist as reach and the summit as depth, and plan the generalist talk to be a version of your core claim.",
+          "outcome": "The plan is sound and the execution is not. With two stages in one month and a fee to justify, the generalist talk becomes a survey of your thinking, and a survey format cannot hold a single claim. The audience you most wanted ends up with the version you had least time to prepare.",
+          "rating": "fair",
+          "feedback": "The mix is over-extended for a quarter, and the constraint that breaks first is rehearsal depth, not content quality. When one talk has to serve two functions it usually serves neither, because the one function that requires a clean single claim is the one that gets sacrificed to the one that needs breadth."
+        },
+        {
+          "text": "Decline the generalist conference, take the summit, and use the freed month to build the asset the summit creates - a piece of writing that the ninety people cite.",
+          "outcome": "You lose four thousand impressions and gain ninety people who now forward your work to twenty people each. Your field talks about you because people in it saw you, and your claim gets sharper because you met the objections before the big room did.",
+          "rating": "good",
+          "feedback": "The reasoning is right and the execution is thin. You have to actually build the asset - one dated piece, published the same week, referencing the questions the ninety people asked - and you have to say no to the generalist in a way that keeps the relationship, because the organiser's next invitation may be the specialist slot."
+        },
+        {
+          "text": "Decline the main stage with a stated reason, and use the freed budget and month to turn the summit appearance into a body of work: one claim, one artifact published that week, and a ninety-person follow-up conversation loop you can attribute.",
+          "outcome": "Four months later the artifact from the ninety-person room is the thing three trade publications cite, and the generalist organiser, who has seen what you did, invites you next year as a named specialist rather than as a generalist speaker. The refusal created a better relationship than the acceptance would have.",
+          "rating": "excellent",
+          "feedback": "You have made a strategic refusal into a positioning statement, which is the only way a decline is remembered as strategy rather than as a snub. The attribution loop matters as much as the artifact: ninety named conversations is a real pipeline, four thousand impressions is not."
+        }
+      ],
+      "coachingNote": "Dilution is not about the range of your topics; it is about attaching your name to a room where the association you are building cannot form, because nobody in that room has any reason to connect your claim to a decision they actually make."
+    },
+    {
+      "id": "s3",
+      "title": "Your own company is your worst audience",
+      "setting": "All-hands of your own 140-person company, the week after you told them revenue missed target by nine percent and a hiring plan is paused. You have a twenty-minute slot between an HR update and a product demo. The atrium stage is a laptop on a table, and several of the people in the room are the ones who lost the offer.",
+      "challenge": "You have to speak, and your colleagues know the numbers better than you do. The temptation is to spend the twenty minutes on the external story - the market, the plan, the category thesis - because that version of the news is one you have practised.",
+      "objectives": [
+        "Speak to a room that knows the facts and will detect a polished version of them",
+        "Say something true about the miss without either grovelling or minimising it",
+        "Land the internal form of your public claim, because internal trust is the source of external credibility"
+      ],
+      "options": [
+        {
+          "text": "Give the external talk you give at conferences - market context, the category thesis, the big picture - so the room sees the confident version.",
+          "outcome": "The room's private conclusion is that the miss was somebody else's problem, or that you do not know what is happening inside your own company. Nobody asks a question, and the silence after the session is worse than a hostile question would have been. Your colleagues now know the version of you that goes on stage is not the version they get.",
+          "rating": "poor",
+          "feedback": "The external talk is calibrated for a room that is paid to be there and does not know the numbers. Internal audiences read polish as evasion, and the cost is not the miss - it is that the miss becomes evidence that leadership talks around the truth."
+        },
+        {
+          "text": "Acknowledge the miss briefly, spend most of the session on the recovery plan, and take questions at the end.",
+          "outcome": "The plan is clear and nobody objects, which is the problem. Politeness at an all-hands after a miss is usually the sound of people deciding whether to trust you with the truth. The one question that matters is asked in the hallway afterwards, in a bad mood, to a colleague rather than to you.",
+          "rating": "fair",
+          "feedback": "The content is right and the shape is wrong. Burying the answer in a Q&A slot hands the most important message of the session to whoever is willing to be the one who asks it. Say the hard part first, and use the session for what changes by role."
+        },
+        {
+          "text": "Lead with what you got wrong, in specific terms, including your own decision, then state the two things that are changing and what each means for people in the room by role.",
+          "outcome": "The room's posture shifts from guarded to operational. Two managers ask real questions during the session, including the one about the paused hiring, and your answer is specific enough to act on. The company has now heard from you the same version of you they see on a stage.",
+          "rating": "good",
+          "feedback": "This is the standard for internal candour and it is done well. Tighten it by naming the specific decision you made that contributed, not just the outcome you inherited, and by ending with the one thing that is genuinely in their control."
+        },
+        {
+          "text": "Do the external talk you actually believe, and make your public claim the frame for the internal one: the category problem we are positioned to see, what it costs us, what we are changing, and what each of you should do differently this quarter.",
+          "outcome": "The claim that sounds abstract at a conference turns into an operating instruction at the all-hands. The room understands the strategy as a set of decisions rather than a narrative, and the number of questions falls because the answer was given before it was asked.",
+          "rating": "excellent",
+          "feedback": "You have made the public claim and the internal truth the same artifact, which is the only version of this talk that compounds. The discipline is to use the claim's exact terms internally, because the moment the internal language diverges from the external language, the company stops believing both."
+        }
+      ],
+      "coachingNote": "Your colleagues are the only audience that cannot be fooled by a polished version, because they were in the room when it happened. Credibility is not built externally and brought in - it is built in the room that knows the facts, and spent everywhere else."
+    },
+    {
+      "id": "s4",
+      "title": "Twenty minutes, one question, a recorded answer",
+      "setting": "A trade journalist covering your category calls for a twenty-minute recorded interview. She has read a piece you published three months ago. Ten minutes in, she says: 'I want to ask you about a contradiction. Your piece says enterprise churn fell to eight percent. But the case study on your own site cites nineteen percent churn at a forty-person company. I also have a former employee telling me the real number is around fifteen. Which is true?'",
+      "challenge": "There is a real contradiction inside the question, a partially correct claim, and a claim you cannot verify. It is recorded. Your answer will be cut out of context, and your competitor reads everything this journalist writes.",
+      "objectives": [
+        "Correct the premise without collapsing into defensive evasion",
+        "Distinguish what you observed from what you inferred from what you do not know",
+        "Give an answer that survives being quoted out of context"
+      ],
+      "options": [
+        {
+          "text": "Explain at length that the two numbers measure different things - different cohorts, different periods, different definitions - adding context until she moves on.",
+          "outcome": "The answer is technically accurate and, in the edit, reads as evasion, because the length of it becomes the story. The piece leads with the eight percent figure and the ambiguity, and your competitor forwards it to a customer of yours with the line 'asks questions about churn and does not like the answers'.",
+          "rating": "poor",
+          "feedback": "Context delivered as a defence is context aimed at the interviewer, and the audience only sees the length. State the distinction in one sentence, correct whichever number is stale in a second, and move to the part she is actually asking about."
+        },
+        {
+          "text": "Concede that the blog number may have been wrong, apologise, and offer to correct it in a follow-up email with the accurate figure.",
+          "outcome": "You are honest and outmanoeuvred. The story runs with the inconsistency unresolved and a spokesperson who is notably careful. You have fixed the number, lost the narrative, and the former employee's fifteen percent is now in print without any of your context attached to it.",
+          "rating": "fair",
+          "feedback": "Candid admission is right; abdication is not. Conceding the whole claim answers a question she did not ask and leaves the real issue - which population the number describes - unresolved, which is what she was actually testing."
+        },
+        {
+          "text": "Answer in four moves: name the exact cohort and time window each number describes, state which figure is current and which is stale, correct what needs correcting in one sentence without inflated apology, and say plainly what you do not know about the fifteen percent and how you would go about finding out.",
+          "outcome": "The answer is quotable in pieces and every piece is defensible. The journalist gets a usable, specific story, the correction is on the record, and the 'I do not know, and here is how I would find out' is the sentence that makes the rest of the interview credible.",
+          "rating": "good",
+          "feedback": "The structure is exactly right. Make it airtight by preparing the cohort definition in advance so the correction is not improvised on camera, and by deciding now which of the two numbers you will defend if she pushes back on the correction."
+        },
+        {
+          "text": "Do the four moves and go further: correct the premise of the question, because the eight percent and the nineteen percent describe different populations, and offer to publish the cohort definition you now use so the next person does not make the same error.",
+          "outcome": "The story becomes about an industry-wide measurement problem that you named first, with the former employee's number neither confirmed nor denied but made relevant by your definition. The piece credits the correction, and the published cohort definition becomes an artifact that outlives the interview and keeps working for you.",
+          "rating": "excellent",
+          "feedback": "You have turned a hostile question into a published artifact and moved the story from your company to the category's measurement problem, where you have standing. Offering the definition is only credible because the correction came first - the order of these two moves is what makes it an asset rather than a deflection."
+        }
+      ],
+      "coachingNote": "A journalist is not an audience to be satisfied; she is a distribution channel with an editorial judgement and no second take. The question is not how to make the answer sound good - it is what the accurate answer looks like when the premise is wrong, the record is partial, and the sentence will be lifted out of context."
+    },
+    {
+      "id": "s5",
+      "title": "The keynote that pays well and says nothing",
+      "setting": "A financial services company pays sixty thousand dollars for a forty-five-minute closing keynote at their annual sales conference of twelve hundred people. You run a forty-person SaaS company. The brief is 'leading through change'. There is no slide approval, and travel is generous.",
+      "challenge": "The fee exceeds a good quarter's profit and the audience is large. The room has been sold something all day and the slot is after dinner. There is also an opening here: the company's VP of Sales is a former colleague of yours and is quietly considering buying your product.",
+      "objectives": [
+        "Decide whether the engagement functions as reach, pipeline, or neither",
+        "Avoid spending your most valuable asset - your best claim - on the emptiest brief you will be offered all year",
+        "Find a version of the talk that serves the fee and the pipeline at the same time"
+      ],
+      "options": [
+        {
+          "text": "Take the fee and give a polished, generic 'leading through change' talk that could apply to any company in any year.",
+          "outcome": "You are paid well, you receive good feedback, and nothing happens. No artifact, no pipeline, no citation, no quote. Your public record now contains a talk that any of two hundred speakers could have given, and the next booking agent quotes a price against a performance that left the room with nothing to remember.",
+          "rating": "poor",
+          "feedback": "This is the transaction career in its purest form, and the sixty thousand is the ceiling of what it produces. The diagnostic is simple: if the talk could be given by someone who knows nothing about your field, you are selling your stage, not your position."
+        },
+        {
+          "text": "Take the fee and quietly give your real talk instead - the claim, unchanged, delivered to a room that did not come for it.",
+          "outcome": "The talk is strong and about twenty percent of the room engages. The VP of Sales is interested, but most of the twelve hundred remember a talk that did not fit the evening, and the organisers feel slightly off-brand. You traded a large fee for a slightly wrong talk, and the wrongness is now attached to your name in that company's memory.",
+          "rating": "fair",
+          "feedback": "You protected the claim but ignored the room, and the room is who paid. The fix is not to abandon the talk but to translate it: take your claim and find the version of it that this specific audience is actually dealing with on this specific evening."
+        },
+        {
+          "text": "Take the fee, and convert the brief in writing before you accept: propose a specific claim that fits the theme and their situation, get it confirmed in the contract email, and design a twenty-minute in-room ask aimed at the sales leadership segment specifically.",
+          "outcome": "The talk is on-brand because you made it on-brand, and it is still your claim. The in-room ask converts into eleven conversations with sales leaders, four of which become qualified pipeline, and the organisers have a talk they can use to sell next year's conference.",
+          "rating": "good",
+          "feedback": "This is the right professional move and it is fully executable. Tighten two things: put the in-room ask in the agenda agreed with the host, not in your own final three minutes, and name the single artifact you will send within forty-eight hours before you accept, not after."
+        },
+        {
+          "text": "Do the conversion, and use the fee to buy the asset you would have wanted to build anyway: agree with the organisers that the talk becomes a published piece and a joint webinar series, with their list and their sales leadership segment as the distribution.",
+          "outcome": "You are paid, the talk is on-brand, the room produces pipeline, and a dated published artifact exists that makes the next year's keynote more expensive and more sought after. The engagement becomes a case study for a fee: sixty thousand dollars produced a reusable asset, a list, and a measurable number of conversations.",
+          "rating": "excellent",
+          "feedback": "You have converted a one-off gig into the first turn of the flywheel, and the artefact is the thing that makes the second appearance cheaper and better. The only discipline left is the attribution - you must log which conversations came from which room, or the next renewal of this relationship will be priced on applause again."
+        }
+      ],
+      "coachingNote": "An empty brief is not freedom - it is the absence of a design. The decision is not whether the fee is worth taking; it is whether the engagement has a function, and the function is chosen in writing, with the organiser, before you accept. A keynote with no function is the most expensive way to feel like a speaker."
+    },
+    {
+      "id": "s6",
+      "title": "The co-presentation where you would be the junior partner",
+      "setting": "A practitioner twelve years your senior, well known in your field, proposes that you co-present a forty-five-minute session at a large industry conference. They draft the outline: twenty-five minutes on their framework, twenty minutes from you on 'case studies from the field'. The organiser wants a single client and a joint billing arrangement.",
+      "challenge": "The exposure is good and the client relationship is worth having, but the format makes you the supporting voice inside someone else's argument, in a room you would like to own, in front of a client whose future business you want.",
+      "objectives": [
+        "Assess the arrangement for what it actually builds for the long game, not just for the room",
+        "Preserve your claim and your authorship inside someone else's frame",
+        "Decide whether to accept, renegotiate, or decline, with a reason you can state out loud"
+      ],
+      "options": [
+        {
+          "text": "Accept as proposed. The client relationship and the logo are worth it, and you can make your twenty minutes really good.",
+          "outcome": "Your twenty minutes are excellent and entirely in service of the other person's framework. The client remembers the senior partner, the programme lists you second, and the recording carries their name. You have given away the only asset you own - a position of your own - in exchange for a co-appearance.",
+          "rating": "poor",
+          "feedback": "The slot size is not the issue; the intellectual ownership is. A co-appearance in a subordinate frame produces a credential, not a claim, and a credential is worth roughly what the fee was. Negotiate the frame or do not take the stage."
+        },
+        {
+          "text": "Accept, and quietly spend your twenty minutes on your own claim, treating the session as your talk with a friendly introduction in front of it.",
+          "outcome": "The twenty minutes are the best part of the session and they sit oddly inside someone else's argument. The senior partner notices, the organiser notices, and the mismatch surfaces in Q&A, where you end up answering for a framework you did not build and have not fully internalised.",
+          "rating": "fair",
+          "feedback": "You have protected the content and left the structure hostile, which guarantees an awkward room. The mismatch is not a delivery problem you can fix on the day; it is a design problem that has to be renegotiated in the outline, in writing, before the session is programmed."
+        },
+        {
+          "text": "Propose to split the session - twenty minutes each, each half advancing your own claim, with a shared five-minute synthesis you write together in advance - and make the split explicit in the joint proposal to the organiser.",
+          "outcome": "The room gets two positions rather than a position and a case study, which is a more interesting session and one the organiser can sell. You keep your authorship, you inherit the credibility of a co-stage, and the synthesis gives the senior partner a reason to agree, because their argument is now the frame for yours as well.",
+          "rating": "good",
+          "feedback": "A fair negotiation that leaves value on the table. Before you send it, decide what you would accept instead of a straight split - a different session title, a shared published piece, or a named follow-on engagement - because a proposer with a drafted outline rarely splits evenly without being given a reason."
+        },
+        {
+          "text": "Propose something better for both parties: a session where you make the case and they stress-test it - two positions in genuine disagreement, with the disagreement as the content - and offer to have the argument written up afterwards as a published piece credited to both.",
+          "outcome": "The session becomes the one people remember from the conference, and the published piece is a dated, falsifiable artifact with your name on it, which is the thing the senior partner also wanted and could not produce alone. The arrangement converts a junior slot into a collaboration and establishes you as the person with the sharper claim rather than the person with the smaller slot.",
+          "rating": "excellent",
+          "feedback": "You have reframed a hierarchy problem as a format problem, which is the only place it can be solved. Non-tribal disagreement is explicitly a competency in this module, and a live stress-test on stage is the strongest possible demonstration that you can hold a position under pressure - the artifact is the compounding part."
+        }
+      ],
+      "coachingNote": "The format of a stage decides the hierarchy, and the hierarchy of a joint stage is set before anybody speaks. The right question is not whether the exposure is good; it is what the arrangement makes you in the room where the claim is formed, and whether you can negotiate the terms of that arrangement at all."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "title": "Write your Point of View Statement",
+      "type": "analytical",
+      "durationMinutes": 35,
+      "instructions": "Take a sheet of paper and complete five fields in order, writing full sentences, not fragments. Field one: the audience, named as a role plus a situation - for example 'the head of customer success at a 300-person B2B software company in the quarter after a pricing change'. Field two: the situation, bounded by segment, stage, and timeframe. Field three: the claim, written so that it could be shown to be wrong, in the form 'X is causing Y for Z over the next N quarters', with the mechanism you believe produces it. Field four: the consequence - what the audience should do differently, and what it costs them if they do nothing. Field five: the evidence and its provenance, naming the accounts, metrics, launches, or failures you personally observed. Then write the whole thing as one sentence with the audience and the mechanism embedded, and read it aloud three times. On the third read, strike any clause that another competent person in your field could have written. If you cannot get below forty words, you have written a paragraph, not a claim.",
+      "deliverable": "A one-page sheet with the five fields, the final one-sentence claim, and the list of clauses you struck in the third read.",
+      "successCriteria": [
+        "The claim names a specific role and situation rather than a general audience such as 'leaders' or 'the industry'.",
+        "The claim could be shown to be wrong, and a reasonable person in your field could disagree with it on the mechanism.",
+        "The consequence is operational: a reader can act differently tomorrow because of the sentence.",
+        "The evidence names its source and its provenance - who observed what, in what period, with what number.",
+        "The final sentence is under forty words and every clause in it survived the third read."
+      ],
+      "liveCoachPrompt": "Welcome in. For the next thirty-five minutes you are going to write one sentence that is worth a career, and the sentence has to survive three tests: someone has to disagree with it, someone has to act on it, and you have to be able to defend the evidence behind it. Start with the audience - a role and a situation, not a crowd - and build forward from there. When you have the sentence, read it to me out loud, and I will tell you which parts a competitor could have written."
+    },
+    {
+      "id": "e2",
+      "title": "The one-sentence test",
+      "type": "drill",
+      "durationMinutes": 20,
+      "instructions": "Record yourself saying your Point of View Statement aloud in under twenty seconds, with no preamble - no 'so basically', no 'my view is', no throat-clearing. Do it five times in one recording, taking a different angle each time, and stop the recording between takes to name what changed. Then apply three filters in sequence. Filter one, the swap test: replace your specific claim with a general one of the same shape - 'X is changing fast', 'Y is a better way' - and ask whether the sentence would still be interesting to a stranger. If it would, your version is a topic. Filter two, the peer test: name three people in your field who could credibly make your claim, and mark how many could say it word for word. Any more than one and you have not differentiated. Filter three, the recall test: write down your claim in one sentence, close the paper, and say it back to yourself after a two-minute gap. Anything you cannot reproduce is not yet load-bearing. Rewrite and re-record once.",
+      "deliverable": "One recording containing five versions of the claim, plus a one-page note recording the swap test result, the named peers and how many could copy you, and the sentence you reproduced from memory.",
+      "successCriteria": [
+        "All five takes begin with the claim itself, with no preamble phrase in any of them.",
+        "The general-swap version of your claim is demonstrably less interesting, and you can say why in one sentence.",
+        "You name three named peers and state how many could make the claim word for word - and the number is zero or one.",
+        "You reproduce the sentence from memory after a two-minute gap with no more than two substantive omissions.",
+        "The final recording is a single clean take of the rewritten claim, and it is materially sharper than take one."
+      ],
+      "liveCoachPrompt": "Twenty minutes, and the whole exercise is one sentence tested five ways. You will record five versions, then run three filters: the swap test, the peer test, and the recall test. I will push on one thing only - if your claim sounds like something a peer could say, we will not leave this room until it is something only you can say. Ready - take one, and start with the claim, not with 'so basically'."
+    },
+    {
+      "id": "e3",
+      "title": "The 12-month content flywheel plan",
+      "type": "analytical",
+      "durationMinutes": 45,
+      "instructions": "Build the plan on one page, in five numbered blocks, and do not start writing until you have named the claim being compounded - one claim, in one sentence, taken from your Point of View Statement. Block one, capture: specify the system, not the intention - where the raw material from each talk goes, who or what files it, and within how many hours. Block two, convert: list twelve dated outputs, one written piece per month, each with the single claim it advances and the publication venue. Block three, sharpen: name the two arguments you know you cannot yet support, and say what evidence each one requires. Block four, monetise: choose one monetised expression of the recurring claim - a report, a workshop, a course, an advisory offering - and give its price, its format, and the date you will build it, and be honest if the answer is that you should not build it yet. Block five, feed back: describe how customer outcomes and user questions reach the capture inbox. Finish with a line of numbers: hours per month, and what the twelfth month costs against the first. Then circle every item in the plan you have not actually started.",
+      "deliverable": "A one-page twelve-month plan with the five blocks, twelve dated outputs, one price, and the hours-per-month figure for months one and twelve.",
+      "successCriteria": [
+        "The plan is built around one named claim, and every dated output advances that claim rather than a topic list.",
+        "The capture block names a system with a location, a trigger, and a time limit - not an intention to keep notes.",
+        "The twelve outputs are dated and each has the single claim it advances written next to it.",
+        "The monetise block gives a price and a build date, or states explicitly that building it now would be premature, with the reason.",
+        "The sharpen block names the two arguments you cannot yet support and the evidence each one requires, and the hours-per-month figure for month twelve is lower than for month one - or you have named the specific reason it cannot be."
+      ],
+      "liveCoachPrompt": "Forty-five minutes to build the machine, and a machine means all five stages or it is not a machine. Most people arrive with a stage one - the talk - and a stage five they call content. We are going to name the capture system, the twelve dated pieces, the two arguments you cannot yet support, the one thing you will charge money for, and how the customer comes back in. If you cannot fill a stage, say so out loud and we will work out which stage is missing and what it costs you."
+    },
+    {
+      "id": "e4",
+      "title": "Recorded 3-minute opinion piece",
+      "type": "recorded",
+      "durationMinutes": 30,
+      "instructions": "Record a three-minute opinion piece on video, alone, to camera, with your Point of View Statement as the spine. Do not read from a script - write the argument as five bullet points on one page and speak from those. Structure the three minutes deliberately: a claim in the first fifteen seconds that a listener could disagree with; the evidence, including one specific number and where it came from; the strongest version of the opposing case stated fairly and in your own words; your response to it; and a close that tells the listener exactly what to do differently. Keep it under three minutes - if you reach three minutes ten seconds, cut a section, not the pace. Then watch the recording once with sound and once without it, and write down three things: the timestamp of the slowest twenty seconds, whether your face contradicts your claim at any point, and whether the opposing case sounded like a straw man when you said it out loud. Record one final take with those three corrections.",
+      "deliverable": "A final three-minute video recording, plus a one-page note with the slow-section timestamp, the facial contradiction check, and the straw-man verdict.",
+      "successCriteria": [
+        "The first fifteen seconds contain a claim that a knowledgeable listener could disagree with, not a warm-up or a credential.",
+        "At least one specific number is spoken, with its source stated aloud.",
+        "The opposing case is stated in a form the opponent would recognise, and you say who is right about what.",
+        "The close names a specific action the listener should take, not a summary of what you just said.",
+        "The note identifies the slowest twenty seconds by timestamp, the final take is visibly faster and tighter there, and the final take is under three minutes and was spoken without a script."
+      ],
+      "liveCoachPrompt": "Thirty minutes, and I want one take that is not scripted and one that is better. Your claim goes in the first fifteen seconds, your number goes in the middle, and the strongest version of the other side's argument goes in before your rebuttal - if the opposing case sounds unfair, the whole piece collapses. Record it, watch it once with the sound off, and tell me where it slows down. Then we do one more take."
+    },
+    {
+      "id": "e5",
+      "title": "The position statement you will regret",
+      "type": "realWorld",
+      "durationMinutes": 40,
+      "instructions": "Choose a real, live, contested question in your field - one where people you respect genuinely disagree - and commit to a public position on it. Do the first draft in writing and run it through both gates: the time gate, asking whether you will still hold it in three years and what evidence would make you drop it, and the honesty gate, asking whether the people who would bear the cost would recognise that you represented the trade-off accurately. If either gate fails, revise until it passes - that revision is the exercise, and it is not a failure. Then publish the position for real: a company blog, a trade publication letter, a public post, or a recorded two-minute take in an industry group that actually contains people who disagree. Do not soften it in the edit, and do not hide behind vagueness. Mark the publication date. Then do two things over the following week: reply to every substantive objection with the same register you used in the statement, and log each response in a column with the date, the person, and what you learned. Separately, run the Regret-Minimization Test on the position you nearly took but did not, and write down the specific sentence that stopped you.",
+      "deliverable": "A published position with its URL and date, a log of substantive responses over seven days, and a one-paragraph note on the position you rejected and the sentence that stopped you.",
+      "successCriteria": [
+        "The published position passed both gates in writing before publication, and the written version names the cost-bearers.",
+        "The position was published in a real venue where people who disagree with you could actually see it, with a date.",
+        "You responded to at least five substantive objections within seven days, without escalating the register.",
+        "You have logged the responses and identified at least one point on which the responses have genuinely changed your confidence in some part of the claim.",
+        "The rejected position is documented with the specific sentence that failed the test, and that failure was a real reason rather than a convenient one."
+      ],
+      "liveCoachPrompt": "This one is real, so I want you to know what you are signing up for: a public position, in a venue where people who disagree with you will see it, with your name and the date on it. That is the point - the reputational cost is the exercise, and the way to survive it is the two gates before you publish, not damage control after. Write the position, run the test on the page, and tell me what it costs and who bears it. If the answer is vague, we keep working on the draft."
+    },
+    {
+      "id": "e6",
+      "title": "Portfolio audit: build the next quarter and decline one",
+      "type": "realWorld",
+      "durationMinutes": 45,
+      "instructions": "Use your real calendar. First, list every speaking engagement you have already accepted, plus every live invitation in front of you, with date, audience size, fee, and what the audience is. Second, audit the last four completed engagements: for each one, name what it left behind - an artifact, a relationship, a strengthened claim, or a precedent - and mark any that left nothing, because that is your transaction baseline. Third, build the next quarter on one page: for each engagement assign one function from reach, depth, trust, pipeline, evidence, or learning, and name the asset it produces with the date it will exist. Fourth, count the mix and state the percentage that is reach. Fifth, pick the one high-prestige engagement that does not serve the claim, and decline it in writing today, with a one-sentence reason and an alternative you are offering. Sixth, for one engagement you are keeping, write the forty-eight-hour artifact you will send and the in-room ask, and send the artifact to one real contact from the last event you attended.",
+      "deliverable": "A one-page quarterly portfolio with a function and a named asset per engagement, a written decline sent to a real organiser, and one real artifact sent to a real contact.",
+      "successCriteria": [
+        "The audit of your last four engagements names what each left behind, and identifies at least one that left nothing.",
+        "Every engagement in the new quarter has exactly one named function and one named asset with a date.",
+        "You have stated the reach percentage of the quarter and said whether it is a portfolio failure.",
+        "A decline has actually been sent, in writing, with a reason and an alternative.",
+        "A forty-eight-hour artifact has been sent to a real contact, and it is the argument rather than the slide deck."
+      ],
+      "liveCoachPrompt": "Forty-five minutes with your actual calendar open - no hypothetical versions. I want the audit of your last four talks first, because that is the number that tells you what you are actually building, and most people cannot name what they left behind. Then we build the next quarter, one function per engagement, and you will decline one invitation before this session ends. Start by opening the calendar and reading me the first four engagements you have already accepted."
+    },
+    {
+      "id": "e7",
+      "title": "The five-minute talk to your own team",
+      "type": "recorded",
+      "durationMinutes": 30,
+      "instructions": "Deliver a five-minute talk to a real team in your company - a leadership team, a product team, a customer-facing group, whichever you actually lead - and record it. Use your Point of View Statement as the spine, translated into their terms, and structure the five minutes: one claim about the situation they are in; one specific number you gathered yourself; the strongest version of the objection you expect to hear from that team, stated fairly; your response; and one thing you want them to do differently this quarter. Before you deliver it, write down the single specific decision you made that contributed to your current situation, and be prepared to say it out loud. Deliver it live, from bullet points, not from a script. Afterwards, send the same three-minute core as a written follow-up within forty-eight hours, and record the two questions your team asked you afterwards and the answers you gave.",
+      "deliverable": "A recording of the five-minute live talk, a written follow-up sent within forty-eight hours, and a note listing the two questions you were asked and how you answered them.",
+      "successCriteria": [
+        "The talk is delivered live to a real group from bullet points, and the recording is five minutes or less.",
+        "It contains one specific number you gathered yourself, and one decision you made that you named as your own.",
+        "The objection from that team is stated in a form the team would recognise, and your answer is substantive rather than reassuring.",
+        "The close names one action for the team to take this quarter, and it is theirs to take rather than the company's.",
+        "The written follow-up was sent within forty-eight hours and states the argument rather than a summary of the slides, and you can name the two questions you were asked and how you answered them without deflecting either one."
+      ],
+      "liveCoachPrompt": "This is the hardest room you will ever speak in, because these are the only people who know the facts, and they will detect a polished version immediately. Five minutes, one claim, one number, and the objection you expect to hear from that team - said fairly, before they can say it for you. Deliver it live, from bullets, and be ready to name the decision that was yours. When you have the recording, tell me which question in the hallway was the one that actually mattered."
+    }
+  ],
   "assessment": {
     "id": "a12",
     "title": "The positioning and portfolio defence",
@@ -248,12 +802,36 @@
     "passMark": 70
   },
   "readingList": [
-    { "title": "The Long Game", "author": "Dorie Clark", "why": "The five-year vision and five-year strategy distinction that underwrites the whole module, plus the argument that short-term optimisation routinely defeats long-term compounding. Pairs directly with the compounding asset concept in c1 and the assessment's long-horizon dimension." },
-    { "title": "Superfans", "author": "Dorie Clark", "why": "The most practical treatment of building a committed audience around a specific point of view rather than a broad one - the demand-side companion to the content flywheel. Pairs with c2, c3, and the point of view statement framework." },
-    { "title": "Give and Take", "author": "Adam Grant", "why": "The evidence that givers outperform and the mechanism of relational capital that makes reputation compound. Also the sharpest warning in the book: unscoped giving is exploitable, which is the failure mode of the well-meaning mentor. Pairs with c1, c4, and the mentoring material in c8." },
-    { "title": "Getting Real About Thought Leadership", "author": "Noah Fisher and Ryan Thomas (McKinsey Quarterly)", "why": "The distinction between an expert who knows a domain and a thought leader who generates new insights others can use, with the practical implication that the artefact trail matters more than the speaking calendar. Pairs with c4 on building a body of work." },
-    { "title": "Thinking in Bets", "author": "Annie Duke", "why": "Calibration, probabilistic reasoning, and the discipline of separating a decision's quality from its outcome - the technical grounding for taking a public position and for revising one in public. Pairs with c7 and the Regret-Minimization Test." },
-    { "title": "The Nature of Organizational Reputation", "author": "Anne Green and John Brock, in The Oxford Handbook of Corporate Reputation (2014)", "why": "The clearest academic treatment of reputation as a collective, conferred perception rather than a self-declared attribute - and the basis for separating professional reputation from personal brand. Pairs with c8 and the reputation ledger." }
+    {
+      "title": "The Long Game",
+      "author": "Dorie Clark",
+      "why": "The five-year vision and five-year strategy distinction that underwrites the whole module, plus the argument that short-term optimisation routinely defeats long-term compounding. Pairs directly with the compounding asset concept in c1 and the assessment's long-horizon dimension."
+    },
+    {
+      "title": "Superfans",
+      "author": "Dorie Clark",
+      "why": "The most practical treatment of building a committed audience around a specific point of view rather than a broad one - the demand-side companion to the content flywheel. Pairs with c2, c3, and the point of view statement framework."
+    },
+    {
+      "title": "Give and Take",
+      "author": "Adam Grant",
+      "why": "The evidence that givers outperform and the mechanism of relational capital that makes reputation compound. Also the sharpest warning in the book: unscoped giving is exploitable, which is the failure mode of the well-meaning mentor. Pairs with c1, c4, and the mentoring material in c8."
+    },
+    {
+      "title": "Getting Real About Thought Leadership",
+      "author": "Noah Fisher and Ryan Thomas (McKinsey Quarterly)",
+      "why": "The distinction between an expert who knows a domain and a thought leader who generates new insights others can use, with the practical implication that the artefact trail matters more than the speaking calendar. Pairs with c4 on building a body of work."
+    },
+    {
+      "title": "Thinking in Bets",
+      "author": "Annie Duke",
+      "why": "Calibration, probabilistic reasoning, and the discipline of separating a decision's quality from its outcome - the technical grounding for taking a public position and for revising one in public. Pairs with c7 and the Regret-Minimization Test."
+    },
+    {
+      "title": "The Nature of Organizational Reputation",
+      "author": "Anne Green and John Brock, in The Oxford Handbook of Corporate Reputation (2014)",
+      "why": "The clearest academic treatment of reputation as a collective, conferred perception rather than a self-declared attribute - and the basis for separating professional reputation from personal brand. Pairs with c8 and the reputation ledger."
+    }
   ],
   "masteryChecklist": [
     "I can state my point of view in one sentence, name the specific audience it is for, and pass the only-you test - three peers in my field could not make the same claim.",

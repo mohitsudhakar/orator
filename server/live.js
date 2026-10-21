@@ -74,6 +74,24 @@ export const VOICES = ['Puck', 'Charon', 'Kore', 'Aoede', 'Fenrir', 'Leda', 'Oru
 export const DEFAULT_VOICE = 'Puck';
 
 /**
+ * Candidate live models, in preference order.
+ *
+ * Verified on this account (2026-10-21) by probing every plausible name:
+ * `gemini-3.1-flash-live-preview` is the ONLY live-capable model. Names like
+ * `gemini-3.8-flash-live` do not exist - `models.list` does not surface live
+ * models at all, and connecting to a non-existent live model HANGS rather than
+ * rejecting, so the only way to discover one is to try it with a timeout.
+ *
+ * If a newer live model ships, set ORATOR_LIVE_MODEL and it is used instead.
+ * The rest of this list is a safety net for that switchover.
+ */
+export const LIVE_FALLBACKS = [
+  'gemini-3.1-flash-live-preview',
+  'gemini-3.1-flash-lite-live-preview',
+  'gemini-2.5-flash-native-audio-preview',
+];
+
+/**
  * Attach the live coach to an HTTP server.
  * @param {import('http').Server} server
  */
@@ -130,46 +148,70 @@ export function attachLiveCoach(server, { path = '/live' } = {}) {
           const voice = msg.voice || DEFAULT_VOICE;
           config.speechConfig = { voiceConfig: { prebuiltVoiceConfig: { voiceName: voice } } };
 
-          session = await ai.live.connect({
-            model: MODELS.live,
-            config,
-            callbacks: {
-              onopen: () => send({ type: 'ready' }),
-              onerror: (e) => {
-                const detail = e?.error?.message || e?.message || 'live session error';
-                send({ type: 'error', message: String(detail).slice(0, 300) });
-              },
-              onclose: () => {
-                // A close before the session was ever established is a config
-                // rejection, not a normal end. Tell the client explicitly.
-                if (!established) send({ type: 'error', message: 'Live session closed during setup - the model rejected the session configuration.' });
-                else send({ type: 'closed' });
-              },
-              onmessage: (m) => {
-                const sc = m.serverContent;
-                if (m.setupComplete) { established = true; send({ type: 'ready' }); }
-                if (!sc) return;
+          // Try the configured model first, then the known fallbacks. A
+          // non-existent live model hangs rather than rejecting, so each
+          // attempt is bounded.
+          const candidates = [MODELS.live, ...LIVE_FALLBACKS].filter((v, i, a) => a.indexOf(v) === i);
+          let connected = false;
+          let lastError = null;
+          for (const model of candidates) {
+            const attempt = await Promise.race([
+              ai.live.connect({
+                model,
+                config,
+                callbacks: {
+                  onopen: () => {},
+                  onerror: (e) => {
+                    const detail = e?.error?.message || e?.message || 'live session error';
+                    send({ type: 'error', message: String(detail).slice(0, 300) });
+                  },
+                  onclose: () => {
+                    // A close before the session was ever established is a config
+                    // rejection, not a normal end. Tell the client explicitly.
+                    if (!established) send({ type: 'error', message: 'Live session closed during setup - the model rejected the session configuration.' });
+                    else send({ type: 'closed' });
+                  },
+                  onmessage: (m) => {
+                    const sc = m.serverContent;
+                    if (m.setupComplete) { established = true; send({ type: 'ready' }); }
+                    if (!sc) return;
 
-                // model audio out
-                const parts = sc.modelTurn?.parts || [];
-                for (const p of parts) {
-                  if (p.inlineData?.data) {
-                    send({ type: 'audio', pcm: p.inlineData.data, mimeType: p.inlineData.mimeType || 'audio/pcm;rate=16000' });
-                  }
-                }
-                if (sc.outputTranscription?.text) {
-                  send({ type: 'transcript', role: 'coach', text: sc.outputTranscription.text, final: !!sc.turnComplete });
-                }
-                if (sc.inputTranscription?.text) {
-                  send({ type: 'transcript', role: 'user', text: sc.inputTranscription.text, final: !!sc.turnComplete });
-                }
-                if (sc.turnComplete) send({ type: 'turnComplete' });
-                if (sc.interrupted) send({ type: 'interrupted' });
-              },
-            },
-          });
+                    // model audio out
+                    const parts = sc.modelTurn?.parts || [];
+                    for (const p of parts) {
+                      if (p.inlineData?.data) {
+                        send({ type: 'audio', pcm: p.inlineData.data, mimeType: p.inlineData.mimeType || 'audio/pcm;rate=16000' });
+                      }
+                    }
+                    if (sc.outputTranscription?.text) {
+                      send({ type: 'transcript', role: 'coach', text: sc.outputTranscription.text, final: !!sc.turnComplete });
+                    }
+                    if (sc.inputTranscription?.text) {
+                      send({ type: 'transcript', role: 'user', text: sc.inputTranscription.text, final: !!sc.turnComplete });
+                    }
+                    if (sc.turnComplete) send({ type: 'turnComplete' });
+                    if (sc.interrupted) send({ type: 'interrupted' });
+                  },
+                },
+              }),
+              // A non-existent live model HANGS rather than rejecting, so bound
+              // every attempt.
+              new Promise((_, reject) => setTimeout(() => reject(new Error('connect timeout')), 15000)),
+            ]).catch((e) => { lastError = e; return null; });
 
-          send({ type: 'connected', model: MODELS.live });
+            if (attempt) {
+              session = attempt;
+              connected = true;
+              send({ type: 'connected', model });
+              break;
+            }
+            try { attempt?.close(); } catch { /* noop */ }
+          }
+
+          if (!connected) {
+            send({ type: 'error', message: `Could not open a live session on any candidate model. ${String(lastError?.message || '').slice(0, 160)}` });
+            return;
+          }
 
           // If the model never completes setup, surface it instead of hanging.
           const setupTimer = setTimeout(() => {

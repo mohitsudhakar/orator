@@ -16,21 +16,62 @@
     "Apply the Hybrid Equity Protocol to redesign a mixed room so that remote participants are equal in airtime and legibility, and distinguish structural fixes from cosmetic ones."
   ],
   "keyTerms": [
-    { "term": "Shared Space", "definition": "The physical co-presence that lets a group see the same object, face, or slide at the same time and coordinate gaze automatically; video removes it." },
-    { "term": "Peripheral Awareness", "definition": "The ambient, low-resolution social information a person reads in a room without aiming at it, which carries most of the emotional signal in live meetings." },
-    { "term": "Camera as Sole Audience", "definition": "The condition in which the lens is the only place a speaker can direct gaze, replacing the distributed attention of a physical room." },
-    { "term": "Frame Grid", "definition": "A composition discipline for a rectangular video frame, built from eye line on the upper third, controlled headroom, and consistent framing distance." },
-    { "term": "Headroom", "definition": "The vertical space left above the speaker's head in frame; too much reads as floating or as a bad crop, too little reads as cramped." },
-    { "term": "Eye Line", "definition": "The horizontal position of the speaker's eyes in frame, conventionally on the upper third line, which determines whether a shot reads as composed or as a webcam." },
-    { "term": "Lens Gaze", "definition": "Looking into the camera as a substitute for looking at an audience, and the deliberate signal it sends to every viewer simultaneously." },
-    { "term": "Audio-First Rule", "definition": "The principle that intelligible, undistorted sound outranks every visual upgrade, because audio carries the meaning and video only carries polish." },
-    { "term": "Social Presence", "definition": "The felt psychological and real-world connection a viewer believes they have with another person, which research finds is only partly transmitted through a video channel." },
-    { "term": "Turn-Taking Latency", "definition": "The round-trip delay between one speaker's audio reaching another participant, which in conversation displaces the timing cues that normally prevent overlap." },
-    { "term": "Response Collision", "definition": "The failure mode in which two participants waiting through the same latency gap both start to answer the same question, because neither could hear the other begin." },
-    { "term": "Reaction Gap", "definition": "The interval between a speaker's point and the room's visible response, which in a grid arrives late and out of order relative to the point it responds to." },
-    { "term": "Hybrid Equity", "definition": "The condition in which remote participants receive comparable airtime, legibility, and conversational priority to those physically present." },
-    { "term": "Backchannel", "definition": "Small, continuous signals - a nod, a mm, a posture shift - that tell a speaker the room is still with them; these are the first casualty of video." },
-    { "term": "Media Richness", "definition": "Daft and Lengel's account of how much information a medium can carry to resolve ambiguity, and why video is richer than email but still poorer than a shared room." }
+    {
+      "term": "Shared Space",
+      "definition": "The physical co-presence that lets a group see the same object, face, or slide at the same time and coordinate gaze automatically; video removes it."
+    },
+    {
+      "term": "Peripheral Awareness",
+      "definition": "The ambient, low-resolution social information a person reads in a room without aiming at it, which carries most of the emotional signal in live meetings."
+    },
+    {
+      "term": "Camera as Sole Audience",
+      "definition": "The condition in which the lens is the only place a speaker can direct gaze, replacing the distributed attention of a physical room."
+    },
+    {
+      "term": "Frame Grid",
+      "definition": "A composition discipline for a rectangular video frame, built from eye line on the upper third, controlled headroom, and consistent framing distance."
+    },
+    {
+      "term": "Headroom",
+      "definition": "The vertical space left above the speaker's head in frame; too much reads as floating or as a bad crop, too little reads as cramped."
+    },
+    {
+      "term": "Eye Line",
+      "definition": "The horizontal position of the speaker's eyes in frame, conventionally on the upper third line, which determines whether a shot reads as composed or as a webcam."
+    },
+    {
+      "term": "Lens Gaze",
+      "definition": "Looking into the camera as a substitute for looking at an audience, and the deliberate signal it sends to every viewer simultaneously."
+    },
+    {
+      "term": "Audio-First Rule",
+      "definition": "The principle that intelligible, undistorted sound outranks every visual upgrade, because audio carries the meaning and video only carries polish."
+    },
+    {
+      "term": "Social Presence",
+      "definition": "The felt psychological and real-world connection a viewer believes they have with another person, which research finds is only partly transmitted through a video channel."
+    },
+    {
+      "term": "Turn-Taking Latency",
+      "definition": "The round-trip delay between one speaker's audio reaching another participant, which in conversation displaces the timing cues that normally prevent overlap."
+    },
+    {
+      "term": "Response Collision",
+      "definition": "The failure mode in which two participants waiting through the same latency gap both start to answer the same question, because neither could hear the other begin."
+    },
+    {
+      "term": "Reaction Gap",
+      "definition": "The interval between a speaker's point and the room's visible response, which in a grid arrives late and out of order relative to the point it responds to."
+    },
+    {
+      "term": "Hybrid Equity",
+      "definition": "The condition in which remote participants receive comparable airtime, legibility, and conversational priority to those physically present."
+    },
+    {
+      "term": "Backchannel",
+      "definition": "Small, continuous signals - a nod, a mm, a posture shift - that tell a speaker the room is still with them; these are the first casualty of video."
+    }
   ],
   "concepts": [
     {
@@ -46,10 +87,22 @@
         "Do not try to simulate a live room on video. Build a talk that is native to the medium rather than a live talk compressed into a rectangle."
       ],
       "pitfalls": [
-        { "failure": "Delivering a live-room talk unchanged - long unbroken blocks, side glances at the room, an anecdote that depends on a shared reference point.", "fix": "Rewrite the talk in short blocks with a stated signpost at the top of each one, and strip every joke or reference that needs a shared physical referent." },
-        { "failure": "Reading the grid as a room, and treating the number of tiles as evidence that the audience is present and attentive.", "fix": "Count engagement in the ways video actually produces them: camera-on rate, chat traffic, question volume, and the behaviour you can deliberately prompt." },
-        { "failure": "Assuming the technical setup is somebody else's problem because the invitation came from IT.", "fix": "Own the pre-flight. The failure modes of audio, light, and framing are presentational decisions, and they are the difference between a competent talk and an amateur one." },
-        { "failure": "Concluding that because video is less rich than a room, the medium is inherently weaker and therefore a lesser way to deliver important news.", "fix": "Richness is a constraint, not a verdict. Video carries a different subset of cues very well - notably for bad news, where a face and a name do more work than a room full of reactions." }
+        {
+          "failure": "Delivering a live-room talk unchanged - long unbroken blocks, side glances at the room, an anecdote that depends on a shared reference point.",
+          "fix": "Rewrite the talk in short blocks with a stated signpost at the top of each one, and strip every joke or reference that needs a shared physical referent."
+        },
+        {
+          "failure": "Reading the grid as a room, and treating the number of tiles as evidence that the audience is present and attentive.",
+          "fix": "Count engagement in the ways video actually produces them: camera-on rate, chat traffic, question volume, and the behaviour you can deliberately prompt."
+        },
+        {
+          "failure": "Assuming the technical setup is somebody else's problem because the invitation came from IT.",
+          "fix": "Own the pre-flight. The failure modes of audio, light, and framing are presentational decisions, and they are the difference between a competent talk and an amateur one."
+        },
+        {
+          "failure": "Concluding that because video is less rich than a room, the medium is inherently weaker and therefore a lesser way to deliver important news.",
+          "fix": "Richness is a constraint, not a verdict. Video carries a different subset of cues very well - notably for bad news, where a face and a name do more work than a room full of reactions."
+        }
       ],
       "imagePrompt": "A clean instructional diagram illustrating the three losses of video communication - shared space, peripheral awareness, and the camera as sole audience - flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -57,7 +110,7 @@
       "id": "c2",
       "title": "The Frame Grid: Composition for a Rectangle",
       "summary": "A camera frame is a composed shot, and composition is a set of repeatable decisions: where the eyes sit, how much headroom there is, how large the face is, and where the light comes from. Get these four right and you look prepared; get them wrong and no amount of content will fix the impression.",
-      "detail": "A laptop camera is not a cinematographer. It is a fixed rectangle, roughly a 1.3-metre viewer at best, and it is unforgiving about geometry. The Frame Grid is the discipline of placing yourself inside that rectangle deliberately.\n\n**Eye line.** Put your eyes on the upper horizontal third of the frame. Dead centre reads as a webcam still; the upper third reads as a composed shot and, crucially, leaves the lower third of the frame for your hands and whatever you gesture with. A frame with your face centred and your gestures below the edge throws away half your expressiveness.\n\n**Headroom.** Leave a small, consistent band above your head - roughly the height of your own forehead to the top of the frame is the visual convention for a two-shot; less and you look cramped, and much more and you look like you are sinking. The most common failure is not too much headroom but too little, and the second most common is headroom that changes when you lean forward.\n\n**Distance and crop.** Frame from mid-chest up. That gives you head, shoulders, and hands, and hands matter - gesturing is how a camera-less remote audience reads your emphasis. A tight head-and-shoulders crop is fine for a one-to-one call and wrong for a presentation, because it removes the only body language you have left.\n\n**Camera height and angle.** The single most common unflattering mistake is the laptop at desk level, which looks up at you and gives the audience your nostrils, your chin, and the underside of your eyebrows. Raise the laptop on a stack of books until the lens is at or just above eye level, and you have changed the shot for free.\n\n**The lens-gaze rule and when to break it.** Look into the lens when you are speaking to the audience as a whole - to the room, to the board, to the thousand people watching the stream. It is the only look that reaches every tile at once, and it is the visual signature of presence on camera. Break it deliberately, in four specific cases: when you address a named person, look at their tile; when you are reading a number off your own screen, glance down and back (a brief downward glance reads as natural, a sustained one reads as disengaged); when you are demonstrating something, turn your head to the object so the audience sees you pointing rather than your face at rest; and when the moment is human rather than executive, because a moment of looking away from the lens is often what makes a video land.\n\nThe rule is not look at the lens always. It is: the lens is your default, and every break is a signal - so decide what each break means before you make it.",
+      "detail": "A laptop camera is not a cinematographer. It is a fixed rectangle, roughly a 1.3-metre viewer at best, and it is unforgiving about geometry. The Frame Grid is the discipline of placing yourself inside that rectangle deliberately.\n\n**Eye line.** Put your eyes on the upper horizontal third of the frame. Dead centre reads as a webcam still; the upper third reads as a composed shot and, crucially, leaves the lower third of the frame for your hands and whatever you gesture with. A frame with your face centred and your gestures below the edge throws away half your expressiveness.\n\n**Headroom.** Leave a small, consistent band above your head - roughly the height of your own forehead to the top of the frame. Less and you look cramped; much more and you look like you are sinking. The most common failure is not too much headroom but too little, and the second most common is headroom that changes when you lean forward.\n\n**Distance and crop.** Frame from mid-chest up. That gives you head, shoulders, and hands, and hands matter - gesturing is how a camera-less remote audience reads your emphasis. A tight head-and-shoulders crop is fine for a one-to-one call and wrong for a presentation, because it removes the only body language you have left.\n\n**Camera height and angle.** The most common unflattering mistake is the laptop at desk level, which looks up at you and gives the audience your nostrils, your chin, and the underside of your eyebrows. Raise the laptop until the lens is at or just above eye level and you have changed the shot for free.\n\n**The lens-gaze rule and when to break it.** Look into the lens when you are speaking to the audience as a whole - to the room, to the board, to the thousand people watching the stream. It is the only look that reaches every tile at once, and it is the visual signature of presence on camera. Break it deliberately, in four cases: when you address a named person, look at their tile; when you read a number off your own screen, glance down and back, because a brief downward glance reads as natural and a sustained one reads as disengaged; when you demonstrate something, turn your head to the object so the audience sees you pointing rather than your face at rest; and when the moment is human rather than executive, because a moment of looking away from the lens is often what makes a video land.\n\nThe rule is not look at the lens always. It is: the lens is your default, and every break is a signal - so decide what each break means before you make it.",
       "principles": [
         "Place your eyes on the upper third of the frame and frame from mid-chest up, so gestures stay inside the rectangle.",
         "Put the camera at or just above eye level; the cost of a stack of books is trivial and the change in the shot is immediate.",
@@ -66,10 +119,22 @@
         "Rehearse the framing, not just the words - a correct frame read as a professional setup before you say anything."
       ],
       "pitfalls": [
-        { "failure": "Framing head-and-shoulders tight for a presentation, which removes your hands and your only remaining body language.", "fix": "Move back. Mid-chest up, hands visible, and a second person off-camera to confirm that the frame is right before you go live." },
-        { "failure": "Using a laptop camera at desk height and then blaming the platform for how you look.", "fix": "Raise the camera first. If you need a real fix, an inexpensive external camera and a small tripod solve the problem for less than the cost of a single poor impression." },
-        { "failure": "Looking at the shared screen while speaking, so the audience watches you stare sideways at a wall.", "fix": "If you must look at shared content, turn your head and shoulder toward it so the audience still sees a speaking profile, and narrate what you are pointing at." },
-        { "failure": "Staring into the lens for forty minutes with no variation, which reads as unnerving rather than as present.", "fix": "Vary the shot with intent: lens for the room, tile for a named person, a glance down for a number, a turn toward the screen for a demonstration. Constant gaze is a tic." }
+        {
+          "failure": "Framing head-and-shoulders tight for a presentation, which removes your hands and your only remaining body language.",
+          "fix": "Move back. Mid-chest up, hands visible, and a second person off-camera to confirm that the frame is right before you go live."
+        },
+        {
+          "failure": "Using a laptop camera at desk height and then blaming the platform for how you look.",
+          "fix": "Raise the camera first. If you need a real fix, an inexpensive external camera and a small tripod solve the problem for less than the cost of a single poor impression."
+        },
+        {
+          "failure": "Looking at the shared screen while speaking, so the audience watches you stare sideways at a wall.",
+          "fix": "If you must look at shared content, turn your head and shoulder toward it so the audience still sees a speaking profile, and narrate what you are pointing at."
+        },
+        {
+          "failure": "Staring into the lens for forty minutes with no variation, which reads as unnerving rather than as present.",
+          "fix": "Vary the shot with intent: lens for the room, tile for a named person, a glance down for a number, a turn toward the screen for a demonstration. Constant gaze is a tic."
+        }
       ],
       "imagePrompt": "A clean instructional diagram illustrating a camera frame divided by the rule of thirds with eye line, headroom, and crop distance marked, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -77,7 +142,7 @@
       "id": "c3",
       "title": "The Audio-First Rule: An Honest Fidelity Hierarchy",
       "summary": "There is a real hierarchy of production quality, and it is not the one people assume. Audio intelligibility outranks everything. Then light. Then framing. Then background. Then resolution. If you can only fix one thing, fix the audio - and be able to say why out loud.",
-      "detail": "Audio carries the content. Video carries the polish. That is the whole of the Audio-First Rule, and most people get the order wrong because the failures are asymmetric: a bad picture is embarrassing, a bad sound is incomprehensible, and an audience forgives the first far more readily than the second.\n\n**Audio, first.** Get the microphone six to eight inches from your mouth, below your chin and slightly off-axis. Sound level falls off with distance, so a laptop microphone across a desk is dramatically worse than a cheap headset mic at your collar. Use a wired headset rather than Bluetooth: Bluetooth headsets add their own latency and, in their phone mode, visibly degrade the signal, and you have just introduced the exact problem this module is about. Kill feedback before it starts by muting when you are not speaking and by keeping the mic away from speakers. Check for room reverb, a fan, a hard glass wall, and a colleague in the next bay. Then test with a second human being on the far end, not with a playback file - you cannot hear your own delay.\n\n**Light, second.** The light source should be in front of you, roughly 45 degrees off-axis and a little above eye level. A window behind you produces a silhouette that makes your face unreadable; a lamp above you produces the shadow-under-the-eyes look. A ring light is a legitimate fast fix for a single meeting, though it flattens the face and looks like a video call, which is exactly what it is.\n\n**Framing, third.** Covered separately, but ranked here because good framing cannot rescue unintelligible audio and, more importantly, a well-composed shot in bad light is still a bad shot.\n\n**Background, fourth.** Put something four to six feet behind you: a wall, a shelf, depth. Backgrounds carry status signals, so choose deliberately rather than by default - a bookshelf and a plant read as controlled, a laundry pile and a doorway read as an interruption waiting to happen. Virtual backgrounds are a real solution for a controlled space and a real problem for a moving one: edge detection cuts hair and glasses and can make you look pasted onto a wall.\n\n**Resolution, last.** For talking heads, 720p is entirely adequate. 1080p earns its place mainly when your face is small on a large screen, and it costs bandwidth - so a stable 720p call is strictly better than an unstable 1080p one. Network stability outranks resolution, and so does a good microphone outranks a good camera.\n\n**Background and network, honestly.** Richard Gunter's research on media multitasking and attentional capture explains the other failure mode of a live call: a second activity - a phone, a second screen, another meeting - degrades comprehension of the primary one. If your audience is checking Slack while you speak, you are not losing them to your video; you are losing them to a design that made checking Slack free.",
+      "detail": "Audio carries the content. Video carries the polish. That is the whole of the Audio-First Rule, and most people get the order wrong because the failures are asymmetric: a bad picture is embarrassing, a bad sound is incomprehensible, and an audience forgives the first far more readily than the second.\n\n**Audio, first.** Get the microphone six to eight inches from your mouth, below your chin and slightly off-axis. A laptop microphone across a desk is dramatically worse than a cheap headset mic at your collar. Use a wired headset rather than Bluetooth: Bluetooth adds latency and, in its phone mode, visibly degrades the signal - you would be introducing the exact problem this module is about. Kill feedback before it starts by muting when you are not speaking and keeping the mic away from speakers. Check for room reverb, a fan, a hard glass wall, a colleague in the next bay. Then test with a second human being at the far end, not with a playback file - you cannot hear your own delay.\n\n**Light, second.** The source should be in front of you, roughly 45 degrees off-axis and a little above eye level. A window behind you produces a silhouette that makes your face unreadable; a lamp above you produces the shadow-under-the-eyes look. A ring light is a legitimate fast fix, though it flattens the face and looks like a video call, which is exactly what it is.\n\n**Framing, third.** Covered separately, but ranked here because a well-composed shot in bad light is still a bad shot.\n\n**Background, fourth.** Put something four to six feet behind you - a wall, a shelf, depth. Backgrounds carry status signals: a bookshelf and a plant read as controlled, a laundry pile and a doorway read as an interruption waiting to happen. Virtual backgrounds are a real solution in a controlled space and a real problem in a moving one, where edge detection cuts hair and glasses.\n\n**Resolution, last.** For talking heads, 720p is entirely adequate. 1080p earns its place mainly when your face is small on a large screen, and it costs bandwidth - so a stable 720p call is strictly better than an unstable 1080p one. Network stability outranks resolution, and a good microphone outranks a good camera.\n\n**And the other failure mode.** Richard Gunter's research on media multitasking and attentional capture explains why a live call also loses people to a second activity - a phone, a second screen, another meeting. If your audience is checking Slack while you speak, you are not losing them to your video; you are losing them to a design that made checking Slack free.",
       "principles": [
         "Fix the audio before the video, every time, and say why when you are tempted to spend the budget on a camera.",
         "Six to eight inches from the mouth, wired if possible, and always test with a live person on the other end.",
@@ -86,10 +151,22 @@
         "Prefer a stable 720p call to an unstable 1080p one, and cut every other application running during a high-stakes call."
       ],
       "pitfalls": [
-        { "failure": "Buying a better camera before checking whether the microphone is a laptop microphone two feet from your mouth.", "fix": "Run a one-minute audio test on the actual platform. If a colleague can hear you clearly in a quiet room, your camera is now the highest-value purchase you can make." },
-        { "failure": "Sitting with a window behind you because the room is nice, and then blaming the platform for how washed out the image is.", "fix": "Reposition first. Face the window, or move the camera and yourself so the window is behind the camera, not behind you. Cost: thirty seconds." },
-        { "failure": "Using a virtual background in a space with movement behind you, which produces the artefact that people notice and name.", "fix": "Either fix the background physically - a door, a wall, a piece of fabric - or turn backgrounds off and use a blur. A clean blur beats a broken cut-out." },
-        { "failure": "Leaving every other application open on a laptop that is also running the call, and blaming the network for the freezes.", "fix": "Close everything that is not the call. One meeting, one machine, one task, and a wired connection if the room allows it." }
+        {
+          "failure": "Buying a better camera before checking whether the microphone is a laptop microphone two feet from your mouth.",
+          "fix": "Run a one-minute audio test on the actual platform. If a colleague can hear you clearly in a quiet room, your camera is now the highest-value purchase you can make."
+        },
+        {
+          "failure": "Sitting with a window behind you because the room is nice, and then blaming the platform for how washed out the image is.",
+          "fix": "Reposition first. Face the window, or move the camera and yourself so the window is behind the camera, not behind you. Cost: thirty seconds."
+        },
+        {
+          "failure": "Using a virtual background in a space with movement behind you, which produces the artefact that people notice and name.",
+          "fix": "Either fix the background physically - a door, a wall, a piece of fabric - or turn backgrounds off and use a blur. A clean blur beats a broken cut-out."
+        },
+        {
+          "failure": "Leaving every other application open on a laptop that is also running the call, and blaming the network for the freezes.",
+          "fix": "Close everything that is not the call. One meeting, one machine, one task, and a wired connection if the room allows it."
+        }
       ],
       "imagePrompt": "A clean instructional diagram illustrating a descending hierarchy of video call production quality - audio, light, framing, background, resolution - flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -97,7 +174,7 @@
       "id": "c4",
       "title": "Latency and the Turn-Taking Problem",
       "summary": "Network delay does more than make people sound far away. It breaks the timing machinery that makes conversation work. You will get interrupted, you will collide with other speakers, and you will apologise for it - which is the worst possible response, because it advertises your weakness and spends the room's attention on the plumbing.",
-      "detail": "Conversation is a timing system. In the classic turn-taking model associated with Sacks, Schegloff, and Jefferson, a speaker's turn is a resource that is handed over, and the handover is normally almost instantaneous. Stivers and colleagues' cross-linguistic study of turn-taking, published in Science in 2009, found that across ten languages speakers typically began their turn within a fraction of a second of the previous speaker finishing, and that overlap was rare. That is the baseline your listeners are calibrated to.\n\nNow add latency. A round trip on a congested corporate network can be 500 to 900 milliseconds, and video stacks capture, encode, decode, and render on top of the audio path. ITU-T recommendation G.114 gives about 150 milliseconds one-way as the recommended maximum for interactive voice and treats delays up to roughly 400 milliseconds as tolerable for general planning. Above that, the conversation system starts to fail in characteristic ways:\n\n- **Dead air becomes ambiguous.** A 700-millisecond gap after you finish looks, to the other side, like hesitation. They start talking. You hear them begin, but by the time their words arrive, you are already talking too. You interrupt each other while each is convinced the other interrupted them.\n- **Response collision.** Because neither party can hear the other beginning, both wait through the same gap, and both answer the same question. This is common in hybrid all-hands Q and A, and it produces two answers to one question and the sense that the meeting is chaos.\n- **Broken backchannel.** The small mm that says I am still here arrives after the pause, so the room's reassurance turns into an interruption, and a bunch of small noises arrive out of order relative to the thing they were responding to.\n- **The delay apology.** This is the reflex to break. Sorry, you were cut off. Can you repeat that? I think there is some lag. Each apology signals a low-grade connection, invites the room to distrust the medium and therefore you, and burns ten to fifteen seconds of a meeting that may be short on time. Worse, it teaches the room that interruptions are technical accidents rather than something to be handled.\n\n**The structural fix.** Do not apologise for latency; design around it. Test for lag in the first minute with a deliberate round-trip - ask someone to interrupt you on purpose, so the room learns how interruptions will sound. Put questions in the chat for large groups and read them aloud, which removes the collision entirely. Use round-robin: A then B then C, with no overlap possible. End your own turn with a hold - I will pause and give the room a moment - rather than a trailing sentence, so the silence is understood as a handover and not as hesitation. And in a hybrid room, name the person you are handing to: Priya, over to you, so the room knows the floor has moved. The delay is a fact of the network. The interruption policy is a fact of your meeting design.",
+      "detail": "Conversation is a timing system. In the classic turn-taking model associated with Sacks, Schegloff, and Jefferson, a speaker's turn is a resource handed over, and the handover is normally almost instantaneous. Stivers and colleagues' cross-linguistic study, published in Science in 2009, found that across ten languages speakers typically began their turn within a fraction of a second of the previous speaker finishing. That is the baseline your listeners are calibrated to.\n\nNow add latency. A round trip on a congested corporate network can be 500 to 900 milliseconds, and video stacks capture, encode, decode, and render on top of it. ITU-T recommendation G.114 gives about 150 milliseconds one-way as the recommended maximum for interactive voice, and treats delays up to roughly 400 milliseconds as tolerable. Above that, conversation fails in characteristic ways:\n\n- **Dead air becomes ambiguous.** A 700-millisecond gap after you finish looks, to the other side, like hesitation. They start talking. You hear them begin, but by the time their words arrive you are talking too. You interrupt each other while each is convinced the other interrupted them.\n- **Response collision.** Because neither party can hear the other beginning, both wait through the same gap, and both answer the same question - common in hybrid Q and A, and it makes the meeting feel like chaos.\n- **Broken backchannel.** The small mm that says I am still here arrives after the pause, so the room's reassurance turns into an interruption.\n- **The delay apology.** This is the reflex to break. Sorry, you were cut off. Can you repeat that? Each apology signals a low-grade connection, invites the room to distrust the medium and therefore you, and burns ten to fifteen seconds of a meeting short on time. Worse, it teaches the room that interruptions are technical accidents rather than something to be handled.\n\n**The structural fix.** Do not apologise for latency; design around it. Test for lag in the first minute with a deliberate round-trip - ask someone to interrupt you on purpose, so the room learns how interruptions sound. Put questions in the chat for large groups and read them aloud, which removes collision. Use round-robin - A, then B, then C - with no overlap possible. End your turn with a hold, I will pause and give the room a moment, rather than a trailing sentence, so silence reads as a handover. And name the person you are handing to: Priya, over to you, because the floor is invisible and the handover must be audible. The delay is a fact of the network. The interruption policy is a fact of your meeting design.",
       "principles": [
         "Treat latency as a design constraint on turn-taking, not as an excuse to apologise; the apology costs more attention than the lag does.",
         "Test the lag in the first minute with a deliberate round-trip so the room knows what an interruption will sound like and does not read it as hostility.",
@@ -106,10 +183,22 @@
         "Name the person you are handing the floor to, because in a mixed room the floor is invisible and the handover must be audible."
       ],
       "pitfalls": [
-        { "failure": "Apologising for the connection - sorry, can you repeat - which advertises the weakness and consumes meeting time.", "fix": "Say the substantive part once, then move on. If the content genuinely did not land, ask a specific question about it rather than discussing the transmission." },
-        { "failure": "Talking over the lag because you assume the other person is finished, and then discovering you were both speaking at once.", "fix": "Adopt the pause discipline: stop, count two full seconds of silence, then continue only if nobody has started. On a laggy call the two seconds cost almost nothing and remove most collisions." },
-        { "failure": "Assuming a participant who goes quiet has nothing to say rather than that they have been talked over.", "fix": "Build explicit turns into the agenda - ask for a contribution from a named person, by name, with a three-second wait before you speak again." },
-        { "failure": "Running a high-stakes Q and A on a congested link with no moderator, so the most senior voices take every turn.", "fix": "Assign a moderator with one job: manage airtime, not content. On a laggy call this is not a courtesy, it is the only thing that keeps the meeting coherent." }
+        {
+          "failure": "Apologising for the connection - sorry, can you repeat - which advertises the weakness and consumes meeting time.",
+          "fix": "Say the substantive part once, then move on. If the content genuinely did not land, ask a specific question about it rather than discussing the transmission."
+        },
+        {
+          "failure": "Talking over the lag because you assume the other person is finished, and then discovering you were both speaking at once.",
+          "fix": "Adopt the pause discipline: stop, count two full seconds of silence, then continue only if nobody has started. On a laggy call the two seconds cost almost nothing and remove most collisions."
+        },
+        {
+          "failure": "Assuming a participant who goes quiet has nothing to say rather than that they have been talked over.",
+          "fix": "Build explicit turns into the agenda - ask for a contribution from a named person, by name, with a three-second wait before you speak again."
+        },
+        {
+          "failure": "Running a high-stakes Q and A on a congested link with no moderator, so the most senior voices take every turn.",
+          "fix": "Assign a moderator with one job: manage airtime, not content. On a laggy call this is not a courtesy, it is the only thing that keeps the meeting coherent."
+        }
       ],
       "imagePrompt": "A clean instructional diagram illustrating a timeline of conversational turn-taking under increasing network latency, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -117,7 +206,7 @@
       "id": "c5",
       "title": "Engagement Mechanics: A Room of Faces on Camera",
       "summary": "A grid of faces is a hostile environment for attention, and it has its own mechanics: the 3-second look rule for distributing gaze, the reaction gap that tells you how a point landed and when, the second speaker who breaks the grid, and breakout rooms used as rehearsal chambers rather than as punishment.",
-      "detail": "In a live room, engagement is continuous and mostly invisible. You read the body, the small sounds, the breathing. On camera these signals arrive as a batch, late, and out of order, and a grid of small faces produces a specific and well-documented problem: a wall of low-resolution faces reads as passive, and the audience's attention decays much faster than it does in a physical room because there is no embodied social proof that other people are still present.\n\nFour mechanics fix most of it.\n\n**The 3-Second Camera Rule.** A full thought takes about three to four seconds. Hold a lens gaze for one complete thought - roughly three seconds - then move it to a specific person: in a grid, look at their tile and say their name, so the whole room knows who the look is for. Then return to the lens. This produces the impression of a person addressing individuals rather than reading to a monitor, and it keeps the grid alive because the picture changes. It is the video equivalent of the classic rule of holding eye contact with one person for one thought before moving to another - with the crucial difference that in a grid you can do this with the camera, which sends the look to everyone at once.\n\n**The reaction gap.** The interval between your point and the room's response is your only real-time feedback, and on a laggy call it arrives after you have moved on. So build the talk in 60-to-90-second blocks, each ending in a claim, and after each block pause and ask for a response rather than continuing. Ask for the response explicitly, because a grid will not volunteer it. A chat message arriving under a claim is your reaction gap signal.\n\n**The second speaker.** A grid of one face is a monologue with a latency tax. A second person on camera changes the picture and gives you a way to release the frame. Use a co-presenter deliberately: they can take the detailed technical section, they can hold the screen while you talk, and - most useful - they can carry the argument while you watch the grid for reaction, then hand it back. Naming the roles out loud at the start tells the audience what each face is for.\n\n**Breakout rooms as rehearsal chambers.** A breakout room is not only for discussion; it is the cheapest way to get real reaction to a specific piece of material. Assign a group of four or five a single question - the one you are least sure about - and take two answers back to the main room. It rehearses the argument, it produces content, and it gives the visibly silent people a way to be heard before the plenary, which is a fairness mechanism disguised as a facilitation tool. A separate small room also makes a useful control room for the technical rehearsal, with three or four people, the real device, and the real network.",
+      "detail": "In a live room, engagement is continuous and mostly invisible: you read the body, the small sounds, the breathing. On camera these signals arrive as a batch, late, and out of order, and a grid of small faces produces a specific problem - a wall of low-resolution faces reads as passive, and attention decays faster than in a physical room, because there is no embodied social proof that other people are still present.\n\nFour mechanics fix most of it.\n\n**The 3-Second Camera Rule.** A full thought takes about three to four seconds. Hold a lens gaze for one complete thought - roughly three seconds - then move it to a specific person: in a grid, look at their tile and say their name, so the whole room knows who the look is for. Then return to the lens. This produces the impression of a person addressing individuals rather than reading to a monitor, and it keeps the grid alive because the picture changes. It is the video equivalent of holding eye contact with one person for one thought before moving on - except that in a grid the camera sends the look to everyone at once.\n\n**The reaction gap.** The interval between your point and the room's response is your only real-time feedback, and on a laggy call it arrives after you have moved on. So build the talk in 60-to-90-second blocks, each ending in a claim, and after each block pause and ask for a response rather than continuing. Ask explicitly, because a grid will not volunteer it. A chat message arriving under a claim is your reaction gap signal.\n\n**The second speaker.** A grid of one face is a monologue with a latency tax. A second person on camera changes the picture and gives you a way to release the frame. Use a co-presenter deliberately: they take the detailed technical section, they hold the screen while you talk, and - most useful - they carry the argument while you watch the grid for reaction, then hand it back. Naming the roles at the start tells the audience what each face is for.\n\n**Breakout rooms as rehearsal chambers.** A breakout room is not only for discussion; it is the cheapest way to get real reaction to a specific piece of material. Assign a group of four or five one question - the one you are least sure about - and take two answers back to the main room. It rehearses the argument, produces content, and gives the visibly silent people a way to be heard before the plenary. A separate small room also makes a useful control room for the technical rehearsal, with the real device and network.",
       "principles": [
         "Hold a lens gaze for one full thought, about three seconds, then look at a named person - and say the name, so the grid knows the look is for them.",
         "Break the talk into 60-to-90-second blocks that each end in a claim, then pause and ask for a response instead of continuing into the next block.",
@@ -126,10 +215,22 @@
         "Counter the fast decay of grid attention with activity every three to five minutes - a poll, a chat question, a demonstration, or a change of speaker."
       ],
       "pitfalls": [
-        { "failure": "Staring into the lens for the whole talk, which flattens the picture and produces the fixed, slightly eerie quality of a webcam monologue.", "fix": "Adopt the 3-second look. Script three or four named look targets in advance so the movement is deliberate rather than twitchy." },
-        { "failure": "Continuing past a point that landed badly because the reaction gap means you have not heard it yet.", "fix": "After each block, ask a direct question - what is unclear - and count three seconds of silence before you rescue it. You will usually find out it landed." },
-        { "failure": "Using breakout rooms as a dumping ground for people you do not want to hear from.", "fix": "Every breakout gets a question, a named reporter, and a return time. A breakout with no question is a room where nobody speaks and you learn nothing." },
-        { "failure": "Filling a long talk with slides because a grid of faces will not hold attention, which turns a talk into a read-aloud.", "fix": "Change the activity, not the density: bring in a second speaker, run a short poll, ask for a chat response, or show a demonstration. Slides are the least interesting way to hold a room." }
+        {
+          "failure": "Staring into the lens for the whole talk, which flattens the picture and produces the fixed, slightly eerie quality of a webcam monologue.",
+          "fix": "Adopt the 3-second look. Script three or four named look targets in advance so the movement is deliberate rather than twitchy."
+        },
+        {
+          "failure": "Continuing past a point that landed badly because the reaction gap means you have not heard it yet.",
+          "fix": "After each block, ask a direct question - what is unclear - and count three seconds of silence before you rescue it. You will usually find out it landed."
+        },
+        {
+          "failure": "Using breakout rooms as a dumping ground for people you do not want to hear from.",
+          "fix": "Every breakout gets a question, a named reporter, and a return time. A breakout with no question is a room where nobody speaks and you learn nothing."
+        },
+        {
+          "failure": "Filling a long talk with slides because a grid of faces will not hold attention, which turns a talk into a read-aloud.",
+          "fix": "Change the activity, not the density: bring in a second speaker, run a short poll, ask for a chat response, or show a demonstration. Slides are the least interesting way to hold a room."
+        }
       ],
       "imagePrompt": "A clean instructional diagram illustrating engagement mechanics in a video grid, including gaze distribution, the reaction gap, and a second speaker, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -137,7 +238,7 @@
       "id": "c6",
       "title": "The Hybrid Room Problem: Equity, Not Access",
       "summary": "In a hybrid room, remote people are systematically disadvantaged - less airtime, more interruptions, less legibility, no access to the side conversations that carry the real decision. The fixes that work change the structure of the meeting. The fixes that do not work change the camera angle.",
-      "detail": "Access is easy: the remote person is connected and can hear. Equity is hard, and it fails in specific, measurable ways. In-room participants talk over each other, gesture at a screen, have side conversations that carry the real decision, read the room's temperature, and can hand someone a note. Remote participants must press unmute, arrive 300 milliseconds late, cannot read the temperature, cannot see the note, and must infer from a face whether the argument is landing. Microsoft research published at CHI in 2022 on remote work and collaboration reported that remote contributions were shorter and less likely to be acknowledged in the ways in-person contributions were; Cisco's published hybrid-work research documents the same asymmetry from the infrastructure side. The exact figures are context-dependent and contested, but the direction of the finding is not.\n\n**The bias layer.** Karen Fiske and Beibei Xu's work on stereotyping makes this more than a logistics problem. People apply the same warmth-and-competence judgements to a face on a screen as to a face in a room, and Xu's work on executive presence as a label shows how quickly a performance judgement hardens into a personality judgement. A remote colleague with poor lighting, a 720p feed, and a delay before they can answer is being judged on the same axes as the in-room colleague, and losing points for reasons that have nothing to do with their contribution. That makes hybrid equity a credibility question for the whole company, not only a fairness question for one person.\n\n**Structural fixes - these change the meeting.**\n\n1. Build the meeting around the remote site. The deck is on the shared screen, not on a laptop facing away from the room, so in-room people are looking at the same pixels the remote people are. If the in-room people are watching the back of your laptop, the meeting is not hybrid, it is two meetings.\n2. Assign a remote-side facilitator whose only job is airtime - who has not spoken, who is about to be talked over, and who needs an explicit invitation.\n3. Name remote speakers and repeat their points, so the room registers them as contributors rather than as faces that appeared.\n4. Ban side conversation during remote turns. Table talk in the in-room group is the single loudest inequity in a hybrid meeting, and it is invisible to the person who is remote.\n5. Put a small conference microphone in the middle of the in-room table so the in-room floor is comparable in level and clarity to a remote voice.\n6. Rotate: for complex content, ask the room to respond in chat first, so the remote people are answering from the same written material the in-room people are reading.\n7. Close with a remote voice and an in-room voice, in that order, so the meeting's final impression is shared.\n\n**Cosmetic fixes - these do not change the meeting.** A better camera angle for the in-room people. An etiquette slide about being respectful. A virtual background. A bot that posts the minutes. Telling people to be mindful. Moving the camera so the in-room participants are out of frame - which actually reduces in-room legibility and inverts the equity problem rather than solving it. These are not worthless, but they are not equity, and mistaking them for equity is the most common failure in hybrid work.",
+      "detail": "In a hybrid room, remote people are systematically disadvantaged: less airtime, more interruptions, less legibility, and no access to the side conversations that carry the real decision. Microsoft research presented at CHI in 2022 reported that remote contributions were shorter and less likely to be acknowledged in the ways in-person contributions were; Cisco's hybrid-work research documents the same asymmetry from the infrastructure side. The exact figures are contested, but the direction of the finding is not.\n\n**The bias layer.** Karen Fiske and Beibei Xu's work on stereotyping makes this more than a logistics problem. People apply the same warmth-and-competence judgements to a face on a screen as to a face in a room, and Xu's work on executive presence as a label shows how quickly a performance judgement hardens into a personality judgement. A remote colleague with poor lighting, a 720p feed, and a delay before they can answer is judged on the same axes as the in-room colleague, and loses points for reasons unrelated to their contribution. Hybrid equity is therefore a credibility question for the whole company.\n\n**Structural fixes - these change the meeting.**\n\n1. Build the meeting around the remote site. The deck is on the shared screen, not on a laptop facing away from the room, so both populations look at the same pixels. If the room is watching the back of your laptop, it is not a hybrid meeting; it is two meetings.\n2. Assign a remote-side facilitator whose only job is airtime - who has not spoken, who is about to be talked over, who needs an explicit invitation.\n3. Name remote speakers and repeat their points, so the room registers them as contributors rather than as faces that appeared.\n4. Ban side conversation during remote turns. Table talk is the loudest inequity in a hybrid meeting, and it is invisible to the person who is remote.\n5. Put a conference microphone in the middle of the in-room table, so the in-room floor is comparable in clarity to a remote voice.\n6. Rotate: ask the room to respond in chat first, so remote people answer from the same written material the in-room people are reading.\n7. Close with a remote voice and an in-room voice, in that order.\n\n**Cosmetic fixes - these do not change the meeting.** A better camera angle for the in-room people. An etiquette slide about being respectful. A virtual background. A bot that posts the minutes. Telling people to be mindful. Moving the camera so in-room participants are out of frame, which reduces in-room legibility and inverts the problem. These are not worthless, but they are not equity, and mistaking them for equity is the most common failure in hybrid work.",
       "principles": [
         "Change the structure of the meeting, not the camera angle: the deck on the shared screen and a conference mic on the in-room table are the two highest-leverage changes available.",
         "Assign a named facilitator whose only job is airtime, and give them the authority to interrupt the room.",
@@ -146,10 +247,22 @@
         "Rotate participation explicitly - chat-first rounds, then plenary - so that the medium with the least power is given the most structured access."
       ],
       "pitfalls": [
-        { "failure": "Fixing the hybrid problem with camera angles, backgrounds, and etiquette slides while the airtime gap stays exactly where it was.", "fix": "Measure it instead: count who spoke, in seconds, for the first ten minutes. If the in-room people have 90 percent of the floor, you have a structural problem and a camera will not solve it." },
-        { "failure": "Letting the in-room group carry the real decision in side conversations while the remote participants are technically present in the meeting.", "fix": "Move the decision into the meeting - the agenda item, the vote, the named owner - and make side conversation wait until after the remote contribution has landed." },
-        { "failure": "Equating equity with equal treatment, so the remote person is never given a hand up and the in-room people are never asked to yield.", "fix": "Equity is equal effect, not identical process. Some people need to be invited explicitly, and the in-room people need to be told to leave the floor." },
-        { "failure": "Assuming the in-room people are the ones who need accommodating, when in fact the in-room audience also loses - they cannot see the shared screen, they cannot see the deck, and they get side conversations instead of a shared experience.", "fix": "Put the content on the shared screen for everyone, and treat the room as a broadcast studio rather than as the privileged site." }
+        {
+          "failure": "Fixing the hybrid problem with camera angles, backgrounds, and etiquette slides while the airtime gap stays exactly where it was.",
+          "fix": "Measure it instead: count who spoke, in seconds, for the first ten minutes. If the in-room people have 90 percent of the floor, you have a structural problem and a camera will not solve it."
+        },
+        {
+          "failure": "Letting the in-room group carry the real decision in side conversations while the remote participants are technically present in the meeting.",
+          "fix": "Move the decision into the meeting - the agenda item, the vote, the named owner - and make side conversation wait until after the remote contribution has landed."
+        },
+        {
+          "failure": "Equating equity with equal treatment, so the remote person is never given a hand up and the in-room people are never asked to yield.",
+          "fix": "Equity is equal effect, not identical process. Some people need to be invited explicitly, and the in-room people need to be told to leave the floor."
+        },
+        {
+          "failure": "Assuming the in-room people are the ones who need accommodating, when in fact the in-room audience also loses - they cannot see the shared screen, they cannot see the deck, and they get side conversations instead of a shared experience.",
+          "fix": "Put the content on the shared screen for everyone, and treat the room as a broadcast studio rather than as the privileged site."
+        }
       ],
       "imagePrompt": "A clean instructional diagram illustrating structural versus cosmetic fixes for hybrid meeting equity, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     },
@@ -157,7 +270,7 @@
       "id": "c7",
       "title": "Screen-Share Versus Face-to-Face, and the Pre-Flight",
       "summary": "Your audience can watch your face or your content, not both. The decision of which one to give them is a content decision, not a technical one, and it changes with what the talk is for. The module closes with a twenty-minute pre-flight you can run on the real device, in the real room, before a hybrid all-hands.",
-      "detail": "**The attention problem.** Watching a face and reading a slide are different cognitive activities, and doing both at once costs more than either alone. This is the redundancy and signaling logic from Richard Mayer's multimedia learning work: a slide should carry the evidence, and you should carry the meaning; putting the same words on the slide as in your mouth duplicates information and splits the listener's attention. On camera, the cost is higher than in a room, because the audience cannot choose to look away without looking at a wall of faces.\n\n**The priority ladder.** Decide which of the two you are serving, and follow the ladder:\n\n1. **Trust and decision - show the face.** Bad news, a reorganisation, a layoff announcement, a Q and A, a board update, anything where the audience's question is whether they believe you. Hide your face and you are asking a room to accept a document.\n2. **A human demonstrating something - face plus a narrow share.** A product demo, a whiteboard, a prototype walkthrough. Keep your face on camera and share only the region you are discussing, narrating as you go.\n3. **Evidence - screen with a face strip.** Numbers, an architecture diagram, a product roadmap, a comparison table. Share the full slide and keep a small picture of yourself visible so the talk never becomes a document being read by a disembodied voice.\n4. **Reference material - share the document, do not talk over it.** If it is a document, let them read it and put your time into the two things that matter: what to look at first, and what to do with it afterwards.\n\n**A rule that catches people out.** Never point your camera at the shared screen. The audience then watches you stare at a wall for four minutes, and every cue that says someone is speaking disappears. If you need to look at shared content, turn your head and shoulder toward it so the room still sees a speaking profile, and narrate what you are pointing at.\n\n**The pre-flight, in order.** Run it in the last twenty minutes, on the actual device, on the actual network, in the actual room.\n\n- Audio test with a second person at the far end, not a playback file. Wired headset if you have one.\n- Camera preview: is the lens at eye level, is the light in front of you, is there depth behind you, is the headroom right.\n- Frame test at thumbnail size - open the platform on a phone. A face that reads at thumbnail size will read on a laptop.\n- Slide legibility test: view the deck at 25 percent zoom. If the text is not readable at that size, it will not be readable in a shared screen either. Simplify rather than hope.\n- Share test: share a window, then a single tab, then an application. Know which of the three you need.\n- Latency check: ask someone to interrupt you on purpose, so the room hears what an interruption sounds like before it happens.\n- Contingency: a dial-in number, a mobile number, the deck on your laptop as a PDF, and the deck uploaded somewhere you can reach from a browser if everything else fails.\n- People: who is moderating, who is watching the chat, who is the room-side facilitator, and what is the hand-off if you lose the room or lose the connection.",
+      "detail": "**The attention problem.** Watching a face and reading a slide are different cognitive activities, and doing both costs more than either alone. This is the redundancy logic from Richard Mayer's multimedia learning work: the slide should carry the evidence and you should carry the meaning; putting your spoken words on the slide duplicates information and splits attention. On camera the cost is higher: the audience cannot look away without staring at a wall of faces.\n\n**The priority ladder.** Decide which of the two you are serving.\n\n1. **Trust and decision - show the face.** Bad news, a reorganisation, a layoff announcement, a Q and A, a board update. Hide your face and you are asking a room to accept a document.\n2. **A human demonstrating something - face plus a narrow share.** A product demo, a whiteboard, a prototype walkthrough. Keep your face on camera and share only the region you discuss.\n3. **Evidence - screen with a face strip.** Numbers, an architecture diagram, a roadmap, a comparison table. Share the slide and keep a small picture of yourself visible, so the talk never becomes a document read by a faceless voice.\n4. **Reference material - share the document, do not talk over it.** Let them read it; spend your time on what to look at first, and what to do next.\n\n**A rule that catches people out.** Never point your camera at the shared screen: the audience watches you stare at a wall for four minutes, and every cue that says someone is speaking disappears. If you must look at shared content, turn your head so the room sees a speaking profile.\n\n**The pre-flight, in order.** Run it in the last twenty minutes, on the actual device, network and room.\n\n- Audio test with a second person at the far end, not a playback file.\n- Camera preview: lens at eye level, light in front, depth behind, headroom right.\n- Frame test at thumbnail size - open the platform on a phone. A face that reads there reads on a laptop.\n- Slide legibility test: view the deck at 25 percent zoom. If the text is unreadable there, it is unreadable on a shared screen.\n- Share test: try a window, a single tab, then an application. Know which you need.\n- Latency check: ask someone to interrupt you on purpose, so the room hears an interruption coming.\n- Contingency: a dial-in number, a mobile number, the deck as a PDF, and the deck in a browser you can reach without the app.\n- People: who moderates, who watches the chat, who is the room-side facilitator, and the hand-off if you lose the room.",
       "principles": [
         "Choose face or screen by what the talk is for - trust and decisions get the face, evidence gets the screen with a face strip - and decide before you open the deck.",
         "Narrate shared content; never let a slide and your voice carry the same words, and never point the camera at the shared screen.",
@@ -166,17 +279,446 @@
         "Prepare the failure case in advance - dial-in number, deck on a laptop, deck in a browser, and a named person who can take over the room."
       ],
       "pitfalls": [
-        { "failure": "Reading the slide aloud while it is on screen, so the audience splits attention between two versions of the same sentence.", "fix": "Strip the slide to the evidence and let your voice carry the meaning. If you would not say it, delete it from the screen." },
-        { "failure": "Full-screen share with no face, so a presentation about a human problem becomes a PDF with narration.", "fix": "Keep yourself visible in a corner, and remember that the face is what carries trust - especially on the slide that announces the bad news." },
-        { "failure": "Pre-flighting on the office laptop at 8am and presenting on a borrowed machine in a different room with different lighting.", "fix": "The pre-flight is a location activity. If you cannot run it in the room, assume everything about your setup is unknown and design for the unknown: audio first, camera second, and have the deck on two devices." },
-        { "failure": "Testing the whole call in a quiet office with five people and then discovering the real room has a conference table, a ceiling microphone, and a hard echo.", "fix": "Test in the real room with the real equipment, including the room's own microphone - a ceiling mic in a hard room is a worse sound source than the laptop you were going to avoid." }
+        {
+          "failure": "Reading the slide aloud while it is on screen, so the audience splits attention between two versions of the same sentence.",
+          "fix": "Strip the slide to the evidence and let your voice carry the meaning. If you would not say it, delete it from the screen."
+        },
+        {
+          "failure": "Full-screen share with no face, so a presentation about a human problem becomes a PDF with narration.",
+          "fix": "Keep yourself visible in a corner, and remember that the face is what carries trust - especially on the slide that announces the bad news."
+        },
+        {
+          "failure": "Pre-flighting on the office laptop at 8am and presenting on a borrowed machine in a different room with different lighting.",
+          "fix": "The pre-flight is a location activity. If you cannot run it in the room, assume everything about your setup is unknown and design for the unknown: audio first, camera second, and have the deck on two devices."
+        },
+        {
+          "failure": "Testing the whole call in a quiet office with five people and then discovering the real room has a conference table, a ceiling microphone, and a hard echo.",
+          "fix": "Test in the real room with the real equipment, including the room's own microphone - a ceiling mic in a hard room is a worse sound source than the laptop you were going to avoid."
+        }
       ],
       "imagePrompt": "A clean instructional diagram illustrating the priority ladder for choosing between face camera and screen share, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     }
   ],
-  "frameworks": [],
-  "scenarios": [],
-  "exercises": [],
+  "frameworks": [
+    {
+      "name": "The Frame Grid",
+      "summary": "A composition discipline for a rectangular video frame that fixes eye line, headroom, crop, and gaze policy, so a camera setup reads as deliberate in the first three seconds and holds for forty minutes.",
+      "steps": [
+        "Put your eyes on the upper third: raise or lower the camera until your eyes sit roughly one third of the frame height, and mark that height on the desk edge with tape or a sticky note so you can reproduce it in any room in ten seconds.",
+        "Crop from mid-chest up, not from the shoulders: your hands must stay inside the rectangle, because hands are the only body language you have left once the room is gone.",
+        "Set headroom to a fixed band - roughly two to four inches above the head - and check it on every platform you will actually use, because each one crops differently and a laptop call crops harder than a studio camera.",
+        "Put the lens at or slightly above eye level, never below: a riser, a stack of books, or a cheap tripod costs almost nothing and changes the shot immediately.",
+        "Decide the gaze policy in advance: the lens is the default address to the whole room; break it for a named person, for a demonstration, and for one deliberate glance down at a number in your notes - and no more than that.",
+        "Give the frame depth rather than clutter: a door, a wall, or a shelf with nothing moving behind you, because motion behind a speaker is read as instability and is the thing viewers notice before they notice your face.",
+        "Get a second pair of eyes: have someone watch the frame on a second screen and call the headroom, the crop, and the background before you speak a word."
+      ],
+      "whenToUse": "Use it every time you appear on camera in a room that matters - a customer demo, an all-hands, a board update, an investor call - and rehearse it once per device, because a correct frame can be destroyed by a platform crop you did not expect. Skip it for face-to-face rooms, where framing is a different and more forgiving discipline.",
+      "example": "A founder arrives for a 4,000-person all-hands and finds the camera taped to a shelf pointing down at a laptop lid. She spends six minutes of the pre-flight on the floor with the laptop, gets her eyes to the upper third with a riser, and frames mid-chest with her hands in shot. The result is not glamorous; it is that the first sentence lands on a face rather than on a desk, and nobody in the audience spends the opening minute deciding whether to take her seriously."
+    },
+    {
+      "name": "The Audio-First Rule",
+      "summary": "A fidelity hierarchy for a live call - audio, then light, then framing, then background, then resolution - that tells you which problem to fix first when time or budget is short.",
+      "steps": [
+        "Run a one-minute audio test before touching anything else: speak for fifteen seconds from your normal speaking position and have a colleague confirm every word is intelligible at their end without straining.",
+        "Place the microphone six to eight inches from your mouth, wired if you have it, and off the table surface where a laptop fan, a tabletop knock, or a chair scrape will ride up into the mix.",
+        "Keep the audio path clean: close every application that is not the call, and on a shared room connection use the room's own microphone only if it has been tested - a ceiling mic in a hard, reflective room is usually worse than the laptop you brought.",
+        "Fix the light second, from the front and slightly above eye level at about 45 degrees, and never with a window behind you; if you can only afford one change, a light in front of you beats a better camera.",
+        "Fix framing third, using the Frame Grid, because framing is free once the camera is at eye level and it buys more than any resolution upgrade.",
+        "Only then consider resolution, and prefer a stable 720p call to an unstable 1080p one, because a frozen sharp frame damages trust faster than a soft moving one.",
+        "Re-test the whole chain in the actual room on the actual network in the last twenty minutes, and keep a wired fallback in the room: the deck on a laptop, the deck in a browser, and a dial-in number."
+      ],
+      "whenToUse": "Use it whenever a call will carry a decision, an announcement, or a number - a customer demo, a board meeting, an investor update. Skip it for internal stand-ups where nobody is being persuaded, and if the call is already live, fix audio first, because it is the only failure that makes the content unintelligible rather than merely ugly.",
+      "example": "A CEO is thirty minutes from a customer demo and has to choose between a camera upgrade and a headset. The Audio-First Rule buys the headset, because the demo fails in the first ninety seconds if the customer cannot hear the price, while the camera only fails the aesthetics. The demo goes well; the customer says afterwards that the picture was fine."
+    },
+    {
+      "name": "The Hybrid Equity Protocol",
+      "summary": "A structural redesign of a mixed meeting that gives remote participants comparable airtime, legibility, and conversational priority, beginning by measuring the gap rather than adjusting the camera.",
+      "steps": [
+        "Measure the gap before you fix it: for the first ten minutes, note who spoke and for how many seconds, split into in-room and remote. If the in-room share runs above roughly 80 percent, you have a structural problem and no camera angle will change it.",
+        "Put the content on the shared screen for everyone - a deck, a document, a whiteboard - so remote participants work from the same artefact rather than watching a room discuss something they cannot see.",
+        "Give the room a named facilitator whose only job is airtime, with explicit authority to say 'the remote people have not been heard yet' and to interrupt the in-room group mid-sentence.",
+        "Use the conference microphone and make the in-room speakers use it too, because unamplified in-room speech is what forces the platform to auto-gain and wreck the remote signal.",
+        "Name remote speakers and repeat their contribution back to the room, because in a mixed room the in-room audience is looking at the people in front of them and an unamplified remote voice can be physically unheard by half the room.",
+        "Structure participation in rounds - chat first, then a named round-robin, then plenary - so the people with the least power in the room get the most structured access to the floor.",
+        "Ban side conversation during remote turns as a stated rule at the top of the meeting, and move any decision reached in the hallway back into the agenda item where the remote participants can hear it."
+      ],
+      "whenToUse": "Use it for any meeting that includes people who are not physically present and where a decision will be made - board meetings, all-hands, customer reviews, hiring panels. Do not use it for a one-way broadcast to a remote audience, where equity is irrelevant and pacing is everything.",
+      "example": "A board meeting with six directors in a room and two dialling in from Singapore. Under the standard format the remote directors speak for ninety seconds in fifty minutes. The CEO applies the protocol: the deck is shared to the dialled-in screen, a facilitator watches airtime, and the CEO hands the floor by name and waits three seconds. The result is that the Singapore directors raise the working-capital question, which turns out to be the question the meeting was supposed to answer."
+    },
+    {
+      "name": "The 3-Second Camera Rule",
+      "summary": "A gaze and pacing rule for a grid of faces: hold the lens for one complete thought, then name and look at a person for three seconds, and end every 60-to-90-second block with a claim and an explicit request for a response.",
+      "steps": [
+        "Break the talk into blocks of 60 to 90 seconds and write the claim each block ends on in your notes, so the talk has joints rather than a continuous monologue.",
+        "Hold the lens for one full thought - about three seconds - as your default address to the whole audience, and never stare at the lens for a paragraph.",
+        "Move to a named tile for the next three seconds, and say the person's name as you do it, so the grid knows the look is for them and knows they are next to speak.",
+        "End each block with a claim followed by a direct question - 'what is unclear in that' - and count three full seconds of silence before you rescue the pause.",
+        "Change the picture every three to five minutes: a second speaker with a defined role, a poll, a chat question, a demonstration, or a short breakout with a question, a named reporter, and a return time.",
+        "Read the reaction gap as lag, not as agreement: the faces in the grid will respond to your previous point just after you have moved on, so wait for them and do not stack a new claim on top of a point that has not landed yet."
+      ],
+      "whenToUse": "Use it for any webcam talk longer than five minutes with more than a dozen participants. Skip it for a one-to-one video call, for a recorded video, and for a webinar where the chat is carrying the interaction - in that case, poll the chat explicitly every three minutes instead of hunting for eye contact in tiles.",
+      "example": "A founder gives a twenty-minute product strategy to ninety remote employees. In the first block she stares into the lens for four minutes and the chat goes silent. She rebuilds it: three named look targets in her notes, a claim plus a question every ninety seconds, and a named second speaker for the technical section. The chat comes back, and by minute eight there are six substantive questions - the session is now a working meeting rather than a broadcast."
+    },
+    {
+      "name": "The Pre-Flight Checklist",
+      "summary": "A twenty-minute, location-specific run-through on the real device in the real room, ending with a named fallback and a second human being who has confirmed the sound.",
+      "steps": [
+        "Set the room, not just the device: find the light, kill the window behind you, close the door, silence the phone you keep forgetting is on the table, and check what noise the room makes when the air conditioning starts.",
+        "Position the camera at eye level on a stable surface, frame mid-chest, and confirm the headroom on the actual platform rather than in the app's preview window.",
+        "Test the audio at real speaking volume with a live person at the other end, in the room, with the table occupied - an empty room flatters a bad microphone and a full room exposes it.",
+        "Check the content path: open the deck on a second device, view it at 25 percent zoom on a phone, and test that the shared link works for someone who is not already in the call.",
+        "Measure the lag in the first minute with a deliberate round trip, and tell the room the number, so that an interruption later is read as latency rather than as hostility.",
+        "Walk the failure case: dial-in number, deck on a laptop, deck in a browser, and a named person in the room who is authorised to take over if the platform dies.",
+        "Run the whole thing once more end to end with the second person speaking as a participant while you present from the top, because the pre-flight is only real when the talk is real."
+      ],
+      "whenToUse": "Run it in the final twenty minutes before any high-stakes camera appearance, once per room and once per device, and treat the output as a signed artifact rather than as reassurance. Skip it for calls you could not prepare for anyway - instead, in that case, design for the unknown: audio first, a modest frame, and a fallback.",
+      "example": "Thirty minutes before an investor update, the founder runs the checklist in a room she has never used. The conference mic picks up the air conditioner, the deck is illegible at 25 percent zoom, and the shared link is a browser tab that will not open for anyone else. She fixes the mic, halves the slide density, and uploads a PDF to the shared drive - ten minutes of work that an office pre-flight three hours earlier would never have found."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "s1",
+      "title": "The all-hands where 220 people are losing their jobs and 3,100 of them are at home",
+      "setting": "Company-wide all-hands. 900 employees are in the flagship office auditorium; 3,100 have dialled in from home, and the decision was approved the night before. You have twelve minutes, legal has cleared the language, and you have to say the number out loud.",
+      "challenge": "The room is silent and the remote chat is already moving in the 400-person remote group. You know the three questions that are coming - who, why, what now - and you know you will not be able to answer all of them live. The in-room employees are also watching to see how you treat the people on the screen.",
+      "objectives": [
+        "Deliver the decision to the whole company simultaneously, on camera, without delegating the emotional work to a document",
+        "Make the remote population feel included in the event rather than processed by it",
+        "Leave the meeting with owners and dates attached to the questions you cannot answer live"
+      ],
+      "options": [
+        {
+          "text": "Share the announcement deck full-screen and read the three bullet points aloud, then open the chat for questions.",
+          "outcome": "The announcement lands as a document. The 3,100 remote employees watch a slide, which means they get the information without getting you, and 220 people learn that their jobs are gone from a PDF that does not say a single word back to them. The chat becomes a channel for anger rather than questions, and the emotional work is handed to the 220, alone, at their desks, at eight in the morning.",
+          "rating": "poor",
+          "feedback": "This is the one option that is actively cruel. Screen-share without a face converts a moment of human accountability into a distribution of bad news, and the absence of your face will be read as absence of accountability. Deliver a human decision on camera, with your face in frame, even if the deck carries every number behind you."
+        },
+        {
+          "text": "Deliver the announcement from the room with the slide behind you, then send the recording and the detail pack to the remote population afterwards.",
+          "outcome": "The room gets the full weight of you in person, and the remote population gets a recording they watch alone, on their own schedule, with nobody available to answer a follow-up. The 3,100 who are not affected but who will inherit the work are told by a forwarded link. Questions that arrive in the chat during the session go unanswered because you are in the room with a live audience and no mechanism to read the chat.",
+          "rating": "fair",
+          "feedback": "The delivery is fine and the architecture is wrong. The people dialling in are 78 percent of your workforce, and a post-hoc recording is a worse version of what they could have had. Decide before the session which audience the live delivery is really for, and if it is the room, give the remote group a parallel structured channel rather than a link."
+        },
+        {
+          "text": "Stand at the camera with no slides for the first three minutes, say the number and the criteria yourself, then bring up the detail pack, and answer chat questions live by reading each one out before you respond.",
+          "outcome": "Every employee - in the room and at home - hears the same sentence from the same face at the same time, and the chat questions are read aloud so the remote group hears the answers too. The room and the remote population receive the announcement with equal weight, and the chat stops being an anger channel because it becomes a question channel. What is still missing: no live route to a conversation for the remote population, and no named point of contact for the people affected.",
+          "rating": "good",
+          "feedback": "This is the right shape - face-first, chat integrated, one message to everyone. Two upgrades. Name the follow-up before you finish: who takes which question, on what channel, by when. And do not take chat questions in arrival order - group them, because the first question sets the agenda for everything after it and the most important question is often the second one."
+        },
+        {
+          "text": "Face-on with no slides for the opening: say the number, the criteria, and what happens to the 220 personally, then show the detail pack, then run a structured Q and A in which the chat is read aloud and answered on camera and every remaining question is assigned to a named owner with a date - plus a follow-up session per region and a 48-hour office hour on the channel people actually use.",
+          "outcome": "The company receives one message from one face at one time, the 220 hear their own situation described before they hear the plan, and the questions that would otherwise become rumour overnight leave the building with owners attached. The remote population, 78 percent of the company, get the same live access to the answers as the room. The remaining risk is yours: you have committed to owners and dates, and if those slip, the next hard message will be read through this one.",
+          "rating": "excellent",
+          "feedback": "This is the target behaviour: face-first, equal access, and a structural answer to the questions you cannot answer live. The discipline that makes it work is the commitment at the end - write the owners and dates down before you walk on, and tell the executives who own them that they are on the hook. Do not soften the personal part to make yourself comfortable; on this particular message, precision is a kindness."
+        }
+      ],
+      "coachingNote": "Bad news on camera has one rule above all others: deliver it face-first, and deliver it to the largest audience simultaneously. Everything after that - slides, chat, follow-up - is structure in service of the human moment, never a substitute for it."
+    },
+    {
+      "id": "s2",
+      "title": "The customer demo where the person you most need to convince cannot hear you",
+      "setting": "A live enterprise demo to a prospective client. Three of their people sit in a conference room in London with you on the screen; their head of data has joined from a train on a laptop speaker with a noisy carriage behind them. You are twenty minutes into a forty-minute slot and you have just quoted a three-year price with an implementation clause.",
+      "challenge": "The head of data asks whether the price includes the SSO add-on. You cannot tell whether they heard the price, whether they heard their own name, or whether the question was aimed at you. The three people in the room have heard it clearly. You have about four seconds to decide what to do, and the sale is a six-figure one.",
+      "objectives": [
+        "Protect the commercial point without a visible stall or a visible assumption",
+        "Make the remote participant audible and included without embarrassing or excluding them",
+        "Leave the meeting with a written record of the price and the scope that nobody has to reconstruct from memory"
+      ],
+      "options": [
+        {
+          "text": "Answer the question immediately and loudly, addressing the conference room, and hope the remote participant picks it up on the laptop speaker.",
+          "outcome": "The room gets a clear answer and the head of data gets a fragment. Because you never acknowledged the audio gap, they now know the technical question they asked - the one that matters most to the person who will write the recommendation - went unanswered. They stop asking, and the evaluation is written without the objection you would have preferred to handle live.",
+          "rating": "poor",
+          "feedback": "Answering loudly is not a fix, it is a volume increase, and it deepens the problem: the person on the train is now even less likely to interrupt. Either change the audio for the room, or change the question so it is answerable for everyone. Silence is the enemy here, not latency."
+        },
+        {
+          "text": "Stop, apologise for the connection, and ask the head of data to move to a quieter place or join by phone, and pause the demo until they are back.",
+          "outcome": "You have been honest and the cause is real, but the meeting now stops, the room starts looking at their phones, and the remote participant is publicly designated as the problem. The demo loses fifteen minutes of a forty-minute slot, and the head of data spends the interruption feeling like an inconvenience rather than a buyer with a question.",
+          "rating": "fair",
+          "feedback": "Honest, but the wrong target. You are treating the transmission as the issue rather than treating the participant's inclusion as the issue. A brief, non-apologetic acknowledgement is allowed - 'let me make sure Elena can hear this' - but do not stop the meeting, and do not put the fix on her."
+        },
+        {
+          "text": "Type the question into the chat to confirm it was received, answer it on camera in words and on screen in text, then restate the price and the SSO inclusion in the shared deck so the answer exists in a form the remote participant can read.",
+          "outcome": "The commercial point is protected: the price and the scope are now on the shared screen, so the person on the train is not dependent on the room's audio. The head of data gets a real answer, and the room sees that you noticed and solved a problem they had not even registered. The exchange takes about twenty seconds and the demo continues. The risk is that the text overlay covers part of the interface you are demoing, and the technical moment you were in the middle of is lost.",
+          "rating": "good",
+          "feedback": "This is the right instinct - do not make the remote person depend on audio you do not control, and put the answer where it can be read. Two refinements. Address the answer to the name, not to the group, so the room hears who is being answered. And put the text somewhere that does not cover the product - a comment, a follow-up email, or a slide at the end of the section - so you do not break the demo you are in the middle of."
+        },
+        {
+          "text": "Say on the record - 'Elena, I want to be sure you have this: the quote I just read was a three-year price with implementation included and SSO as a separately priced add-on; I am putting the same figures on screen and in the follow-up email' - then ask Elena to confirm she has it, wait three seconds for her to answer, and carry on.",
+          "outcome": "The gap is named out loud, so the room now understands that a person is on a train and that the meeting has been designed to include her rather than to survive her. Elena answers, which puts her voice into the room's ears, and her answer is a buying signal the client can hear. The price is repeated and captured, so nobody has to reconstruct it. You have spent about fifteen seconds and made the client feel cared for, which is worth more than the minutes.",
+          "rating": "excellent",
+          "feedback": "This is the target behaviour: it treats a technical failure as a moment of inclusion, it protects the commercial content, and it does not make the remote participant responsible for the fix. Note the three-second wait - it is the whole technique, and it is what stops you talking over the answer. Reinforce the habit with the pre-flight: in any mixed-room demo, confirm in the first two minutes that the remote participant can hear you, and set the expectation that you will name them by name when you address them."
+        }
+      ],
+      "coachingNote": "On a mixed call, the person on the train is not a transmission problem - they are a customer with a question. Name the gap, repeat the substance, put it where it can be read, and address the answer to the name."
+    },
+    {
+      "id": "s3",
+      "title": "The board meeting where the remote director is talked over twice",
+      "setting": "Board meeting: five directors in a New York room, two dialling in, one of them the independent director who led last year's compensation review and has the most relevant expertise on the item you are presenting. You are thirty minutes in, presenting a pricing change that will hit enterprise retention.",
+      "challenge": "The in-room directors begin answering each other's points, which is normal and fine, until the remote director speaks and is overlapped twice before she finishes. The second time, you keep talking as if nothing happened. Nobody in the room remarks on it, and the agenda moves on.",
+      "objectives": [
+        "Restore the remote director without a visible confrontation that embarrasses the in-room members",
+        "Protect the substance of the item from being settled by the people who were easiest to reach",
+        "Make sure the remote participant's contribution reaches the agenda and the minutes, not just the phone line"
+      ],
+      "options": [
+        {
+          "text": "Say nothing and keep presenting, on the assumption that interrupting to enforce turn-taking would make you look controlling in front of the board.",
+          "outcome": "The board settles the retention question in a side conversation between three people who can see each other, and the independent director - the person with the most relevant expertise and the only one dialling in - is on mute in the room's memory. The pricing change is approved with an amendment she never got to hear, and she says nothing on the call. She raises it in the private session with the lead investor six weeks later, and it becomes a governance question rather than a pricing question.",
+          "rating": "poor",
+          "feedback": "Silence here is not neutrality; it is a decision to let the loudest and nearest voices define the record. And your motive is wrong - protecting the remote director does not make you look controlling, it makes you look like the person who understands that a board is not the room in front of you. Your job is not to enforce turn-taking as a courtesy; it is to make sure the decision is made by people who can hear the argument."
+        },
+        {
+          "text": "Ask the remote director directly to restate her point, and move on, without acknowledging that she was cut off.",
+          "outcome": "She gets the floor and her point lands, and the meeting continues on schedule. But the room now experiences the moment as the CEO correcting a technical glitch, and worse, you have asked her to repeat herself twice in one meeting, which is a small indignity that a director remembers. The in-room members learn nothing about what happened and will do it again in twenty minutes.",
+          "rating": "fair",
+          "feedback": "You got the substance right - she needed the floor - but you left the cause in place. You do not need to name anyone out. One neutral sentence that resets the room's attention fixes it: 'let me make sure we hear that, because it is relevant to the retention number we are about to decide on.' Now the whole room hears why her contribution matters, and the overlap stops being a lapse of manners and becomes something the CEO has already corrected."
+        },
+        {
+          "text": "Stop, name the pattern without blaming anyone - 'let me pause there, because our colleague dialling in has not had the space to finish, and I want her point on the record before we move on' - and give her the floor with a three-second wait.",
+          "outcome": "Her point lands and the board hears it before the vote, which changes the amendment they were about to make. The room is slightly uncomfortable for a moment, and the discomfort is useful: it establishes that the dialled-in directors are part of the meeting, which is worth more than comfort. The cost is that you have publicly identified a pattern, and the in-room members now know you are counting.",
+          "rating": "good",
+          "feedback": "This is the right move and the right level of firmness. Two refinements. First, do not let it stand as a one-off; you have just made a policy, and the fix is to enforce it every time it happens, including when it is inconvenient. Second, protect her from the reputational cost of being the example - follow her floor with 'let us hear the rest of it', and make sure her point is written into the decision rather than left in the air."
+        },
+        {
+          "text": "Name the pattern, fix the floor, and fix the structure at the same time: 'our colleague joining from London has not had space to finish, and that is on the format rather than on anyone - so from here the chair is calling on the dialled-in directors first on every item, and I am going to ask the two of you to speak on the retention point before we decide.' Then hold the two remote directors to a three-second wait each.",
+          "outcome": "The retention point is genuinely decided with the expertise available in the room, and the amendment that comes out is one the board can defend to a shareholder. The structural fix is visible to everyone and does not require anyone to be the villain. The London directors now know they have standing, and the in-room directors know that the format has changed, which is the real determinant of whether the next item is better.",
+          "rating": "excellent",
+          "feedback": "This is the target behaviour because it moves the fix from a moment to a mechanism - a rule that survives the meeting. The framing choice matters: 'that is on the format, not on anyone' is what lets you enforce it without a confrontation, and calling the remote directors first on every item is a rule you can repeat all day without it looking like a one-off. Name the person who will manage the floor - it cannot be you, because you are presenting."
+        }
+      ],
+      "coachingNote": "In a hybrid board room, the interruption is rarely deliberate and the cost is always real. Fix the floor, then fix the mechanism, and never let a structural gap be closed by silence."
+    },
+    {
+      "id": "s4",
+      "title": "The investor update you record once, in a hotel room, at night",
+      "setting": "You are recording a three-minute investor update for the data room, unedited, in a hotel room the night before a fundraising meeting. One bedside lamp, a laptop on a table, a window behind you with the blinds half open and the city lights on, and no second person to check the frame. Eleven investors will watch it before they decide whether to take your call.",
+      "challenge": "You have forty minutes. You cannot reshoot the lighting or the background, you can only decide what to do about them, and the clip will be judged on trust by people deciding whether to wire you money.",
+      "objectives": [
+        "Produce a usable clip from a room you cannot change, rather than a good reason for not having one",
+        "Make a deliberate decision about what the viewer is allowed to notice",
+        "Land the three things the update has to do - the number, the ask, the risk - in three minutes"
+      ],
+      "options": [
+        {
+          "text": "Record it as-is, because the content is what matters and the investors are reading for substance, not atmosphere.",
+          "outcome": "The substance is intact and the clip is unusable. A dim, backlit figure with a bright window behind them reads as a company in trouble, and investors will form that impression before they have read a single number. The two directors who do watch it both assume it is a recording made in a hurry by someone who does not have a company, because that is what it looks like.",
+          "rating": "poor",
+          "feedback": "The premise is wrong: investors do not read for substance instead of atmosphere, they read atmosphere while deciding whether to trust substance. You are not choosing between quality and content, you are choosing where the effort goes. Forty minutes and one lamp is enough to fix a frame completely - move the lamp, move the camera, and re-record."
+        },
+        {
+          "text": "Record the audio only, as a clean voice-over over a simple slide deck, and skip the video entirely.",
+          "outcome": "The content is clean and the clip has no face. For an investor update that is a genuinely bad trade: the face is the thing that carries a founder's credibility, and a three-minute voice-over reads as a fundraising artefact rather than as a person you would take a meeting with. It also removes the one piece of evidence you most want in the room - that you are composed and specific under pressure.",
+          "rating": "fair",
+          "feedback": "This is a false economy, and it inverts the fidelity hierarchy in the wrong direction. Audio and face are not rivals; the fidelity hierarchy says fix audio first, which you have done, and it does not say throw away the picture. A good frame costs one lamp and ten minutes. Deliver a face, and let the audio quality carry the rest."
+        },
+        {
+          "text": "Take ten minutes to fix the shot: put the laptop on a chair at eye level in front of the lamp, move yourself so the window is behind the camera, use a towel on the bed behind you to kill the clutter, and record a short test clip to check the exposure before the real take.",
+          "outcome": "The clip is watchable in a day and a half. It is not beautiful: there is a slight colour cast and the light is hard, so you look tired and slightly flat. But the face is there, the eyes are at the top of the frame, the background is calm, and the clip does not advertise a problem. It also takes twenty minutes longer than option one, which is time you did not think you had.",
+          "rating": "good",
+          "feedback": "You have the right priority - fix the frame, accept the rest - and the moves are all correct and cheap. Two refinements. Move the lamp in front and slightly to one side rather than dead ahead, or the light flattens you into a mask. And do the test clip: the first take of anything is the one you will throw away, and with one lamp you need to know the exposure before you burn a take on a good script."
+        },
+        {
+          "text": "Treat the room as a lighting problem you can solve in fifteen minutes: put the only lamp in front of you at eye level and slightly to one side, hang the towel behind you to kill the window glare, place the laptop on a chair at eye level, check the test clip for exposure, then record three takes of the full script and keep the one where the last sentence lands without a rush. Send the update to two people you trust before you post it.",
+          "outcome": "The clip is not studio quality, but it is credible, which is the only thing it needed to be. The single hard light on one side is a legitimate look rather than a flaw, the eyes sit in the right place, and the background is unremarkable. The three takes matter: the version you would have posted on the first take is rushed in the last sentence, which is exactly where an investor decides how you handle pressure. And the two trusted readers catch a number that was wrong, which is the cheapest possible save.",
+          "rating": "excellent",
+          "feedback": "This is the target behaviour and the discipline in it is the discipline, not the lighting: one asset at a time in the order that matters - audio, light, frame - and a test before the take. The three-take rule is the part people skip, and it is the part that protects the ending, where the listener is deciding. Send the clip to two people before it goes to the data room; a five-minute read by two people has saved more rounds than any amount of re-recording."
+        }
+      ],
+      "coachingNote": "A recorded update is judged on trust before it is judged on content, and you can fix a frame in fifteen minutes with one lamp. Fix audio, then light, then frame - and never post the first take."
+    },
+    {
+      "id": "s5",
+      "title": "The webinar where the shared screen is illegible on every laptop except yours",
+      "setting": "A client webinar with 600 registrants, 240 in attendance, of which maybe 40 are on a phone. You have a twelve-slide deck, your screen is 16:9, and the webinar platform is sharing your whole desktop at full resolution with a narrow column of speaker video down the side. You are on slide seven of twelve, a dense financial table, when you realise the chat is filling with 'can't see this'.",
+      "challenge": "You are ten minutes into a talk that is the top of a sales funnel, the audience is silently failing to read, and you have four slides left including the pricing slide. Changing the deck means restarting; continuing means talking to a screen nobody can see.",
+      "objectives": [
+        "Get the content legible for the phone and the small window without restarting the webinar",
+        "Keep the talk moving and keep the credibility of a company that can present its own numbers",
+        "Turn the legibility failure into something that increases engagement rather than excuses it"
+      ],
+      "options": [
+        {
+          "text": "Keep going, assume the audience will figure it out, and put the spoken detail into the narration so the numbers are available in audio.",
+          "outcome": "The narrative survives and the evidence does not. The audience hears a good talk and sees a table they cannot read, and the pricing slide - the slide the whole funnel exists to deliver - reaches 240 people as a grey block. The chat keeps saying 'can anyone read this?' and the session ends with a measurable drop in conversion from the attendees who needed to see the number and could not.",
+          "rating": "poor",
+          "feedback": "Do not narrate a slide you could have made legible. The assumption that the audience will figure it out is exactly the assumption that loses the deal: a table you cannot read is not a table, it is a signal that you have not rehearsed the medium. You have four slides left - use them."
+        },
+        {
+          "text": "Stop, apologise for the formatting, and tell the audience you are going to re-share the screen, then take two minutes to fix the deck and resume.",
+          "outcome": "The audience is restored and the session is fine, but the two minutes were spent on housekeeping, the room's attention drops while the screen is static, and you have publicly confirmed that your production was not rehearsed. If the company is selling operational competence, this is the moment the buyer quietly notes that the team that ran the webinar could not format a slide.",
+          "rating": "fair",
+          "feedback": "Recovering the legibility is right; making the audience watch you recover it is not. Do it without narrating the mechanics: 'let me get this to you properly' is thirty seconds, not two minutes, and you should prepare the fallback deck in advance so the re-share is a click rather than a project."
+        },
+        {
+          "text": "Keep speaking while you fix it invisibly: drop the shared screen, switch to a clean slide with the single number in 48-point type, and narrate only the claim, so the audience gets a readable version of the argument while you work out the rest.",
+          "outcome": "The chat stops complaining within about forty seconds and the talk continues at full pace. Nobody noticed the transition because the content changed to something more legible at the moment it needed to. The cost is that the detailed table is gone for good, so the questions that the table would have pre-empted arrive live in the chat instead, and you answer them without the artefact in front of you.",
+          "rating": "good",
+          "feedback": "This is the professional move: fix it without narrating the fix, and treat the readability problem as a content problem rather than a technical one. Two refinements. Say the number out loud, because a bare large number on a slide is unreadable as an argument without a sentence attached. And read the chat questions live as a segment rather than after, so the audience gets your spoken version of the table in the same words you would have used."
+        },
+        {
+          "text": "Change the mode deliberately: drop the shared screen entirely, put your face and a single claim on screen, ask the audience to answer the key question in chat, and use their answers as the working example - with the full table sent to everyone afterwards in the follow-up email, described as the backup rather than the main event.",
+          "outcome": "The session becomes the most engaged hour of the quarter: the chat fills with answers within a minute, the legibility problem disappears because there is almost nothing to read, and the table is delivered afterwards to people who now trust that the person speaking can produce it. You have converted a production failure into a different, better format - and you have learned something about how this audience actually thinks, which is worth more than the table was.",
+          "rating": "excellent",
+          "feedback": "This is the target behaviour: treat the medium as a choice rather than a constraint, and notice that the reason you needed a table is that you had a claim you could not make in words. The follow-up email is what makes it safe - never withhold evidence, deliver it in a form that can be read properly. Keep the promised follow-up specific: send the table within an hour, and say so on the call, because a webinar that ends without its artefact is just an unsent email."
+        }
+      ],
+      "coachingNote": "When the shared screen fails, the fix is not narration and not an apology - it is a decision about what the audience needs to see. Pick the one thing, make it huge, and get the evidence to them afterwards."
+    },
+    {
+      "id": "s6",
+      "title": "The hybrid interview where the in-room candidate is doing all the talking",
+      "setting": "A final-round interview for a VP Engineering role. Three interviewers sit in a conference room in London, the candidate is dialling in from a hotel room in Berlin, and you are one of the three. The other two interviewers have the in-room candidate dynamics: they are talking over each other, completing the candidate's sentences, and laughing at their own jokes. The candidate has been talking for forty seconds of the last six minutes.",
+      "challenge": "You are the only one who can see the chat and the candidate's face, and the candidate is visibly getting smaller. They have asked you one question by name and you have not answered it yet. Twenty minutes remain and the loop is the most common signal that can be rigged.",
+      "objectives": [
+        "Get the candidate's real answer onto the table without the room noticing the rescue",
+        "Protect the validity of the interview rather than the comfort of the panel",
+        "Close on a clear signal about the candidate that the remote participant could also have influenced"
+      ],
+      "options": [
+        {
+          "text": "Wait for a natural gap, then ask a general question of the room, keeping the flow.",
+          "outcome": "The room keeps the flow it has and the candidate keeps the experience it has. At the end of the session the panel agrees on a signal that is largely about chemistry, which in a hybrid interview is mostly a measurement of who was closest to the microphone. The candidate is rejected for a reason nobody can reconstruct and nobody can defend, and the one genuine question they asked - the one about whether the platform team would survive a re-org - is never answered.",
+          "rating": "poor",
+          "feedback": "The flow of the room is not a neutral good; it is the outcome you are about to produce. And the candidate asking a question is a strong signal that you are missing, not a problem to be managed. Waiting for a natural gap in a room like this is waiting for a gap that will not come."
+        },
+        {
+          "text": "Interrupt the panel to note that the candidate has asked a question, and invite them to answer it.",
+          "outcome": "The candidate gets the floor and the interview improves. But the intervention is visibly a rescue, the panel feels corrected by a colleague, and the candidate now knows they are being managed - which changes what they say for the rest of the session. You have improved the information and damaged the validity of the reading, because a candidate who knows they are being protected gives you the answer they think you want.",
+          "rating": "fair",
+          "feedback": "You got the right target - the question deserves an answer - with the wrong framing. Note that the candidate is not being rescued if you treat their question as a normal, expected contribution; it is being managed. Make it a rule for the whole panel at the top of the session instead of a moment in the middle, so the candidate does not experience it as an exception."
+        },
+        {
+          "text": "Reset the format out loud, as a process point rather than a person: 'let me change how we do this - I want to give each of us a question and hear a full answer, so let us go one at a time with no cross-talk', then ask the candidate their question first and let them answer without interruption.",
+          "outcome": "The candidate gets a real answer slot and the room gets a structure it was missing anyway. The reset is framed as process, so nobody is embarrassed and the candidate is not visibly rescued. The other two interviewers are slightly annoyed for a minute and then settle, because the rule applies to them too. The candidate's answer is a good one, and the panel now has real evidence about someone they had been collectively ignoring.",
+          "rating": "good",
+          "feedback": "This is the right move: change the format, not the person, and make the change a rule rather than an exception. The missing piece is that you should have set the rule at the top, in the first minute, when it was welcome - a mid-interview reset always carries a small political cost. Insist on the full answer too: the moment you take the answer, the room will interrupt again, and you have to hold the silence."
+        },
+        {
+          "text": "Set the rule at the top with the candidate present, so it is transparent: 'here is how we will run this - I will take each of the three questions in turn, the candidate will answer without interruption, and I will hold the time so everyone gets a full answer.' Then enforce it for the whole session by taking the first question yourself, never letting the panel talk over a finished answer, and closing with a written note shared with the candidate on the same structure the panel used.",
+          "outcome": "The interview produces comparable evidence from a remote and an in-room candidate, which is the only way a hybrid final round is valid. The candidate, who was on the back foot for the first six minutes, ends the session with a real answer and a real signal about whether they want the job. The panel gets a structured read instead of a chemistry read. And the written note, sent afterwards in the same format, means the candidate can see the evidence and challenge it, which is both fairer and a better employer reputation.",
+          "rating": "excellent",
+          "feedback": "This is the target behaviour and the transparency is what makes it work: the rule is stated with the candidate in the room, so the candidate can perform against a known structure instead of guessing at one. The written note is the part most people skip and it is the part that protects you: a shared, structured, contemporaneous record is the strongest defence of the decision and it costs ten minutes. Set the rule in the first minute of every hybrid interview from now on, and stop treating the panel's momentum as information."
+        }
+      ],
+      "coachingNote": "In a hybrid interview, the room's momentum is the measurement error. Set the format in the first minute, enforce the full answer, and write the record down."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "title": "The 3-Second Camera Drill",
+      "type": "drill",
+      "durationMinutes": 25,
+      "instructions": "Set up a laptop camera at eye level in front of a wall with nothing moving behind it, and open the meeting app's preview. Record a single continuous three-minute talk from a script you already know by heart - your professional biography, or a 200-word description of your company. Deliver it three times with the same words. Take one: the lens only, never looking away. Take two: the lens for three seconds, then a named tile - name three real colleagues out loud as you look at them - then back to the lens. Take three: the lens for three seconds, then a named tile, then a deliberate glance down at a number in your notes, then a turn of the head and shoulder toward the shared screen, then back to the lens. Watch all three with the sound off, then watch take three with the sound on. Count the moments in take one where you would want to look away, and count the named looks in take three.",
+      "deliverable": "Three recorded three-minute takes (lens-only, 3-second look, 3-second look plus break), plus a one-line note for each: how many times you broke gaze in take one, and how many deliberate look targets you hit in take three.",
+      "successCriteria": [
+        "The three takes use identical spoken content, verifiable by transcript, so the only variable is gaze.",
+        "In the lens-only take, the speaker breaks gaze at least four times in three minutes, and the count is written down rather than estimated.",
+        "In take three, every deliberate look is paired with a spoken name, so the grid can tell a look for the room from a look for a person.",
+        "In the sound-off pass, take three reads as composed rather than as a person fighting the camera.",
+        "The speaker can state the rule in one sentence without notes: lens for one thought, then a named person."
+      ],
+      "liveCoachPrompt": "We are training your eyes, not your words, so use a script you already know and change only where you look. Three takes: lens only, then lens for three seconds and a named person, then add a glance at your notes and a turn toward your screen. Play the first take with the sound off and count how often you want to look away - that number is usually higher than you expect, and it is the reason your video talks feel tiring to watch. Three seconds is one full thought. Hold the lens for that, then move, and say the name as you move so the room knows the look is for them."
+    },
+    {
+      "id": "e2",
+      "title": "The Audio-First Audit of a Live Call You Already Run",
+      "type": "realWorld",
+      "durationMinutes": 40,
+      "instructions": "Pick a real meeting in the next five working days that has stakes - a customer call, a leadership meeting, a board or investor update - and run the audio-first chain on it. Before the meeting, on the actual device in the actual room, spend five minutes: sit six to eight inches from the microphone, run a fifteen-second voice test on the real platform, and have one colleague listen at the far end and report on three things - whether every word is intelligible without straining, whether any noise from the room rides up, and whether your volume at the start of a sentence is lost. Then, in the first ninety seconds of the real meeting, ask one person on the far end to confirm the audio is clean, and make your opening with that answer as the frame. After the meeting, write a single paragraph: the one change you would make to the audio, the one change you would make to the light, and the one change you would make to the frame - ranked, with the audio first, and the reason you ranked it that way.",
+      "deliverable": "One live meeting run with a documented pre-meeting audio test, plus a ranked three-item written audit - audio, light, frame - in which audio is first and the ranking is justified in one sentence.",
+      "successCriteria": [
+        "The audio test was run on the real device in the real room, not on a laptop in a quiet office, and the far-end colleague gave a verdict before the meeting started.",
+        "The first ninety seconds of the meeting include an explicit audio confirmation from the far end, and the meeting is not reopened on the basis of a guess.",
+        "The ranked audit puts audio first and gives a reason tied to something observed in this specific call, not to a general principle.",
+        "At least one concrete defect is identified and can be named in physical terms - distance, room noise, table knock, feedback, echo - rather than as 'the audio was not great'.",
+        "The paragraph distinguishes between what is a one-minute fix (move the mic, close a window, turn the camera around) and what is a purchase (a headset, a light, a tripod)."
+      ],
+      "liveCoachPrompt": "We are not going to talk about cameras today - we are going to find out what your audience actually hears, because that is the part that decides whether your talk lands. Before your next real meeting, run a fifteen-second voice test on the real device in the real room and have someone at the far end give you a verdict. Then rank three fixes - audio, light, frame - and defend the order. Most people will put the camera first, and that is exactly the habit we are going to break."
+    },
+    {
+      "id": "e3",
+      "title": "The Hybrid Equity Rewrite",
+      "type": "analytical",
+      "durationMinutes": 45,
+      "instructions": "Take a real hybrid meeting that has already happened - a leadership meeting, a customer review, an all-hands - and get the actual airtime data, or reconstruct it as carefully as you can from memory and from asking three participants what they remember. Produce three tables. Table one: every speaker in the meeting, marked in-room or remote, with the approximate number of seconds they held the floor. Table two: the same meeting, but with the question of what content the remote participants could see - mark each agenda item as shared-screen, spoken-only, or side conversation, and note which in-room exchanges happened off-mic. Table three: the ratio of in-room to remote airtime, and the count of moments where an in-room speaker answered a question that had been asked by a remote participant. Then write the rewrite: the same meeting redesigned, in agenda order, with the structural changes named - what goes on the shared screen, who holds airtime authority, which rounds are chat-first, where the decision is captured so a remote participant can hear it, and which rule is stated out loud at the top. Finish with the single change that would have moved the ratio the most.",
+      "deliverable": "Three airtime and legibility tables from a real hybrid meeting, plus a redesigned agenda for the same meeting with the structural fixes named and the single highest-leverage change identified.",
+      "successCriteria": [
+        "Table one lists every speaker with an airtime estimate in seconds and an in-room or remote label, and the in-room to remote ratio is computed rather than asserted.",
+        "Table two identifies at least three agenda items where the content was unavailable to remote participants, and identifies at least one off-mic side exchange that carried a decision.",
+        "The count of in-room speakers answering a remote participant's question is stated as a number, and at least one instance is quoted or paraphrased.",
+        "The rewritten agenda names a specific structural change for each identified defect, and every change is one you could implement in the tool you already use - no new platform is required.",
+        "The single highest-leverage change is identified and defended in no more than three sentences, with a prediction of what it would do to the ratio."
+      ],
+      "liveCoachPrompt": "We are going to audit a meeting you have already lived through, and it is going to be uncomfortable in a useful way. Build the airtime table first - who spoke, in seconds, in-room or remote - and then the legibility table, because the second one is usually worse than the first. Do not soften either table; you cannot rewrite a meeting you have not measured. When you have the ratio in front of you, we will design the fix, and I want you to notice whether the fix is about cameras. It is not."
+    },
+    {
+      "id": "e4",
+      "title": "Five Minutes of Bad News on Camera",
+      "type": "recorded",
+      "durationMinutes": 60,
+      "instructions": "Choose a real, real announcement you will have to deliver within the next month - a pricing change, a hiring freeze, a missed target, a reorganisation, a delay. Write a five-minute script with a hard constraint: the first ninety seconds contain no slides, no screen share, and no numbers on screen, because you are looking into the lens. The script must have five parts: what is changing, who it affects, why now, what happens to the people affected, and what happens next with a named owner and a date. Record it three times on camera, with the Frame Grid satisfied: eyes on the upper third, mid-chest crop, hands visible, lens at eye level. Keep the best of the three for the final take, and do not cut between takes. Watch the final take once with the sound off, then once with the sound on, and mark the timestamps of any moment where you sound as if you are reading rather than speaking, and any moment where you rush the ending. Re-record only the ending. Then send the clip to two people you trust - one who knows the content and one who does not - and ask them one question each: what do you think is happening, and what do you need next? Do not give them context before they watch.",
+      "deliverable": "A five-minute scripted announcement, a final recorded take that satisfies the Frame Grid, a marked list of the timestamps where you sounded scripted, and the two written answers to 'what is happening' and 'what do you need next' from your two trusted viewers.",
+      "successCriteria": [
+        "The first ninety seconds contain no screen share, and the announcement is delivered face-on with the camera at eye level and the eyes on the upper third of the frame.",
+        "The script names who is affected, what happens to them specifically, and a named owner with a date - all three are in the final take, not only in the notes.",
+        "The final take has no passage where the speaker reads rather than speaks, and the ending is not rushed; the timestamps of both are recorded on the marked list.",
+        "The uninformed viewer can state what is happening and what they need next from the clip alone, with no context given beforehand.",
+        "The informed viewer finds no factual claim in the script that they would contradict, and the clip contains no detail that is not cleared to be said out loud."
+      ],
+      "liveCoachPrompt": "This is the one that separates a professional from an amateur, so I want you to do it properly rather than quickly. Pick an announcement you actually have to make in the next month, and write the script so that the first ninety seconds are you, on camera, with no slides and no numbers on screen - because the face is doing the work in that part. Record three takes, keep the best, and then mark every second where you sound like you are reading. Send the final to one person who knows the content and one who does not, and ask them the same two questions: what is happening, and what do you need next."
+    },
+    {
+      "id": "e5",
+      "title": "The Pre-Flight Checklist Run in the Real Room",
+      "type": "realWorld",
+      "durationMinutes": 30,
+      "instructions": "Choose a real room and a real upcoming camera event - an all-hands, a customer call, a board update, a recorded message - and run the full pre-flight in that room, in the last thirty minutes before the event, with one other person present. Go through the seven checklist items in order and time each one. Set the room: light, window, door, phone, and what the room's air conditioning sounds like when it starts. Position the camera at eye level on a stable surface and confirm the headroom on the real platform, not in the preview. Test the audio with your colleague at the far end of the actual call, with the table occupied and any other people in the room where they would normally sit. Open the deck on a second device, view it at 25 percent zoom on a phone, and try the share link as someone who is not already in the call. Measure the round-trip lag in the first minute by asking your colleague to send a word back and timing it. Then walk the failure case aloud: the dial-in number, the deck on a laptop, the deck in a browser, and the name of the person who would take over. Write the checklist with a tick or a note against every item, and write down the two things that are broken and their fix.",
+      "deliverable": "A completed, timed pre-flight checklist from a real room, with the two broken items named, their fixes written, and the name of the person authorised to take over if the platform fails.",
+      "successCriteria": [
+        "The pre-flight was run in the actual room with the actual equipment, with a second person present, and not reproduced in a quiet office.",
+        "The audio test was run with the room occupied and with the room's own microphone in use if one exists, and the far-end verdict was recorded.",
+        "The deck was checked on a second device at 25 percent zoom and the share link was opened by someone not already in the call.",
+        "The round-trip lag was measured, in seconds, and written down so the number can be quoted at the top of the meeting.",
+        "Two items are recorded as broken with named fixes, and the fallback includes a named person, not a role."
+      ],
+      "liveCoachPrompt": "Twenty minutes before anything that matters, you are not improving your slides - you are finding out what is broken. We are going to run the checklist in the actual room, with a second person, and I want you to time each item, because the point of this is that it fits in twenty minutes. The first thing to test is the audio, the second is the light, and the third is the share link opened by someone who is not already in the call. If you only have time for one, do the audio. Everything else is recoverable; unintelligible speech is not."
+    },
+    {
+      "id": "e6",
+      "title": "Three Camera Positions: The Framing Experiment",
+      "type": "recorded",
+      "durationMinutes": 45,
+      "instructions": "Record the same ninety seconds four times from the same chair, with the same script, changing only the camera. Position one: the laptop camera at desk height, as most people leave it. Position two: the laptop camera raised to eye level on a stack of books, framed head and shoulders. Position three: the same eye-level camera, framed mid-chest with your hands visible in the bottom of the frame. Position four: the eye-level camera mid-chest, with the room's light moved to sit in front of you at 45 degrees and slightly above eye level instead of behind you. Then shoot one more: position five, a lapel microphone on, camera as in position three, so you can hear the difference the audio makes. Edit all five into a single side-by-side clip with a label under each, and watch the finished clip with the sound off. Then watch it with the sound on and mark which frame you would defend to a client, and separately which frame you would defend to a candidate.",
+      "deliverable": "A single side-by-side comparison clip of five framings of the same ninety seconds, with labels, and a one-paragraph note naming which framing is defensible for a client, which is defensible for a candidate, and what each choice signals to the viewer.",
+      "successCriteria": [
+        "All five takes use identical spoken content and identical lighting except where lighting is the variable being tested, so the comparison isolates one factor at a time.",
+        "Position four is captured with the light source physically moved in front of the speaker, and the difference is visible in the footage without narration.",
+        "The edited clip is reviewed with the sound off, and the framing differences are described in terms of what the viewer perceives rather than in terms of photography.",
+        "The note separates the client framing from the candidate framing and gives a reason for each in terms of the impression being engineered.",
+        "The lapel-microphone take is heard and the difference in intelligibility and room tone is described, with a verdict on whether the microphone changed the perceived quality of the talk."
+      ],
+      "liveCoachPrompt": "Same chair, same words, five times - only the camera and the light change, so we can see what each one is actually doing rather than what we assume it does. Shoot it badly on purpose for the first one, because that is where most of us start, and it is worth seeing it once from the outside. Put the final comparison together side by side and watch it with the sound off first, because that is how a viewer meets you. Then put the microphone on and listen again. I will ask you which frame you would defend to a client and which to a candidate, and the two answers are usually not the same."
+    },
+    {
+      "id": "e7",
+      "title": "Latency Autopsy: Reading a Recorded Talk for Transmission Artefacts",
+      "type": "analytical",
+      "durationMinutes": 35,
+      "instructions": "Find a recorded two-person video call - a webinar with a Q and A, a recorded board meeting, a podcast with video, or a recorded talk with a question segment. Watch it with a transcript open in a second window, and mark every transmission artefact with a timestamp: response collisions, where two people start within a second of each other; false interruptions, where a speaker cuts off someone who was about to finish; the dead air that follows a question, which is the latency being absorbed as hesitation; repetitions caused by someone not having heard the end of a sentence; and the moments where a speaker says 'sorry, you cut out' or 'can you repeat that', which are the visible cost of a lag the meeting did not design for. For each artefact, write the cause from the list - response collision, false interruption, unexplained silence, hand-back without a name, moderator absent - and the fix from the list - a named hand-back, a three-second count, round-robin ordering, chat-based questions, an explicit moderator, a deliberate hold at the end of a turn. Then write your own hand-back phrase: the exact sentence you will use to give the floor to a named person on a lagged call, tested for the three properties of a good hand-back - it names the person, it signals the end of your turn, and it leaves silence for them to use.",
+      "deliverable": "A timestamped artefact log from a real recorded call, with a cause and a fix for each artefact, plus your own written hand-back phrase and the three properties it satisfies.",
+      "successCriteria": [
+        "At least eight artefacts are logged with precise timestamps, drawn from a genuine recording rather than an imagined one.",
+        "Every artefact is assigned one of the named causes and one of the named fixes, and the two are genuinely paired rather than assigned at random.",
+        "The log distinguishes response collision from false interruption, and identifies at least one instance of each.",
+        "The hand-back phrase names the person, signals the end of the speaker's turn, and leaves usable silence - and the note states where the silence comes from.",
+        "The final paragraph states what the meeting should have done differently at the moment the first artefact occurred, in terms of a structural change rather than a request to speak up."
+      ],
+      "liveCoachPrompt": "We are going to watch a call the way a network does, and the difference is that a network only sees packets - we see people colliding. Mark every artefact with a timestamp: the collision, the false interruption, the dead air that gets misread as hesitation, the apology for the connection. Then give each one a cause and a fix, because a log without a fix is just an insult. The last thing we will build is your hand-back phrase - the exact sentence you use to give the floor to a named person on a lagged call - and it has to do three jobs at once: name them, signal that you have stopped, and leave them room."
+    }
+  ],
   "assessment": {
     "id": "a11",
     "title": "The hybrid all-hands, delivered",
@@ -228,11 +770,31 @@
     "passMark": 70
   },
   "readingList": [
-    { "title": "Resonate", "author": "Nancy Duarte", "why": "The fullest practical treatment of the What Is / What Could Be arc, and the source of her argument that virtual audiences need a denser rhythm of variation because the medium supplies fewer social cues. Pairs directly with the opening of this module and with the short-block structure used in the engagement mechanics." },
-    { "title": "Emotional Intelligence", "author": "Daniel Goleman", "why": "Contains Goleman's analysis of electronically mediated interaction and the way it rewrites the implicit rules of emotional exchange - what counts as attention, politeness, and minimal acknowledgement. Pairs with the concept of the camera as the only audience and with the cultural and bias material in m10." },
-    { "title": "Toward a Theory of Media Richness", "author": "Richard Daft and Robert Lengel", "why": "The original articulation of media richness theory, and the cleanest academic account of why video is far richer than email and yet still a poor substitute for a shared room. Pairs with the framing of what video genuinely does and does not carry." },
-    { "title": "Remote: Office Issues, the Modern Distributed Team, and the Power of Virtual Collaboration", "author": "Jeffrey Stanton", "why": "A practical, evidence-aware treatment of how distributed work actually behaves - communication norms, the cost of meetings, and the difference between a room and a set of tiles. Pairs with the Hybrid Equity Protocol and the scenarios involving remote directors and remote customers." },
-    { "title": "The HBR Guide to Persuasive Presentations", "author": "Nancy Duarte", "why": "A short, usable companion for the same audience as this module: the structure of the argument underneath the medium. Useful for the learner who can already execute the mechanics in this module and needs help with what the talk contains." }
+    {
+      "title": "Resonate",
+      "author": "Nancy Duarte",
+      "why": "The fullest practical treatment of the What Is / What Could Be arc, and the source of her argument that virtual audiences need a denser rhythm of variation because the medium supplies fewer social cues. Pairs directly with the opening of this module and with the short-block structure used in the engagement mechanics."
+    },
+    {
+      "title": "Emotional Intelligence",
+      "author": "Daniel Goleman",
+      "why": "Contains Goleman's analysis of electronically mediated interaction and the way it rewrites the implicit rules of emotional exchange - what counts as attention, politeness, and minimal acknowledgement. Pairs with the concept of the camera as the only audience and with the cultural and bias material in m10."
+    },
+    {
+      "title": "Toward a Theory of Media Richness",
+      "author": "Richard Daft and Robert Lengel",
+      "why": "The original articulation of media richness theory, and the cleanest academic account of why video is far richer than email and yet still a poor substitute for a shared room. Pairs with the framing of what video genuinely does and does not carry."
+    },
+    {
+      "title": "Remote: Office Issues, the Modern Distributed Team, and the Power of Virtual Collaboration",
+      "author": "Jeffrey Stanton",
+      "why": "A practical, evidence-aware treatment of how distributed work actually behaves - communication norms, the cost of meetings, and the difference between a room and a set of tiles. Pairs with the Hybrid Equity Protocol and the scenarios involving remote directors and remote customers."
+    },
+    {
+      "title": "The HBR Guide to Persuasive Presentations",
+      "author": "Nancy Duarte",
+      "why": "A short, usable companion for the same audience as this module: the structure of the argument underneath the medium. Useful for the learner who can already execute the mechanics in this module and needs help with what the talk contains."
+    }
   ],
   "masteryChecklist": [
     "I can name the three things video removes from a talk - shared space, peripheral awareness, and the ability to spread attention across a room - and design one of my talks around those constraints rather than against them.",

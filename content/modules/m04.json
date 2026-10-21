@@ -299,16 +299,514 @@
       "imagePrompt": "A clean instructional diagram illustrating four sentence-level rules applied to a paragraph of speech, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
     }
   ],
-  "frameworks": [],
-  "scenarios": [],
-  "exercises": [],
+  "frameworks": [
+    {
+      "name": "The Nominalization Sweep",
+      "summary": "A mechanical three-pass edit that finds verbs hiding inside nouns, rebuilds the sentence around the verb, and restores the agent who does the work.",
+      "steps": [
+        "Highlight every noun ending in -tion, -ment, -ance, -ence, -ity, -ness, or -sion, plus the phrase patterns 'the ... of' and 'the ... in'. These are where verbs go to hide.",
+        "Write the buried verb next to the phrase: 'the implementation of the new onboarding flow' becomes 'we implement the new onboarding flow'. A noun with no recoverable verb underneath it is usually a label for a thing rather than an action - leave it alone.",
+        "Find the actor. Ask 'who did this?' and put them back in the sentence as the subject. If the answer is 'we', say 'we'. If it is 'the team', name the team.",
+        "Rebuild the sentence around the strong verb and check the object: the sentence should read as subject, action, object - 'we cut the onboarding flow from nine screens to three' rather than 'there was a reduction in the number of onboarding screens'.",
+        "Watch for the hidden benefit: 'the optimization of' and 'the enhancement of' are claims about improvement. Convert them to a verb plus a real improvement, or delete them - 'optimized' with no stated result is decoration.",
+        "Read the swept sentence aloud. If it sounds like a document, keep sweeping. If it sounds like a person saying it, you are done with that sentence."
+      ],
+      "whenToUse": "Use it on any document you have written more than once, on any sentence containing 'of' where a verb should be, and on any sentence longer than about twenty-five words - long sentences are usually long because they have stowed a verb inside a noun. Do not use it in a live conversation, where you cannot edit, and do not use it where a nominalization is the point, such as 'the variance in the data'.",
+      "example": "A CTO's status line reads: 'We have completed the implementation of the new data pipeline, which will result in the reduction of our data latency and enable the optimization of our alerting infrastructure.' The sweep produces: 'We built the new data pipeline. It cut our data latency and made our alerts faster to fire.' The original spends 29 words and three nominalizations to hide the same claim; the swept version spends 20 and puts an actor and a verb in every sentence. The version a board will repeat is the second one, because 'made our alerts faster to fire' is something a non-technical director can retell without needing the pipeline explained."
+    },
+    {
+      "name": "The Concreteness Ladder",
+      "summary": "A four-rung method for converting an abstract claim into something a listener can picture, with an explicit rule for when to stop climbing.",
+      "steps": [
+        "Rung 1 - Name the abstraction. Write the claim as currently stated: 'we significantly improved customer engagement'. Mark which words are doing no work.",
+        "Rung 2 - Anchor it in a number. Replace the vague quantity with a real one and give it a denominator or a period: 'weekly active accounts rose from 41 to 96 over two quarters'.",
+        "Rung 3 - Anchor the number in a moment. Put a person, a place, and a time into it: 'on the Tuesday after the March release, one retail customer ran 340 orders through before lunch'.",
+        "Rung 4 - Build the image. Compress the moment into something a listener can see or hear: 'the checkout queue that used to need a second person now clears in four minutes'.",
+        "Stop climbing. Each rung costs an audience member a little working memory, and a climb costs the talk time. Stop when the listener can picture the thing and the next rung would add detail the room cannot use for the decision in front of you.",
+        "Verify the ladder. Say the image aloud and ask whether it would still be true if the opposite were true. If so, it is decoration; keep climbing or drop back to the number."
+      ],
+      "whenToUse": "Use it on any claim you want remembered, and on any claim that is currently abstract because you have not yet decided what it means. Use it especially for opening lines, board headlines, and any description of a change in behaviour rather than a change in a metric. Do not use it in a room that already speaks the technical register, where the number is understood and an image would read as condescension.",
+      "example": "A VP of Sales opens a board meeting with: 'We have materially strengthened our position with enterprise customers this year.' Climbed: 'Enterprise customers went from 31 to 96 this year.' Climbed again: 'We closed 65 more enterprise accounts this year than last - most of them after the compliance update in March.' Climbed to image: 'Six months ago an enterprise deal died in security review. Last month a prospect asked us to move up their start date.' She stops there: the room can picture the thing, and the sentence is still a board sentence."
+    },
+    {
+      "name": "The Rule of Three",
+      "summary": "A structuring rule that builds any list, argument, or three-part beat in exactly three parallel items, with the strongest placed third so the room's expectation lands on your best material.",
+      "steps": [
+        "Decide what the three items are before you write them. Three means three things - not two plus a catch-all, and never four or five.",
+        "Make them grammatically parallel: the same structure, the same word type, the same length as near as you can manage. If one item is a clause and the others are nouns, rewrite.",
+        "Make them the same kind of thing. Three benefits, three risks, three reasons, three options. Mixing a benefit, a risk, and a next step in one trio reads as a list of whatever came to mind.",
+        "Order them so the third is the strongest. The rule of three teaches the audience that the end of the list is where the payoff lives, so put your best material there and let the third line be the one people repeat.",
+        "Say it in a single breath. Three items should be deliverable as one sentence of roughly 20 to 30 words, with a beat between items and a drop in pitch on the third. If it needs two breaths, it is not three items - it is a list with three visible members.",
+        "Check the third on its own. Read only the third item. If it does not stand as a claim, the list has no ending and the room will not remember the part you wanted remembered."
+      ],
+      "whenToUse": "Use it whenever you must be memorable under time pressure - a closing, a board headline, a three-bullet recommendation, an elevator answer, an opening thesis. Use it for three-part frameworks you want to become signature vocabulary. Do not use it for genuinely exhaustive lists such as a compliance enumeration or a risk register, where completeness matters more than shape.",
+      "example": "A founder closing a seed-round meeting says: 'We have a real product, a real customer, and a real number.' The original was: 'We have built a functioning product, we have signed several meaningful enterprise customers, and we have demonstrated strong growth in our key metric over the last two quarters.' The trio is parallel, the third item carries the number, and the room can repeat the three-beat exactly. The rewrite cost eleven words and bought a phrase the investors can use in the next partner meeting without the founder in the room."
+    },
+    {
+      "name": "The Cut-30 Pass",
+      "summary": "A four-pass editing routine that removes roughly 30 percent of a draft's words by deletion, compression, strengthening, and timing, while keeping every load-bearing idea intact.",
+      "steps": [
+        "Mark the load-bearing sentences. Read the draft once and star every sentence that carries an idea, a number, a name, a request, or a turn. These are untouchable. Everything else is a candidate.",
+        "Pass 1 - Delete. Remove every unmarked sentence without rewriting it. Signposting, throat-clearing, restatement, and stacked hedges all go here. Do not fix anything yet; just remove.",
+        "Pass 2 - Compress. Attack the survivors word by word: 'in order to' becomes 'to', 'the fact that' becomes nothing, 'a large number of' becomes the number, 'at this point in time' becomes 'now', 'it is important to note that' becomes the note. Cut 'very', 'really', 'quite', and 'significantly' unless you can name what they quantify.",
+        "Pass 3 - Strengthen. Now fix the verbs. Swap weak verbs (is, was, has, provides, enables, works on) for strong ones (built, cut, shipped, lost, won, taught, refused), and sweep nominalizations back into actions. This is where the remaining length comes out, because a strong verb ends a sentence sooner.",
+        "Pass 4 - Time it. Read the edited draft aloud at speaking speed, not reading speed, and record the time. Compare it to your slot. If it overruns, cut the lowest-value load-bearing sentence and re-time; never cut evidence to fit, and never speed up.",
+        "Run the hallway test. Give the edited version to a colleague and ask them to retell it back. Whatever they can retell is what survived. Compare it to what you wanted them to retain - if a gap opens, the cut removed something load-bearing and you have to put it back.",
+        "Do not cut twice in one sitting. The ear gets tired and the second pass starts removing things you love. Leave it overnight, then re-time and re-check before you deliver."
+      ],
+      "whenToUse": "Use it on any written talk, memo, or slide text more than a day before you deliver it, and on any material that has already been through your own editing once. Do not use it in the last hour before a talk, on legal or regulatory text where the exact wording is the protection, or on anything where length is part of the signal - a long answer to a hostile board question is a different instrument from a talk.",
+      "example": "A founder's 15-minute all-hands script runs 2,100 words. After the Cut-30 Pass: 1,455 words, timed aloud at 13 minutes 20 seconds, and one idea instead of seven. What was deleted: a company history paragraph, a slide-reading instruction, two restatements of the same metric, and the sentence 'I want to talk a little bit about some of the things we've been working on.' What survived: the number, the customer name, the ask, and the date. The all-hands ends five minutes early, and the time is spent on the four questions that actually arrive - because the room had time to think, which the original script had spent on signposting."
+    },
+    {
+      "name": "The Ban List",
+      "summary": "A personal, capped list of words and phrases that signal unfinished thinking, each entry paired with a named replacement you actually reach for instead.",
+      "steps": [
+        "Collect candidates from a real document. Take a memo, a board update, or a postmortem you have actually written and highlight every word you used to sound more senior than you felt, every word that names a feeling instead of a fact, and every hedge. Do not brainstorm the list from memory; a real document produces a real list.",
+        "Cap it at twelve. A ban list of forty is a personality, not a tool. Twelve is enough to change how you sound and small enough to remember in the room.",
+        "Write each entry as word plus replacement: 'synergy' becomes 'the two teams now share one planning cycle'; 'leverage' becomes 'use'; 'going forward' becomes 'from March'; 'I think' becomes 'here is what I know and here is what I am assuming'.",
+        "Never ban a word for being hard. Precision is allowed. If the room is technical, 'p99 latency' stays; what goes is 'we are optimizing our performance characteristics'. The ban is on vagueness, not on difficulty.",
+        "Never ban a word you have not replaced. A prohibition without an alternative makes the speaker hunt, and hunting is visible. If you cannot name what you will say instead, the word stays.",
+        "Check for collateral damage before you adopt: a banned word sometimes carries the exact meaning once - 'alignment' in 'we are not in alignment' is precise. Keep a note of the exceptions you have granted yourself, and be suspicious of granting many.",
+        "Run the check on the final draft, then once more live. A ban list applied only to writing does nothing for the way you speak. Before you walk in, glance at the list once and delete two or three habits from your opening, which is where the habits live."
+      ],
+      "whenToUse": "Use it to build a consistent signature register across talks, memos, and email, and to break a specific verbal habit you have noticed in your own recordings. Do not use it to police other people's language, and be careful with it in rooms that use technical or regulated vocabulary, where precision is the point.",
+      "example": "A founder's ban list has twelve entries, and three of them carry most of the weight: 'leverage' (use 'use'), 'going forward' (use a date), and 'we are excited to announce' (use 'we have shipped'). The third is the important one, because 'we are excited to announce' is what a founder says when nothing has shipped yet. On the announcement of a delayed product, the habit would have dressed up bad news as good news. With the ban applied, the sentence becomes: 'The new onboarding ships on 14 October instead of 30 September. Here is why, and here is what I have changed.'"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "s1",
+      "title": "The one line the board will repeat",
+      "setting": "A quarterly board meeting of a 40-person B2B software company. Nine directors, most of them non-technical. The CFO has just finished a 25-minute P&L review, the deck has 40 slides, and the CEO has 12 minutes and one item that matters: she must ask the board to approve a $2.4M spend to fix a churn problem before it becomes existential. The CEO is known for long, careful, well-rehearsed openings, and the previous two CEOs each ran 40 minutes in a 30-minute slot.",
+      "challenge": "You have 90 seconds to make a board approve a real spend against a real problem, using a line that will be repeated in the follow-up partner conversation you are not in.",
+      "objectives": [
+        "State the problem in one sentence a non-technical director can picture, with a number and a deadline",
+        "Ask for the specific decision, with a size and a date, without burying it in context",
+        "Survive the edit: the line must still be true and still be sharp after two other people paraphrase it badly"
+      ],
+      "options": [
+        {
+          "text": "Open with full context: 'Thanks everyone, as you know we've been working on a number of initiatives to improve retention across our product lines, and I've asked Priya to walk through some of the cohort data because there are a number of interesting trends that I think are worth discussing, and then I'd like to talk about where we're heading in the second half of the year and how that relates to some of the investments we've been making.'",
+          "outcome": "You burn 40 seconds on signposting and context the board already has, and the actual request arrives at 90 seconds and is immediately interrupted by a director asking about the cohort chart. The board approves a 'further discussion' at the end of the meeting. The ask you needed in ninety seconds is now a line item in next quarter's agenda.",
+          "rating": "poor",
+          "feedback": "This is a throat-clear with a colon in the middle. Every clause in it is a promise to talk about something, and the board has heard the promise of context before. Open on the consequence: the number of accounts that are leaving, the revenue, and the date the problem gets too big to fix. You have one job in 90 seconds and the job is a decision, not a preamble."
+        },
+        {
+          "text": "Open with the picture and the number, then the ask: 'We lose 14 enterprise accounts a quarter to one problem: their admins never finish setup. In February, at a logistics customer, an admin spent three days on a form that takes eight minutes. We can fix that for $2.4M. I need your approval today, and if we wait past June, the revenue it protects is gone.'",
+          "outcome": "The board hears a problem they can picture, a cost, and a deadline in the same 25 seconds. The discussion goes straight to whether the money is the right fix, which is the discussion you wanted. The director who owns the enterprise portfolio repeats the setup line to the CFO over lunch.",
+          "rating": "excellent",
+          "feedback": "This does the work. The picture is small, specific, and it names the failure rather than the feature; the number and the deadline create urgency without drama; the ask is a decision with a size and a date. One thing to tighten: name the form the answer takes - 'I need a yes or no on the $2.4M today' is sharper than 'I need your approval', because it tells the room what you are going to do with the answer."
+        },
+        {
+          "text": "Open with a detailed narrative of one customer escalation, the full sequence, and then a formal proposal with the supporting analysis summarized.",
+          "outcome": "The story is compelling and you lose the room at minute two, when you reach the analysis, because nobody has been told what decision they are being asked to make. They listen politely, ask a clarifying question about the customer, and approve a deferral.",
+          "rating": "fair",
+          "feedback": "You have inverted the order. A board member can hold one story, but not a story plus a data analysis plus a proposal. Lead with the decision, use the story as the single piece of evidence, and put the analysis in the appendix where it belongs - a director who wants to interrogate the numbers will ask, and you will have time to answer because you did not spend the room's attention on them in advance."
+        },
+        {
+          "text": "Use three punchy parallel sentences to frame the problem, then expand into detail, then land the ask at the very end after a full summary of the plan.",
+          "outcome": "The trio is good and the room leans in - but the ask, which arrives at the end, is remembered as an item among forty rather than as the one decision. Because the summary before it repeats the three sentences, the board's memory of the meeting is the argument, not the request.",
+          "rating": "good",
+          "feedback": "The three-beat is a strong opening and it should stay. The mistake is what follows it: you keep talking after the frame. A frame earns the room's attention; the ask should arrive within 60 seconds of the frame, not after a plan. And the summary that restates the trio at the end is a restatement - it spends words buying nothing."
+        }
+      ],
+      "coachingNote": "A board has one job and it is not to be impressed. Write the one line before you write the talk, then build the talk backwards from it. The test is not whether the line is good on the page; it is whether a director who paraphrases it badly still makes the right decision."
+    },
+    {
+      "id": "s2",
+      "title": "Explaining the architecture to people who will not build it",
+      "setting": "A Series B investor meeting, five partners plus two operating partners, none of whom have written code in a decade. You have 6 minutes to explain why your technical architecture is a durable moat before they ask about AI risk. Your lead investor is a former telecom operator who thinks in capacity, latency, and uptime, and who will ask what happens if a competitor simply copies the design.",
+      "challenge": "Explain a genuinely complex technical advantage in language that is precise, concrete, and true - without lying by simplifying and without drowning them in architecture vocabulary.",
+      "objectives": [
+        "Translate the technical advantage into an outcome the investors can price, not a mechanism they must admire",
+        "Say what the competitor would actually have to do, so the moat claim survives a direct challenge",
+        "Keep precision: use the technical term where it carries the meaning, and drop it everywhere else"
+      ],
+      "options": [
+        {
+          "text": "Explain the stack in full: 'We run a Kubernetes-based orchestration layer on GCP with a Kafka event bus, a vectorized retrieval subsystem backed by a custom embedding store, and a policy engine that enforces per-tenant isolation at the query planner level, all behind a gRPC service mesh with mutual TLS.'",
+          "outcome": "The partners stop following after 'Kubernetes' and start looking at the walls. When the lead investor asks what a competitor would need to copy, you either overstate the moat or retreat into caveats, because the claim was never connected to anything they can price.",
+          "rating": "poor",
+          "feedback": "This is a vocabulary recital that happens to be about your product. Nobody in the room can price a Kafka event bus. Translate first, name the technology second, and only then - and only if they ask - does the mechanism matter. You have 6 minutes, and you have spent 20 seconds on a name-drop that cost you the rest."
+        },
+        {
+          "text": "Lead with what the architecture does for the customer, then name the mechanism once, then state what a competitor must replicate: 'Your data never sits in a shared pot. Every tenant's records are physically separated at the storage layer and enforced at the query layer - we wrote that ourselves, it is about 40,000 lines of policy code, and it is why our SOC 2 Type II passed while two competitors failed their pen test last year. To copy it, someone would have to rebuild the query planner and re-certify. That is about 14 months of work for a team the size of ours, and they still would not have the migration history.'",
+          "outcome": "The partners can price the moat: 14 months, a re-certification cycle, and a body of migration history. The lead investor stops asking 'how does it work' and starts asking 'how long would it take us to defend if they tried' - which is a better question for you, and one you can answer.",
+          "rating": "excellent",
+          "feedback": "This is the right translation: mechanism last, cost and consequence first, and the technical name appears exactly once because it is the thing the claim rests on. The strongest move is naming the certification as the moat's real shape - 'it works' is not defensible, 'it is certified' is. One caution: never state a competitor's pen-test result unless you have a source. If you do not, change it to your own certification date."
+        },
+        {
+          "text": "Translate everything into the investor's own vocabulary of business outcomes and strip all technical language: 'We have built a best-in-class, highly scalable, enterprise-ready platform that our customers love and that is very hard to replicate, which is why we win.'",
+          "outcome": "The partners hear a sales pitch they have heard from ten companies this quarter, and the lead investor's first question is 'what does hard to replicate mean in months?'. Without a mechanism or a cost, you cannot answer, and the technical discussion you were trying to avoid happens anyway - under worse conditions.",
+          "rating": "fair",
+          "feedback": "The instinct is right - they do not want the stack - but you threw out the substance along with the vocabulary. A moat has to be a thing: a certification, a migration history, a proprietary data set, a cost. Vague claims invite exactly the question you were trying to dodge. Keep the mechanism, lose the noun pile-up."
+        },
+        {
+          "text": "Use one careful analogy to carry the whole explanation, then offer to take technical questions at the end.",
+          "outcome": "The analogy lands and the room relaxes - but the lead investor immediately asks whether the analogy is like a moat or like a lease, and you discover the analogy does not survive the challenge. An analogy that cannot be stress-tested in public is a liability in a diligence room.",
+          "rating": "good",
+          "feedback": "Metaphor is the right tool when the room genuinely lacks the concept; the discipline is choosing one that can take a hard follow-up. Test the analogy against the question a hostile partner would ask, and keep one real fact in reserve - the number of months, the name of the certification - so that when the imagery is challenged you can land on evidence instead of defending a picture."
+        }
+      ],
+      "coachingNote": "Precision is not completeness, and simplification is not precision. In an investor room, every technical claim should be convertible into a cost, a duration, or a risk, because that is the unit their decisions are priced in. If you cannot convert it, you have not understood it well enough to present it yet."
+    },
+    {
+      "id": "s3",
+      "title": "The announcement that hides the bad news",
+      "setting": "A 1,100-person all-hands, streamed to 400 remote staff. You need to announce that a product you promised at the last all-hands has slipped three quarters, and that 18 people will be reassigned. The company's internal culture rewards 'challenger' framings, and the comms team has drafted an announcement full of phrases like 'we are making a strategic realignment of our roadmap priorities' and 'the team is going to be moving into a new phase of the journey'. The CEO is on stage.",
+      "challenge": "Announce the slip and the reassignments without euphemism, without corporate camouflage, and without making 18 people feel thrown away.",
+      "objectives": [
+        "Say what happened, with the date and the number, in the first 60 seconds",
+        "Take responsibility in the first person, without hiding behind process or market conditions",
+        "Give the 18 people a specific, credible account of what happens next"
+      ],
+      "options": [
+        {
+          "text": "Use the drafted framing: 'We are making a strategic realignment of our roadmap priorities, and as part of that, we are evolving our team structure to better align with where we are going. I want to thank the team for their continued partnership on this journey.'",
+          "outcome": "The room leaves knowing that something happened and that the language has been sanitised. A Slack channel starts speculating about layoffs within minutes. The 18 people learn their reassignment from colleagues, not from you, and a memo circulates that the company 'quietly restructures'.",
+          "rating": "poor",
+          "feedback": "Every phrase here is a euphemism doing a job you should do honestly. 'Strategic realignment' means you changed your mind and did not say so. 'Evolving our team structure' means 18 people lose their roles. 'Continued partnership on this journey' is a thank-you to people who are being moved. A room can detect evasion, and evasion on a bad-news announcement is read as: there is more you are not saying."
+        },
+        {
+          "text": "Lead with the fact, take the blame, then explain: 'In January I told this company we would ship the analytics product by June. We will not. It is now Q3, and that is a failure of planning on my part, not a change in the market. Eighteen people who are part of the analytics team are being moved to the platform and support organisations, and here is exactly what that looks like for each of them. Three months from now, the people in this room will judge this company on whether we say the hard thing on time, so I am telling you the hard thing today.'",
+          "outcome": "The room hears the date, the number, and an admission of fault from the person with the authority to admit it. The 18 people learn their situation from the source, in language that treats them as people, and 'say the hard thing early' becomes a stated standard for the next hard message.",
+          "rating": "excellent",
+          "feedback": "This is the honest version and it is also the better speech. Note the mechanics: date, number, ownership, and the specific next step for the affected people. The line about the room judging the company is the one to be careful with - it works once and it can read as self-congratulatory, so keep it only if you can name a concrete thing you will do differently next time."
+        },
+        {
+          "text": "Lead with context and empathy before the news: 'I know this has been a tough quarter for everyone, and I want to start by recognizing how hard the team has worked. Before I get into the update, I want to look back at where we started and appreciate the journey.'",
+          "outcome": "You spend 90 seconds building goodwill you have not earned, and the delay converts a hard message into a dread message. The room spends those 90 seconds bracing rather than listening, and the actual news, when it arrives, lands as a letdown after the build-up.",
+          "rating": "fair",
+          "feedback": "Empathy is not the opposite of clarity, but it is not a substitute for it, and it must not come first when the news is bad. If you want to acknowledge the difficulty, do it in the same sentence as the fact: 'This is a hard quarter and I am going to tell you exactly what happened, because you deserve to hear it from me.' Acknowledging and informing can be one breath."
+        },
+        {
+          "text": "Break the news into four short, carefully sequenced slides - the good news first, then context, then the slip, then the reorganising - with the CEO walking through each section.",
+          "outcome": "The structure is professional and the sequence is a mistake: the good news at the start now sets up a contrast that makes the slip feel like a fall, and the 18 people are mentioned in a section rather than addressed. People spend the announcement waiting for their own name.",
+          "rating": "good",
+          "feedback": "The mechanics of disclosure are right - short segments, no surprises, face the room - but the ordering protects the speaker rather than the audience. Lead with the hardest thing, not the easiest, and put the affected people in the room's attention early enough that they hear their own situation while the company is still listening. Deliver the news about people in the same segment that addresses them, not in a structural section."
+        }
+      ],
+      "coachingNote": "Euphemism is a signal that the speaker has not decided to be trusted with the truth. The vocabulary of bad news should be the same as the vocabulary of good news: specific, dated, owned. A room forgives a mess; it does not forgive a fog. If you want credit for candour, you have to pay for it with specificity."
+    },
+    {
+      "id": "s4",
+      "title": "The interview you have to lead with",
+      "setting": "You are interviewing a finalist for Head of Product, a role you have open because your last one left. The candidate is strong on paper - eleven years, two companies, one of them acquired - and you have 45 minutes with them before a hiring panel. You have read their resume four times and you can already feel yourself forming a view from a list of bullet points.",
+      "challenge": "Open the interview in a way that gets real signal rather than a rehearsed candidate monologue, using language short enough to be heard and specific enough to be answered.",
+      "objectives": [
+        "Open with a question that requires a story rather than a summary, in under 30 seconds of speaking",
+        "Get at the decision they actually made, not the project they participated in",
+        "Leave yourself with something you can write down in the panel, not a feeling"
+      ],
+      "options": [
+        {
+          "text": "Open with: 'So, I'd love to start by walking you through your resume, and then I'd love to hear about your background and your experience and how you got to where you are, and then we can talk about the role, and then maybe some closing thoughts and questions from you.'",
+          "outcome": "The candidate gives you a twelve-minute recitation of their resume in chronological order, polished for the interview, with no decisions and no trade-offs. You learn what they participated in and almost nothing about what they chose.",
+          "rating": "poor",
+          "feedback": "This is an agenda disguised as an opening, and it hands the candidate the most flattering possible structure: their own script, in their own order, at their own pace. Ask one question about a specific moment instead - a decision, a number, a failure - and let the structure of the interview emerge from what they say."
+        },
+        {
+          "text": "Open with: 'Your resume says you were at B for four years and it was acquired in your second year. What did you decide not to do there?'",
+          "outcome": "The candidate stops. It is a question they have never been asked, it targets a decision, and the answer is a story with a trade-off in it. By the end of the 45 minutes you have three specific things you can write in the panel notes: what they cut, what they defended, and how they handled a room they did not control.",
+          "rating": "excellent",
+          "feedback": "This is the right shape: short, specific, impossible to answer with a bullet point, and it opens on the least comfortable part of their record, which is where the signal is. Two refinements: have a second and third question ready so you do not have to improvise, and be careful not to make the discomfort a performance - if they are genuinely thrown, give them a moment before you fill the silence."
+        },
+        {
+          "text": "Open with a long description of the role, the team's current challenges, the company's situation, and the twelve-month scorecard you need someone to hit.",
+          "outcome": "The candidate now knows exactly what you want and will spend 45 minutes telling you how they would hit it, which is what a candidate does in an interview. The information asymmetry you created works against you: they can now perform against your brief instead of revealing their record.",
+          "rating": "fair",
+          "feedback": "The brief matters and they should hear it - but not first, and not all of it. Sharing the scorecard up front converts the interview into a pitch meeting, and a candidate's pitch against a scorecard is much less diagnostic than their recollection of a real decision. Give the situation in ninety seconds, then go straight to their experience."
+        },
+        {
+          "text": "Open with: 'What's your greatest weakness?'",
+          "outcome": "You get the rehearsed answer - the one where the weakness is a disguised strength - and you have spent three minutes of a 45-minute interview on a question with no information value. Worse, it sets the tone for the rest: the candidate is now performing.",
+          "rating": "poor",
+          "feedback": "This is the classic wrong opener because it is a trap everyone has seen. If you want weakness, ask for a specific failure: 'Tell me about something you shipped that did not work.' That produces a real story, a real cause, and a real answer about what they changed. Reserve the rehearsed questions for the end, if you use them at all."
+        }
+      ],
+      "coachingNote": "The interview is the one meeting where the candidate controls the agenda by default, and the only way to take it back is with a question that cannot be answered from a resume. Short questions, real decisions, and silence after the ask. Write your three questions before the candidate arrives."
+    },
+    {
+      "id": "s5",
+      "title": "The escalation where jargon is hiding the problem",
+      "setting": "Your largest enterprise customer - 4,000 seats - has emailed your support inbox. Their VP of Operations, a former McKinsey consultant, has written a 600-word email describing 'a lack of alignment between the platform's data residency configuration and our internal governance framework' and asking when this 'will be remediated'. She is on a call with your CTO in 40 minutes. The real problem, which your engineers found an hour ago, is that the customer wants to export a full copy of their data and your API does not support bulk export.",
+      "challenge": "Say the actual problem in plain language on a call where the customer is using your language as a shield, without confirming a euphemism and without being blunt in a way that ends the commercial relationship.",
+      "objectives": [
+        "Name the real request in plain language within the first 60 seconds, so the rest of the call is about the real issue",
+        "Give a date and a scope without committing to something engineering has not agreed to",
+        "Leave the customer with the sense that they were understood rather than handled"
+      ],
+      "options": [
+        {
+          "text": "Match her register: 'We understand the alignment concern between our data residency configuration and your governance framework, and we're committed to remediated remediation across the relevant surface area.'",
+          "outcome": "She replies 'Good, that's what I wanted to hear', and the call ends with nothing agreed. She escalates to your CEO the same afternoon, because the conversation confirmed her suspicion that you speak her language without meaning it. You are now negotiating with a customer who has decided you are not credible.",
+          "rating": "poor",
+          "feedback": "You have mirrored the euphemism and thereby ratified it. This is the failure mode jargon creates in a live call: two people exchanging nouns and both leaving with the impression that something was said. Say the plain thing. 'You want a full copy of your data, and our API does not currently support bulk export' is a sentence that costs you one uncomfortable minute and buys you the rest of the call."
+        },
+        {
+          "text": "Name it plainly and scope it: 'Let me make sure I have the real issue. You need to be able to take a full copy of your data out of our platform - all of it, in one export - and today our API does not support bulk export, which is why your team's manual process is running. That is a real gap on our side, and I would rather tell you that than talk about alignment. Here is what I can commit to today: by 14 March we will ship a scoped export for your tenant, and by 11 April we will have a general path. I am not going to promise a date I cannot hold.'",
+          "outcome": "She laughs - the jargon came from her, and hearing it named changes the temperature. The real requirements come out in the next twenty minutes: which objects, what format, what retention. You have a dated commitment, an honest limit, and a customer who now believes you will tell her the truth.",
+          "rating": "excellent",
+          "feedback": "This is the right move and it is mostly structural: plain name, ownership ('a gap on our side'), a scoped date, an honest refusal to over-promise, and an invitation to surface the rest of the requirement. Note the balance - naming the gap does not mean conceding liability for the churn her team experienced, and if that comes up, separate the engineering gap from the commercial conversation before you answer it."
+        },
+        {
+          "text": "Stay silent and let her talk, taking notes and asking clarifying questions about her governance framework for the full 40 minutes.",
+          "outcome": "She talks for 38 minutes, you learn the org chart of her governance function, and you leave the call with no idea that the real request is a bulk export. The next call, which you set, starts from zero, and she has already told her COO that your team 'does not listen'.",
+          "rating": "poor",
+          "feedback": "Active listening is a tool, not a strategy. You had a hypothesis - the manual export process - and you let forty minutes of vocabulary pass without testing it. In an escalation, listen for the noun underneath the noun. When she says 'export our records in a structured format', stop and ask what she is actually trying to do with them."
+        },
+        {
+          "text": "Hand the call to the CTO with a note that the customer wants 'alignment on data governance' and let the engineering conversation define the scope.",
+          "outcome": "The CTO, who is excellent, spends the call on the wrong problem and comes back asking what she actually wants. Two engineers are pulled into a scoping exercise for a feature nobody has specified, and the customer now has two of your people who seem to have different stories about what is happening.",
+          "rating": "fair",
+          "feedback": "Escalating with an untranslated summary is the most common failure in this genre. The engineer's job here is to scope a bulk export, and they cannot do that from 'alignment on data governance'. Whatever you hand off, hand off the actual request in the customer's words plus your translation - one sentence of each. Also brief the CTO on the commercial context, not just the technical one, because a date is a commercial promise."
+        }
+      ],
+      "coachingNote": "Jargon in an escalation is not a vocabulary problem, it is an information problem. Somebody is hiding the request, and the cost of the meeting is being paid by the customer. Name the request in the first minute in words the customer will recognise, and the rest of the call becomes a negotiation you can actually win."
+    },
+    {
+      "id": "s6",
+      "title": "The shareholder letter that has to be read by people who are not shareholders",
+      "setting": "You are writing the annual shareholder letter for a 6-year-old company with 900 employees and three institutional investors. It will be published on the company website, read by prospective hires, quoted in recruiting, and read line by line by a portfolio manager deciding whether to increase her position. Last year's letter opened with 'we are excited to share' and ran 2,400 words. The CEO wants to open with the mission, because the mission is his favourite sentence.",
+      "challenge": "Write a letter that a portfolio manager will find informative, a candidate will find attractive, and a lawyer will find safe - without the mission statement and without the corporate register.",
+      "objectives": [
+        "Open with the most consequential fact of the year, in the first two sentences",
+        "Use concrete detail and numbers a reader can check, and no vocabulary that only makes sense inside the company",
+        "End with a specific forward commitment with a date, so the letter can be judged in twelve months"
+      ],
+      "options": [
+        {
+          "text": "Open with the mission: 'Our mission is to make operational intelligence accessible to every team. As we enter our seventh year, we are more committed than ever to our north star, and we believe deeply in the power of our customers.'",
+          "outcome": "The portfolio manager learns that the company has a mission - which she could have read on the website - in the first two sentences, and now has 2,380 words to get to a number she cares about. A candidate reads it and learns nothing about what the company actually did in the year, which is the only reason a candidate is reading it.",
+          "rating": "poor",
+          "feedback": "The mission is not the news. The mission does not change and it does not compete; the numbers do. In a letter read by non-shareholders, the opening line has to be a fact with a consequence, not a statement of purpose. 'We crossed $40M in annual recurring revenue this year, and we did it without increasing sales headcount' is a better first sentence than any mission - it contains a number, a direction, and a claim the reader can test."
+        },
+        {
+          "text": "Open with the year's central fact, then give the reader three things they can verify: 'In October, we crossed $40M in ARR - 31% growth, and every dollar of it from customers who joined before March, which is the first time that has been true since 2023. Here is the year in three numbers: $40M ARR, 71% net revenue retention, and 9 months of cash runway. We also lost our two largest deals in the year, both to a competitor four times our size, and I want to be precise about why.'",
+          "outcome": "The letter now has a spine: growth, the quality of that growth, and a confession. The portfolio manager can extract the three numbers in ten seconds and quote them. A candidate reads a company that tells the truth about losses, and the 'why' you volunteer is what the next two pages are for.",
+          "rating": "excellent",
+          "feedback": "This is the right structure: the hardest fact first, three verifiable numbers, then the admission that a reader would have found anyway. Volunteering the losses is what buys the right to the good news, and it is what makes the rest of the letter credible. Two notes: use your actual numbers, and have counsel check the customer references in the losses paragraph, because naming a competitor's win can create a dispute."
+        },
+        {
+          "text": "Write it as a comprehensive letter: market trends, the competitive landscape, our positioning, our culture, our financials, our product roadmap, and then the year's highlights.",
+          "outcome": "You produce a 3,000-word document that is technically complete and practically unreadable. The portfolio manager reads the first 200 words, extracts nothing, and asks her associate for the summary version. Nobody quotes the letter, and the candidates who read it learn that the company talks about itself at length.",
+          "rating": "poor",
+          "feedback": "Completeness is not a virtue in a shareholder letter; the audience is already investors and can get the detail from the 10-K. A letter's job is to be read by people who are not shareholders, so it must survive a skim. Cut to 1,200 words, put the numbers in the first 200, and decide what the letter is about: usually one achievement and one problem, and the reader can get the rest from the filing."
+        },
+        {
+          "text": "Write a short, warm letter focused on people and culture - a list of customer quotes, a new hire's story, the community programme - with the financials linked at the end for anyone who wants them.",
+          "outcome": "Aimed at candidates and employees, it is genuinely moving and it is not a shareholder letter. The portfolio manager reaches the end without a number about revenue, retention, or runway, and has to go and find the filing - which signals that the letter is not the primary source of truth about the company, the opposite of what a shareholder letter is for.",
+          "rating": "fair",
+          "feedback": "You have written a recruiting letter, and there is a real one to write separately. A shareholder letter that leads with culture sends the most important signal last, because the reader who owns the stock is deciding on a risk-adjusted return. Put the commercial facts in the first 200 words and let the human material earn its place by being specific - a named customer, a real number, an actual consequence."
+        }
+      ],
+      "coachingNote": "A shareholder letter has three audiences and one hard rule: it is read by people who do not work with you, so nothing can be assumed. Decide the single fact the year turned on, put it in sentence one, and make every later sentence either explain it or be cut. Numbers, named things, and dates are what make a letter quotable; register is what makes it forgettable."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "title": "The 30% cut drill",
+      "type": "drill",
+      "durationMinutes": 35,
+      "instructions": "Take a real document you have written and would deliver in the next month: a talk script, a board update, or a memo. Do not choose something you have already edited. First, paste it into a word counter and record the exact word count. Second, read it once and star every sentence carrying an idea, a number, a name, a request, or a turn - these are untouchable. Third, run the four passes in order: delete every unstarred sentence without rewriting anything; compress the survivors word by word ('in order to' to 'to', 'the fact that' to nothing, 'a large number of' to the number); strengthen the verbs and sweep nominalizations; then read it aloud and time it at speaking speed. Fourth, write down the new word count, the percentage cut, and the new spoken time. Finally, ask a colleague to read the edited version and retell it back to you in one minute, and write down what they said - that is the surviving talk. Bring both versions, the counts, and the retell to the session.",
+      "deliverable": "The original and the cut version, the before and after word counts and spoken times, the list of sentences you deleted, and a one-paragraph note of what your colleague could retell from memory.",
+      "successCriteria": [
+        "The word count falls by 25 to 35 percent, and the specific number is recorded.",
+        "Every sentence carrying an idea, number, name, request, or turn in the original still survives in the cut version.",
+        "At least five sentences were deleted outright rather than merely shortened.",
+        "The edited version reads aloud in less time than the slot it is written for, and the difference is written down.",
+        "The colleague's retelling contains the main point and one specific detail, and its gaps are named."
+      ],
+      "liveCoachPrompt": "Here is what we are doing: one document, four passes, and a number at the end that you can defend. Word economy is not about being terse for its own sake - it is about moving the words you spend from padding onto the idea, so I want to see exactly where the thirty percent came from. Bring the original, the cut, and one honest note about which deletion hurt, because that one is usually the sentence you should have kept. If your cut only shortened words and deleted nothing, we will run the delete pass again, and that is usually where the real lesson is."
+    },
+    {
+      "id": "e2",
+      "title": "The nominalization sweep",
+      "type": "drill",
+      "durationMinutes": 30,
+      "instructions": "Take 400 words of your own writing - a status update, a postmortem, a performance review - and paste it into a table with three columns: sentence, buried verb, agent. Work mechanically: in column one put each sentence; in column two write the verb you can recover from any -tion, -ment, -ance, -ence, -ity, -ness, or -sion noun in it, plus the 'the ... of' and 'the ... in' patterns; in column three write who did it, and if nobody did it, write 'nobody'. Now rewrite every row in column four so the actor is the subject and the verb is a real action. Read each rewritten row aloud and keep it only if it sounds like a person speaking. Finally, take your five longest rewritten sentences and cut each by half again, without adding new information. Bring the table and the final versions to the session.",
+      "deliverable": "The three-column table plus the rewritten sentences, and a short note naming the two constructions you hide behind most often.",
+      "successCriteria": [
+        "At least twelve buried verbs are recovered and used as the verb of the rewritten sentence.",
+        "Every rewritten sentence has a named actor rather than an implied one, or is flagged as genuinely agentless.",
+        "Sentences that hid an improvement claim ('optimization', 'enhancement', 'improvement') are either converted to a stated result or deleted.",
+        "All five halved sentences are 15 words or fewer and no sentence has lost a number, a name, or a date.",
+        "Every rewritten sentence is read aloud and passes the 'does this sound like a person' test, and the note names the two constructions you hide behind most often."
+      ],
+      "liveCoachPrompt": "This one is mechanical on purpose - you are not trying to write beautifully, you are trying to find every verb that has been smuggled into a noun. The third column is the one that matters, because the moment you write 'nobody' next to a phrase, you have found either a missing owner or a sentence that should not exist. Read the rewrites aloud as you go, and if a rewrite does not sound like speech, we have not found the right verb yet. Bring the two constructions you hide behind most, and we will work out what you are actually trying to say when you reach for them."
+    },
+    {
+      "id": "e3",
+      "title": "The rule-of-three rewrite",
+      "type": "recorded",
+      "durationMinutes": 25,
+      "instructions": "Choose one message that must be remembered after you leave the room - a board headline, a closing line, an answer to 'what does this company do?' - and write it three ways. Version A: the sentence you would use by default, at whatever length it comes out. Version B: the same message as exactly three parallel items of the same grammatical type, in one breath of roughly 20 to 30 words. Version C: the same three items with the strongest placed third, and the third tested on its own as a standalone claim. Then apply the concreteness ladder to each item in version C: at least one item must contain a number, one a named thing or person, and one a consequence for the reader. Read all three aloud and time them. Now record yourself delivering version C on your phone, standing, without the script in view, and make one further take of version B the same way. Play both back and mark, for each, the second the message lands and whether the three beats survived the pressure of speaking rather than reading. Bring all three written versions, the timings, the two recordings, and a note on which the room would actually repeat.",
+      "deliverable": "Three written versions of one message with timings, two recorded deliveries (versions B and C), and a one-paragraph argument for which version you would deliver and what each version trades away.",
+      "successCriteria": [
+        "Version B contains exactly three items, grammatically parallel and of the same word type.",
+        "Version B is deliverable in a single breath, between 20 and 30 words, and is timed.",
+        "Version C's third item stands alone as a complete claim when read by itself.",
+        "Across version C, there is at least one number, one named thing, and one consequence for the reader.",
+        "The third item is the strongest of the three on a stated reason, not by assertion."
+      ],
+      "liveCoachPrompt": "Three versions of the same message, and the only variable is the shape - the content stays identical, so we are not arguing about what is true, only about what sticks. The rule of three is not arbitrary: the audience learns inside the list that the payoff lives at the end, which is why your best material goes third. Watch what happens to your argument when you force parallelism - it usually reveals that two of your three points were not the same kind of point. Read all three aloud, and I want to hear which one you would actually say in the room, and why."
+    },
+    {
+      "id": "e4",
+      "title": "The one-page banned-words check",
+      "type": "analytical",
+      "durationMinutes": 30,
+      "instructions": "Take one real document you have written - a memo, a board update, a postmortem, a post - and highlight every word or phrase you used to sound more senior than you felt, every word that names a feeling instead of a fact, and every hedge. Do not brainstorm from memory; the document supplies the list. Now cap the result at twelve and write each entry as word plus replacement, where the replacement is something you would actually say: 'synergy' becomes 'the two teams now share one planning cycle', 'going forward' becomes 'from March'. Mark any entry that is a technical term whose difficulty is the point, and grant yourself an exception for any banned word that carries exact meaning in one place. Then rewrite the document applying the list, and read the before and after aloud. Bring the list, the rewritten document, and a note on which entry did the most work.",
+      "deliverable": "A twelve-entry ban list with word-plus-replacement for each, the rewritten document, and a note naming the entry that changed the document most.",
+      "successCriteria": [
+        "The list is capped at twelve entries and every entry has a named replacement, not just a prohibition.",
+        "Every highlighted instance in the source document has been rewritten or explicitly kept with a reason.",
+        "At least one technical term is explicitly exempted because its difficulty carries the meaning, and any exception granted for a word that is the exact word needed is written down.",
+        "The rewrite is read aloud and the before and after are compared out loud.",
+        "The note identifies one entry that changed the document's meaning rather than merely its length."
+      ],
+      "liveCoachPrompt": "We are building your ban list out of a document you have actually written, because a list invented in the abstract is a list you will not remember in a room. The rule is that every entry gets a replacement, because a ban without an alternative just makes you hunt for words on stage, and the hunting is visible. Be careful with the ones you want to keep - there is a difference between vagueness and difficulty, and 'p99 latency' is not a failure. Bring the entry that changed your document most, and I will ask you what it was protecting."
+    },
+    {
+      "id": "e5",
+      "title": "The recorded two-minute, no-jargon rewrite",
+      "type": "recorded",
+      "durationMinutes": 30,
+      "instructions": "Pick a real 2-minute piece of your communication - a conference talk opening, a customer update, a team briefing - that you have to deliver within the next month. Write a 2-minute script of roughly 260 words at speaking pace. Now strip it: remove every term your listener would not use, every nominalization, and every phrase you would not say out loud to a peer; replace each with a concrete noun and a strong verb; and check that at least one sentence contains something a listener can picture. Record yourself standing, at speaking pace, with no notes and no script in view, using a phone camera on the full body so the listener can see your face. Record three takes. Play them back and mark, for each: the second the point lands, any word you had to search for, and whether you stayed under 2 minutes without speeding up. Then do one final take where you cut 30 percent of the words and see whether it lands harder. Bring the three takes and the final take to the session.",
+      "deliverable": "Four recorded two-minute takes plus a marked sheet showing, for each, the second the point lands, the words you hesitated on, and the final word count and time.",
+      "successCriteria": [
+        "The script is 200 to 280 words, and the final take lands the point in under 2 minutes without speeding up.",
+        "The script contains no term that requires explaining, and every abstract noun has been replaced by a concrete one or a named thing.",
+        "At least one sentence contains something the listener can picture, and you can say which one.",
+        "The marked sheet identifies the exact second the point lands in every take, and the seconds do not drift wildly between takes.",
+        "The final take contains 25 to 35 percent fewer words than the first and is measurably clearer on the marked criteria."
+      ],
+      "liveCoachPrompt": "This one gets recorded, and I want the full body on camera, because the tells are the point - you can hear a hedge and you can see one. Three takes first, so we can see the range, then the thirty percent cut as the fourth. Mark the exact second the point lands on each one, because that number is usually later than you think, and the gap between what you intend and what lands is where the language is costing you. Say the words you stumbled over out loud when you bring them in, because the stumble is where a strong verb is missing."
+    },
+    {
+      "id": "e6",
+      "title": "The real board-line rewrite",
+      "type": "realWorld",
+      "durationMinutes": 40,
+      "instructions": "Find a real board or investor meeting inside the next two weeks where you have to present something that matters. Before the meeting, write the single line you want the room to repeat - one sentence, with a number, a deadline, and the ask - and send it to a colleague in an email as if they were the board member who would repeat it. In the email, include a second paragraph giving them the raw material - the number, the source, the date, and the decision you need - so the line is not doing work it cannot support. Then wait for their reply, and in the reply ask them to paraphrase your line back to you in their own words. Rework the line once based on what they wrote. Then build the 90 seconds that delivers it: the problem in one picture, the number, and the ask, with no agenda and no throat-clearing. Record that 90 seconds on your phone, once, and time it. Bring the line, the colleague's paraphrase, and the recording to the session.",
+      "deliverable": "The one line, the email to the colleague, their paraphrase and your revision, and a 90-second recorded delivery of the line with its timing.",
+      "successCriteria": [
+        "The line contains a number, a deadline, and a specific ask, and it is one sentence.",
+        "The colleague paraphrased it without being asked to preserve your wording, their paraphrase is still true and still sharp, and you revised the line at least once in response to it.",
+        "The 90-second recording contains no agenda, no credentials, and no signposting, and runs under 90 seconds.",
+        "The ask is delivered as a decision the room can give, with a size and a date, not as a topic to discuss.",
+        "You can state, in one sentence, what the room will be able to do after the meeting that it could not do before."
+      ],
+      "liveCoachPrompt": "This one has a real deadline and a real audience, so we are going to write the line properly rather than for a hypothetical. The email is the whole trick: you are asking a colleague to play the board member and repeat your sentence back, and their paraphrase is your accuracy test. If their version changes the meaning or loses the number, your line is not finished, no matter how good it looks on the page. Bring the paraphrase with you, and we will decide together whether the sentence is done or whether it needs one more pass."
+    },
+    {
+      "id": "e7",
+      "title": "The bad-news rewrite, on the record",
+      "type": "realWorld",
+      "durationMinutes": 35,
+      "instructions": "Identify a hard message you actually have to deliver in the next month - a slipped date, a missed number, a reorganisation, a customer impact. Write it in three versions. Version A: the corporate version, using the words you would normally reach for, without editing them. Version B: the same message with every euphemism removed and a specific date, a specific number, and a first-person statement of who owns the failure. Version C: version B plus a statement of what happens next for the people most affected, with something you can actually commit to. Then deliver version C out loud, standing, to one person - a colleague, your partner, or a member of your team - as if they were the audience, and ask them one question afterwards: 'What did you think was actually being said?' Deliver version A to a second person and ask the same question. Bring both recordings and both answers.",
+      "deliverable": "Three written versions of a real hard message, two short recordings of versions A and C delivered to real listeners, and their unprompted answers to 'what did you think was actually being said?'.",
+      "successCriteria": [
+        "Version B contains a specific date, a specific number, and a first-person ownership statement.",
+        "Every euphemism in version A has been replaced in version B with a plain noun, a verb, or a number.",
+        "Version C includes a named consequence for the people most affected and a commitment with a date.",
+        "The listener who heard version A reports that the message was vaguer than intended, and the listener who heard version C can state in their own words what happened and what happens next.",
+        "The two answers are compared explicitly, and the difference is attributed to specific language choices rather than to delivery."
+      ],
+      "liveCoachPrompt": "We are going to write a message you actually have to deliver, because euphemism is easiest to spot in real material and hardest to write. The test that matters is on the other side of the sentence: when you say the corporate version, people will report that they could not tell what was happening, and when you say the plain version, they will tell you exactly what you said. That difference is entirely in the words. Bring the two recordings and both answers, and we will work out which specific phrases did the damage."
+    }
+  ],
   "assessment": {
     "id": "a4",
     "title": "The edit and the delivery",
-    "brief": "placeholder",
-    "rubric": [],
+    "brief": "You will take a real piece of work you must deliver in the next 30 days - a board or investor talk, a customer update, a difficult internal announcement, or a shareholder letter - and put it through a full language edit. You will submit four things: the original, the edited version with every change traced, a one-page record of your own ban list, and a 3-minute recorded delivery of the edited version to a live panel drawn from your real audience. The panel will judge the edit by what it can repeat and the delivery by what it can act on. You will also bring the Cut-30 log: the word count before and after, the list of sentences deleted outright, and the 30-second so-what chain for every claim that survived. You are assessed on the edit itself and on the effect of the edit in a room - a talk that is brilliantly edited and then delivered flatly fails, and so does a talk delivered well on language that was never actually tightened.",
+    "rubric": [
+      {
+        "dimension": "Word economy: the cut and what survived it",
+        "weight": 20,
+        "excellent": "The edited version is 25 to 35 percent shorter than the original, timed aloud at speaking speed, and every claim carrying an idea, number, name, request, or turn survives intact. The submission includes a log of sentences deleted outright, and at least half of the deletion budget came from removal rather than from rewording. The original number, date, and evidence are all still present and are not reworded into vagueness to fit the cut.",
+        "adequate": "The version is meaningfully shorter - roughly 15 to 25 percent - and the main argument and its supporting numbers survive. The cut is mostly compression of long constructions rather than removal of whole sentences, and at least one piece of genuine padding or restatement was removed. A few load-bearing details were lost in the edit and are noted.",
+        "poor": "The version is the same length or longer, or it is shorter only because evidence and qualifiers were dropped. Words were swapped for shorter words with no sentence ever removed, so the talk still spends the same attention on nothing. The submission shows no cut log, so the reduction cannot be traced to specific decisions."
+      },
+      {
+        "dimension": "Verb strength, agency, and the nominalization sweep",
+        "weight": 15,
+        "excellent": "Every sentence with a real action has a strong verb and a named agent - no sentence says 'there was a reduction in' where it could say 'we cut'. At least six nominalizations are converted back into actions, and the actor is restored in each. The rewritten sentences read as speech rather than as document prose, and the sweep log shows the buried verb and the agent for each conversion. The specific change that most improves the talk is identified and explained.",
+        "adequate": "The weak-verb and passive-voice problems are largely fixed, and most nominalized phrases have been rewritten as actions, though a handful of nominalizations survive where the noun was genuinely a thing. Agency is usually present but is dropped in a few sentences where the actor becomes generic.",
+        "poor": "The prose is still the same register as the original: passive constructions, abstractions, and hedges of the form 'a significant improvement in' dominate. Verbs are still weak or generic, and no sweep log was produced, so the changes cannot be audited. The talk remains something read aloud rather than something said."
+      },
+      {
+        "dimension": "Concreteness: images, numbers, and the ladder",
+        "weight": 15,
+        "excellent": "At least three abstract claims in the original are moved up the ladder to a number, a named thing, or an image a listener can picture, and the climb is stopped at the right rung rather than pushed to maximum detail. Every number in the edited version carries a denominator, a period, or a comparison. The panel can picture at least one scene from the talk without the speaker present, and the images chosen are true of the actual business rather than decorative.",
+        "adequate": "One or two abstractions are replaced with concrete detail and at least one number is properly anchored, but the talk still contains several claims that are difficult to picture - 'significant growth', 'strong engagement', 'meaningful improvements'. The concreteness is real but uneven, and the panel can picture the talk only in outline.",
+        "poor": "The talk remains entirely abstract, or concreteness is attempted with images that do not correspond to the real business. Numbers are loose ('up significantly', 'around 40%') and the panel cannot picture a single moment from the talk. Detail has been added to make it sound vivid, which makes it less true, not more memorable."
+      },
+      {
+        "dimension": "The so-what chain and the ask",
+        "weight": 20,
+        "excellent": "Every significant claim in the edited version terminates in a consequence the room can act on, lose, or decide about, and the chain is visible in the submission rather than only in the talk. Exactly one ask is stated, with a person or body, an action, a size, and a date. The panel can state, unprompted, what the speaker wanted from the meeting and what happens if no decision is made. The edited version removes claims whose so-what chain never terminates.",
+        "adequate": "Most claims lead to a consequence, and there is one identifiable ask, but one of its four elements is missing - a vague size, an undated request, or an implied rather than stated ask. One or two claims are decorative and were not cut. The panel can tell roughly what is wanted but has to infer some of it.",
+        "poor": "The claims stop at description, with no consequence attached, so the talk is a status report with no decision attached to it. There is no identifiable ask, or there are two conflicting ones, or the ask is buried in a paragraph. The panel cannot say what it was supposed to decide."
+      },
+      {
+        "dimension": "Register calibration and euphemism control",
+        "weight": 15,
+        "excellent": "Vocabulary is matched to what the specific panel knows: technical terms survive where the term itself carries the meaning, and abstractions are stripped everywhere else. Where the material contains bad news, the date, the number, and the ownership are stated plainly in the first minute, and no euphemism is used to soften a fact the panel would find out anyway. The ban list is applied in the delivery as well as on the page, and the panel confirms they could tell what was being said.",
+        "adequate": "The register is broadly right and the audience can follow it, but a few corporate abstractions survive, or one piece of hard news is framed more softly than it needs to be. The ban list is applied to the written version but not consistently to the spoken delivery, so one or two habits appear on camera.",
+        "poor": "The talk is written in a register the panel does not use - either technically impenetrable or vaguely corporate - and the mismatch is visible in the delivery. Any bad news is carried by euphemism, and the panel can tell they are not being told the real thing. The ban list is either absent or unused in the spoken version."
+      },
+      {
+        "dimension": "Delivery of the edited version",
+        "weight": 15,
+        "excellent": "The 3-minute recording is delivered at speaking pace, not reading pace, and lands the central point within the first 30 seconds. The language is visibly the edited language: the strong verbs, the three-beat, and the plain nouns all appear in the delivery, and no weaker version of the talk is substituted under pressure. The speaker recovers from a stumble by simplifying rather than by reaching for the original wording, and the panel can repeat the core claim accurately afterwards.",
+        "adequate": "The delivery is competent and reaches the point, though the point arrives later than it did on the page, or the speaker falls back once or twice on the original, longer wording under pressure. The overall message lands but is not memorable, and the panel can describe the talk's subject but not repeat its key sentence.",
+        "poor": "The recording is read, rushed, or padded to fill three minutes. The edited language is not in the delivery - the speaker reverts to the original register, hedges visibly, and buries the ask. The panel leaves with a general impression rather than a specific claim they can repeat."
+      }
+    ],
     "passMark": 70
   },
-  "readingList": [],
-  "masteryChecklist": []
+  "readingList": [
+    {
+      "title": "The Elements of Style",
+      "author": "William Strunk Jr. and E. B. White",
+      "why": "The source of 'omit needless words', and the reference text for the Cut-30 Pass, the nominalization sweep, and the ban list. Read it as a checklist to run against a draft, not as a style to imitate - the examples about 'which' and 'that' alone will tighten half of an executive's writing. Pairs directly with the word-economy concept and the Cut-30 framework."
+    },
+    {
+      "title": "On Writing Well",
+      "author": "William Zinsser",
+      "why": "The best-known treatment of clarity in professional writing, and the source of the 'clutter is a disease' framing used in this module. Zinsser's chapters on plain language and on the non-native reader's eye explain why technical readers are the harshest audience for vague writing. Pairs with the concreteness ladder and the jargon concept."
+    },
+    {
+      "title": "The Elements of Eloquence",
+      "author": "Mark Forsyth",
+      "why": "A short, exact treatment of word economy at the level of individual words: what periphrasis is, why 'possibility of' is weaker than 'can', and how English drifts toward longer, vaguer constructions. The chapter on periphrastic verbosity is the sharpest available description of the drift this module's editing passes reverse. Pairs with the strong-verb concept and the Nominalization Sweep."
+    },
+    {
+      "title": "The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century",
+      "author": "Steven Pinker",
+      "why": "Explains the cognitive reasons behind the good-writing rules: how curse words, concrete words, and rhythm reduce reader effort, and why the 'curse of knowledge' makes experts write badly for novices. The curse-of-knowledge chapter is the best available justification for the Concreteness Ladder and for register calibration in front of non-technical investors. Pairs with the register-calibration objective and scenario s2."
+    },
+    {
+      "title": "Made to Stick: Why Some Ideas Survive and Others Die",
+      "author": "Chip Heath and Dan Heath",
+      "why": "The clearest available treatment of what makes an idea concrete, surprising, and repeatable, including the guidance to build a story around a chosen moral, the rule of three, and the 'simple and profound' test. Read it alongside the concreteness concept, the Rule of Three framework, and the exercise on rewriting a message three ways."
+    },
+    {
+      "title": "Style: Lessons in Clarity and Grace",
+      "author": "John Williams and Joseph Rosenbaum",
+      "why": "The most practically useful book on revision for working writers, and the one to read before running the Cut-30 Pass on a document that matters. Its central distinction - between sentences that must be understood and sentences that must be felt - is the line the module draws between evidence you compress and evidence you cut. Pairs with the Cut-30 framework and the assessment brief."
+    }
+  ],
+  "masteryChecklist": [
+    "I can run a full Cut-30 Pass on a real talk or memo in one hour and produce a log showing exactly where 25 to 35 percent of the words came out, with every load-bearing idea still standing.",
+    "I can convert a nominalized sentence into a strong verb with a named actor in one pass, and I know which nominalizations to leave alone because the noun is the point.",
+    "I can take any abstract claim and climb it to a number, a named thing, or a picture a listener can see - and I know when to stop climbing instead of piling on detail.",
+    "I can run a 'so what?' chain on every significant claim in a talk and cut the claims whose chain never terminates in something the room can act on, lose, or decide about.",
+    "I can build a personal ban list of no more than twelve words drawn from my own writing, pair every entry with a replacement, and apply it both on the page and out loud.",
+    "I can say the same message in three parallel items with the strongest one last, and I can tell which of the three versions a given room will actually repeat.",
+    "I can rewrite a piece of jargon-laden material so the intended reader can act on it, and I can name precisely which phrases were doing the obscuring.",
+    "I can deliver a bad-news message - a slipped date, a missed number, a reorganisation - with the date, the number, and my ownership stated in the first minute, with no euphemism standing in for a fact."
+  ]
 }
