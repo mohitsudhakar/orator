@@ -1,0 +1,27 @@
+{
+  "CodeRepository": {
+    "RepositoryUrl": "https://github.com/mohitsudhakar/orator",
+    "SourceCodeVersion": {
+      "Type": "BRANCH",
+      "Value": "main"
+    },
+    "SourceDirectory": ".",
+    "CodeConfiguration": {
+      "ConfigurationSource": "API",
+      "CodeConfigurationValues": {
+        "BuildCommand": "npm install --omit=dev",
+        "StartCommand": "node server/index.js",
+        "Runtime": "NODEJS_22",
+        "RuntimeEnvironmentVariables": {
+          "PORT": "3000",
+          "ORATOR_DATA_DIR": "/var/task/data",
+          "NODE_ENV": "production"
+        }
+      }
+    }
+  },
+  "AutoDeploymentsEnabled": true,
+  "AuthenticationConfiguration": {
+    "ConnectionArn": "arn:aws:apprunner:us-east-1:530751794826:connection/github/f801bdf2f9074fc58b57ac2633e568c2"
+  }
+}

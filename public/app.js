@@ -110,19 +110,34 @@ const state = {
 /* ------------------------------------------------------------------ */
 
 /**
- * Derive a short label for the sidebar from a module title.
- * Module titles are long ("Executive Presence and Room Dynamics") and the
- * sidebar is narrow, so we take the part before a colon or dash, then fall
- * back to the first few words if that is still long.
+ * Curated short sidebar labels, keyed by module id (stable, unlike titles
+ * which carry subtitles). The sidebar is narrow, so long titles are shortened
+ * to a recognisable form rather than being ellipsised.
  */
-function shortModuleLabel(title) {
+const MODULE_SHORT_TITLES = {
+  m01: 'Foundations',
+  m02: 'Structure',
+  m03: 'Openings & Closings',
+  m04: 'Language',
+  m05: 'Voice',
+  m06: 'Body',
+  m07: 'Delivery Under Pressure',
+  m08: 'Persuasion',
+  m09: 'Data & Evidence',
+  m10: 'Executive Presence',
+  m11: 'Virtual & Hybrid',
+  m12: 'The Long Game',
+};
+
+function shortModuleLabel(id, title) {
+  if (MODULE_SHORT_TITLES[id]) return MODULE_SHORT_TITLES[id];
   let s = String(title || '').split(':')[0].split(' - ')[0].trim();
-  if (s.length <= 26) return s;
+  if (s.length <= 24) return s;
   const words = s.split(/\s+/);
   let out = '';
   for (const w of words) {
     const next = out ? `${out} ${w}` : w;
-    if (next.length > 26) break;
+    if (next.length > 24) break;
     out = next;
   }
   return out || s;
@@ -152,7 +167,7 @@ function renderSidebar() {
       onclick: () => navigate('module', m.id),
     },
       el('span', { class: 'ico', style: { color: p >= 100 ? 'var(--green)' : 'var(--fg-3)' } }, p >= 100 ? '✓' : String(m.number).padStart(2, '0')),
-      el('span', { class: 'nav-label' }, shortModuleLabel(m.title)),
+      el('span', { class: 'nav-label' }, shortModuleLabel(m.id, m.title)),
     ));
   });
 }
