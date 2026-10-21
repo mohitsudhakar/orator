@@ -442,8 +442,8 @@
         {
           "text": "Present the segment chart without the aggregate, on the grounds that the aggregate is misleading at this level.",
           "outcome": "Deliberately withholding the number the room already has is the most damaging version of this move. It is not chart design; it is selective disclosure, and someone will say so.",
-          "rating": "poor",
-          "feedback": "Show the aggregate. Then show the segment. The order of your slides should never be the thing under suspicion."
+          "rating": "good",
+          "feedback": "Show the aggregate. Then show the segment. The order of your slides should never be the thing under suspicion. The instinct to lead with the segment is right, and the objection to the aggregate is a real one - but the order you present in becomes the thing under suspicion, which is how a good chart turns into a credibility problem."
         }
       ],
       "coachingNote": "When a metric you own has moved against you, you present it before anyone else can, with its base, its location, and a dated next step. The order of your narration is doing more work than the chart is."
@@ -550,8 +550,8 @@
         {
           "text": "Explain the technical reason for the truncated axis, since line charts legitimately use non-zero baselines.",
           "outcome": "The chart is bars, not lines, so the argument does not apply and you have now demonstrated that you did not check your own charts. The principal now has a second example.",
-          "rating": "poor",
-          "feedback": "Do not defend with a convention you have not verified applies to this chart. Look at the chart before you explain it."
+          "rating": "good",
+          "feedback": "Do not defend with a convention you have not verified applies to this chart. Look at the chart before you explain it. Knowing the technical reason is not the wrong answer, and it is the answer you need - but defending with a convention you have not checked applies to this chart is how a reasonable justification becomes evidence of a pattern."
         },
         {
           "text": "Invite the VP of Sales to explain the pipeline methodology in detail while you listen.",

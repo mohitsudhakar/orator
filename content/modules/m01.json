@@ -465,7 +465,8 @@
           "feedback": "She asked for the deck for a reason: it is her medium for reviewing. Use the deck, but restructure it so that the first two slides are the claim and the evidence. Then talk over it rather than presenting it."
         }
       ],
-      "coachingNote": "Calibrate to the room's knowledge, not to your nervousness. An expert audience is checking your differentiation claim against what they already know; a novice audience needs your category primer. Giving the wrong room the wrong depth is a credibility failure even when the content is true."
+      "coachingNote": "Calibrate to the room's knowledge, not to your nervousness. An expert audience is checking your differentiation claim against what they already know; a novice audience needs your category primer. Giving the wrong room the wrong depth is a credibility failure even when the content is true.",
+      "challenge": "You have to get through a 12-slide deck to a partner who has already declined two competitors and asked for it in the first ten seconds. She will decide in that window whether this is a company worth a Series A, and she will not tell you what she is looking for."
     },
     {
       "id": "s4",
@@ -502,7 +503,8 @@
           "feedback": "Do not pay to paper over a delivery failure. It is expensive, it teaches the customer that delays can be bought off, and it does not fix the actual blocker. Fix the date, then make a commercial gesture if the relationship is genuinely damaged and the plan is solid."
         }
       ],
-      "coachingNote": "In any credibility-damaging update, the room needs three things in this order: acknowledgement, comprehension of their cost, and a dated plan with an owner. Explanations of your internal process are a tell that you are managing their reaction rather than serving them."
+      "coachingNote": "In any credibility-damaging update, the room needs three things in this order: acknowledgement, comprehension of their cost, and a dated plan with an owner. Explanations of your internal process are a tell that you are managing their reaction rather than serving them.",
+      "challenge": "You have eleven days to renew a 400,000-dollar account that has already waited eight weeks. You have to tell a procurement-heavy enterprise that you missed their date, without damaging the relationship you need to keep."
     },
     {
       "id": "s5",
@@ -539,7 +541,8 @@
           "feedback": "Listening without a decision in the room is abdication. Take a position you can defend, name what you do not know, and use the last ten minutes for the objections you expect. A team respects a leader who is willing to be wrong in public on a stated point."
         }
       ],
-      "coachingNote": "Credibility with a sceptical, knowledgeable audience is built by showing your reasoning under uncertainty and being visibly willing to be corrected on a named point - not by withholding stakes, and not by deferring decisions until the room is exhausted."
+      "coachingNote": "Credibility with a sceptical, knowledgeable audience is built by showing your reasoning under uncertainty and being visibly willing to be corrected on a named point - not by withholding stakes, and not by deferring decisions until the room is exhausted.",
+      "challenge": "You have thirty minutes with a team of twenty-two that has not accepted your promotion, and two senior engineers who have stopped speaking. You have to set a direction for the quarter without pretending the last eight weeks did not happen."
     }
   ],
   "exercises": [
