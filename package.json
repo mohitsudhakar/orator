@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server/index.js",
     "dev": "node --watch server/index.js",
-    "test": "node server/test/fft.test.js && node server/test/metrics.test.js && node server/test/word_timing.test.js",
+    "test": "node server/test/fft.test.js && node server/test/metrics.test.js && node server/test/word_timing.test.js && node server/test/markdown.test.js",
     "test:live": "node server/test/live.e2e.mjs",
     "test:browser": "python3 server/test/browser_e2e.py",
     "seed": "node server/seed.js",
@@ -20,5 +20,7 @@
     "express": "^5.1.0",
     "ws": "^8.18.0"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  }
 }
