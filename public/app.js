@@ -223,7 +223,79 @@ function viewDashboard() {
   }).catch(e => sc.appendChild(el('div', { class: 'empty' }, e.message)));
   wrap.appendChild(sc);
 
+  // Dimension trends
+  const tr = el('div', { class: 'card' });
+  tr.appendChild(el('h3', {}, 'Dimension trends'));
+  tr.appendChild(el('div', { style: { fontSize: '12.5px', color: 'var(--fg-3)', marginBottom: '14px' } },
+    'Every recorded take scored on the same seven dimensions. This is the only honest way to know whether you are actually improving.'));
+  api('/api/dashboard').then(d => {
+    const trends = d.trends || [];
+    if (trends.length < 2) {
+      tr.appendChild(el('div', { class: 'empty' },
+        el('div', { class: 'big' }, '◔'),
+        'Record at least two takes to see a trend.'));
+    } else {
+      const dims = [
+        ['overall', 'Overall', 'var(--accent)'],
+        ['pace', 'Pace', 'var(--accent-2)'],
+        ['clarity', 'Clarity', 'var(--green)'],
+        ['delivery', 'Delivery', 'var(--violet)'],
+        ['pitch', 'Pitch', 'var(--amber)'],
+        ['pauseControl', 'Pause', '#fb923c'],
+        ['vocabulary', 'Vocabulary', '#60a5fa'],
+        ['structure', 'Structure', '#f472b6'],
+      ];
+      const grid = el('div', { class: 'grid grid-2' });
+      dims.forEach(([key, label, color]) => {
+        const vals = trends.map(t => t[key]).filter(v => typeof v === 'number');
+        if (!vals.length) return;
+        const first = vals[0], last = vals[vals.length - 1];
+        const delta = last - first;
+        const card = el('div', { style: { background: 'var(--bg-2)', border: '1px solid var(--line)', borderRadius: '10px', padding: '13px 15px' } });
+        card.appendChild(el('div', { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '9px' } },
+          el('span', { style: { fontSize: '12.5px', color: 'var(--fg-2)', fontWeight: '600' } }, label),
+          el('span', {
+            style: {
+              fontSize: '12px', fontWeight: '700',
+              color: delta > 0 ? 'var(--green)' : delta < 0 ? 'var(--rose)' : 'var(--fg-3)',
+            },
+          }, delta === 0 ? '—' : (delta > 0 ? `+${delta}` : `${delta}`))));
+        card.appendChild(sparkline(vals, color));
+        card.appendChild(el('div', { style: { display: 'flex', justifyContent: 'space-between', fontSize: '11px', color: 'var(--fg-3)', marginTop: '5px', fontFamily: 'var(--mono)' } },
+          el('span', {}, `${first}`), el('span', {}, `${last}`)));
+        grid.appendChild(card);
+      });
+      tr.appendChild(grid);
+    }
+  }).catch(() => {});
+  wrap.appendChild(tr);
+
   return wrap;
+}
+
+/** Inline SVG sparkline for a series of 0-100 scores. */
+function sparkline(vals, color) {
+  const W = 260, H = 42, pad = 3;
+  if (vals.length < 2) return el('div', { style: { height: `${H}px` } });
+  const min = Math.min(...vals, 0), max = Math.max(...vals, 100);
+  const span = Math.max(1, max - min);
+  const pts = vals.map((v, i) => {
+    const x = pad + (i / (vals.length - 1)) * (W - pad * 2);
+    const y = H - pad - ((v - min) / span) * (H - pad * 2);
+    return [x, y];
+  });
+  const d = pts.map(([x, y], i) => `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`).join(' ');
+  const area = `${d} L${pts[pts.length - 1][0].toFixed(1)},${H - pad} L${pts[0][0].toFixed(1)},${H - pad} Z`;
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.setAttribute('width', '100%');
+  svg.setAttribute('height', `${H}`);
+  svg.style.display = 'block';
+  svg.innerHTML = `
+    <path d="${area}" fill="${color}" opacity="0.10"/>
+    <path d="${d}" fill="none" stroke="${color}" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="${pts[pts.length - 1][0].toFixed(1)}" cy="${pts[pts.length - 1][1].toFixed(1)}" r="2.8" fill="${color}"/>`;
+  return svg;
 }
 
 const scoreColor = (n) => !n ? 'var(--fg-3)' : n >= 80 ? 'var(--green)' : n >= 60 ? 'var(--amber)' : 'var(--rose)';
@@ -663,7 +735,12 @@ const studio = {
   ws: null, module: null, exercise: null, scenario: null,
   stream: null, audioCtx: null, source: null, proc: null,
   playing: false, buffer: [], bufferBytes: 0,
-  words: [], liveWords: [], recording: false, recStart: 0,
+  words: [], liveWords: [], recording: false, recStart: 0, recStartMs: 0,
+  // Voice-activity tracking: speech segments detected from the mic energy
+  // envelope, used to align the model's transcript to word timings.
+  voice: { active: false, last: 0, segStart: 0, segStartOffset: 0, endOffset: 0, segments: [] },
+  // Transcript text captured per turn, in order.
+  turns: [],
 };
 
 async function startStudio(m, exercise) {
@@ -823,6 +900,11 @@ async function connectLive() {
         break;
       case 'transcript':
         addTranscriptLine(msg.role, msg.text);
+        if (msg.role === 'user') {
+          // Accumulate the learner's own words for the metrics pass.
+          if (!studio.userTurnText) studio.userTurnText = '';
+          studio.userTurnText += ' ' + msg.text;
+        }
         break;
       case 'error':
         setStudioStatus('Error: ' + msg.message, 'err');
@@ -912,10 +994,12 @@ async function startMic() {
     const ratio = Math.floor(input.length / 8000) || 1;
     const outLen = Math.floor(input.length / ratio);
     const out = new Int16Array(outLen);
+    let sum = 0;
     for (let i = 0; i < outLen; i++) {
       let s = 0;
       for (let j = 0; j < ratio; j++) s += input[i * ratio + j] || 0;
       out[i] = Math.max(-32768, Math.min(32767, Math.round((s / ratio) * 32767)));
+      sum += s * s;
     }
     let bin = '';
     const bytes = new Uint8Array(out.buffer);
@@ -923,6 +1007,29 @@ async function startMic() {
       bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
     }
     sendWs({ type: 'audio', pcm: btoa(bin), mimeType: 'audio/pcm;rate=16000' });
+
+    // Voice-activity tracking: we need speech segment boundaries so we can
+    // align the model's input transcript to word-level timings. The Live API
+    // returns transcript TEXT but not word timings, so we time the speech
+    // ourselves from the energy envelope and distribute words across segments.
+    const now = performance.now() / 1000;
+    const rms = Math.sqrt(sum / (outLen * ratio * ratio));
+    const chunkSec = outLen / 16000;
+    if (rms > 0.012) {
+      if (!studio.voice.active) {
+        studio.voice.active = true;
+        studio.voice.segStart = now - chunkSec;
+        studio.voice.segStartOffset = studio.recStartMs ? (now - studio.recStartMs) : now;
+      }
+      studio.voice.last = now;
+      studio.voice.endOffset = studio.recStartMs ? (now - studio.recStartMs) : now;
+    } else if (studio.voice.active && now - studio.voice.last > 0.35) {
+      studio.voice.active = false;
+      studio.voice.segments.push({
+        start: studio.voice.segStartOffset,
+        end: studio.voice.endOffset,
+      });
+    }
 
     if (studio.recording) {
       studio.buffer.push(out);
@@ -953,6 +1060,10 @@ async function toggleRecord() {
     studio.recording = true;
     studio.buffer = []; studio.bufferBytes = 0;
     studio.recStart = Date.now();
+    studio.recStartMs = performance.now();
+    // Reset the voice-activity tracker so segment offsets are relative to this take.
+    studio.voice = { active: false, last: 0, segStart: 0, segStartOffset: 0, endOffset: 0, segments: [] };
+    studio.userTurnText = '';
     btn.textContent = '■ Stop recording';
     btn.classList.add('btn-danger');
     toast('Recording. Speak, then press stop to analyse.', 'ok');
@@ -979,8 +1090,15 @@ async function analyseTake() {
   studio.buffer.forEach(b => { pcm.set(b, off); off += b.length; });
   studio.buffer = []; studio.bufferBytes = 0;
 
-  const transcript = (studio.liveWords || []).map(w => w.word).join(' ');
+  const transcript = (studio.userTurnText || '').trim();
   const durationSec = (Date.now() - studio.recStart) / 1000;
+
+  // Build word-level timings. The Live API gives transcript text but not word
+  // timings, so we distribute the words across the speech segments we detected
+  // from the microphone energy envelope. This is what makes pause analysis
+  // possible: a gap in the detected speech IS the pause.
+  const segments = studio.voice.segments.slice();
+  const words = buildWordTimings(transcript, segments, durationSec);
 
   try {
     const r = await api('/api/sessions', {
@@ -990,13 +1108,13 @@ async function analyseTake() {
         exerciseId: state.pendingExercise?.id,
         kind: 'live',
         transcript,
-        words: studio.liveWords,
+        words,
         pcmBase64: b64FromInt16(pcm),
         sampleRate: 16000,
         durationSec,
       },
     });
-    renderMetrics(panel, r);
+    renderMetrics(panel, r, words, segments);
     // Ask the tutor for a written debrief
     try {
       const d = await api('/api/debrief', {
@@ -1032,7 +1150,70 @@ function b64FromInt16(arr) {
   return btoa(bin);
 }
 
-function renderMetrics(panel, r) {
+/**
+ * Distribute transcript words across detected speech segments to produce
+ * word-level timings.
+ *
+ * The Live API streams transcript text but not word timings. Without timings
+ * the metrics engine cannot measure pauses - and a pause is exactly what a
+ * coach needs to see. We detect speech segments locally from the microphone
+ * energy envelope, then spread the words across those segments at a constant
+ * speaking rate. Gaps between segments become real pauses in the timeline.
+ */
+function buildWordTimings(transcript, segments, durationSec) {
+  const tokens = (transcript || '').trim().split(/\s+/).filter(Boolean);
+  if (!tokens.length) return [];
+
+  if (!segments || segments.length === 0) {
+    // No detected speech: fall back to an even spread over the take.
+    const per = (durationSec || tokens.length * 0.35) / tokens.length;
+    return tokens.map((word, i) => ({
+      word,
+      start: i * per,
+      end: i * per + per * 0.75,
+    }));
+  }
+
+  // Total speech time, and per-segment duration.
+  const durs = segments.map(s => Math.max(0.05, s.end - s.start));
+  const totalSpeech = durs.reduce((a, b) => a + b, 0);
+
+  // Distribute tokens proportional to segment length, so a long segment gets
+  // proportionally more words. Use the LARGEST REMAINING share each round
+  // rather than a fixed slice, so a zero-length segment cannot swallow a
+  // disproportionate number of words and starve later segments.
+  const words = [];
+  let tokenIdx = 0;
+  let remaining = tokens.length;
+  segments.forEach((seg, si) => {
+    if (remaining <= 0) return;
+    const isLast = si === segments.length - 1;
+    const share = isLast
+      ? remaining
+      : Math.min(remaining, Math.max(1, Math.round((durs[si] / totalSpeech) * tokens.length)));
+    const take = tokens.slice(tokenIdx, tokenIdx + share);
+    tokenIdx += share;
+    remaining -= share;
+    if (!take.length) return;
+    const per = durs[si] / take.length;
+    take.forEach((word, wi) => {
+      words.push({
+        word,
+        start: seg.start + wi * per,
+        end: seg.start + wi * per + per * 0.75,
+      });
+    });
+  });
+  // Any words that did not fit (rounding) go at the end.
+  for (; tokenIdx < tokens.length; tokenIdx++) {
+    const last = words[words.length - 1];
+    const start = last ? last.end + 0.1 : 0;
+    words.push({ word: tokens[tokenIdx], start, end: start + 0.25 });
+  }
+  return words;
+}
+
+function renderMetrics(panel, r, words, segments) {
   const m = r.metrics;
   panel.innerHTML = '';
   const card = el('div', { class: 'card' });
@@ -1064,6 +1245,29 @@ function renderMetrics(panel, r) {
         el('span', { class: 'dim' }, n.dimension),
         el('span', {}, n.note)));
     });
+  }
+
+  // Pause timeline - the most actionable single view for a speaker.
+  const tl = m.pauses?.timeline || [];
+  if (tl.length) {
+    card.appendChild(el('h3', { style: { marginTop: '20px' } }, 'Pause map'));
+    card.appendChild(el('div', { style: { fontSize: '12.5px', color: 'var(--fg-3)', marginBottom: '9px' } },
+      'Every gap over 120 ms. The long ones are either your best moments or your worst.'));
+    const maxMs = Math.max(...tl.map(t => t.ms));
+    tl.slice(0, 12).forEach(t => {
+      const pct = Math.max(2, (t.ms / maxMs) * 100);
+      card.appendChild(el('div', { style: { display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '5px' } },
+        el('span', { style: { fontSize: '11.5px', fontFamily: 'var(--mono)', color: 'var(--fg-3)', width: '54px', textAlign: 'right' } }, `${t.ms}ms`),
+        el('div', { style: { flex: '1', height: '7px', background: 'var(--bg-3)', borderRadius: '4px', overflow: 'hidden' } },
+          el('div', { style: { width: `${pct}%`, height: '100%', background: t.ms >= 700 ? 'var(--green)' : t.ms >= 400 ? 'var(--amber)' : 'var(--fg-3)' } })),
+        el('span', { style: { fontSize: '11.5px', color: 'var(--fg-3)', flex: '1', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' } },
+          `"${t.before}" → "${t.after}"`)));
+    });
+  }
+
+  if (words?.length) {
+    card.appendChild(el('div', { style: { marginTop: '14px', fontSize: '11.5px', color: 'var(--fg-3)' } },
+      `Analysed ${words.length} timed words across ${segments?.length || 0} detected speech segments.`));
   }
   panel.appendChild(card);
 }
