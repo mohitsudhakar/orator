@@ -12,7 +12,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-import { catalogue, loadModule, listModuleIds, validateAll } from './curriculum.js';
+import { catalogue, loadModuleSafe, listModuleIds, validateAll } from './curriculum.js';
 import {
   getProgress, updateProgress, allProgress, saveSession, listSessions, sessionDetail,
   saveAttempt, listAttempts, saveScenarioResponse, listScenarioResponses,
@@ -65,8 +65,8 @@ app.get('/api/catalogue', (req, res) => {
 
 app.get('/api/modules/:id', (req, res) => {
   try {
-    const m = loadModule(req.params.id);
-    if (!m) return res.status(404).json({ error: 'Module not found' });
+    const m = loadModuleSafe(req.params.id);
+    if (!m) return res.status(404).json({ error: 'Module not found or not yet complete' });
     res.json({ module: m, progress: getProgress(req.params.id) });
   } catch (e) {
     res.status(500).json({ error: e.message });
@@ -83,7 +83,7 @@ app.get('/api/progress/:id', (req, res) => {
 
 app.post('/api/progress/:id', (req, res) => {
   try {
-    const m = loadModule(req.params.id);
+    const m = loadModuleSafe(req.params.id);
     const p = updateProgress(req.params.id, {
       ...req.body,
       totalConcepts: m?.concepts.length,
@@ -165,7 +165,7 @@ app.post('/api/scenarios/:moduleId/:scenarioId/respond', async (req, res) => {
   const { moduleId, scenarioId } = req.params;
   const { optionIndex, optionText, rating, feedback } = req.body || {};
   try {
-    const m = loadModule(moduleId);
+    const m = loadModuleSafe(moduleId);
     const scenario = m?.scenarios.find(s => s.id === scenarioId);
     let graded = null;
     if (m && scenario && optionText) {
@@ -188,7 +188,7 @@ app.post('/api/assessments/:moduleId/submit', async (req, res) => {
   const { moduleId } = req.params;
   const { submission } = req.body || {};
   try {
-    const m = loadModule(moduleId);
+    const m = loadModuleSafe(moduleId);
     if (!m) return res.status(404).json({ error: 'Module not found' });
     const graded = await gradeAssessment({ module: m, submission: submission || '' });
     const passed = (graded.total || 0) >= (m.assessment.passMark || 70);
@@ -229,7 +229,7 @@ app.post('/api/tutor/stream', async (req, res) => {
   let ctx = context || '';
   try {
     if (moduleId) {
-      const m = loadModule(moduleId);
+      const m = loadModuleSafe(moduleId);
       if (m) {
         const p = getProgress(moduleId);
         ctx += `\n\nThe learner is in module "${m.title}". Module outcome: ${m.outcome}.`;
@@ -276,7 +276,7 @@ app.post('/api/images/generate', async (req, res) => {
     let finalPrompt = prompt;
     let filename = `${moduleId || 'x'}_${conceptId || Date.now()}`;
     if (moduleId && conceptId) {
-      const m = loadModule(moduleId);
+      const m = loadModuleSafe(moduleId);
       const c = m?.concepts.find(x => x.id === conceptId);
       if (c) {
         finalPrompt = buildImagePrompt(c, m);
@@ -301,7 +301,7 @@ app.post('/api/debrief', async (req, res) => {
   try {
     const s = sessionId ? sessionDetail(sessionId) : null;
     if (!s) return res.status(404).json({ error: 'Session not found' });
-    const m = moduleId ? loadModule(moduleId) : null;
+    const m = moduleId ? loadModuleSafe(moduleId) : null;
     const exercise = m?.exercises.find(e => e.id === exerciseId) || m?.exercises[0];
     const metrics = {
       wpm: s.wpm, scores: s.scores,
@@ -337,7 +337,7 @@ app.get('/api/dashboard', (req, res) => {
 app.post('/api/live/instruction', (req, res) => {
   const { moduleId, exerciseId, scenarioId, extra, opening } = req.body || {};
   try {
-    const m = moduleId ? loadModule(moduleId) : null;
+    const m = moduleId ? loadModuleSafe(moduleId) : null;
     const exercise = m?.exercises.find(e => e.id === exerciseId);
     const scenario = m?.scenarios.find(s => s.id === scenarioId);
     const instruction = buildCoachInstruction({ module: m, exercise, scenario, extra });

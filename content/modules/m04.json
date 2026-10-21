@@ -1,0 +1,314 @@
+{
+  "id": "m04",
+  "number": 4,
+  "title": "Language: Precision, Vividness, and Word Economy",
+  "subtitle": "Say less so it lands harder",
+  "level": "Intermediate",
+  "durationMinutes": 90,
+  "outcome": "Rewrite any talk, memo, or board slide so it is roughly 30 percent shorter, built on strong verbs and concrete nouns, and structured so that every claim survives the 'so what?' test - so that the idea lands harder in the time you actually have.",
+  "abstract": "Most executive talks are not too long; they are too dense, and the density is usually padding dressed as rigour. This module treats language as the load-bearing layer of persuasion: the same argument delivered in fewer, stronger, more concrete words lands harder and is easier for the room to repeat afterwards. It covers word economy and the Cut-30 Pass, strong verbs and agency, the Nominalization Sweep, concreteness and the Concreteness Ladder, the so-what chain, metaphor as a container for meaning, the line between jargon and precision, and four sentence-level rules including a personal ban list. Every tool is designed to be run on real material in under an hour, because language is the one part of a talk you can rewrite completely before you walk on.",
+  "objectives": [
+    "Run a repeatable Cut-30 editing pass that removes about 30 percent of a talk's words without removing a single load-bearing idea, and account for every cut.",
+    "Replace weak verbs with strong ones, turn nominalized abstractions back into action, and restore agency, so that sentences move instead of drift.",
+    "Move a claim from abstraction to concrete image, and explain why concreteness survives memory when abstractions do not.",
+    "Apply the 'so what?' chain to every significant claim until each one terminates in a consequence the room can act on, lose, or decide about.",
+    "Calibrate register per audience - plain language for most rooms, precise technical language where the term itself carries the meaning - and enforce a personal ban list.",
+    "Build a signature vocabulary of five to eight phrases that other people can use correctly after you leave the room."
+  ],
+  "keyTerms": [
+    {
+      "term": "Word Economy",
+      "definition": "The discipline of spending only the words a claim actually needs, so that attention saved from padding is available for the idea."
+    },
+    {
+      "term": "Load-Bearing Sentence",
+      "definition": "A sentence that carries an idea, a number, or a request; if it is not load-bearing, it is a candidate for deletion rather than compression."
+    },
+    {
+      "term": "Strong Verb",
+      "definition": "A verb that asserts a specific, defensible claim about who acted, what happened, and how hard it was."
+    },
+    {
+      "term": "Nominalization",
+      "definition": "A verb converted into a noun, usually welded to a prepositional phrase, such as 'the implementation of' or 'the reduction in'."
+    },
+    {
+      "term": "The Nominalization Sweep",
+      "definition": "A mechanical editing pass that finds verbs hiding inside nouns and rebuilds the surrounding sentences around them."
+    },
+    {
+      "term": "Concreteness",
+      "definition": "The degree to which a claim can be represented as a picture, an actor, or a countable thing rather than as an abstraction."
+    },
+    {
+      "term": "The Concreteness Ladder",
+      "definition": "A four-rung method for moving an abstract claim through number, anchored number, and image, with a rule for when to stop."
+    },
+    {
+      "term": "The So-What Chain",
+      "definition": "The sequence of implications from a claim to a consequence, ending in something a specific person can act on."
+    },
+    {
+      "term": "The Rule of Three",
+      "definition": "The use of three parallel items in a list or argument, with the strongest placed third because the list teaches the room to expect it there."
+    },
+    {
+      "term": "Signature Vocabulary",
+      "definition": "A small set of coined phrases that name recurring ideas and can be used correctly by other people without you present."
+    },
+    {
+      "term": "The Ban List",
+      "definition": "A personal, capped set of words that signal unfinished thinking, each with a named replacement rather than a prohibition."
+    },
+    {
+      "term": "Euphemism",
+      "definition": "A neutral-sounding phrase used in place of a fact, typically to avoid saying a number, a date, or a name; it converts information into atmosphere."
+    },
+    {
+      "term": "Plain Language",
+      "definition": "The writing practice of choosing familiar words, short sentences, active voice, and concrete examples so the intended reader can act on what they read."
+    },
+    {
+      "term": "Register Calibration",
+      "definition": "The deliberate matching of vocabulary and technical depth to the specific knowledge of the room in front of you."
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "title": "Word Economy: Why Cutting 30 Percent Makes a Talk Stronger",
+      "summary": "A talk is not measured by the ideas it contains but by the ideas that survive the walk out of the room. Cutting 30 percent of the words does not remove substance - it returns attention to the idea, because the surviving sentences are the ones carrying the weight. The 30 percent figure is a heuristic rather than a law, but the underlying observation is reliable: executive talks are almost always over-written, and the first third that comes off is nearly always material the audience never needed.",
+      "detail": "Word economy is a consequence of how attention works, not a stylistic preference. Your listener has finite capacity for decoding you, and every word you spend is capacity you do not spend on the idea. The most famous directive in American prose comes from William Strunk Jr.'s 1918 primer, revised by E. B. White as The Elements of Style: \"Omit needless words.\" William Zinsser gave the same advice in On Writing Well, calling clutter a disease.\n\nThe 30 percent figure used here is a training heuristic, not a measured constant, and should be treated as one. No study establishes that removing exactly 30 percent of a talk improves it by a fixed amount. What the heuristic encodes is a repeatable observation: executive talks are almost always over-written relative to what an audience can retain, and the first third that comes off is nearly always material nobody needed. Read it as a floor for the cut, not a quota to hit.\n\nCompression and deletion are different operations, and speakers confuse them. Compression preserves meaning at lower cost: \"at this point in time\" becomes \"now\", \"in order to\" becomes \"to\". Deletion removes material that was carrying nothing. Over-compression produces a tight but hollow talk, because compression is easier to defend than deletion. The real cut is deletion, and it follows from one test applied to every sentence: if you deleted it, what would the room be unable to know, think, or do? If the answer is \"nothing\", it goes. If the answer is a real idea, it stays and you compress it instead.\n\nThree categories are almost always pure cost. Structural signposting nobody needs - \"I will now move on to the second part\" - spends words buying reassurance. Hedges stacked on a claim you stand behind; one hedge is precision, three is a retreat. And restatement: saying it, then saying it again \"differently\". Rephrasing is not reinforcement.\n\nDo the cut in passes, never twice in the same sitting. Read the draft aloud and mark every sentence you would not say in a one-to-one with a peer. Run the delete test on the survivors. Run a substitution pass: long constructions for short, \"the fact that\" for nothing, \"a large number of\" for the number. Then time it aloud at speaking speed rather than reading speed, and cut again until the time matches the slot. The final test is the hallway test: ask a colleague to retell the talk from memory. Whatever they retell is what survived your cut. Everything else was tax.",
+      "principles": [
+        "Every sentence must pass the delete test: if you removed it, what would the room be unable to know, think, or do? If the answer is 'nothing', it goes.",
+        "Compress before you delete, but do not confuse the two - compression preserves meaning, deletion removes padding, and only deletion produces a genuinely shorter talk.",
+        "Cut in separate passes, never twice in one sitting, and always read aloud - the ear finds what the eye has learned to accept.",
+        "Time the cut at speaking speed, not reading speed; people read far faster than they speak, and the gap is where the overrun hides.",
+        "Do the cutting on the argument, never on the evidence - a specific number survives compression; a hedge does not."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Confusing brevity with speed, cutting adjectives while leaving every hedge and throat-clear in place.",
+          "fix": "Run the delete test before the substitution pass. The words that cost the most time are the ones that carry no meaning at all."
+        },
+        {
+          "failure": "Over-compressing into a hollow talk, stripping every qualifier until the claim is no longer defensible.",
+          "fix": "Keep the hedge that carries real information ('in the 40 to 60 percent cohort') and cut the ones that carry anxiety ('I think maybe potentially')."
+        },
+        {
+          "failure": "Cutting the wrong 30 percent - removing context and transitions while leaving the speaker's internal monologue intact.",
+          "fix": "Keep the sentences that let a listener build the mental model. Cut the sentences that describe what you are about to say and how you feel about saying it."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a talk draft being cut by 30 percent, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c2",
+      "title": "Strong Verbs: Made, Created, Built",
+      "summary": "The verb is where a sentence spends its energy, and audiences read it first. 'We made the platform', 'we created the platform', and 'we built the platform' are three different claims about the world, not three ways of saying the same thing. Choosing the verb is choosing the assertion, which is why a weak verb is a credibility problem and not merely a style problem.",
+      "detail": "A verb carries three things at once: who acted, what happened, and how hard it was. Weak verbs throw all three away. \"We made a decision to delay the launch\" tells the room that a decision happened, hides who made it, and adds three words to say what \"we decided to delay the launch\" says in five. \"Made\" is the default verb of people who are not choosing.\n\nThe examples are worth dwelling on because they are not synonyms. \"Made\" is neutral to passive: the object came into existence and the maker is soft. \"Created\" asserts novelty and origin - you were first, or you brought something into being that did not exist. \"Built\" asserts engineering, structure, and craft: the thing has an architecture, it was assembled with intent, and it will require maintenance. \"Developed\" is process-heavy and usually weaker than \"built\". \"Generated\" often means machine output or a report. \"Launched\" asserts a moment in time. \"Shipped\" asserts delivery under constraint. These are claims, and the room will hold you to them. If you \"created\" a scheduling system, someone will ask what was there before, and if it was a spreadsheet, \"created\" is now a small lie.\n\nThree rules make the difference. First, name the agent: passive voice removes the person who did the thing, and a boardroom reads anonymity as evasion. \"The report was completed\" tells you nothing about who to hold responsible; \"Finance completed the report by Thursday\" tells you everything. Second, front-load the verb. Readers process around the verb, so a long pre-verb phrase forces them to hold the setup before the action arrives. \"Churn fell eighteen percent in the enterprise segment\" beats \"In the enterprise segment, churn fell eighteen percent\". Third, replace a verb-noun with a verb. \"We worked on retention\" becomes \"we cut churn\", \"we rebuilt onboarding\", or \"we won back forty enterprise accounts\" - each of which tells the room what actually happened, and each of which can be checked.\n\nWatch for the opposite failure: the loud verb. \"Crushed\", \"obliterated\", \"supercharged\", and \"game-changing\" are the hype equivalent of an extra adverb, and they cost you exactly what an extra adverb costs. The test is simple: would you say this verb out loud to the person whose opinion you need? If not, it is an essay verb, not a speaking verb.\n\nFinally, audit your ten most frequent verbs. In executive speech they are almost always some subset of made, got, did, went, took, worked on, handled, is, and was. That list is the vocabulary of a talk nobody can repeat. Replacing it is the cheapest credibility available in language.",
+      "principles": [
+        "Choose the verb that makes the claim you can defend: 'built' claims structure and effort, 'created' claims novelty, 'made' claims almost nothing.",
+        "Name the agent in the sentence. Passive voice hides responsibility, and a board reads anonymity as evasion.",
+        "Front-load the verb so the audience meets the action before the setup.",
+        "Replace verb-noun constructions - 'a decision to', 'an optimization of', 'a focus on' - with the verb itself.",
+        "Audit your ten most frequent verbs once a quarter; if they are mostly made, got, and did, the talk has no voice."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Using 'created' or 'developed' for something you assembled from existing parts, so the room asks what was actually new.",
+          "fix": "Use 'built' when there was a design, 'launched' when there was a moment, 'shipped' when there was a deadline. Precision here is free credibility."
+        },
+        {
+          "failure": "Upgrading verbs to hype verbs to compensate for weak content.",
+          "fix": "A strong verb on a thin claim is a louder thin claim. Fix the claim, then choose the verb."
+        },
+        {
+          "failure": "Chasing active voice so hard that you name actors who genuinely should not be named - a customer, a regulator, a third party.",
+          "fix": "Active voice is a default, not a commandment. Passive is correct when the actor is unknown, irrelevant, or deliberately unnamed, and naming them would be wrong."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating weak verbs being replaced by strong action verbs, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c3",
+      "title": "Concrete Versus Abstract: Why Concreteness Is Remembered",
+      "summary": "Abstract language is efficient for reasoning and nearly useless for memory. Concrete nouns and verbs stick because the mind encodes a claim both verbally and as an image at once - dual coding, as Paivio's account of why concrete words are recalled more readily than abstract ones, is one of the most replicated findings in the memory literature. Concreteness is therefore a technique of substitution, not a rule against abstraction.",
+      "detail": "Abstract language is a compression tool. \"A multi-year improvement in customer retention across the enterprise segment\" is short, accurate, and almost impossible to hold in the head. Concrete language is a retention tool. \"A 400-seat logistics company stopped losing a third of its fleet to unassigned work\" is longer, and it will still be there at lunch.\n\nThe empirical basis is real but should be stated with its limits. The concreteness effect - concrete words are learned, recalled, and paired with images more readily than abstract ones - is among the more robust findings in the experimental memory literature, and Paivio's dual coding theory gives the standard account: a concrete word is encoded both as a string of letters and as a picture, and two codes make a harder-to-lose memory. What is less directly established is the size of the effect for a live audience hearing a talk, where the speaker supplies the image in real time. The honest position is that concreteness reliably helps individual words stick, and the extension to spoken narrative is plausible and widely observed; treat the transfer as a strong practice rather than a measured constant.\n\nThe technique is substitution, in three moves. First, swap the abstract subject for a human one. Not \"the integration was successful\" but \"the customer service team stopped re-keying orders\". Second, anchor the number to a scale the audience already carries. Not \"a 31 percent improvement\" but \"a 31 percent improvement, which is nine of the twenty-nine enterprise accounts we signed last year\". Third, convert a category into a thing that could be pointed at. \"Our onboarding funnel\" is a category. \"The eight screens a new admin clicks through before their first invoice\" is a thing.\n\nThe move most speakers skip is the last one: put a human on both sides of the number. \"We saved 1.4 million dollars\" has no owner. \"We stopped paying 1.4 million dollars a year to a logistics firm because our routing runs in-house\" has one, and the owner is a person with a face. A single named case is a container for a general claim, not a substitute for it.\n\nThe warning: concreteness is not simplification, and a vivid abstraction is the worst of both. \"We are a rocket ship\" is concrete, memorable, and carries no information at all. A concrete claim that cannot be checked is decoration. The test: after making it concrete, can a listener still disagree with it? If nothing you could say would change their mind, you have not made it concrete, you have made it harmless.",
+      "principles": [
+        "Prefer the concrete word to the abstract one whenever both are accurate: 'cut' beats 'reduce', 'shop' beats 'consumer touchpoint'.",
+        "Anchor every important number to a scale the room already carries, or to a person who owns the consequence.",
+        "Put a human on both sides of the number - who it happens to, and who it happens for.",
+        "Use one named case as a container for a general claim, and keep the general claim intact underneath it.",
+        "Check concreteness with the disagreement test: if nothing could make a listener disagree, you have made it harmless, not vivid."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Swapping abstraction for a cliche, so the talk is vivid and empty: 'we are a rocket ship'.",
+          "fix": "Vividness must survive a specific question. 'Rocket ship' dies to 'compared with what, and what does it cost to build?'"
+        },
+        {
+          "failure": "Turning one customer's story into the general claim, and losing the evidence when the story is challenged.",
+          "fix": "State the case as a case: 'at one customer, X'. Then keep the aggregate claim separately, with its own number."
+        },
+        {
+          "failure": "Believing that concrete language means more detail, so the talk gets longer and more anecdotal.",
+          "fix": "Concreteness is a swap, not an addition. Replacing one abstract sentence with one concrete sentence should not increase the word count."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating abstract claims climbing toward concrete images and numbers, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c4",
+      "title": "Nominalizations: Turning Verbs Back into Nouns",
+      "summary": "A nominalization is a verb turned into a noun, usually with a prepositional phrase welded on: 'the implementation of', 'the optimization of', 'the utilization of'. It makes sentences long, subjects abstract, and momentum disappear. The fix is mechanical: find the verb hiding inside the noun and put it back, and the sentence gets shorter, more active, and more accountable at the same time.",
+      "detail": "Long noun phrases are where spoken English goes to die. \"The implementation of the new onboarding workflow required a reconfiguration of the data layer\" is four words longer than \"We reconfigured the data layer to run the new onboarding workflow\", and it is worse than that: the second version has a subject who acts, a verb that does something, and an object that changes. The first version has three abstractions and no one in the room doing anything.\n\nA nominalization is easy to spot once you know the shapes. A noun built on a verb: implementation, optimization, utilization, transformation, evaluation, prioritization. A noun followed by \"of\" and an abstract object: \"the reduction of churn\", \"the alignment of expectations\". A noun that needs a gerund to be complete: \"the process of rebuilding\", \"the act of hiring\". In every case the verb is already there, wearing a suit.\n\nWhy momentum dies is a matter of processing order. Verbs are understood early and carry the structure of a sentence; a long pre-verb noun phrase forces the listener to hold the whole setup before they know what is being done. Put the action first and the frame arrives attached to it, which is why \"We cut churn\" is understood faster than \"Churn reduction\", even in the same sentence. There is a second cost, agency: a nominalized subject has no author, so nobody in the room is responsible for anything.\n\nThe conversion is mechanical, and worth doing on a printed page rather than in your head. Find the verb, then rebuild the sentence around it. \"We made a decision to delay the launch\" becomes \"We decided to delay the launch\". \"There was a lack of communication between the two teams\" becomes \"The two teams did not talk to each other\". \"This will result in a reduction in costs\" becomes \"This will cut costs\". \"The implementation of the new billing system was completed\" becomes \"We finished the billing system\" - unless \"implementation\" is a named stage in a release process you actually run, in which case the noun is doing legitimate technical work.\n\nTwo cautions. Some nominalizations name real things rather than verbs in disguise: \"the impact of the price change on renewal\", \"the risk of a down round\", \"the implementation\" as a named artifact in a release train. Keep those. And watch the fashionable over-correction: \"leveraging\", \"optimizing\", and \"operationalizing\" are verbs wearing the clothes of nominalizations, and just as dead.\n\nThe diagnostic to remember: if a sentence has an abstraction in the subject position and a form of \"be\" as its main verb, it is almost certainly a nominalization, and it can almost certainly be turned back into a person doing something.",
+      "principles": [
+        "Search for the pattern noun plus 'of' plus abstract object; that is where the hidden verb usually is.",
+        "Rebuild the whole sentence around the verb: who did what to what.",
+        "Front-load the action so the audience meets the verb before the setup.",
+        "Keep genuine technical nouns that name real artifacts or measurable things; convert the ones that only pretend to be nouns.",
+        "Treat 'leveraging', 'optimising', and 'operationalising' as nominalizations in verb form and ban them on the same grounds."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Converting nouns that name real things - 'the implementation', 'the impact', 'the risk' - and losing meaning in the process.",
+          "fix": "Ask whether the noun names something that exists independently of the action. If yes, keep it; if no, it is a verb and it should be a verb."
+        },
+        {
+          "failure": "Winning the nominalization hunt and then reading aloud like a legal contract.",
+          "fix": "After the sweep, read it aloud at speed. If it does not sound like a person talking, you have over-corrected into a different register of dryness."
+        },
+        {
+          "failure": "Treating the sweep as find-and-replace, so the verbs land in the wrong order and the sentence becomes grammatical but weightless.",
+          "fix": "Rewrite the entire sentence around the verb. Grammar is the minimum; the sentence must also have a subject who acts."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating verbs hidden inside nouns being extracted and restored, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c5",
+      "title": "The So-What Chain: Every Claim Owes the Room a Consequence",
+      "summary": "Every claim you make is a link, and the audience is silently asking 'so what?' at each one. A claim that cannot produce a consequence the room cares about is a decoration on your argument. Apply the question until you reach a link that ends in something a person can act on, lose, or decide about - and cut the claims that dead-end in a topic rather than a consequence.",
+      "detail": "The test is the oldest editing tool in business writing: ask \"so what?\" after every sentence and keep answering until the answer stops being interesting to the other person. A claim is only interesting to the room if it changes something for them.\n\nThe chain has a shape. Claim: churn is 31 percent in year one. So what: so four of every ten enterprise customers leave before their second contract. So what: so the eighteen months of acquisition cost on those customers are written off. So what: so growth cannot be funded by new logos alone; renewal has to carry the plan. So what: so we need the pricing change we are asking you to approve today. That last link is where the chain terminates - in a decision, a risk, or an action. Every link is doing work for the audience, and the talk's structure is the chain made audible.\n\nChains break in recognizable places, and each break has a different fix. The break after the first link is the most common: you state a fact and stop, because you have confused being interesting with being relevant. The fix is to state who the fact lands on. The break in the middle: you state a consequence but not the mechanism, so the room accepts the first implication and rejects the second. The fix is to show the arithmetic, and make it a person's arithmetic. The break at the end is the most expensive: you state a serious consequence and never ask for anything, so the room leaves informed and immovable. The fix is to attach the ask to the last link.\n\nChain length should match the surprise. A fact the room already knows needs one link, not five; extending a familiar fact into a long chain reads as padding. A finding that reverses what the room assumed needs the full chain, and probably needs the strongest objection handled along the way.\n\nTwo disciplines keep this honest. First, the chain must terminate in a consequence the audience can act on; \"the industry is changing\" is not a consequence, it is a topic. Second, \"so what\" is a test, not a license: a chain is a chain of warranted implications, and each link has to be supported. Adding links you cannot defend produces a talk that sounds like insight and collapses the first time somebody asks which link they doubt.\n\nThe most useful version is the hallway test. After your strongest claim, ask what a listener would say if they repeated it to a colleague over lunch. If their sentence contains the consequence, your chain worked. If their sentence is your claim with different nouns, you have not finished the sentence.",
+      "principles": [
+        "Attach 'so what?' to every claim and answer it in the room's language, not yours.",
+        "Terminate the chain in something a person can do, lose, or decide - not in a topic.",
+        "Match chain length to surprise: familiar facts get one link, reversals get the full chain.",
+        "Make the arithmetic a person's arithmetic - four customers in ten, not thirty-one percent.",
+        "Audit the chain with the hallway test: what would a listener repeat to a colleague, and does their sentence contain the consequence?"
+      ],
+      "pitfalls": [
+        {
+          "failure": "Extending a familiar fact into a long chain to sound thorough.",
+          "fix": "One link for what the room already knows. Length is not rigour, and the room can tell the difference instantly."
+        },
+        {
+          "failure": "Adding implications you cannot support, so the talk sounds like insight and collapses on the first hard question.",
+          "fix": "Mark each link you would defend under challenge. If a link will not survive, cut it - do not argue it harder."
+        },
+        {
+          "failure": "Ending a chain of serious consequences with no ask, so the room leaves informed and immovable.",
+          "fix": "Name the last link as a request: 'which is why I am asking you to approve X today'."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a chain of claims linked to consequences and a final ask, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c6",
+      "title": "Metaphor and Image: A Picture Beats a Number",
+      "summary": "Metaphor is a container for meaning. It compresses an argument into something the room can hold, and it survives the walk out of the room in a way a table of numbers does not - but only if the image is doing structural work. If you can swap the metaphor for any other metaphor, it is decoration, and decoration is a cost.",
+      "detail": "Language is built on metaphor, as Lakoff and Johnson argued in Metaphors We Live By: we argue, we build, we fight, we lose, we are on a path. These are not ornaments but how abstract reasoning is organized. A speaker who uses a metaphor deliberately borrows a structure the audience already understands and points it at the thing you want them to see.\n\nThe practical advantage over a number is that a number has to be interpreted. \"31 percent year-one churn\" requires the listener to locate a denominator, a segment, and a comparison - work the speaker should have done. A picture arrives pre-interpreted: \"four of every ten enterprise customers leave before renewing\" needs no decoding. That is the real sense in which a picture beats a number, and it is why a well-chosen image often lands harder than the accurate statistic it replaced. It is also why a picture with no number behind it is a liability: the room will supply its own.\n\nA metaphor that works in speech has three properties. It is structurally accurate: the relationships in the image match the relationships in the claim, so a listener can reason inside the metaphor. \"Talent creates ideas\" misleads you about who does the work if ideas are actually made by a group with different skills. It is physically concrete: you can point at it, and it does not require the audience to hold two abstract things at once. And it is short: one sentence, no extended allegory, no punchline. An extended metaphor is a second talk.\n\nNumbers need images too. The cheapest version gives a number a scale the room already carries: \"ninety seconds, about the length of this pitch\", \"roughly the time it takes to boil an egg\". The more useful version makes the number a person's: \"four of every ten\", \"nine of the twenty-nine accounts we signed last year\". The most useful gives the number a shape: a queue of paper, a queue of people waiting to be let in. A picture plus a number is stronger than either alone: the number supplies the truth, the picture supplies the container.\n\nThe danger is that a metaphor, once stated, keeps working. Say \"our growth engine is a treadmill\" and the room will hear every subsequent number through that image, including the ones it does not fit. This is why metaphor is a credibility risk and not merely a flourish: a mismatched image is worse than no image, and an image that flatters the speaker - \"we are a family\" delivered into a layoff announcement - will be remembered for the mismatch long after the numbers are forgotten. Choose images from the audience's world, not yours, and ask what the room will now believe about your next three numbers.",
+      "principles": [
+        "Use one image per talk and reuse it, so the audience learns it once and keeps it.",
+        "Test the metaphor for structural accuracy: the relationships in the image must match the relationships in the claim.",
+        "Give every important number a scale, a person, or a shape - never a bare percentage.",
+        "Choose images from the audience's world rather than from your industry's vocabulary.",
+        "Say out loud what the metaphor will now imply, and make sure you can live with the next three numbers being read through it."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Using a metaphor for warmth with no structural work - 'we are a family', 'we are all in this together'.",
+          "fix": "If you cannot say what the image makes true, cut it. Warmth without structure is the sound of a room starting to look at its phones."
+        },
+        {
+          "failure": "Letting an image run past its usefulness, so the room's later objections get answered inside your metaphor.",
+          "fix": "State the image, use it once, and return to literal language for the hard parts."
+        },
+        {
+          "failure": "Using a vivid image to cover a thin number, and hoping nobody asks for the number.",
+          "fix": "Keep the number. An image with a number behind it is memorable; an image instead of a number is an invitation."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a number being given a human scale and turned into a memorable picture, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c7",
+      "title": "Jargon: When It Is Evasion and When It Is Precision",
+      "summary": "Most business jargon is a failure of nerve - abstractions where actions should be, words borrowed from a different industry, or a way of sounding senior. Some technical terms are exactly right, and flattening them costs accuracy. The distinguishing test is whether the term carries meaning the room needs, and it has to be applied per audience rather than per speaker.",
+      "detail": "There are two opposite mistakes here, and the executive who avoids both is rare. The first is jargon as evasion: \"synergy\", \"leverage\", \"going forward\", \"circle back\", \"at scale\", \"unlock value\". These words survive because they are not checked - you cannot falsify \"synergy\". The second is jargon as precision: \"idempotent\", \"p99 latency\", \"exactly-once semantics\", \"churn\", \"net revenue retention\", \"go/no-go\". For a room that already knows these, they are compression - a full concept in two syllables. The mistake is to treat the second category as though it were the first.\n\nThe test is a deletion test. Remove the term and rewrite the sentence without it. If the sentence says the same thing, the term was doing nothing and it is evasion. If removing it forces a longer, clumsier sentence, the term was earning its place. \"We will leverage our installed base to drive adoption\" becomes \"We will use our existing customers to get new users to try the product\" - same content, more words, less meaning. \"Our reconciliation job is idempotent\" cannot be said more briefly in plain English, because \"idempotent\" names a specific property a paraphrase would blur.\n\nThere is a third category, the most expensive: jargon used as a status display. Spraying specialist language at a general audience - \"this is a distributed consensus system with eventual consistency\" - reads as a power move, and signals that you would rather not translate. The non-specialist then stops believing the technical claims.\n\nSo the register decision is per room, not per person. A pitch to a board should carry the numbers and the consequence; a pitch to a technical diligence partner should carry the term and the tradeoff. Two versions of the same talk is not inconsistency, it is competence. The plain-language guidance developed for US federal agencies is built on the same premise: write for the reader, use familiar words, keep sentences short, use active voice, use concrete examples. It is a good default for a general audience and a bad default for a room of specialists.\n\nThe practical rule when you must use a term: define it once, in a clause, with a concrete referent, then use the term freely. \"Our reconciliation job runs every six hours - it compares what the payment processor says you owe against what we think you owe - and takes 40 minutes, most of it waiting on the processor's rate limit.\" Now the term has a meaning, the audience can use it, and nobody had to ask.\n\nEuphemism is the special case worth naming, because it is jargon with a motive. \"A strategic realignment of our organizational structure\" is not imprecise - it is precise about nothing, because it is designed to carry no information. When the subject is bad news, euphemism is not a style problem. It is the reason the audience is angry later.",
+      "principles": [
+        "Run the deletion test on every technical term: if the sentence survives without it, the term is evasion and it goes.",
+        "Calibrate register to the room, not to you. Different audiences get different versions of the same talk, and that is competence rather than inconsistency.",
+        "Define a term once in a clause with a concrete referent, then use the term freely for the rest of the talk.",
+        "Never use specialist language with a general audience to establish superiority; it converts a technical claim into a status claim and the audience stops believing you.",
+        "Treat euphemism as a euphemism: if a phrase cannot be said plainly, it is usually hiding the number, the date, or the cost."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Flattening genuine technical terms because jargon has been demonised, so the talk becomes accessible and inaccurate.",
+          "fix": "Keep the term that names a specific thing. Plain language is not the same as low-precision language."
+        },
+        {
+          "failure": "Using 'at scale', 'unlock', 'leverage', and 'going forward' as connective tissue between real points.",
+          "fix": "Replace each with the actual claim. If you cannot, there is no claim there to connect."
+        },
+        {
+          "failure": "Translating everything for everyone, so the specialists in the room feel patronised and the content is diluted.",
+          "fix": "Translate for the person who needs it, keep the term for the person who knows it, and use both."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram separating evasive jargon from precise technical terms across two audiences, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c8",
+      "title": "Four Sentence-Level Rules: One Idea, Three Beats, Signature Words, and the Ban List",
+      "summary": "Four small rules that pay for themselves. One idea per sentence, so each sentence is a complete unit the listener can hold. The rule of three, because three is the most stable length for a list. A signature vocabulary of five to eight phrases people can repeat without you. And a personal ban list of words that signal you did not finish the work. Individually trivial; collectively they are the difference between a well-written talk and a talk that is recognisably yours.",
+      "detail": "Four small rules that pay for themselves: one idea per sentence, three where a list is needed, a signature vocabulary, and a personal ban list.\n\n**One idea per sentence.** Not one idea per talk - one per sentence. A sentence is a unit of working memory; if it carries two claims, the listener must hold both while processing the second. The diagnostic is acoustic: read it aloud. If you run out of breath before the end, or cannot state the point in six words, it has two ideas. Split it. \"We cut churn and we also improved onboarding, which reduced tickets\" is three sentences, and should sound like three.\n\n**The rule of three.** Three is the most stable number for a list. Working memory estimates put capacity at roughly four chunks, so three-plus-one is a list that closes, four reads as unfinished, and five reads as a survey nobody needed. Three also gives rhythm: three reasons, three parts, three numbers. Put your strongest or most surprising point third, because the list has trained the room to expect the third item to be the point.\n\n**Signature vocabulary.** Pick five to eight phrases, name them after your ideas, and use them consistently: \"the activation gap\", \"the Monday test\", \"the leaky quarter\". The test is not whether you like them but whether someone who heard you once can use the phrase with a colleague the next day, correctly, without you present. If they cannot, it is a coinage that only works in your mouth. One good name per idea, not a glossary: over-naming signals the ideas are not doing enough work to need names.\n\n**The ban list.** Start from the standard set: very, really, just, actually, basically, extremely, incredibly, \"at the end of the day\", \"circle back\", \"deep dive\", \"going forward\", \"going ahead\", \"leverage\" as a verb, \"synergy\", \"utilize\", \"operationalize\", \"double-click\", \"touch base\". Each signals that the writer did not finish the thought. \"Just\" and \"actually\" are the most expensive: they mark uncertainty, and \"just\" often attaches to an overstatement - \"we just need to fix onboarding\", about a problem that took nine months to find. \"Leverage\" as a verb almost always means \"use\", and \"use\" is shorter. \"Going forward\" implies a change that has not happened; say what changed, and when. \"Synergy\" is unfalsifiable, which is why it flourishes in rooms that have already decided to agree.\n\nKeep the list personal and small - twenty words at most - and enforce it with a document search rather than willpower. But its real purpose is not politeness. In a bad-news announcement, a euphemism is a ban-list violation with a motive: \"exciting to announce a strategic realignment, including a reduction in force of 14 percent\" converts a fact into a feeling and a number into a phrase.",
+      "principles": [
+        "One idea per sentence; if you cannot state the sentence's point in six words, split it.",
+        "Use three where a list is needed, and put your strongest point third.",
+        "Build five to eight signature phrases and use them until they become other people's words rather than only yours.",
+        "Keep a personal ban list of no more than twenty words, and enforce it with a document search before every talk.",
+        "Treat euphemism as the urgent case of a ban-list violation: the worse the news, the plainer the words must be."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Splitting every sentence until the talk sounds like a list of fragments.",
+          "fix": "One idea per sentence is a floor on clarity, not a target for drama. Vary your sentence length; one long, well-built sentence after three short ones lands harder than uniform chop."
+        },
+        {
+          "failure": "Inventing a name for every idea, so the talk becomes a glossary with slides.",
+          "fix": "Five to eight names maximum, one per idea that genuinely needs one. A name should compress, not label."
+        },
+        {
+          "failure": "Banning words without replacing them, so the talk loses precision and the speaker substitutes vague abstractions for the banned word.",
+          "fix": "Every ban has a replacement: 'leverage' becomes 'use', 'going forward' becomes a date, 'synergy' becomes the merged budget line or the shared customer."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating four sentence-level rules applied to a paragraph of speech, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    }
+  ],
+  "frameworks": [],
+  "scenarios": [],
+  "exercises": [],
+  "assessment": {
+    "id": "a4",
+    "title": "The edit and the delivery",
+    "brief": "placeholder",
+    "rubric": [],
+    "passMark": 70
+  },
+  "readingList": [],
+  "masteryChecklist": []
+}

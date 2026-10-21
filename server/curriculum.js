@@ -32,6 +32,21 @@ export function loadModule(id) {
   return raw;
 }
 
+/**
+ * Load a module without throwing.
+ *
+ * A module may be caught mid-write (an author writing in two stages), in which
+ * case it is temporarily invalid. The site must keep working for every other
+ * module instead of 500-ing on the catalogue.
+ */
+export function loadModuleSafe(id) {
+  try {
+    return loadModule(id);
+  } catch (e) {
+    return null;
+  }
+}
+
 export function validateModule(id, m) {
   const errors = [];
   const req = (k, type) => {
@@ -88,9 +103,11 @@ export function validateModule(id, m) {
 
 /** Full catalogue (lightweight - no full concept detail). */
 export function catalogue() {
-  return listModuleIds().map(id => {
-    const m = loadModule(id);
-    return {
+  const out = [];
+  for (const id of listModuleIds()) {
+    const m = loadModuleSafe(id);
+    if (!m) continue; // skip a module that is mid-write or invalid
+    out.push({
       id: m.id,
       number: m.number,
       title: m.title,
@@ -106,8 +123,9 @@ export function catalogue() {
       objectives: m.objectives,
       keyTermCount: m.keyTerms.length,
       readingCount: m.readingList.length,
-    };
-  });
+    });
+  }
+  return out;
 }
 
 /** Validate every module on disk. Returns { ok, errors[] }. */
