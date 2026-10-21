@@ -144,9 +144,16 @@ export function buildImagePrompt(concept, module) {
     '- Flat vector infographic, clean lines, muted professional palette (navy, warm grey, soft teal, amber accent)',
     '- Light background, generous white space, strong visual hierarchy',
     '- Labeled callouts and connectors showing relationships and flow',
-    '- NO text labels, NO words, NO letters, NO watermarks, NO stock-photo look',
     '- A single clear focal idea, not a collage',
-    '- High detail, 16:9 landscape composition',
+    '- Keep ALL content inside a single centred composition with clear margins on',
+    '  every side. Do not let any panel, box, or label run off the edge of the',
+    '  canvas - a cropped element makes the diagram unreadable.',
+    '- Prefer 2-4 clearly separated elements over a dense multi-panel layout.',
+    '- Use a wide 16:9 landscape canvas and centre the composition within it.',
+    '- NO watermarks, NO stock-photo look, NO photographic textures',
+    '- If any text is included, keep it very short (2-4 words per label), large',
+    '  enough to read at 800px wide, and use a clean sans-serif',
+    '- High detail, high contrast, professional finish',
   ].join('\n');
 }
 

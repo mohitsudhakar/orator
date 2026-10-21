@@ -121,9 +121,13 @@ try:
     c.goto(APP + "/")
     ok("app shell loaded", c.wait("!!document.querySelector('#view') && document.querySelector('#view').innerHTML.length > 500", 25))
     ok("no JS exceptions on boot", len(c.errors) == 0, str(c.errors[:2]))
-    ok("streak badge populated", c.eval("document.querySelector('#streakVal').textContent") is not None)
-    ok("live model shown", "gemini" in (c.eval("document.querySelector('#modelVal').textContent") or "").lower(),
-       c.eval("document.querySelector('#modelVal').textContent"))
+    ok("streak badge populated", c.eval("document.querySelector('#streakVal')?.textContent") is not None)
+    # The chrome shows a human label, not the raw model id.
+    ok("live coach status shown", "live coach" in (c.eval("document.querySelector('#modelVal')?.textContent") or "").lower(),
+       c.eval("document.querySelector('#modelVal')?.textContent"))
+    ok("no raw model id leaked into the UI",
+       "gemini-" not in (c.eval("document.body.innerText") or ""),
+       (c.eval("document.body.innerText") or "")[:200])
     nrows = c.eval("document.querySelectorAll('table tbody tr').length")
     ok("curriculum table has rows", (nrows or 0) > 0, f"rows={nrows}")
     ok("nav lists modules", c.eval("document.querySelectorAll('.nav-item').length") >= 4)

@@ -109,6 +109,25 @@ const state = {
 /* Sidebar + routing                                                   */
 /* ------------------------------------------------------------------ */
 
+/**
+ * Derive a short label for the sidebar from a module title.
+ * Module titles are long ("Executive Presence and Room Dynamics") and the
+ * sidebar is narrow, so we take the part before a colon or dash, then fall
+ * back to the first few words if that is still long.
+ */
+function shortModuleLabel(title) {
+  let s = String(title || '').split(':')[0].split(' - ')[0].trim();
+  if (s.length <= 26) return s;
+  const words = s.split(/\s+/);
+  let out = '';
+  for (const w of words) {
+    const next = out ? `${out} ${w}` : w;
+    if (next.length > 26) break;
+    out = next;
+  }
+  return out || s;
+}
+
 function renderSidebar() {
   const nav = $('#nav');
   const items = [
@@ -129,10 +148,11 @@ function renderSidebar() {
     const p = state.progress[m.id]?.percent || 0;
     nav.appendChild(el('button', {
       class: `nav-item ${state.view === 'module' && state.moduleId === m.id ? 'active' : ''}`,
+      title: `${m.number}. ${m.title} - ${m.subtitle}`,
       onclick: () => navigate('module', m.id),
     },
       el('span', { class: 'ico', style: { color: p >= 100 ? 'var(--green)' : 'var(--fg-3)' } }, p >= 100 ? '✓' : String(m.number).padStart(2, '0')),
-      el('span', { style: { flex: '1', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' } }, m.title.split(':')[0]),
+      el('span', { class: 'nav-label' }, shortModuleLabel(m.title)),
     ));
   });
 }
@@ -157,7 +177,7 @@ function viewDashboard() {
   const wrap = el('div', {});
 
   wrap.appendChild(el('div', { class: 'grid grid-4', style: { marginBottom: '18px' } },
-    statTile('Modules completed', `${s.modulesCompleted || 0}/${state.catalogue.length}`, 'of the 12-module program', 'acc'),
+    statTile('Modules completed', `${s.modulesCompleted || 0}/${state.catalogue.length}`, `of the ${state.catalogue.length}-module program`, 'acc'),
     statTile('Practice sessions', s.sessionCount || 0, `avg score ${s.avgSessionScore || 0}`, s.avgSessionScore >= 75 ? 'good' : 'warn'),
     statTile('Assessment avg', s.avgAssessment || 0, `${s.assessmentCount || 0} submitted`, s.avgAssessment >= 70 ? 'good' : ''),
     statTile('Current streak', `${state.streak}d`, 'consecutive days of practice', state.streak > 0 ? 'good' : ''),
@@ -879,6 +899,9 @@ async function connectLive() {
 
   ws.onopen = () => {
     setStudioStatus('Session opening...', 'wait');
+    // Clear the placeholder line now that a real session is starting.
+    const box = $('#transcript');
+    if (box && !transcriptNodes.coach) box.innerHTML = '';
     sendWs({ type: 'start', systemInstruction: instruction, opening, voice: $('#studioVoice')?.value || state.defaultVoice });
   };
 
@@ -890,6 +913,9 @@ async function connectLive() {
         $('#btnConnect').disabled = true;
         $('#btnStop').disabled = false;
         $('#btnRecord').disabled = false;
+        // Reflect the live state in the button itself, not just the status text.
+        const bc = $('#btnConnect');
+        if (bc) { bc.textContent = '● Live — start a new session'; bc.classList.remove('btn-primary'); bc.classList.add('btn-ghost'); }
         break;
       case 'connected':
         setStudioStatus('Live. Speak now.', 'live');
@@ -913,8 +939,7 @@ async function connectLive() {
       case 'closed':
       case 'stopped':
         setStudioStatus('Session ended.', 'off');
-        $('#btnConnect').disabled = false;
-        $('#btnStop').disabled = true;
+        resetStudioButtons();
         break;
     }
   };
@@ -950,6 +975,9 @@ function addTranscriptLine(role, text) {
     transcriptNodes[key] = node;
   }
   $('.txt', transcriptNodes[key]).textContent += text;
+  // Grow the panel with its content instead of leaving a wall of empty space.
+  box.style.height = 'auto';
+  box.style.height = Math.min(460, Math.max(120, box.scrollHeight)) + 'px';
   box.scrollTop = box.scrollHeight;
 }
 
@@ -1278,8 +1306,22 @@ function stopLive() {
   studio.ws = null;
   stopMic();
   setStudioStatus('Session ended.', 'off');
-  $('#btnConnect').disabled = false;
-  $('#btnStop').disabled = true;
+  resetStudioButtons();
+}
+
+/** Restore the studio controls to their idle state. */
+function resetStudioButtons() {
+  const bc = $('#btnConnect');
+  if (bc) {
+    bc.disabled = false;
+    bc.textContent = '◉ Start live session';
+    bc.classList.add('btn-primary');
+    bc.classList.remove('btn-ghost');
+  }
+  const bs = $('#btnStop');
+  if (bs) bs.disabled = true;
+  const br = $('#btnRecord');
+  if (br) br.disabled = true;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1425,7 +1467,11 @@ async function boot() {
     render();
 
     $('#streakVal').textContent = state.streak;
-    $('#modelVal').textContent = health.models.live;
+    // Show a human label, not the raw model id. The model id is useful in the
+    // console and /api/health, but exposing it in the chrome looks like
+    // leftover debug output.
+    $('#modelVal').textContent = 'Live coach online';
+    $('#modelVal').parentElement.title = `Live coach: ${health.models.live}`;
   } catch (e) {
     $('#view').appendChild(el('div', { class: 'empty' },
       el('div', { class: 'big' }, '⚠'),

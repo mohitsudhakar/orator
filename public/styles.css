@@ -83,7 +83,11 @@ a:hover { text-decoration: underline; }
 }
 .nav-item:hover { background: var(--bg-2); color: var(--fg); }
 .nav-item.active { background: var(--bg-3); color: var(--fg); }
-.nav-item .ico { width: 16px; text-align: center; opacity: .85; }
+.nav-item .ico { width: 16px; text-align: center; opacity: .85; flex-shrink: 0; }
+.nav-label {
+  flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-size: 13px;
+}
 .nav-sep {
   font-size: 10px; text-transform: uppercase; letter-spacing: .12em;
   color: var(--fg-3); padding: 16px 12px 6px; font-weight: 600;
@@ -240,9 +244,14 @@ a:hover { text-decoration: underline; }
 .pitfall .x { font-size: 13.5px; color: var(--fg-2); }
 
 .diagram {
-  width: 100%; border-radius: var(--radius-sm); margin: 14px 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: var(--radius-sm); margin: 14px 0;
   border: 1px solid var(--line); background: var(--bg-2);
-  display: block; min-height: 180px;
+  min-height: 180px;
 }
 .diagram-wrap { position: relative; }
 .gen-btn {
@@ -342,6 +351,10 @@ a:hover { text-decoration: underline; }
   background: var(--bg-2); border: 1px solid var(--line);
   border-radius: var(--radius); padding: 15px 17px;
   height: 340px; overflow-y: auto; margin-bottom: 14px;
+  /* Auto-size to content so a short exchange does not leave a wall of empty
+     space, but keep a sensible minimum so it never collapses to nothing. */
+  min-height: 120px;
+  max-height: 460px;
 }
 .tline { margin-bottom: 12px; font-size: 14px; line-height: 1.65; }
 .tline .who {

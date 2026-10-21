@@ -1,0 +1,768 @@
+{
+  "id": "m09",
+  "number": 9,
+  "title": "Data, Charts, and Evidence",
+  "subtitle": "Making the numbers do your work",
+  "level": "Advanced",
+  "durationMinutes": 90,
+  "outcome": "Turn any dataset into a small number of claims, design charts that carry those claims honestly, and deliver the numbers out loud in a way that survives scrutiny.",
+  "abstract": "Most data in executive presentations fails silently: it is presented accurately and changes nothing, because the chart was chosen from the shape of the data rather than the question, the title names the subject instead of the finding, and the audience is left to do the analysis the speaker was paid to do. This module treats evidence as a design problem with a small number of transferable moves. It covers the perceptual science that decides what an audience actually sees, from Colin Ware's preattentive attributes to Cleveland and McGill's ranking of visual channels and Tufte's data-ink ratio, and it puts the practical instruments in the room: the one-message chart, the message title, the 'so what?' annotation, the Question-to-Chart Map, the Exec Number Set, and the Data Honesty Audit. It also covers the credibility economics of getting caught, and the two verbal skills that decide whether a number lands: giving it a human frame, and volunteering the weakness in your own data before the room finds it.",
+  "objectives": [
+    "Diagnose chart wallpaper and convert a subject-title chart into one that carries a single claim.",
+    "Apply preattentive attribute theory and the perceptual hierarchy to choose what the eye should catch first.",
+    "Reduce a chart to its data using Tufte's data-ink discipline and deploy sparklines where a full chart will not fit.",
+    "Select a chart form by mapping the audience's question to comparison, composition, distribution, relationship, trend, or target.",
+    "Write a finding-title and a 'so what?' annotation, and audit a chart for truncation, denominator, scale, and dual-axis distortion.",
+    "Assemble a three-to-five number Exec Number Set with one job per number and cut the remainder with discipline.",
+    "Speak a number out loud with a denominator, a comparison, and a human frame, and volunteer the weakness in your own data before the room finds it."
+  ],
+  "keyTerms": [
+    {
+      "term": "Chart Wallpaper",
+      "definition": "A chart that would be equally true with the data removed; decoration that signals rigour without carrying a claim."
+    },
+    {
+      "term": "Data-Ink Ratio",
+      "definition": "Tufte's ratio of ink carrying information to total ink on a chart; the higher the ratio, the less non-data decoration the chart contains."
+    },
+    {
+      "term": "Chartjunk",
+      "definition": "Tufte's term for non-data elements such as heavy grids, shadows, 3D effects, and redundant legends that consume attention and often distort values."
+    },
+    {
+      "term": "Sparkline",
+      "definition": "A word-sized, axis-free chart of a single series that shows a trend in minimal space, usually inside a table cell."
+    },
+    {
+      "term": "Preattentive Attribute",
+      "definition": "A visual feature such as colour hue, orientation, or spatial position that the eye detects in parallel and without focused attention."
+    },
+    {
+      "term": "Perceptual Hierarchy",
+      "definition": "Cleveland and McGill's ranking of visual channels by human accuracy, with position on a common scale most accurate and area, volume, and hue least."
+    },
+    {
+      "term": "Question-to-Chart Map",
+      "definition": "The mapping from a question's shape (comparison, part-to-whole, distribution, relationship, change, target) to the chart forms that answer it."
+    },
+    {
+      "term": "One-Message Chart",
+      "definition": "A chart carrying exactly one claim, with a title stating the finding and an annotation stating the implication."
+    },
+    {
+      "term": "Message Title",
+      "definition": "A chart title that states the finding rather than naming the subject, so the slide is comprehensible without the speaker."
+    },
+    {
+      "term": "So What? Annotation",
+      "definition": "A short line of text stating the implication, action, or caveat of a chart, in the speaker's own words."
+    },
+    {
+      "term": "Truncated Axis",
+      "definition": "A chart axis that does not start at zero, exaggerating differences; legitimate for lines, illegitimate for bars, and costly when undisclosed."
+    },
+    {
+      "term": "Dual Axis",
+      "definition": "A chart with two independently scaled y-axes, which can be tuned to manufacture the appearance of a relationship."
+    },
+    {
+      "term": "Exec Number Set",
+      "definition": "The three to five numbers a board needs, each assigned exactly one job: scale, health, engine, or bet."
+    },
+    {
+      "term": "Human Frame",
+      "definition": "The countable, human referent attached to a figure, such as seven of the top hundred accounts, that gives a number a size the room can hold."
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "title": "The Wallpaper Test: Why Most Charts in Decks Do Nothing",
+      "summary": "A chart that would be equally true with the data removed is wallpaper: decoration that signals rigour without carrying a claim. Charts earn their place only when the audience could not have made the statement without them.",
+      "detail": "A chart that would be equally true with the data removed is wallpaper. Wallpaper slides are not neutral. They consume the room's attention, they signal that the speaker has data, and they raise the cost of every real number that follows. This is the most common failure in executive decks, and it is a failure of authorship rather than of design.\n\nThree symptoms. First, the chart shows a dataset rather than a point: a line chart of monthly revenue for two years with no claim attached, so the audience is left to do the analysis you were paid to do. Second, the title names the subject instead of the finding: \"Q3 Revenue\" where \"Q3 revenue grew 18 percent, driven entirely by two enterprise renewals\" would be a message title. Third, the chart contains only information you were going to narrate anyway. If the room already knows ARR is up because you said it in the previous sentence, the chart adds nothing except time.\n\nThe test is simple and brutal. Remove the data and read the slide. If the remaining text is still a complete, accurate, and interesting statement, the chart is wallpaper. If removing the data makes the slide meaningless, the chart is doing work.\n\nCharts fail structurally, not stylistically. The speaker is rewarded for completeness rather than clarity, so decks accumulate evidence, and the audience is forced to synthesize. Adults in rooms are pattern-matching, not analysing: they will take the first salient thing on the slide and treat it as the point whether or not it is. Your job is to have done the synthesis before the slide appears, because nobody in the room will do it for you.\n\nThe fix is not better graphics software. It is a decision made before you open a charting tool: what is the one thing this chart must make obvious? If you cannot write that sentence, you do not have a chart yet, and the honest move is to write the sentence first, then let the data tell you which chart form can carry it.\n\nA corollary for the nervous executive: fewer charts is not less evidence. Ten charts that each make one clear point beat four charts that each make three, because the room can hold the first arrangement and cannot hold the second.\n\nThe test applies to tables too. A forty-row table is wallpaper with extra steps. A table is legitimate when the audience needs to look up specific values or check your work, and it is wallpaper when it is there to look rigorous.",
+      "principles": [
+        "Before opening a charting tool, write the one sentence the chart must make obvious. If you cannot, you do not have a chart yet.",
+        "Run the wallpaper test on every slide: delete the data and read what remains. If it is still true and interesting, the chart is decoration.",
+        "Put the finding in the title, not just the subject, so the slide survives being read without you.",
+        "Cut charts that only repeat what you will say out loud; they cost the room time and buy nothing.",
+        "Aim for one claim per chart. A chart that supports three claims supports none of them in the room."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Shipping a dense appendix chart because the room expects data, on the assumption that more evidence reads as more rigour.",
+          "fix": "Move it to the appendix and say so: 'Detail on request.' Reserve the main deck for the two charts that change the decision."
+        },
+        {
+          "failure": "Labelling a chart with the subject ('Revenue by region') and expecting the room to derive the conclusion in silence.",
+          "fix": "Retitle it as a finding: 'Revenue is concentrated: three regions are 70 percent of the total.' Then the audience knows what it is looking at."
+        },
+        {
+          "failure": "Piling slides until the deck exceeds its slot, and using chart density to fill the gap.",
+          "fix": "Time-box the deck first. Every slide that is cut should be the one that repeats something else."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a presentation slide being stripped down to its text with the chart fading away, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c2",
+      "title": "What the Eye Grabs First: Preattentive Attributes and the Perceptual Hierarchy",
+      "summary": "The eye does not read charts, it pops out one feature at a time. Colin Ware's preattentive attributes tell you what gets seen without effort; Cleveland and McGill tell you which visual channel survives the longest. Encode the message in the channel the eye picks up first.",
+      "detail": "Colin Ware's framework in Information Visualization starts from a simple observation: human vision processes some features of an image in parallel and without focused attention, and others only one at a time with effort. Ware calls the effortless, parallel ones preattentive attributes. The canonical set includes colour hue, form, orientation, size, spatial position, and, importantly, enclosure, curvature, and the number of elements in a common region. A single red bar among grey bars is detected preattentively, in well under a second. A small difference in the length of two grey bars may not be noticed at all until someone goes looking.\n\nThe practical consequence: the attribute you vary is the attribute the audience sees first. If the message is \"Europe is the problem\", make Europe a different colour, not a different length. If the message is \"we are falling behind plan\", make the gap a distinct hue rather than a slightly taller bar. Decoration applied to a non-message attribute is a waste of the most powerful channel you have.\n\nWilliam Cleveland and Robert McGill's 1984 paper, \"Graphical Perception: Theory and Experimentation Applied to the Development of Graphical Methods\", adds the ranking most practitioners still use. Position along a common scale is the most accurate; position on a non-aligned scale, length, angle, area, and volume follow; colour hue and texture are the least accurate. So for a precise comparison of values, use position on a shared axis or a bar chart. Do not ask anyone to compare the areas of two pie slices or the volumes of two 3D bars, because the human perceptual system genuinely cannot do that well, however confident the person asking.\n\nTwo honest caveats. First, the perceptual accuracy rankings describe typical performance and depend on task and expertise; a trained analyst extracts more from a heatmap than a novice does. Second, the famous claim that position is the most accurate comes from controlled experiments with simple tasks, not from boardrooms. Use the ranking to rank your options, not to end a discussion.\n\nThe practical test for a chart you have already built: shrink it to thumbnail size, or squint at it. Whatever survives is what your audience will actually perceive. If what survives is not your message, the encoding is wrong, and no amount of annotation will repair it.",
+      "principles": [
+        "Vary the attribute that carries your message; leave every other attribute uniform.",
+        "Use colour, position, and enclosure for preattentive pop; use length, angle, area, and volume only for lower-stakes comparisons.",
+        "Put the highest-stakes comparison on a shared positional scale, because that is where human accuracy is highest.",
+        "Thumbnail-test every chart: what survives at small size is what the room will actually see.",
+        "Use hue to mark the exception and greyscale for the context, so attention lands where you want it."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Colour-coding categories because it looks designed, which splits attention across six hues and leaves the actual point unmarked.",
+          "fix": "Mark only the series that carries the message in a distinct colour; render the rest in neutral greys."
+        },
+        {
+          "failure": "Encoding a precise comparison in area or angle, such as a pie chart for six segments, because the format looked professional.",
+          "fix": "Convert to a sorted bar chart or dot plot, where the comparison runs on position against a common scale."
+        },
+        {
+          "failure": "Assuming a carefully designed chart communicates to everyone equally well.",
+          "fix": "Test with a colleague who does not own the data; if they cannot name the point in five seconds, the encoding is failing."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating an eye scanning a chart where one attribute pops out in colour among uniform greyscale elements, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c3",
+      "title": "Data-Ink, Chartjunk, and Sparklines: Tufte's Minimum Effective Chart",
+      "summary": "Tufte's data-ink ratio asks what fraction of a chart's ink carries information, and the answer is usually less than a third. The working discipline is subtraction, and the most under-used instrument in executive communication is the sparkline.",
+      "detail": "Edward Tufte's The Visual Display of Quantitative Information is the standard for treating charts as an information-design problem rather than a software problem. Three ideas dominate it, and the second and third are the ones executives actually need on Monday morning.\n\n**Data-ink ratio.** Tufte defines it as the ratio of the ink used to present information to the total ink used to present non-information. His maxim: above all else, show the data. A chart with a heavy grid, a drop shadow, a bevelled frame, a 3D effect, an eight-colour palette for four series, and a rotated axis title may carry a data-ink ratio below 0.3, which means most of the ink on the slide is doing nothing at all. Every element must earn its place: if the gridlines do not let a reader estimate a value, they are decoration; if a second y-axis does not support a claim, it is noise.\n\n**Chartjunk.** Tufte's term for exactly that: the non-data elements, heavy gridlines, unnecessary shading, 3D perspective, decorative borders, redundant legends, that consume attention and often actively distort the data. His 3D examples are the canonical illustration, because perspective foreshortens the nearer segment so that the visual reading contradicts the printed number.\n\n**Sparklines.** Tufte's later and more operational contribution: a tiny, word-sized, high-resolution chart of a single series, with no axes, no labels, and no legend, carrying a trend in a fraction of the space of a conventional chart. A sparkline inside a table cell lets a reader see a hundred trends at once, one per row, where a hundred small multiples would be unreadable. It is the most under-used instrument in executive communication precisely because it fits where a full chart cannot.\n\nThe discipline Tufte demands is subtraction, and subtraction is counter-cultural in senior rooms, where more slides and denser slides read as more work. The test is: what can you delete without losing the claim? Delete in this order, gridlines first, then legends, then axis labels where the scale is obvious, then borders and shadows, then any second series that does not support the message, and stop at the point where the claim stops being obvious.\n\nOne caveat worth stating plainly: Tufte's aesthetics have been contested, and the data-ink ratio is a heuristic rather than a law. Small multiples and deliberate colour use can be entirely appropriate. The defensible version of his claim is narrower and still useful: ink is a scarce resource in a room where attention is scarcer, and any element that carries neither information nor emphasis is stealing capacity from the elements that do.",
+      "principles": [
+        "Audit every chart for data-ink: if an element carries no information and no emphasis, delete it.",
+        "Subtract in a fixed order, gridlines, legends, labels, borders, then non-essential series, and stop when the claim survives.",
+        "Never use 3D on a chart whose value anyone may quote; perspective makes the picture disagree with the number.",
+        "Use sparklines when you need to show a trend for many items at once in a small space.",
+        "Show the data before you style it: build the chart with a neutral palette, then add emphasis only where it serves the claim."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Treating 'clean' as 'minimal', stripping the chart down until the audience can no longer read an approximate value off it.",
+          "fix": "Keep the one element that allows estimation, a light reference line or a labelled axis, and delete everything else."
+        },
+        {
+          "failure": "Using a sparkline where the audience needs to check a specific value, because the trend was easier to produce.",
+          "fix": "Use the sparkline for the trend and put the exact figure in the row, in text, beside it."
+        },
+        {
+          "failure": "Keeping a legend and direct-labelling the same series, so the reader has to reconcile two encodings of the same thing.",
+          "fix": "Label the series directly at the end of each line and delete the legend."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a cluttered chart being progressively stripped down to its data and then reduced to a tiny inline trend line, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c4",
+      "title": "Choosing the Form to the Question: The Question-to-Chart Map",
+      "summary": "Charts fail when the form is chosen from the data type, 'we have time series, so a line chart'. Start from the question the audience needs answered, then pick the form that can answer it: comparison, part-to-whole, distribution, relationship, change over time, or rank against a target.",
+      "detail": "Most bad charts are not badly drawn. They are badly chosen, and the choice is usually made from the shape of the data rather than the shape of the question. \"We have monthly revenue, so a line chart\" is a data-type decision. \"The board needs to know whether growth is accelerating or just steady\" is a question, and the question dictates the form.\n\nThere are only a handful of question shapes, and each has a small set of appropriate forms.\n\n- **Comparison:** which is larger, and by how much? Answer with position on a common scale, using a sorted bar chart, a dot plot, or a slope chart for two points in time. Bars work because length encodes the value against a shared baseline.\n- **Part-to-whole:** how does this break down? Answer with a stacked bar, which beats a pie once there are more than two or three segments because people compare lengths better than areas, or a treemap for many categories, with segments kept in order.\n- **Distribution:** how is it spread? Answer with a histogram, a box plot, or a strip of dots. Skipping this shape is the most damaging omission in business decks, because an average alone hides the bimodality that matters.\n- **Relationship:** do these two move together? Answer with a scatterplot, and add a trend line only when the relationship is the point and both scales are labelled honestly.\n- **Change over time:** what is the direction and the shape? Answer with a line chart for continuous series, a column chart for discrete periods with few points, and a slope chart for exactly two points. Do not use a line chart for unordered categories, because the connecting line implies continuity that does not exist.\n\nA sixth case is often overlooked: **rank against a target**, where a bullet chart, or a simple bar with a target line, beats both a table and a gauge.\n\nThe mapping is not mechanical. A question can have two valid forms, and the tie is broken by what the audience must do with the answer. If they must judge magnitude against a target, put the target on the chart. If they must notice a change, put the change in the title. If they must look up a specific value, use a table and stop pretending it is a chart.\n\nOne diagnostic catches most errors: write the question in one sentence, in the words the audience would use, then write down what the audience must do with the answer. Choose the form that makes that action easy. If the answer is \"nothing, they only need to see that it exists\", the correct form is a single number, not a chart.",
+      "principles": [
+        "Write the audience's question in their words before choosing any chart form.",
+        "Choose the form that makes the audience's required action easy, not the form your data suggests.",
+        "Use bars for magnitude comparison, stacked bars for composition, and histograms for distribution, because each encodes on a channel the eye reads well.",
+        "Never connect discrete categories with a line; the line implies a continuity you do not have.",
+        "Include a distribution somewhere in every metrics review, because the average is where bad news hides."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Using a pie chart for four or more segments, so the reader has to compare angles to find the largest slice.",
+          "fix": "Convert to a sorted bar chart or a stacked bar, keeping the ordering the same as the message."
+        },
+        {
+          "failure": "Reporting only an average or a single KPI when the interesting variation is inside the distribution.",
+          "fix": "Add a histogram or a percentile breakdown next to the mean, and say which segment the number hides."
+        },
+        {
+          "failure": "Reusing the same chart form for every slide so the deck looks consistent, at the cost of answering the question in front of it.",
+          "fix": "Let the question choose the form. Consistency of message and title style matters; consistency of form does not."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram mapping distinct question types to distinct chart forms branching from a central question, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c5",
+      "title": "The One-Message Chart: Titles That State the Finding, and the 'So What?' Annotation",
+      "summary": "A chart with two messages has none. Write the claim as the title, then add a single annotation that answers 'so what?' so the audience does not have to supply the implication themselves.",
+      "detail": "Two rules do most of the work in a data-driven talk, and both are cheap to apply.\n\n**One message per chart.** A chart that tries to show a trend, a segment mix, and a variance at once is making the audience do three readings simultaneously, and they will do none of them. The number of charts in a deck is not a measure of evidence; the number of claims per chart is a measure of confusion. If a chart genuinely supports two findings, split it into two charts, or keep one chart and make the second finding a sentence.\n\n**The title that states the message.** The conventional chart title names the subject: \"Net revenue retention by segment.\" The message title names the finding: \"Enterprise NRR is 128 percent; self-serve is 94 percent, and it is one third of revenue.\" This is a small change with a large effect, because the audience reads titles first, in parallel, and a finding-title is a sentence the room can repeat in the hallway. It also forces the author to finish the thinking. If you cannot write a finding-title, you have not decided what the chart is for, and the audience will not decide for you.\n\n**The 'So what?' annotation.** One short line on or next to the chart stating the implication, the action, or the caveat. It is the difference between showing data and making a point, and it should read like a speaker would say it: \"This is the cohort we are losing, and it is the pricing change from March.\" Not \"Note: Q3 data.\" Not a restatement of the title. The annotation is also the cheapest credibility available in a deck, because saying \"the March cohort is only eleven accounts\" in your own annotation is very different from the same fact emerging in Q&A.\n\nThe three pieces work as a unit: the message title tells the room what to take away, the chart gives the shape of the evidence, and the annotation says what it means and what to watch. Charts missing one of the three fail differently. A chart with a finding-title and no annotation leaves the implication to the room. A chart with an annotation and a subject title makes the audience work backwards. A chart with neither is wallpaper.",
+      "principles": [
+        "One claim per chart; if two claims are real, split the chart.",
+        "Write the title as the finding the audience should repeat, not the name of the dataset.",
+        "Add one annotation that states the implication, the action, or the caveat, in plain words.",
+        "Put the caveat in your own annotation rather than waiting for someone else to find it.",
+        "A chart without a message title is a chart you have not finished designing."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Titles that name the metric and force the room to supply the conclusion, such as 'Churn by cohort, FY26 Q1 to Q3'.",
+          "fix": "Write the conclusion first, then check that the chart actually supports it. 'Churn rose in exactly one cohort, and it is our largest enterprise renewal cohort.'"
+        },
+        {
+          "failure": "An annotation that restates the title in different words, adding length without adding information.",
+          "fix": "Ask what the audience would ask next, and answer that. Often it is the action, often it is the caveat, never the restatement."
+        },
+        {
+          "failure": "Dropping the one-message rule under time pressure, so a single busy chart carries four findings in a rushed deck.",
+          "fix": "Keep the headline chart and move the supporting detail to the appendix. One legible chart beats four crowded ones, and a rushed deck needs legible more than it needs complete."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a chart with a headline claim above it and a single annotation pointer marking the implication, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c6",
+      "title": "The Honesty Trap: Truncated Axes, Wrong Denominators, Dual Axes, and the Credibility Bill",
+      "summary": "The most common chart sins are not lies but distortions that let the reader draw a conclusion the data does not support. Getting caught doing one of them costs you the credibility of every other number in the deck.",
+      "detail": "A misleading chart is not always a lie. Most are distortions, and the dangerous ones are the kind a reasonable reader would never catch, which is why the speaker must catch them first. The inventory worth running before any chart ships:\n\n- **Truncated axis.** A bar chart whose y-axis starts at 90 instead of 0 turns a 2 percent change into a dramatic climb. Bars encode value by length, so truncating a bar baseline breaks the encoding, not just the scale. A line chart may use a non-zero baseline, but the truncation must be unmistakable on the slide. The canonical public case is the 2005 hurricane-loss graphic in The New York Times, whose truncated axis drew sharp criticism, including from the statistician Danny Oppenheimer: a chart can be technically defensible and still mislead, because readers do not audit the encoding.\n- **Wrong denominator.** \"Churn is up 3 percent\" against what base? A 3 percent increase on 40 customers is a different fact from 3 percent on 40,000. Changing the base from customers to revenue, or from new to total, changes the story without changing a point.\n- **3D anything.** Perspective distorts area and length, so the picture contradicts the printed number: chartjunk that also lies.\n- **Dual axes.** Two y-axes with independently chosen scales can be tuned to show any correlation you like, including one you know is spurious. Index both series to a common baseline, or use two panels.\n- **Misleading scale in either direction.** Truncation and compression are the same error: a 300 percent increase in a segment of nine accounts needs its base printed beside it.\n- **Category omission.** Starting a bar chart at the third-largest segment, with no sign two larger ones exist, is the same distortion in costume.\n\nThe credibility bill is the part executives underrate. It is not for the offending chart. It is for every other number you have shown that room, and every number you will show them next. A room that catches one truncated axis does not merely discount that chart; it re-audits everything, visibly, so the rest of the deck is now read adversarially by people who were reading it charitably a moment ago.\n\nThe defensive posture does not work; there is no good way to say 'that is just how we plot it'. The only cheap defence is to audit your own charts first, and to design the honest version to be the persuasive one, which is usually possible: a bar chart starting at zero is not less persuasive, only less dramatic, and the claim that survives it is the one you were entitled to make anyway.",
+      "principles": [
+        "Bars must start at zero; lines may truncate only if the truncation is unmistakable on the slide.",
+        "Print the base with every percentage change, every rate, and every 'up' or 'down' claim.",
+        "Never use 3D on a chart whose values may be quoted, and never use dual axes to manufacture a relationship.",
+        "Audit each chart by asking what a hostile reader could claim you hid, then fix it before you present.",
+        "Design the honest version to be the persuasive version, so integrity costs you nothing."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Truncating a bar axis because the untruncated version does not make the point, and hoping nobody checks.",
+          "fix": "Start at zero and make the claim in the title instead. If the honest chart does not support the claim, the claim is wrong."
+        },
+        {
+          "failure": "Quoting a change without its base, such as 'net new ARR grew 40 percent' when the base is three deals.",
+          "fix": "Put the base in the sentence: 'Net new ARR grew 40 percent, on three deals last quarter against eleven the quarter before.'"
+        },
+        {
+          "failure": "Defending a questionable chart when it is challenged, which converts a formatting choice into a character issue.",
+          "fix": "Concede the encoding, point to the underlying data, and offer the untruncated version. 'Here is the same data with a zero baseline, and the conclusion holds.'"
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a distorted bar chart beside its honest equivalent with a zero baseline, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c7",
+      "title": "The Exec Number Set: The Three to Five Numbers a Board Actually Needs",
+      "summary": "Boards do not need more data, they need a small set of numbers they can hold. Choosing three to five, giving each one a job, and cutting the rest is a discipline that takes longer than it sounds.",
+      "detail": "Ask a board what they want to see and you will get everything. A board agenda is a request for a complete operating picture, and completeness is what kills the meeting. The Exec Number Set is the discipline of choosing three to five numbers, giving each one a specific job in the story, and cutting the rest into an appendix.\n\nEach surviving number must do exactly one of four jobs, and no number may do two:\n\n1. **The scale number.** How big is the business. Revenue, ARR, users, volume, bookings. One number, with a comparison the room can make sense of, and ideally a trend.\n2. **The health number.** Is the business getting better or worse in the way that matters. Retention, churn, gross margin, burn multiple, cycle time. One number.\n3. **The engine number.** The one thing that is working and is worth copying. New logos, expansion, activation, a segment that is compounding.\n4. **The bet number.** What the company is deliberately spending to get somewhere. Headcount in a new function, R&D, a new market, a price change. One number, and it is usually the one that is hardest to defend.\n\nFour numbers, four jobs, and the set is legible in under ten seconds. Most executive decks run eight to fifteen numbers, and the cost is not confusion exactly; it is dilution. When every number is highlighted, none is. The room cannot tell which one you wanted them to act on, so they discuss the most recent one, which is usually the most volatile one.\n\nThe cut is the hard part, and the test for whether you cut enough is this: if you removed a number from the set, would anyone in the room notice its absence? If not, it was not in the set, it was in the way. Cutting is also a claim, so expect pushback from the team whose number you removed. Handle it by moving it to the appendix and saying so in the room: 'The full operating dashboard is in the appendix; the four numbers on the slide are the ones I need a decision on today.'\n\nTwo further rules. Give each number a direction and a horizon, a prior period and a target, so improvement is legible. And keep the set stable across meetings: if the numbers change every quarter, the board cannot track anything, and the deck becomes a quarterly novelty rather than a scoreboard.\n\nThere is a legitimate exception: in a diligence or crisis conversation, a broader set may be necessary. The discipline still applies, but the scope changes. What does not change is that the room must be able to say, at the end, what you wanted them to decide.",
+      "principles": [
+        "Choose three to five numbers and give each one exactly one job: scale, health, engine, or bet.",
+        "Give every number a direction and a horizon so the room knows what improving looks like.",
+        "Move everything else to the appendix and say so in the room; a visible cut is a claim about what matters.",
+        "Keep the set stable across meetings so the board can track it quarter over quarter.",
+        "One number may not do two jobs; if a number is both your health metric and your growth story, pick one."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Highlighting every number in the deck, so the room cannot tell which one you wanted them to act on.",
+          "fix": "Use one accent colour and one style for the numbers that carry the message; everything else goes to neutral grey and the appendix."
+        },
+        {
+          "failure": "Letting a metric owner's number into the set because it is interesting rather than decision-relevant.",
+          "fix": "Apply the removal test: if nobody would notice its absence, it goes to the appendix, regardless of who owns it."
+        },
+        {
+          "failure": "Changing the set every quarter, so no one can tell whether the business is actually improving.",
+          "fix": "Fix the set for the fiscal year and treat changes as an explicit, explained decision rather than a default."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating many data points funneling down into a small set of four highlighted numbers on a single board slide, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c8",
+      "title": "Saying the Number, and Saying the Weakness First",
+      "summary": "A number spoken aloud without a frame is noise. Give it a denominator, a comparison, and a human referent, and then volunteer the weakness in your own data before the room finds it for you.",
+      "detail": "Two skills close the module, both about what happens after the chart leaves the screen.\n\n**Speaking a number out loud.** A figure delivered cold does almost nothing, because the room has no anchor for it. Three additions turn a number into something a person can hold.\n\n- **The denominator.** \"Churn is 7 percent\" is smaller than \"we lost 7 of our top 100 accounts\", because the second has a picture in it. Always say the base in the same breath.\n- **The comparison.** \"Gross margin is 68 percent\" means nothing until it is \"down from 74 percent last year, and the 6 points are the enterprise discounting we decided in Q2\". A number with a prior period and a cause is a story.\n- **The human referent.** \"We lost 7 of our top 100 accounts\" beats \"churn is 7 percent\" because it is countable by people. For revenue, the frame is often the customers or invoices behind the figure; for a percentage, it is 'out of how many'.\n\nDelivery matters as much as content. Say the number slowly, then pause: the pause is where the room does the arithmetic. Say it once, and do not hedge with 'roughly' unless it is genuinely approximate. And speak the trend, not just the point: '7 percent, and it was 4 percent two quarters ago' gives the room a direction, which is what they need to decide.\n\n**Volunteering the weakness.** The most credible thing an executive can do with a hole in their data is name it first, unprompted, before the room finds it. This is pre-emption: an objection you raise yourself is information you control, because you choose the frame, the wording, and the next sentence. Raised by a director instead, it is a surprise, and a surprise costs you more than the fact did.\n\nThe structure is one sentence plus a plan: name the weakness, give its scale, say what you are doing, give a date. 'One caveat before we go further: the March cohort is only eleven accounts, so treat that segment as directional. We will have a full cohort cut by the end of the month.' That sentence buys more credibility than a chart does.\n\nTwo cautions. Do not perform false humility: naming a weakness you do not have, or naming four to look candid, reads as a confession tour. And the weakness must be real. If you say 'the sample is small' about a number you know is well sampled, you have taught the room to discount your caveats, and you will need them later.\n\nThe principle underneath both: credibility is not the absence of weakness, it is the absence of surprise. A speaker who volunteers the weakness in their own data before it is asked demonstrates command of the evidence, which is what the room assesses.",
+      "principles": [
+        "Say the base, the comparison, and the human referent in the same breath as the figure.",
+        "Say the number once, slowly, and pause: the pause is where the room does the arithmetic.",
+        "Lead with the trend and the cause, not just the current point value.",
+        "Volunteer the real weakness in your data before the room finds it, in one sentence, followed by a plan and a date.",
+        "Never perform humility: name only real weaknesses, and resist naming four to look candid."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Saying a percentage with no base, so the room cannot tell whether the number is large.",
+          "fix": "Attach the base every time: '7 percent, and that is 7 of our top 100 accounts.'"
+        },
+        {
+          "failure": "Hedging a number you are confident in with 'roughly' or 'about', which teaches the room to discount you.",
+          "fix": "Say the figure plainly. Use 'about' only when the value genuinely is approximate, and say which part is approximate."
+        },
+        {
+          "failure": "Letting the weakness in your data be discovered in the room, so the first fact the board learns about your reporting is that you hid something.",
+          "fix": "Name it in the first minute, in a flat tone, with a date for the fuller answer. Pre-emption is free; a surprise is not."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a speaker placing a number onto a simple frame with base, comparison, and human referent, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The One-Message Chart",
+      "summary": "A three-part construction rule that turns any chart into a single claim: a finding-title, a form that supports it, and one annotation that says so what.",
+      "steps": [
+        "Write the claim as one sentence before you open a charting tool: 'This chart makes obvious that X.'",
+        "Delete the current title and rewrite it as the finding, not the subject, so the slide reads correctly without you.",
+        "Map the claim to a question shape and choose a form that answers it: comparison, composition, distribution, relationship, trend, or target.",
+        "Add exactly one annotation stating the implication, the action, or the caveat, in the words you would say out loud.",
+        "Apply the wallpaper test: remove the data; if the remaining slide is still true and interesting, cut the chart.",
+        "Check the encoding: the attribute you varied must be the attribute the eye should catch first, and every non-data element must carry information or emphasis."
+      ],
+      "whenToUse": "Use on every data slide in every deck, and especially on the first chart in a room you are trying to convince. Do not use it for appendix material the audience is expected to interrogate themselves, and do not use it to force a slide that genuinely needs two panels; split the claim instead.",
+      "example": "A VP of Finance shows a slide titled 'Q3 Net Revenue Retention' with a bar chart of four segments. The rewrite: title becomes 'Enterprise NRR is 128 percent and self-serve is 94 percent, and self-serve is a third of revenue'. The form becomes a sorted horizontal bar chart, since the question is comparison. The annotation becomes 'Self-serve is the drag, and it is concentrated in accounts under ten seats.' The chart now makes one claim, and the audience can repeat it."
+    },
+    {
+      "name": "The Chart Title Test",
+      "summary": "A fast check that a chart's title states the finding rather than naming the dataset, plus a three-step rebuild when it fails.",
+      "steps": [
+        "Read only the title aloud, with no chart in front of anyone. Ask: does this sentence alone tell the room what to conclude?",
+        "If the title only names the subject, write the finding in a full sentence with a number, a direction, and a cause or an implication.",
+        "Check the finding against the data: if the chart does not support the sentence, fix the chart or drop the claim, never the reverse.",
+        "Add the human frame inside the title where it helps: '7 of our top 100 accounts' rather than 'churn 7 percent'.",
+        "Read the title aloud again to someone who has not seen the data. If they can repeat it, it passes; if they ask a question, the title is still a label."
+      ],
+      "whenToUse": "Use as a final pass over any deck before it leaves your hands, and as a 60-second fix when someone tells you the slide is unclear. It is also the fastest way to convert a chart you already trust into one that works when you are not in the room to explain it.",
+      "example": "'Revenue by region' fails the test. 'Revenue is concentrated: three regions are 70 percent of the total, and the largest grew while the other two shrank' passes, because a reader who never sees the chart still knows the claim, the scale, and the direction."
+    },
+    {
+      "name": "The Data Honesty Audit",
+      "summary": "A pre-shipping checklist that finds the six standard distortions and forces you to fix them before the room does.",
+      "steps": [
+        "Axis check: do all bars start at zero? If a line uses a truncated axis, is the truncation visible on the slide itself?",
+        "Base check: does every percentage change, rate, and 'up' or 'down' claim have its base printed next to it?",
+        "Denominator check: can the reader tell whether a figure is about customers, revenue, new, or total?",
+        "Geometry check: is there any 3D, or any dual axis, or any perspective that makes the picture disagree with the number?",
+        "Completeness check: are any categories or segments missing from the comparison, and is the omission visible?",
+        "Adversary check: imagine a hostile reader hunting for what you hid. If you would not want them to find it, fix it now or disclose it in your own annotation."
+      ],
+      "whenToUse": "Use on every chart in a board, investor, or customer deck, and again on any chart you are about to defend in public. Never use it to justify keeping a distortion; the audit's output is a fix or a disclosure, not a defence.",
+      "example": "A 3D pie of revenue by segment, with a y-axis-style truncation on a supporting bar chart, in a Series B deck. The audit finds the perspective distortion on the pie and the 90-to-100 axis on the bars. Fix: sorted horizontal bars for segment comparison, zero baseline everywhere, and one annotation: 'Three segments are 90 percent of revenue, and the fourth is flat.' The claim survives the honest version, which is the only version that would have survived the room."
+    },
+    {
+      "name": "The Exec Number Set",
+      "summary": "A selection rule that reduces a deck to the three to five numbers a board can hold, with one assigned job per number.",
+      "steps": [
+        "List every metric currently in the deck, including the ones in the appendix.",
+        "Assign each a candidate job: scale, health, engine, or bet. Any metric that fits no job is a candidate for the appendix.",
+        "Choose one number per job. If two numbers fight over the same job, keep the one a board member can repeat and move the other to the appendix.",
+        "Give each surviving number a direction and a horizon, a prior period, and a target, so improvement is legible.",
+        "Apply the removal test to each: if nobody would notice its absence, cut it.",
+        "Say the cut out loud in the room: 'Everything else is in the appendix; these four are what I need a decision on today.'",
+        "Hold the set stable across meetings so the board can track it quarter over quarter."
+      ],
+      "whenToUse": "Use for board updates, investor updates, and any recurring operating review, where the set becomes a scoreboard. Do not use it as a one-off stunt in a diligence conversation, where a broader set may be necessary, or in a technical review, where the audience will want the detail.",
+      "example": "A CEO's board deck contains 14 metrics: ARR, bookings, pipeline, new logos, expansion, gross margin, CAC, payback, NRR, logo churn, NPS, headcount, burn, runway. The Exec Number Set keeps four: ARR (scale), NRR (health), expansion ARR (engine), and R&D headcount (bet). The other ten move to the appendix, and the one-minute summary becomes: how big, is it healthy, what is working, and what are we deliberately spending to build."
+    },
+    {
+      "name": "The Question-to-Chart Map",
+      "summary": "A routing table that starts from the audience's question and lands on the form that makes the required action easy.",
+      "steps": [
+        "Write the audience's question in their own words, as a single sentence.",
+        "Classify it: comparison, part-to-whole, distribution, relationship, change over time, or rank against a target.",
+        "Route it: comparison to a sorted bar or dot plot; part-to-whole to a stacked bar or treemap; distribution to a histogram, box plot, or dot strip; relationship to a scatter; change over time to a line for continuous series, a column for discrete periods, a slope chart for exactly two points; target ranking to a bullet chart or a bar with a target line.",
+        "Decide what the audience must do with the answer: judge magnitude, notice a change, look up a value, or simply see that something exists.",
+        "Pick the form that makes that action easiest, not the form your data suggests. If the action is 'look up a value', use a table and stop calling it a chart.",
+        "Check that a non-expert could answer the question from the chart alone, with no narration."
+      ],
+      "whenToUse": "Use before building any chart, and as the diagnostic when a chart is not landing. Do not use it to force variety; if the same question recurs, the same form recurs, and that consistency is a feature.",
+      "example": "'Why did retention drop?' routes to distribution, not trend: a histogram of account-level retention shows that the drop is not a general decline but a bimodal split, with one segment of accounts at roughly zero retention and the rest unchanged. The trend chart would have shown 'retention is down'; only the distribution shows that half the decline is a single failing cohort, which is a fixable problem with an owner."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "s1",
+      "title": "The board deck with the truncated axis",
+      "setting": "A quarterly board meeting of a 300-person SaaS company. Seven board members, two of whom are former CFOs, and a CEO who has used this same revenue chart template for six quarters. The slide in question is slide 14 of 22, on a new screen the CEO has not seen on a wall before.",
+      "challenge": "The board chair, a former CFO, interrupts: 'This bar chart starts at 90. Are you showing us a 40 percent improvement? Because that is what it looks like, and it is not what the growth rate is.'",
+      "objectives": [
+        "Concede the encoding error without debating it",
+        "State the real number with its base and its cause",
+        "Protect the credibility of the other eighteen slides"
+      ],
+      "options": [
+        {
+          "text": "'That is a standard template from our analyst. It is the same chart we have always used, and the underlying data is correct.'",
+          "outcome": "You have defended the template and implicitly blamed your team. The chair now believes you do not know how your own charts are built, and the room starts wondering what else in the deck was not checked.",
+          "rating": "poor",
+          "feedback": "'The data is correct' is the wrong defence, because the chart is the claim. The chair is not disputing the spreadsheet; they are disputing your judgment. Concede the encoding, restate the honest number, and move on."
+        },
+        {
+          "text": "Concede in one sentence, offer the zero-baseline version, state the real growth rate with its base, and note the one decision the number supports.",
+          "outcome": "The chair relaxes, because the person who owns the number volunteered the error faster than they did. The board now has the correct growth figure and, more importantly, a reason to trust the rest of the deck.",
+          "rating": "excellent",
+          "feedback": "This is pre-emption applied to yourself. Concede the chart, replace it with the honest version on the fly, and re-anchor the room on what the number actually says. One line, then move."
+        },
+        {
+          "text": "Explain that the axis was chosen because the values are in the 90s, so a zero baseline would compress the interesting variation, and that the underlying growth is what matters.",
+          "outcome": "Technically defensible, and it is exactly the argument the chair came prepared to reject. The room hears you defending an encoding instead of accepting a correction, and your next number inherits the doubt.",
+          "rating": "poor",
+          "feedback": "The reasoning is the problem, not the sentence. A bar chart encodes by length; if you want to show variation in the 90s, use a line chart with a labelled non-zero axis, or plot the change directly."
+        },
+        {
+          "text": "'Good catch. I will have the team fix the axis and circulate the corrected version tomorrow.'",
+          "outcome": "The concession is right but the answer is missing. The board still does not know the growth rate, and the correction will be read without context, which is where numbers get interpreted badly.",
+          "rating": "fair",
+          "feedback": "Pair the concession with the substance. Say the real number now, in this room, with its base and cause, and then fix the chart for next quarter. A promise without the number leaves the question open."
+        }
+      ],
+      "coachingNote": "The credibility cost of a chart error is paid on every other number in the room, not on the offending slide. Concede the encoding in one sentence, supply the honest number immediately, and never litigate a chart convention in a room that has already spotted it."
+    },
+    {
+      "id": "s2",
+      "title": "Churn is up and you have to explain it",
+      "setting": "A Monday operating review with your VP of Product, your head of Customer Success, and twelve other managers. The head of CS has the churn report open on her laptop and has not yet said anything. You have ninety seconds before she does.",
+      "challenge": "Logo churn moved from 4.1 percent to 6.8 percent this quarter. You know it is concentrated in one segment, small accounts that signed under the old pricing, and you know the head of CS will read the same number as her team's failure.",
+      "objectives": [
+        "Lead with the number and its base rather than waiting to be asked",
+        "Locate the cause in a segment without blaming a team",
+        "Land a specific next step with an owner and a date"
+      ],
+      "options": [
+        {
+          "text": "Wait for the CS lead to present, then respond to her framing with a fuller analysis.",
+          "outcome": "She presents the aggregate, the room reacts to it, and you arrive late correcting a number the room has already formed a view about. The correction reads as damage control.",
+          "rating": "poor",
+          "feedback": "You owned this metric. Waiting for someone else to introduce a number you will then have to reinterpret hands them the frame and the emotional reaction."
+        },
+        {
+          "text": "Name the number, the base, and the segment it is concentrated in, state what you think caused it, and give the next step and its date.",
+          "outcome": "The room's attention goes to the segment and the plan rather than to the aggregate. The CS lead can now contribute inside a frame that has already been set fairly.",
+          "rating": "excellent",
+          "feedback": "Say the bad number first, with its base, and immediately follow it with the location of the problem. Silence on a metric you own lets the room supply the worst interpretation."
+        },
+        {
+          "text": "Show the trend with the segment split, but present the total as 'up slightly quarter on quarter, in line with seasonality'.",
+          "outcome": "You have labelled a 66 percent relative increase as seasonality without evidence for it. When the CS lead produces the seasonality comparison, or when someone checks, the framing becomes the story.",
+          "rating": "poor",
+          "feedback": "Never explain away a number you have not yet explained. If you do not know the cause, say the cause is unknown and say what will establish it by when."
+        },
+        {
+          "text": "Present the segment chart without the aggregate, on the grounds that the aggregate is misleading at this level.",
+          "outcome": "Deliberately withholding the number the room already has is the most damaging version of this move. It is not chart design; it is selective disclosure, and someone will say so.",
+          "rating": "poor",
+          "feedback": "Show the aggregate. Then show the segment. The order of your slides should never be the thing under suspicion."
+        }
+      ],
+      "coachingNote": "When a metric you own has moved against you, you present it before anyone else can, with its base, its location, and a dated next step. The order of your narration is doing more work than the chart is."
+    },
+    {
+      "id": "s3",
+      "title": "Presenting cohort data to the team that built the metric",
+      "setting": "A quarterly business review in front of the twelve people who designed and maintain your retention metric. Two of them are the only people in the company who understand its cohort definitions, and they have been visibly anxious for three days.",
+      "challenge": "Your slide shows a cohort retention curve that appears to flatten after month six, and you are about to present it as evidence that onboarding works. The metric's owner is sitting in the front row and has not yet decided whether to defend the chart or you.",
+      "objectives": [
+        "Present the cohort curve accurately, including what it does not show",
+        "Do not put the metric owner in a position where they must defend you",
+        "Get the room's agreement on what the curve can and cannot support"
+      ],
+      "options": [
+        {
+          "text": "Present the curve as planned and take questions, on the basis that the definitions have been reviewed.",
+          "outcome": "If the curve is right, the room adopts a claim that was never stress-tested. If it is subtly wrong, the metric owner is put in the position of contradicting the CEO, and the team learns that the metric is a presentation asset.",
+          "rating": "poor",
+          "feedback": "The people who built the metric can read the chart more carefully than you can. Present it as a hypothesis you are testing, not a finding you have landed."
+        },
+        {
+          "text": "State the claim, state the definitional choices behind the curve, name what the curve cannot tell us, and ask the metric owner directly what she would change before we use it externally.",
+          "outcome": "The metric owner becomes your co-author rather than your auditor, the room sees the claim's limits, and any correction happens before the chart leaves the building.",
+          "rating": "excellent",
+          "feedback": "Inviting the owner to interrogate the chart in public converts a threat into a quality signal, and it demonstrates that you do not treat the metric as a prop."
+        },
+        {
+          "text": "Drop the cohort slide and use a simpler retention number that is less contentious.",
+          "outcome": "The room notices the retreat, because the cohort chart was the most interesting thing in the deck. You have taught the team that interesting claims are dangerous, and you have hidden the question rather than answered it.",
+          "rating": "fair",
+          "feedback": "Simplification is legitimate when the chart is genuinely too complex for the audience. Abandoning a chart because the expert in the room is nervous is a different move, and the team will read it correctly."
+        },
+        {
+          "text": "Ask the metric owner to present her own slide on the metric, and sit back while she does it.",
+          "outcome": "You have ceded a high-stakes claim to someone with less context for what you need the room to do, and you have signalled that the chart is hers to defend or abandon.",
+          "rating": "fair",
+          "feedback": "Inviting scrutiny is good; transferring ownership of the argument is not. Keep the claim, invite the scrutiny, and land it yourself."
+        }
+      ],
+      "coachingNote": "The expert who built your metric is your strongest ally or your sharpest critic depending on whether you invite them. State the claim, name its limits, and put the definition on the table before someone else does."
+    },
+    {
+      "id": "s4",
+      "title": "The customer who asks why your benchmark is different",
+      "setting": "A renewal call for a 90,000 euro annual contract. The customer's head of operations has the output of your product in front of her and the output of two competitors beside it. Your champion is on the call but has gone quiet, which usually means the question is being asked on the champion's behalf.",
+      "challenge": "'Your own case study says you improve dispatch time by 22 percent. Ours improved by 8. Either your benchmark is cherry-picked, or your product does not do what the case study claims. Which is it?'",
+      "objectives": [
+        "Explain the difference in the data rather than defending the headline",
+        "Name what the benchmark did and did not measure",
+        "Keep the renewal conversation on outcomes rather than on a marketing claim"
+      ],
+      "options": [
+        {
+          "text": "Defend the 22 percent figure with a fuller description of the case study, the company size, and the deployment timeline.",
+          "outcome": "The customer now knows the case study is a specific situation and concludes that their 8 percent is the expected outcome. You have answered the wrong question with the wrong evidence.",
+          "rating": "poor",
+          "feedback": "Defending the benchmark makes the benchmark the subject. The customer's question is about their result, and the honest framing is that 8 percent is a real number that deserves an explanation."
+        },
+        {
+          "text": "Concede that the 22 percent came from a specific deployment, describe what was measured and what was not, and then ask what she measured and where the 8 percent came from.",
+          "outcome": "The question moves from 'are you lying' to 'how do we compare them', which is a comparison you can actually help with, and the customer's champion is pulled back into the conversation.",
+          "rating": "excellent",
+          "feedback": "The benchmark is a sample, not a promise. Say so plainly, then ask the question that lets you diagnose the gap, which is usually implementation scope rather than product capability."
+        },
+        {
+          "text": "Point out that her measurement window and the case study's were not the same, so the two numbers are not comparable.",
+          "outcome": "Technically defensible and probably true, but delivered as a rebuke it reads as 'your measurement is wrong', and the champion is now being told her team cannot measure its own work.",
+          "rating": "fair",
+          "feedback": "Measurement mismatch is the most likely explanation and it belongs in the answer, but it must be framed as a shared diagnostic, not as a correction of the customer."
+        },
+        {
+          "text": "Offer to run a benchmarking exercise with her team to establish a like-for-like comparison over the next quarter.",
+          "outcome": "A good offer, delivered too early. It postpones the answer, and the customer now has a renewal decision to make with the 8 percent still unexplained.",
+          "rating": "fair",
+          "feedback": "A benchmark is a plan, and plans do not answer the question in the room. Answer first, then offer the plan as the second step."
+        }
+      ],
+      "coachingNote": "When a customer holds your own marketing number against your product, the benchmark is a sample, not a promise. Say that, explain what was measured, and move the conversation to their number, where the useful information is."
+    },
+    {
+      "id": "s5",
+      "title": "The investor who spots the truncated axis",
+      "setting": "A Series B diligence meeting, two partners from the fund, a principal, and a VP of Sales who built the pipeline chart. You have shown nine slides and are on slide 10, a pipeline chart with a y-axis that begins at 40 rather than 0.",
+      "challenge": "The principal looks at it for a moment and says: 'Your pipeline chart starts at 40. I notice your deck does not have a single axis that starts at zero, and none of your charts state their source. I am going to assume you prefer the number to the picture. Am I wrong?'",
+      "objectives": [
+        "Recognise that the challenge is about your standards, not one chart",
+        "Address the pattern rather than the instance",
+        "Offer something concrete that changes the room's confidence"
+      ],
+      "options": [
+        {
+          "text": "Explain that the chart was built by the sales team and that you review the numbers, not the formatting.",
+          "outcome": "You have confirmed the principal's inference: you prefer the number to the picture, and the standards question was never addressed by anyone in this room.",
+          "rating": "poor",
+          "feedback": "Separating yourself from the artefact is the worst available answer here. You are the CEO; the standards of the deck you bring are yours, and disowning the chart confirms the concern."
+        },
+        {
+          "text": "Acknowledge the pattern directly, say you will re-issue the deck with zero baselines and sources on every chart, and offer to walk through the underlying numbers in the data room today.",
+          "outcome": "The principal gets a process, a timeline, and access. The concern moves from 'what else is he hiding' to 'will he hold himself to a standard', which is the question that actually decides the round.",
+          "rating": "excellent",
+          "feedback": "The challenge is about pattern, so answer at the pattern level. A standard, applied in front of the room, is worth more than a defence of one chart."
+        },
+        {
+          "text": "Explain the technical reason for the truncated axis, since line charts legitimately use non-zero baselines.",
+          "outcome": "The chart is bars, not lines, so the argument does not apply and you have now demonstrated that you did not check your own charts. The principal now has a second example.",
+          "rating": "poor",
+          "feedback": "Do not defend with a convention you have not verified applies to this chart. Look at the chart before you explain it."
+        },
+        {
+          "text": "Invite the VP of Sales to explain the pipeline methodology in detail while you listen.",
+          "outcome": "You have handed the room to your VP, in a meeting where the question was about your standards, and the VP has no idea this is happening.",
+          "rating": "poor",
+          "feedback": "Do not redirect a standards question to a subordinate. Take the standard yourself, then bring the subject matter in afterwards."
+        }
+      ],
+      "coachingNote": "When someone says 'not one of your charts starts at zero', they are not asking about a chart. They are asking whether your numbers can be trusted without supervision. Answer the standard, and back it with a process and a date."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "title": "The Chart Autopsy",
+      "type": "analytical",
+      "durationMinutes": 30,
+      "instructions": "Collect three real charts from your own decks, past or upcoming. For each, write the question the audience needs answered, the title as it currently stands, and a one-sentence claim the chart could support. Then run three passes: the wallpaper test (delete the data, read the remaining slide), the Chart Title Test (read only the title aloud, does it tell the room what to conclude), and the Data Honesty Audit (axis, base, denominator, geometry, completeness). For each chart write the single highest-priority fix, and note how long the fix would take. Do not redesign anything in this exercise; you are producing a diagnosis, not a deck.",
+      "deliverable": "A one-page diagnosis of three charts, each with its question, current title, proposed claim, wallpaper-test result, honesty-audit findings, and one prioritised fix with a time estimate.",
+      "successCriteria": [
+        "Each chart is matched to a named question shape rather than to a data type.",
+        "The wallpaper test is applied literally, by reading the remaining slide text aloud.",
+        "At least one chart is found to fail the wallpaper test and one fails the Chart Title Test.",
+        "Every fix is singular and executable, not a redesign of the whole slide.",
+        "The three fixes together are estimated at under 90 minutes of work, which proves they are affordable."
+      ],
+      "liveCoachPrompt": "I want you to look at your own slides with a critic's eye, which is uncomfortable and completely worth it. Bring three charts you have actually used. For each one, we go through the wallpaper test, the title test, and the honesty audit in that order. I am not going to help you make them prettier, I am going to help you find out which ones are doing nothing."
+    },
+    {
+      "id": "e2",
+      "title": "The Exec Number Set",
+      "type": "analytical",
+      "durationMinutes": 25,
+      "instructions": "List every metric in your most recent recurring update: board deck, investor update, or operating review. Assign each one a candidate job from the four: scale, health, engine, or bet. Anything that fits no job goes to the appendix list. Choose one number per job. For each survivor, write the direction, the prior period, and the target so improvement is legible. Then apply the removal test to each survivor: if you deleted it, would anyone in the room notice? Write your final set of three to five numbers, the ten you cut, and the one-line decision each surviving number is meant to support.",
+      "deliverable": "A one-page Exec Number Set: three to five surviving numbers with job, direction, prior period, and target, plus the cut list with the reason for each cut.",
+      "successCriteria": [
+        "No number appears in two job categories, and any conflict is resolved with a written reason.",
+        "Every surviving number has a direction, a prior period, and a target.",
+        "At least half of the original metrics are explicitly cut, with a reason recorded for each.",
+        "Each surviving number is tied to a decision the room can make, not a status update.",
+        "The set can be delivered in under 30 seconds, which is the real test of legibility."
+      ],
+      "liveCoachPrompt": "This exercise is really about subtraction, and subtraction is uncomfortable, so expect resistance from the metric that has the most owners. I want you to walk me through your list out loud, assign each one a job, and then tell me what you are cutting. When you hesitate on a number, ask yourself whether the room would notice its absence."
+    },
+    {
+      "id": "e3",
+      "title": "Say the number out loud",
+      "type": "recorded",
+      "durationMinutes": 20,
+      "instructions": "Record yourself on video delivering three numbers from your own business: one that is good, one that is bad, and one you are not sure about. Each number gets 45 to 90 seconds. Every one must include, in this order: the figure, the base or denominator, the comparison to a prior period, and the human referent. Add one sentence on what you are doing about it. Play each back and check three things: did you say the base in the same breath as the figure, did you say the number exactly once without hedging, and did you pause after the number instead of rushing to fill the space.",
+      "deliverable": "Three recorded clips, each 45 to 90 seconds, with a written transcript of the frame used for each number.",
+      "successCriteria": [
+        "Each clip states the base or denominator in the same breath as the figure.",
+        "Each clip includes a comparison to a prior period, not only the current value.",
+        "Each clip includes a human referent, such as a count of customers, people, or invoices.",
+        "No figure is hedged with 'roughly' unless it is genuinely approximate.",
+        "There is an audible pause after each number, and the pause is not filled with filler."
+      ],
+      "liveCoachPrompt": "We are doing reps on the single most under-rehearsed moment in an executive talk: the actual number. I want three, one good, one bad, one uncertain. For each, give me the figure, the base, the comparison, and the human frame. Then pause. Do not fill the pause; the pause is where the audience does the arithmetic."
+    },
+    {
+      "id": "e4",
+      "title": "Volunteer the weakness first",
+      "type": "recorded",
+      "durationMinutes": 25,
+      "instructions": "Identify the real weakness in your data that you are most tempted to hide: a small sample, a definitional change, a segment with too few accounts, a metric you have not verified since a migration. Write it in one sentence, then record yourself delivering that sentence at the start of a two-minute segment, in a flat tone, with a stated plan and a date attached. Record it three times: once as a caveat tacked on at the end, once at the start, and once at the start with a plan and date. Keep the best take. Then check the difference by asking one colleague who watched all three which version made them trust the number more.",
+      "deliverable": "Three recorded versions of the same weakness disclosure, plus a one-line note on which version drew the better reaction and why.",
+      "successCriteria": [
+        "The weakness is a real one, not a token caveat invented to look candid.",
+        "The disclosure names the scale of the weakness, not only its existence.",
+        "The best take includes what is being done and a date, not just an apology.",
+        "The tone is flat and matter-of-fact, with no hedging and no self-deprecation.",
+        "The disclosure appears within the first minute rather than after the conclusion has been stated as settled."
+      ],
+      "liveCoachPrompt": "This is the hardest rep in the module because you are rehearsing saying something that costs you. I want the flat version, the one where the room hears a fact rather than a confession. Remember the structure: the weakness, its scale, what you are doing, and a date. Say it first, not last."
+    },
+    {
+      "id": "e5",
+      "title": "Build one chart that passes every test",
+      "type": "realWorld",
+      "durationMinutes": 40,
+      "instructions": "Take a real question your next audience needs answered, using data you actually have, and build the single chart that answers it. Work from the Question-to-Chart Map: write the question in the audience's words, classify it, and pick the form. Then write the message title, add one annotation, run the Data Honesty Audit, and apply the wallpaper test. Show it to at least three colleagues who do not own the data, one of whom is not a data person, and ask each of them, in this order: what is this chart saying, and what should we do about it. Do not explain the chart while they answer.",
+      "deliverable": "One finished chart plus a short note recording the question, the form chosen and why, the three colleagues' unprompted answers, and the one change you made after hearing them.",
+      "successCriteria": [
+        "The form was chosen from the question, and the reason is written down.",
+        "The title states a finding and is comprehensible without the chart.",
+        "The chart passes all six checks of the Data Honesty Audit, and the audit is attached.",
+        "At least two of the three colleagues state the intended message without prompting.",
+        "At least one change was made in response to what the colleagues did not say, not only what they did."
+      ],
+      "liveCoachPrompt": "This is a field test with a brutal success criterion: a stranger must tell you what your chart says before you say a word. Build it, then get it in front of three people who do not own the data. The most useful feedback will come from the one who is not a data person, so make sure they are in the group."
+    },
+    {
+      "id": "e6",
+      "title": "The hostile number review",
+      "type": "realWorld",
+      "durationMinutes": 45,
+      "instructions": "Ask a colleague who has real analytical judgement, ideally a finance lead, a board member, or an investor, to review one real deck of yours for thirty minutes with one instruction: find the number that would make you least credible if someone else found it first. Give them a list of the six items in the Data Honesty Audit and one question: which chart would you attack, and what would you say. Do not defend while they present their findings; take notes. Afterwards, decide which findings are real, fix the real ones, and re-issue the deck with a note that states the correction and its date. Separately, record a two-minute segment where you introduce that same number, voluntarily, with its limits.",
+      "deliverable": "A written list of the reviewer's findings, your judgement on each one, the corrected deck with a dated correction note, and a two-minute recorded voluntary disclosure of the corrected number.",
+      "successCriteria": [
+        "The review was conducted by someone with real analytical judgement, not a friendly colleague.",
+        "You did not argue with a single finding while the review was being delivered.",
+        "Each finding is marked as real, false, or a known trade-off, with reasoning.",
+        "The correction note states what changed, why, and when, and it is visible rather than buried.",
+        "The recorded segment discloses the corrected number and its limits without being asked."
+      ],
+      "liveCoachPrompt": "You are going to let someone hunt for the thing in your deck that would hurt you most, and then you are going to fix it before anyone else finds it. That is the whole exercise. The only rule is that you do not defend in the room, even once, because defending in the room is exactly what you are trying to avoid doing in a board meeting."
+    },
+    {
+      "id": "e7",
+      "title": "Explain your metric to a sceptic",
+      "type": "realWorld",
+      "durationMinutes": 35,
+      "instructions": "Choose the metric your organisation argues about most, the one where two teams read the same number differently. Write a plain-language definition of it in five sentences, with no jargon and no reference to the query that produces it. Then record yourself explaining it to a smart, hostile outsider, a customer, an investor, or a new hire, in three minutes, answering three questions they are likely to ask: what is counted, what is not counted, and how could this number be wrong. Finally, ask a colleague from outside the owning team to read your definition and tell you what they would now assume the number means.",
+      "deliverable": "A written five-sentence definition, a three-minute recorded explanation, and a note recording what the outside colleague assumed from the definition.",
+      "successCriteria": [
+        "The definition contains no internal jargon and no reference to the underlying system.",
+        "The explanation explicitly states what is excluded from the metric.",
+        "The three most likely misinterpretations are addressed without prompting.",
+        "The outside colleague's assumption matches your intended definition, or the gap is identified and closed.",
+        "The explanation is delivered at a level a customer would follow, not a level a data team would."
+      ],
+      "liveCoachPrompt": "Every contested metric in every company is a definition problem that gets argued about as a data problem. Your job here is to write the definition so plainly that an outsider cannot misread it, and then find out whether you succeeded by asking somebody outside the team. Take the metric that causes the most arguments, because that is the one worth fixing."
+    }
+  ],
+  "assessment": {
+    "id": "a9",
+    "title": "The board deck and the hostile number",
+    "brief": "You are the COO of a 260-person B2B software company presenting to your board at a quarterly review, with your CFO in the room and three slides of your own data deck to defend. You have eight minutes. Slide 2 is a retention chart with a y-axis that does not start at zero. Slide 4 is your operating dashboard, which contains fourteen numbers, of which four matter. Slide 7 is a pipeline chart built by your VP of Sales. You also have one weakness in the data that nobody has yet found: the March cohort contains only nine accounts. Deliver the eight minutes, then answer eight minutes of board questions, including at least one challenge to a specific number. You may bring one page of notes containing your Exec Number Set, your message titles, and the sentence in which you volunteer the March cohort weakness. The recording is scored on the delivered segment and the Q&A, and the slides are scored as artefacts.",
+    "rubric": [
+      {
+        "dimension": "Chart and data design quality",
+        "weight": 20,
+        "excellent": "Every chart carries exactly one claim, carries it in a title that states the finding rather than the subject, and would be comprehensible to a reader who was not in the room. The retention chart uses a zero baseline, the dashboard shows four numbers with the rest cut or moved to an appendix, and the pipeline chart is legible at thumbnail size. No chartjunk, no 3D, no dual axes, and the accent colour marks only the series that carries the message.",
+        "adequate": "The charts are readable and the main claims are visible, but at least one chart carries two claims, one title still names its subject rather than its finding, or the dashboard still shows more numbers than a board can hold and no cut is visible.",
+        "poor": "Charts are decoration: wallpaper slides that would be equally true with the data removed, subject titles, truncated bar axes, a pie chart with five segments, or numbers presented with no indication of which ones matter."
+      },
+      {
+        "dimension": "Numerical accuracy and honesty of the evidence",
+        "weight": 20,
+        "excellent": "Every figure stated aloud is correct, carries its base or denominator, and is compared to a prior period; no number is quoted that is not on the slides. Chart encodings are technically defensible and disclosed where a convention is non-standard. The March cohort weakness is volunteered before it is asked about, with its scale and a plan, and no distortion is used to make a point look better than it is.",
+        "adequate": "Figures are broadly correct and mostly carry their base, but one or two numbers are quoted imprecisely, a change is stated without its base, or a caveat exists that is not disclosed until it is requested. Nothing is deliberately distorted.",
+        "poor": "A figure is misstated or unsupported, a percentage change is quoted without its base in a way that materially misleads, the truncated axis is presented as a favourable visual effect, or a chart is chosen because it flatters a conclusion the honest version would not support."
+      },
+      {
+        "dimension": "Delivery of numbers out loud",
+        "weight": 20,
+        "excellent": "Each number is spoken once, without hedging, with its base, its comparison, and a human referent, and is followed by a deliberate pause. The speaker narrates the trend and its cause rather than reading a point value. Confidence in the number is audible, and no figure is qualified with 'roughly' or 'about' unless it genuinely is approximate.",
+        "adequate": "Numbers are spoken clearly and mostly with their base, but delivery is flat or rushed, one or two figures arrive without a comparison, and pauses after a number are filled with filler words.",
+        "poor": "Numbers are read off the slide with no frame, percentages are quoted without bases, hedges multiply, and the speaker cannot say why a number moved."
+      },
+      {
+        "dimension": "Handling of the hostile challenge and the volunteered weakness",
+        "weight": 20,
+        "excellent": "The truncated axis is conceded in one sentence without argument, the honest zero-baseline figure is supplied immediately with its cause, and the room's confidence in the rest of the deck is restored. The March cohort weakness is disclosed unprompted in the first minutes, in a flat tone, with a plan and a date, and the speaker treats the challenge as information about the board's standard rather than as an attack to be won.",
+        "adequate": "The challenge is handled without defensiveness and the correct figure is eventually given, but the concession is hedged, the correct number takes a while to arrive, or the March cohort weakness is only disclosed when a director asks about cohort counts.",
+        "poor": "The encoding is defended or blamed on a template, a colleague, or a convention; the speaker implies the board has misunderstood; the real weakness in the data is discovered by the board rather than volunteered; or the response becomes an argument about the number's worth."
+      },
+      {
+        "dimension": "Executive relevance and decision focus",
+        "weight": 10,
+        "excellent": "The delivered segment is built around an Exec Number Set of three to five numbers, each with a job, a direction, and a horizon. The speaker states what decision the board is being asked to make, and the cut from the full dashboard to four numbers is said out loud. Appendix material is offered rather than shown, and the narrative holds the board's attention on what changes their decision.",
+        "adequate": "The material is broadly relevant and the deck has a shape, but more numbers are presented than the board can act on, the cut is implicit rather than stated, and the request to the board is left vague at the end.",
+        "poor": "The segment reads as a reporting tour with no decision requested, the slides are a walkthrough of every metric, and the speaker shows no judgement about what matters."
+      },
+      {
+        "dimension": "Visual design and execution of the slides",
+        "weight": 10,
+        "excellent": "Slides are restrained and legible: consistent type scale, generous white space, one accent colour used to mark the message, no decorative borders, no 3D, no unnecessary legends, and the chart forms differ appropriately according to the question each one answers. The deck could be read silently by a stranger and yield the same claims the speaker makes.",
+        "adequate": "The slides are professional and mostly clean, but there is some chartjunk, inconsistent styling between slides, or a form that does not match the question being asked.",
+        "poor": "Slides are dense, inconsistent, or decorated; text is small; the deck cannot be read without the speaker; or the visual choices actively distort what the data says."
+      }
+    ],
+    "passMark": 70
+  },
+  "readingList": [
+    {
+      "title": "The Visual Display of Quantitative Information",
+      "author": "Edward R. Tufte",
+      "why": "The source of the data-ink ratio, the chartjunk critique, the 3D examples, and the sparkline. Read it for the visual proofs, which are the most persuasive material in the module, and pair it with the One-Message Chart and the Data Honesty Audit. Tufte's aesthetics are a strong position rather than a settled law, so use his principles as a lens rather than a style guide."
+    },
+    {
+      "title": "Information Visualization: Perception for Design",
+      "author": "Colin Ware",
+      "why": "The reference for preattentive attributes: the visual features the eye detects in parallel and without focused attention, and the design consequences of choosing which attribute to vary. Pairs with the perceptual hierarchy covered in the same module and with the encoding step of the One-Message Chart."
+    },
+    {
+      "title": "Graphical Perception: Theory and Experimentation Applied to the Development of Graphical Methods",
+      "author": "William S. Cleveland and Robert McGill",
+      "why": "The 1984 study behind the ranking of visual channels by human accuracy, from position on a common scale down to area, volume, and hue. The source of the practical rule that precise comparisons belong on a shared positional scale. Read the paper or a careful summary; the results concern simple tasks, so apply them as a ranking of options rather than a law."
+    },
+    {
+      "title": "The Functional Art: An Exhibition of Graphic Design",
+      "author": "Antoine de Saint-Exupery",
+      "why": "A short, well-known essay arguing that a graphic is a tool rather than a decoration, and that the designer is responsible for the audience's understanding rather than for the designer's display. It is the clearest print statement of the wallpaper antipattern, and it pairs with the Chart Title Test and the One-Message Chart."
+    },
+    {
+      "title": "The Art of Statistics: Learning from Data",
+      "author": "David Spiegelhalter",
+      "why": "A patient, non-technical treatment of how numbers mislead, including uncertainty, sampling, and the difference between what data can and cannot tell you. It supplies the statistical literacy behind the Data Honesty Audit and behind the habit of stating a base and a denominator out loud, and it is written for the executive audience rather than the analyst."
+    }
+  ],
+  "masteryChecklist": [
+    "I can take any chart in my deck, remove the data, and say in one sentence whether it is still true; if it is, I can cut it.",
+    "I can choose a chart form from the audience's question rather than from the shape of my data, and I can name the question shape out loud.",
+    "I can write a chart title that states the finding, and I can tell a subject title from a message title at a glance.",
+    "I can add one 'so what?' annotation to a chart that states the implication, the action, or the caveat.",
+    "I can run the Data Honesty Audit on any chart in under five minutes, covering axis, base, denominator, geometry, scale, and omitted categories.",
+    "I can reduce a deck to an Exec Number Set of three to five numbers, each with one job, a direction, and a horizon, and cut the rest in the room.",
+    "I can speak a number out loud with its base, its comparison, and a human referent, and pause after it instead of filling the space.",
+    "I can volunteer the real weakness in my own data before the room finds it, with its scale, a plan, and a date."
+  ]
+}
