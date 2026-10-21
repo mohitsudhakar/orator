@@ -62,13 +62,26 @@ export function validateModule(id, m) {
   if (!m.assessment) errors.push('missing assessment');
   if (!Array.isArray(m.readingList)) errors.push('readingList must be an array');
 
+  // Spec bounds on every counted collection.
+  const BOUNDS = {
+    objectives: [4, 6], keyTerms: [8, 14], concepts: [5, 8], frameworks: [3, 5],
+    scenarios: [4, 6], exercises: [5, 7], masteryChecklist: [5, 8], readingList: [4, 6],
+  };
+  for (const [key, [lo, hi]] of Object.entries(BOUNDS)) {
+    if (!Array.isArray(m[key])) continue;
+    if (m[key].length < lo || m[key].length > hi) {
+      errors.push(`${key} has ${m[key].length} entries, need ${lo}-${hi}`);
+    }
+  }
+
   if (Array.isArray(m.concepts)) {
     m.concepts.forEach((c, i) => {
       if (!c.id) errors.push(`concepts[${i}] missing id`);
       if (!c.title) errors.push(`concepts[${i}] missing title`);
       if (!c.detail) errors.push(`concepts[${i}] missing detail`);
       const words = (c.detail || '').split(/\s+/).filter(Boolean).length;
-      if (words < 150) errors.push(`concepts[${i}] detail too short (${words} words)`);
+      if (words < 250) errors.push(`concepts[${i}] detail too short (${words} words, need 250+)`);
+      if (words > 450) errors.push(`concepts[${i}] detail too long (${words} words, need <=450)`);
       if (!c.imagePrompt) errors.push(`concepts[${i}] missing imagePrompt`);
     });
   }
@@ -79,6 +92,11 @@ export function validateModule(id, m) {
       if (!e.instructions) errors.push(`exercises[${i}] missing instructions`);
       if (!e.liveCoachPrompt) errors.push(`exercises[${i}] missing liveCoachPrompt`);
     });
+    // The practice loop requires both kinds of exercise.
+    const realWorld = m.exercises.filter(e => e.type === 'realWorld').length;
+    const recorded = m.exercises.filter(e => e.type === 'recorded').length;
+    if (realWorld < 2) errors.push(`only ${realWorld} realWorld exercises, need at least 2`);
+    if (recorded < 2) errors.push(`only ${recorded} recorded exercises, need at least 2`);
   }
   if (Array.isArray(m.scenarios)) {
     m.scenarios.forEach((s, i) => {

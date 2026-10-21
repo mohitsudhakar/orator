@@ -71,10 +71,6 @@
     {
       "term": "Social Proof",
       "definition": "Cialdini's principle that people infer correct behaviour from what similar others do, used honestly with verifiable, relevant examples."
-    },
-    {
-      "term": "Unity",
-      "definition": "Cialdini's principle that shared identity, values, or tribe strengthen influence, used honestly through shared purpose rather than manufactured in-group signals."
     }
   ],
   "concepts": [
@@ -528,19 +524,19 @@
   "exercises": [
     {
       "id": "e1",
-      "title": "Build the Frame-Pair Table",
-      "type": "analytical",
-      "durationMinutes": 30,
-      "instructions": "Choose one real proposal you need a decision on. Build the Frame-Pair Table for it: freeze the fact set with sources, write the gain frame, write the loss frame, and mark which fits your audience. Then write the 30-second answer to 'why did you frame it that way'. Confirm that every fact in both columns is identical; if any fact appears in one column and not the other, delete it or justify its absence in writing.",
-      "deliverable": "A one-page Frame-Pair Table with the frozen fact set, both frames, your chosen frame, and the honest justification.",
+      "title": "Run the frame-pair live",
+      "type": "realWorld",
+      "durationMinutes": 25,
+      "instructions": "Pick a decision you have to communicate this week - a pricing change, a hiring plan, a missed target, a new customer. Write the SAME fact set twice: once framed as gain, once framed as risk. Say both out loud, standing, to a colleague. Do not show them the framing label - the point is that the frame, not the facts, changes the reaction. Then ask the colleague which version they would have agreed to faster, and why.",
+      "deliverable": "Two spoken versions of the same decision, plus a note on which landed.",
       "successCriteria": [
-        "The fact set is listed once, with a source for each item, and reused in both frames.",
-        "The gain and loss frames describe the same facts with no additions or omissions.",
-        "You can state in one sentence why the chosen frame fits this audience and this room.",
-        "The unused frames version reads as legitimately strong, not as a straw man.",
-        "The table is under 500 words, so it can be used while preparing a live answer."
+        "Both versions contain identical facts - only the framing differs.",
+        "The risk frame names a real cost with a number attached.",
+        "The gain frame names a real benefit with a number attached.",
+        "Each version lands in under 90 seconds.",
+        "You can state which frame you chose for a real meeting, and why."
       ],
-      "liveCoachPrompt": "This exercise is about honesty, so I am going to be strict about one thing: the facts must be identical in both columns. If you find yourself wanting to leave a fact out of the gain frame, that is not framing, that is concealment, and we will catch it. Start by freezing the fact set, then we will write both frames."
+      "liveCoachPrompt": "Pick one decision you need to communicate this week. I want you to say it twice - once framed as the risk of inaction, once framed as the gain of acting. Same facts, different frame. Start with the risk version."
     },
     {
       "id": "e2",
