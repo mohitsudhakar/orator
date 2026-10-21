@@ -6,6 +6,9 @@ scenarios, exercises, graded assessments, and measured progress.
 
 Built for founders and executives who speak in high-stakes rooms.
 
+**Live:** https://g7mwjppb42.us-east-1.awsapprunner.com
+**Source:** https://github.com/mohitsudhakar/orator
+
 ---
 
 ## What it does
@@ -212,19 +215,29 @@ threshold, so a harmonic peak at 2T can never win.
 
 ## Deployment
 
-App Runner (fits Mohit's existing stack — Express + App Runner + Supabase):
+Deployed to **AWS App Runner** (us-east-1), service `orator-app`.
 
 ```bash
-aws apprunner create-service \
-  --service-name orator \
-  --source-configuration-path .apprunner.yaml \
-  --region us-east-1
+# Create the service from the GitHub repo
+python3 server/test/deploy_create.py
+
+# Verify the deployed instance end to end (curriculum, tutor, metrics engine)
+python3 server/test/verify_prod.py https://<service-url>
 ```
 
-`content/` and `assets/generated/` must ship with the image (they are read at
-runtime). SQLite lives on the container filesystem, so point `ORATOR_DATA_DIR`
-at a mounted volume for persistence across deploys, or swap `server/db.js` for a
-hosted Postgres adapter.
+`app-runner-source.json` holds the source configuration. The API key is injected
+as a runtime environment variable, never committed. Auto-deploy is on: pushing
+to `main` rebuilds and redeploys.
+
+`content/` and `assets/generated/` ship with the image (they are read at
+runtime). SQLite lives on the container filesystem, so `ORATOR_DATA_DIR` points
+at `/var/task/data` — for persistence across deploys, mount a volume or swap
+`server/db.js` for a hosted Postgres adapter.
+
+> App Runner can wedge a service in `OPERATION_IN_PROGRESS` on a failed initial
+> creation, and that state cannot be deleted — only waited out or replaced with
+> a differently-named service. `deploy_create.py` handles this by allowing
+> `ORATOR_SERVICE_NAME` to override the name.
 
 ---
 
