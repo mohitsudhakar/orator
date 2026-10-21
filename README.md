@@ -51,6 +51,15 @@ All confirmed live against this account (2026-10-21):
 | Tutor / grading | `gemini-3.8-flash` | SSE streaming, JSON mode for grading. |
 | Concept diagrams | `gemini-3.1-flash-image` | Nano Banana 2. `gemini-3.1-flash-lite-image` is the cheaper variant. |
 
+**`gemini-3.8-flash-live` does not exist.** Every plausible live model name was
+probed with a timeout (`server/test/live_model_probe.mjs`): `gemini-3.1-flash-live-preview`
+is the only live-capable model on this account. `models.list` does not surface live
+models at all, and connecting to a non-existent live model **hangs** rather than
+rejecting, so the only way to discover one is to try it under a timeout.
+
+Set `ORATOR_LIVE_MODEL` to switch when a newer live model ships; the server
+falls back through `LIVE_FALLBACKS` automatically.
+
 ### Two Live API gotchas that cost real debugging time
 
 Both were silent failures — no error payload, just missing output:
@@ -63,6 +72,33 @@ Both were silent failures — no error payload, just missing output:
    Measured: with `speechConfig.voiceConfig.prebuiltVoiceConfig`, the model
    returned audio on **6/6** runs; without it, **1/6**. The failures returned a
    transcript with zero audio bytes and no error. `DEFAULT_VOICE` is always set.
+
+---
+
+## The curriculum
+
+12 modules, authored to a fixed schema (`content/_SPEC.md`) and validated on load.
+
+| | Module | Level |
+|---|---|---|
+| 01 | Foundations: Presence, Credibility, and Audience | Foundation |
+| 02 | Structure: Architecting the Argument | Foundation |
+| 03 | Openings and Closings | Intermediate |
+| 04 | Language: Precision, Vividness, and Word Economy | Intermediate |
+| 05 | Voice: Pitch, Pace, Pause, and Breath | Intermediate |
+| 06 | Body: Gesture, Movement, and Stagecraft | Intermediate |
+| 07 | Delivery Under Pressure: Q&A and Hostility | Advanced |
+| 08 | Persuasion: Framing, Ethos, and Narrative | Advanced |
+| 09 | Data, Charts, and Evidence | Advanced |
+| 10 | Executive Presence and Room Dynamics | Mastery |
+| 11 | Virtual and Hybrid Presence | Intermediate |
+| 12 | The Long Game: Thought Leadership and the Speaking Career | Mastery |
+
+**Totals: 90 concepts, 56 frameworks, 65 scenarios, 80 exercises.** Every concept
+carries 300-500 words of substance plus a diagram prompt. Every assessment rubric
+weights sum to exactly 100 and its bands genuinely discriminate between two
+different talks. Every module has at least two `realWorld` and two `recorded`
+exercises.
 
 ---
 
@@ -96,10 +132,12 @@ server/test/      metrics, fft, live e2e, browser e2e
 ## Tests
 
 ```bash
-npm test                                        # metrics engine (45 checks)
-node server/test/fft.test.js                    # FFT correctness (4 checks)
-node server/test/live.e2e.mjs                   # live coach over WS
-python3 server/test/browser_e2e.py              # full browser E2E (34 checks)
+npm test                    # unit: fft (4) + metrics (45) + word-timing (18) + markdown (44)
+npm run validate            # validate all 12 curriculum modules
+npm run test:live           # live coach over WebSocket (real Gemini audio)
+npm run test:browser        # full browser E2E over CDP (35 checks)
+python3 server/test/ui_regression.py     # UI regression checks (18)
+python3 server/test/trends_check.py       # dashboard trends (7)
 ```
 
 The browser E2E drives real Chrome over CDP and asserts on live behaviour:
@@ -112,6 +150,21 @@ really streams, and progress really persists across a reload.
   --remote-debugging-port=9222 "--remote-allow-origins=*" \
   --user-data-dir=/tmp/orator-chrome --headless=new about:blank
 ```
+
+> `--remote-allow-origins=*` is required — without it Chrome rejects the CDP
+> WebSocket with a 403. Quote the `*` or zsh will glob it.
+
+### Test coverage summary
+
+| Suite | Checks | What it proves |
+|---|---|---|
+| `fft.test.js` | 4 | The FFT round-trips and autocorrelates correctly |
+| `metrics.test.js` | 45 | Pace/fillers/pauses/volume/pitch/vocabulary measure what they claim |
+| `word_timing.test.js` | 18 | Word timings reconstruct pauses correctly from speech segments |
+| `markdown.test.js` | 44 | Tutor answers render as real blocks, and XSS is escaped |
+| `browser_e2e.py` | 35 | The whole app works in a real browser, live coach included |
+| `ui_regression.py` | 18 | Every defect found in visual review is fixed and stays fixed |
+| `trends_check.py` | 7 | Dimension trends render from real session data |
 
 ---
 
