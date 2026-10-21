@@ -1,0 +1,21 @@
+{
+  "name": "orator",
+  "version": "1.0.0",
+  "description": "ORATOR - elite executive public speaking coach: live Gemini coach + MBA-level coursework + speech metrics",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node server/test/metrics.test.js",
+    "seed": "node server/seed.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "ws": "^8.18.0"
+  },
+  "engines": { "node": ">=22" }
+}

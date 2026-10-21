@@ -1,0 +1,844 @@
+{
+  "id": "m02",
+  "number": 2,
+  "title": "Structure: Architecting the Argument",
+  "subtitle": "From raw thinking to a spine that carries a room",
+  "level": "Foundation",
+  "durationMinutes": 90,
+  "outcome": "Take a messy pile of thinking and turn it into a single load-bearing claim with a named structure - SCQA, a StoryCircle, or a deductive pyramid - that you can defend in the first sixty seconds and in the follow-up questions.",
+  "abstract": "Most executives are not bad speakers. They are untidy thinkers with good instincts, and they let their decks do the thinking for them. This module treats argument structure as a design problem with named, repeatable solutions rather than a matter of taste. It introduces Barbara Minto's Pyramid Principle and SCQA, shows exactly how a deductive spine differs from a narrative arc, and teaches the diagnostic that finds a buried conclusion before the room does: the Reverse Outline. It adds Toulmin's claim-evidence-warrant, the So-What Ladder for driving a claim until it bears weight, and Dan Harmon's StoryCircle as the decision-shaped alternative to argument. Every technique here is executable in under 40 minutes on a real, upcoming talk, and every framework is designed to be reused rather than admired.",
+  "objectives": [
+    "Distinguish Barbara Minto's deductive Pyramid Principle from an inductive narrative arc, and select the correct architecture for a given room and a given kind of decision.",
+    "Construct a four-part SCQA opening that makes the recommendation feel inevitable rather than asserted, and know when SCQA is the wrong tool.",
+    "Climb the So-What Ladder until a claim becomes load-bearing, and cut the material that never reaches the top.",
+    "Name the warrant in a claim-evidence-warrant argument, so the audience is not asked to do the connecting work for you.",
+    "Write a one-page spine before opening a slide tool, and enforce the one-idea-per-talk constraint with tests that fail loudly.",
+    "Diagnose a buried conclusion with the Reverse Outline and repair it by leading with the answer and supporting it afterwards."
+  ],
+  "keyTerms": [
+    {
+      "term": "Pyramid Principle",
+      "definition": "Barbara Minto's rule that a business argument should be deductive and top-down: the answer at the apex, mutually exclusive and collectively exhaustive arguments beneath it."
+    },
+    {
+      "term": "Governing Thought",
+      "definition": "Minto's term for the single sentence that states the conclusion at the top of the pyramid - a position, not a topic."
+    },
+    {
+      "term": "MECE",
+      "definition": "Mutually exclusive and collectively exhaustive: Minto's grouping rule, requiring that arguments within a group do not overlap and that the groups together cover the question completely."
+    },
+    {
+      "term": "SCQA",
+      "definition": "Situation, Complication, Question, Answer: Minto's four-part structure for the opening of a business argument, in which the answer follows the derivation of the question."
+    },
+    {
+      "term": "So-What Ladder",
+      "definition": "The repeated test of asking 'so what?' of each statement, climbing until the claim reaches the level where it would change a decision."
+    },
+    {
+      "term": "Load-Bearing Claim",
+      "definition": "A claim whose removal would change the recommendation; the top of the spine, as opposed to a fact that merely sits in the talk."
+    },
+    {
+      "term": "Claim-Evidence-Warrant",
+      "definition": "Stephen Toulmin's three-part structure for an argument, in which the warrant is the bridge that makes the evidence relevant to the claim."
+    },
+    {
+      "term": "Warrant",
+      "definition": "The usually unspoken reasoning that connects cited evidence to the claim being made - and the step most business arguments omit."
+    },
+    {
+      "term": "One-Page Spine",
+      "definition": "A single-page plan holding the governing thought, the ask, the supporting arguments, the evidence, and the counter-argument, written before any slide exists."
+    },
+    {
+      "term": "Reverse Outline",
+      "definition": "A diagnostic in which every paragraph or section is summarised in one line, and the summaries are then read on their own to reveal the argument the document actually makes."
+    },
+    {
+      "term": "Buried Conclusion",
+      "definition": "The failure mode in which the recommendation appears late, hedged, or implied, so the room must reconstruct it from the evidence."
+    },
+    {
+      "term": "Reverse the Pyramid",
+      "definition": "Leading with the answer and supporting it afterwards - bottom line up front in military usage, the inverted pyramid in journalism, the governing thought in Minto's usage."
+    },
+    {
+      "term": "StoryCircle",
+      "definition": "Dan Harmon's eight-beat description of story structure, adapted here as a decision arc: a character with a want meets resistance and escalates toward a new equilibrium."
+    },
+    {
+      "term": "Decision Arc",
+      "definition": "The narrative shape of a decision being made under resistance, used when the task is to move people toward change rather than to adjudicate a recommendation."
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "title": "The Pyramid Principle Is Not a Story, and Your Talk Cannot Be Both",
+      "summary": "Barbara Minto trained at McKinsey in the 1970s and published The Pyramid Principle in 1987. Its rule is that business argument is deductive and top-down: the answer at the apex, mutually exclusive and collectively exhaustive arguments beneath. A narrative arc is the opposite architecture - inductive, chronological, and dependent on withholding the destination. Both are legitimate. Confusing them is the most common structural error in executive talks.",
+      "detail": "Minto reverse-engineered the Pyramid Principle from what senior audiences do to weak presentations: they interrupt and ask 'so what are you asking me to do?' The answer is that a business argument should be deductive. The governing thought sits at the apex - a position, never a topic - and beneath it sit the MECE arguments that support it, grouped so each group is complete in itself and the groups together cover the question. Crucially, the top of the pyramid is a conclusion. A reader should never be able to finish your document and mistake 'the state of the enterprise cloud market' for your position on it.\n\nA narrative arc is the opposite architecture, and the opposition is structural rather than stylistic. Narrative is inductive: chronological moments accumulate, meaning emerges from sequence and tension, and the conclusion is a retrospective rather than a premise. Campbell's monomyth and Pixar's story spine - 'once upon a time... every day... until one day...' - are narrative technologies that buy attention by withholding the destination. Minto's pyramid withholds nothing; it front-loads the destination and then earns it.\n\nBoth are legitimate, and choosing between them is a design decision rather than a matter of taste:\n\n| | Pyramid (deductive) | Narrative (inductive) |\n| --- | --- | --- |\n| Answer appears | First, within 30-60 seconds | Last, at the closing line |\n| Listener's job | Evaluate a stated claim | Track a changing situation |\n| Best for | Decisions, recommendations, audits, comparisons | Change adoption, origin stories, culture, loss, new-category framing |\n| Failure mode | Sounds like a memo read aloud | Sounds evasive in a room that wants a decision |\n\nThe common failure is a hybrid that serves neither: a dramatic war story that opens the talk, an argument that never arrives, and a conclusion that turns up on slide 14 by accident. If you need both, use them in sequence rather than interleaved. Spend two minutes on the situation and the conflict, state the answer, then support it deductively. Nancy Duarte's Resonate (2010) describes the same movement as oscillating between 'what is' - the status quo - and 'what could be' - the possibility, with the talk's job to hold both in tension. That is narrative energy wrapped around a deductive structure, and it is cleaner than telling a story and hoping it lands somewhere.",
+      "principles": [
+        "Decide deliberately between a deductive spine and an inductive arc before you write a single slide; the two have opposite opening moves and cannot be interleaved.",
+        "State the conclusion as a position, not a topic - if your top-line sentence could be a chapter heading, it is not a governing thought.",
+        "Group your arguments MECE: within a group they must not overlap, and across groups they must cover the question completely.",
+        "If you need both modes, run them in sequence - narrative setup first, then the deductive argument - rather than weaving them together.",
+        "Treat 'sounds like a memo read aloud' as a design defect, not a delivery defect; the fix is ordering and evidence, not vocal variety."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Starting a decision meeting with a three-minute origin story, so the room spends its peak attention on your history rather than the decision in front of it.",
+          "fix": "Move the origin story to the Situation line of an SCQA, compressed to two sentences, and state the recommendation before minute one."
+        },
+        {
+          "failure": "Presenting a topic rather than a claim at the top - 'On pricing strategy' - which forces the audience to infer your position.",
+          "fix": "Rewrite the title as a sentence with a verb and a direction: 'We should raise prices on self-serve tiers to 8 percent'."
+        },
+        {
+          "failure": "Running a narrative arc in a room that wants a decision, so the talk ends with an inspiring story and no ask.",
+          "fix": "Ask in the first minute what decision is being made. If there is one, the structure is deductive and the story becomes illustration."
+        },
+        {
+          "failure": "Over-grouping: seven arguments in a three-bucket hierarchy, so the buckets do not cover the question and the arguments do not exclude each other.",
+          "fix": "Test coverage by asking what a sceptical colleague would say is missing. If they can name it, the group is not exhaustive."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram contrasting a top-down deductive pyramid structure with a linear rising narrative arc, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c2",
+      "title": "SCQA: The Frame Business Rooms Actually Ask For",
+      "summary": "SCQA - Situation, Complication, Question, Answer - is Minto's answer to how to open. Situation establishes shared context, Complication establishes what changed, Question derives what must be asked, and Answer is where you land before supporting it. It is a compression device rather than a storytelling device, which is exactly why it wins in decision rooms and fails in rooms that do not yet share your context.",
+      "detail": "The order in SCQA is load-bearing. If the Answer comes before the Complication, the audience cannot evaluate it, because they do not yet understand why it is needed. Situation states what the audience already accepts - the market, the plan, the constraint, the timeline. Complication states what is now true that makes the situation a problem. Question is what the situation and complication force someone to ask. Answer is your response, and it is where you land before you support it.\n\nSCQA is a compression device, not a storytelling device. It assumes the audience is already inside the argument's world and wants to be told what to do about a specific problem. That assumption is precisely what makes it right for some rooms and wrong for others.\n\nUse SCQA when the audience shares your context and wants a decision; when the situation is contested or has changed and needs a fresh frame; or when the reader will read once and act - board pre-reads, memos, budget requests, approval asks. Its signature strength is that it makes the ask feel inevitable rather than chosen, because the question was derived from the complication instead of asserted.\n\nDo not use SCQA when the audience does not yet share the context: a conference room of strangers, a new market, a first all-hands, an external keynote. Situation becomes a lecture and you burn your peak attention on things the room either knows or ignores. Do not use it when the belief itself is the problem - a Situation that says 'here is how the world works' will be rejected along with everything else if the world view is what the room disputes. Do not use it when the emotion is the message: a layoff, a death in the organisation, a plant closing. Those rooms need a human moment before a structural one.\n\nThe most common misuse is a Situation that is really an agenda. 'As you know, we have been growing steadily over the last three quarters' is context, not Situation. A Situation is the minimum the audience needs in order to understand why the Complication matters: one or two sentences. If it needs a slide, it is too long.\n\nOne final test on the Complication: if the audience would not agree that the Complication is a problem, you are about to spend twenty minutes arguing a premise they have not accepted, and you will lose the room before you reach the Answer. Find out what they think before you build the SCQA. The Audience Contract from Module 1 is the input to this framework.",
+      "principles": [
+        "Situation must be the minimum context the room needs to understand the Complication - two sentences, never a slide.",
+        "Derive the Question from the Complication; a Question asserted rather than derived is the most common sign of a manufactured urgency.",
+        "Land the Answer before minute one in any decision room, then spend the remainder earning it.",
+        "Write the whole SCQA in four lines on one page before you open a slide tool.",
+        "Test the Complication by asking whether a sceptical member of the target room would agree it is a problem."
+      ],
+      "pitfalls": [
+        {
+          "failure": "A Situation written as a history lesson - three paragraphs of context the room already holds.",
+          "fix": "Compress to the shortest claim that makes the Complication intelligible. If you cannot compress it, the Complication is not specific enough to be interesting."
+        },
+        {
+          "failure": "Stating the Answer first with no Complication, so it reads as an order rather than a conclusion the situation demands.",
+          "fix": "Insert one sentence of Complication between Situation and Answer. That single sentence converts a demand into a finding."
+        },
+        {
+          "failure": "Using SCQA in a room that does not share the context - a first all-hands or a customer conference - and spending four minutes establishing the world.",
+          "fix": "Compress Situation to a single clause and spend the time on the Complication and the stake. Or use a StoryCircle instead, which builds context through change rather than description."
+        },
+        {
+          "failure": "Leaving the Question implied so that the room cannot tell whether it is a question or a topic.",
+          "fix": "State it as a question in the room's own words. The question is the hinge of the whole talk, so it should be the most careful sentence you write."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram showing a four-part SCQA opening sequence flowing into an answer with supporting evidence, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c3",
+      "title": "The So-What Ladder: Climbing Until the Claim Bears Weight",
+      "summary": "The 'so what?' test is the cheapest and most brutal editing tool in executive speaking. Ask it of each statement, one rung at a time, until you reach a claim whose falsity would change somebody's behaviour. Most raw material dies on the second rung, which is how you discover what you actually think rather than what you happened to type.",
+      "detail": "Take any statement in your argument and ask the question out loud, one rung at a time. Each answer is a rung. The ladder ends when the claim is load-bearing: a claim whose removal changes the recommendation. 'We raised prices 8 percent in March' is a fact. 'Revenue per account rose 11 percent' is an interpretation. 'We should extend the increase to two more tiers' is an implication. 'So we should not build the discount tool we scoped last month' is the decision. That last statement is load-bearing: if it were false, the plan would change. Everything below it is support.\n\nThe ladder has three properties that make it work on a live stage. First, it is fast: each rung is one sentence, and most executives can climb a claim to load-bearing in four or five rungs. Second, it is falsifiable at every rung, which forces you to specify what you mean - 'adoption improved' becomes 'weekly active accounts rose from 40 percent to 61 percent of new logos'. Third, and most usefully, it makes your reasoning visible. When you deliver the ladder out loud, the room hears not just your conclusion but the path that produced it, which is where trust in a recommendation lives.\n\nThere are two failure modes. The first is over-climbing: continuing to ask 'so what?' until the statement becomes a trivial truth such as 'the business needs revenue' or 'customers want value'. Stop when the claim is load-bearing, not when it is universal. The test for stopping is whether the statement changes a decision someone in the room is about to make. The second failure is climbing the wrong claim. A supporting detail - a metric, a market statistic - can generate an infinite ladder that never reaches your recommendation. Climb the governing claim, and treat supporting evidence as endpoints rather than as rungs.\n\nRichard Rumelt's Good Strategy Bad Strategy (2011) offers a useful companion: a strategy kernel is a diagnosis, a guiding policy, and coherent action. The diagnosis is the load-bearing sentence. If you cannot climb to a diagnosis that changes what you would do next week, you have a topic, not a strategy.\n\nPractically, the ladder is also a live-room tool. When a CFO asks 'so what?' of your evidence, the question is not scepticism, it is a request for the rung you forgot to say. Answer with the next rung - not with more evidence.",
+      "principles": [
+        "Ask 'so what?' until the claim changes a decision someone in the room is about to make; that is where you stop.",
+        "Make every rung falsifiable - vagueness hides a missing rung.",
+        "Climb the governing claim, not a supporting statistic; statistics are endpoints, not rungs.",
+        "Deliver the ladder out loud so the room hears the path, not just the conclusion.",
+        "When a listener asks 'so what?', answer with the next rung rather than with more evidence."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Over-climbing to triviality - 'so what?' until you arrive at 'we need to make money' - which sounds impressive and carries no information.",
+          "fix": "Set the stop rule in advance: the rung must name a decision, an owner, or a date. If it does not, you have climbed too far."
+        },
+        {
+          "failure": "Climbing a supporting detail instead of the claim, so the ladder produces a clever aside that never connects to the recommendation.",
+          "fix": "Circle back to the governing claim before continuing. Every rung must be a step toward it."
+        },
+        {
+          "failure": "Never running the ladder at all, so the talk opens with a metric and the audience has to guess why you care about it.",
+          "fix": "Run the ladder on your opening evidence before you write the opening. Two rungs is usually enough to find the point."
+        },
+        {
+          "failure": "Treating 'so what?' as an objection and defending the evidence instead of climbing.",
+          "fix": "The question is a request for a rung, not a challenge. Say the next rung out loud and the tension dissolves."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram of an ascending ladder of reasoning rungs from raw fact to load-bearing decision, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c4",
+      "title": "Claim, Evidence, Warrant: Naming the Step You Usually Skip",
+      "summary": "Stephen Toulmin's The Uses of Argument (1959) gives the oldest and sharpest analytical tool most executives have never read. Its claim, grounds, and warrant describe an argument properly - and the warrant, the bridge that makes evidence relevant to a claim, is the step nearly every business talk omits.",
+      "detail": "A full Toulmin argument has six parts: claim (what you assert), grounds or evidence (the facts you cite), warrant (the bridge that makes those facts relevant to the claim), backing (the support for the warrant), qualifier (the hedge that calibrates the strength), and rebuttal (the condition that would defeat the argument).\n\nThe part business talks skip is the warrant. 'We should raise prices 8 percent' plus 'our two nearest competitors raised prices 10 percent last quarter' is not an argument, because nothing connects the second to the first. The missing warrant looks like this: we sell into the same segment, our gross margin structure sits within two points of theirs, and their pricing change therefore signals willingness to pay rather than a clearance. Stated, the argument becomes arguable and checkable. Unstated, the audience must supply it themselves - and a room of executives will either supply it generously or notice that it is missing. You do not get to choose which.\n\nThis explains the commonest paradox in executive speaking: smart, well-evidenced talks that fail. The evidence is real, the recommendation is sound, but the audience was asked to do the connecting work, and executive attention is too expensive to spend on connecting. Every sentence that jumps from evidence to claim without a warrant is a sentence that asks the room to trust you slightly more than it needs to.\n\nWarrant also explains why two talks with identical data land differently. Talk A: 'Churn is 14 percent, so we need to fix onboarding, so let us fund the two-person pod.' Talk B: 'Churn is 14 percent, and 60 percent of churn sits in accounts with fewer than five users. The five-user threshold is where self-serve setup breaks down, which is exactly what the onboarding pod addresses. So we should fund the pod.' Same data, same recommendation; B wins because it names the mechanism, and the mechanism is the warrant made visible.\n\nQualifiers and rebuttals are where credibility lives. 'Prices, excluding enterprise contracts, should rise 8 percent' is qualified - and stating the exclusion yourself makes it credible rather than evasive. 'Unless enterprise is more than 30 percent of revenue, in which case we hold' is a rebuttal, and volunteering it costs you nothing that the room's own objection would not have cost you anyway.",
+      "principles": [
+        "After every piece of evidence, say the sentence that connects it to the claim - the warrant - out loud.",
+        "Name the mechanism, not just the number: why does this fact bear on this decision?",
+        "Volunteer the qualifier and the rebuttal before the room does; stated limits read as rigour.",
+        "Use backing when the warrant is contestable: state the assumption and its source.",
+        "Distrust any talk of yours that moves from a number to a recommendation without an intervening sentence."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Treating a correlation as a warrant - 'customers who used the new onboarding churned less, so the onboarding pod will reduce churn'.",
+          "fix": "Name the mechanism and its assumption: what specifically about the pod causes the reduction, and what would have to be true for that to hold?"
+        },
+        {
+          "failure": "Omitting the warrant and reading the room's silence as agreement rather than as a gap in the argument.",
+          "fix": "When you hear a question that sounds like 'how do you get from that to that', you have found the missing warrant. Say it explicitly."
+        },
+        {
+          "failure": "Dropping the qualifier to sound stronger, which costs credibility the moment a knowledgeable listener spots it.",
+          "fix": "Keep the qualifier. 'For self-serve tiers, excluding enterprise, we should raise to 8 percent' is stronger because it is precise."
+        },
+        {
+          "failure": "Over-building the warrant until the talk becomes a lecture on method, with the recommendation pushed off the end.",
+          "fix": "One sentence per warrant, then return to the argument. If the warrant needs a slide, it may be a genuine constraint worth surfacing - name it as such."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram of a Toulmin argument showing claim, evidence, and the connecting warrant bridge, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c5",
+      "title": "The One-Page Spine: Design the Argument Before You Open the Slide Tool",
+      "summary": "The slide deck is the most seductive way to avoid thinking, because it produces the shape of a talk before it produces a thought. Open PowerPoint and you get a title slide, an agenda slide, and a rising sense of progress - none of which is an argument. The remedy is a one-page spine written before the deck exists, plus a one-idea constraint the spine forces.",
+      "detail": "The one-page spine has six fields, and it must fit on one page:\n\n1. **Governing thought** - one sentence, the answer, stated as a position.\n2. **The ask** - who does what, by when.\n3. **The three arguments** - each a claim, in parallel form, MECE.\n4. **The evidence** - one item per argument, each checkable.\n5. **The counter-argument** - the strongest objection you will address yourself.\n6. **Opening line and closing line**, written out.\n\nIf it does not fit on a page, it is not loaded. This is the same discipline as the one-page plan in Module 1, applied to structure rather than delivery.\n\nThe **one-idea constraint** is the spine's real work. A talk has one idea, not three, and there are five tests that make a violation fail loudly:\n\n- **Hallway test**: write the one sentence you want repeated afterwards. If you cannot write it, you do not yet have an idea.\n- **Which-one test**: if a listener could reasonably ask 'so which of these should we do?' and you cannot answer without hesitating, the ideas are not one idea.\n- **Argument-count test**: more than three arguments is two talks. Four arguments is a book.\n- **Parallel test**: if your arguments are not in the same grammatical form, they are not peers, and the room cannot hold them as a set.\n- **Reverse-Outline test** (next concept): if your paragraph summaries do not add up to one sentence, you have more than one talk in your mouth.\n\nOne warning about sequence. Slides produce a shape before they produce a thought, and the shape then constrains the thought - you find yourself making a deck about three things because a three-column template was open. Daniel Bullock, Jacqueline Horn and Stephen Weil documented this effect in their 2010 Academy of Management Annals case study of consulting presentations, describing the dense, templated 'McKinsey way' slide as a genre that often carries the appearance of analysis without the argument. The deck shapes the thinking; the argument should shape the deck.\n\nOne practical rule: write **action titles**. Each slide title should be the point of the slide as a sentence - 'Enterprise onboarding is where we lose 60 percent of churn' rather than 'Onboarding'. Minto introduced the term for good reason: a title that states a claim forces the slide to have one, and a room reading titles aloud will reconstruct your argument even if they miss a word of the talk.",
+      "principles": [
+        "Write the one-page spine before opening any slide tool, and let the deck serve it rather than generate it.",
+        "Cap the talk at one idea and three arguments; more is two talks, and two talks is one too many.",
+        "Give every slide an action title that states its point as a sentence, not a label.",
+        "Keep the arguments in parallel grammatical form so the room can hold them as a single set.",
+        "Rewrite the title of the deck itself as a claim - that is the cheapest test of whether you have a spine."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Starting in the slide tool, so the deck's template - three columns, five sections - decides how many ideas the talk has.",
+          "fix": "One page of text first. If you cannot write the six fields, you are not ready to design slides, because you do not yet know what the slides are for."
+        },
+        {
+          "failure": "Three arguments that are really one argument in three costumes - a cause, its symptom, and its consequence.",
+          "fix": "Apply the So-What Ladder across the three. If argument two is the answer to 'so what?' about argument one, they are one argument."
+        },
+        {
+          "failure": "Naming slides as topics so the room must reconstruct your point while also listening to you.",
+          "fix": "Convert every title to an action title. Then read only the titles aloud: if the argument does not survive that, it will not survive the talk."
+        },
+        {
+          "failure": "Treating the one-page limit as a formatting preference and letting the spine expand to three pages as the talk grows.",
+          "fix": "The limit is the design constraint. When it overflows, you have found a second talk - cut it, or defer it to the written follow-up."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram of a one-page talk spine with a governing thought branching into parallel supporting arguments, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c6",
+      "title": "The Reverse Outline and the Buried Conclusion",
+      "summary": "The Reverse Outline is the cheapest diagnostic in this module and the fastest way to find out whether your talk has a spine. Summarise every paragraph in one line, then read the summaries on their own. Whatever conclusion the room would draw from the summaries is the conclusion your talk actually makes - and if it is not the one you intended, you have found a buried conclusion.",
+      "detail": "Take the finished draft, the memo, or a transcript of your last talk. Write one line per paragraph: what that paragraph is for. Then read only the lines, in order, as though they were the talk - the compression your audience runs anyway, whether you help it or not. If the summaries add up to your recommendation, the talk works. If they add up to a description of the market, a history of the problem, or a series of observations, then the room is planning to draw its own conclusion, and it will draw it differently than you would.\n\nA worked example. Three paragraphs: 'Sales growth has slowed for three consecutive quarters, from 14 percent to 4 percent. The slowdown is concentrated in enterprise deals, where our cycle time has doubled since the security review was added. We believe the security review is the primary cause.' The summaries read: 'Sales have slowed' / 'The slowdown is in enterprise' / 'The security review is the likely cause'. Read alone, they tell a diagnostic story - something is wrong - not an argument for a decision. If the talk was meant to ask for a staffing change to the security team, the conclusion is buried three paragraphs deep. Repair: lead with 'We need two security engineers to stop losing enterprise deals', then use the three paragraphs as the reasons it follows.\n\nThis is the anti-pattern that damages senior presenters most, and it has a name in the trade: the **buried conclusion**. Its variants are familiar: the recommendation arrives at minute 18 of 20; it is softened to 'we might want to explore whether'; it is stated as a question ('so should we consider staffing?') so that the room must supply the commitment; or it is presented as one of several options so that nobody owns it. In each case the presenter has handed the decision back to the audience without noticing.\n\n**Induction versus deduction.** Academic and scientific writing is usually inductive: data first, conclusion last, with the reader deriving the finding. It is beautiful to read in a journal and lethal in a board meeting. Executives want deduction: the answer, then the reasons. The exception is exploratory work where you genuinely do not know the answer and the room's value is in the discovery - then say so explicitly, and front-load the finding anyway, because a finding and a conclusion are not the same object.\n\n**Reverse the pyramid.** Lead with the answer and support it afterwards. The military calls it bottom line up front; journalism calls it the inverted pyramid; Minto calls it the governing thought. Three domains, one move, and the single highest-leverage edit available to a time-poor executive.",
+      "principles": [
+        "Run the Reverse Outline on every memo and talk draft; it is the only diagnostic that reads your talk the way your audience reads it.",
+        "Front-load the recommendation in the first sixty seconds of any decision talk, then spend the remainder earning it.",
+        "State recommendations as commitments - 'we should fund X' - not as options for the room to consider.",
+        "If the work is genuinely exploratory, say so and still lead with the finding rather than the method.",
+        "Repair a buried conclusion in three edits: move the recommendation to sentence one, convert each section into a reason the recommendation follows, and signpost the count."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Running a reverse outline on a talk you have already rehearsed to death, and finding that your three arguments are one argument plus two supporting facts.",
+          "fix": "That is exactly what the diagnostic is for. Run it before rehearsal, then re-run it on the transcript after delivery - the transcript never lies about your order."
+        },
+        {
+          "failure": "Leading with the recommendation but with no bridge from it to the evidence, so the room treats it as an assertion and hunts for reasons to reject it.",
+          "fix": "Keep the bridge in one sentence: 'We should fund X because Y, and here is how we know.' The answer comes first; the reasoning is not optional."
+        },
+        {
+          "failure": "Burying the conclusion in a meeting you assumed was exploratory, when the room had booked it to decide.",
+          "fix": "Before presenting, ask one person what they expect to leave with. If they say a decision, the conclusion goes first regardless of how exploratory the work feels to you."
+        },
+        {
+          "failure": "Treating a soft conclusion as diplomacy, when a soft conclusion reads as indecision to a senior room.",
+          "fix": "Commit to the recommendation. You can be uncertain about the reasoning - name that uncertainty explicitly - but never about what you are asking for."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram of a reverse outline diagnostic showing paragraph summaries collapsing into a single reconstructed conclusion, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c7",
+      "title": "StoryCircle and the Decision Arc: When Narrative Beats Argument",
+      "summary": "Dan Harmon, the writer of Community and co-host of the Adventure Zone, published a compact account of story shape called the StoryCircle on Tumblr in 2011 and developed it further in his later writing, including Hunt a Thief (2020). Its eight beats describe a character with a want meeting resistance - which, mapped onto business, is a decision arc: the exact structure you need when the task is change rather than adjudication.",
+      "detail": "Harmon's eight steps: a character (you) is in a situation; the situation is characterised by a desire or goad; the character meets other characters; those characters hinder the desire (or goad it); the character therefore takes action toward a goal; that action meets resistance; the resistance motivates the character further; the cycle culminates in a dramatic resolution.\n\nMapped onto a business talk, the decision arc looks like this: the character is the audience, or you, or the customer; the situation is the world as it currently is; the desire is what they are trying to reach; the obstruction is the real resistance - status quo, a competing priority, a switching cost, internal politics, or a belief you have already failed to move; the action is what you are proposing; the resistance is why it is not happening today; the escalation is what happens if nothing changes, or what it costs to try; the resolution is the new equilibrium you are asking for.\n\nThe critical distinction is between a story about a customer and a decision arc. A customer story ('Sarah used our product and loved it') is illustration; it sits inside an argument as evidence. A decision arc ('Sarah has the same problem every quarter, tried three internal fixes, and the reason none of them worked is X') is a different structure, one that lets the audience locate themselves in a sequence of resistance rather than being lectured about a conclusion.\n\nSo when does narrative beat argument? When the task is to move people toward change - adoption, a new category, a cultural shift, a reorganisation, a strategy that requires people to give up something. When the audience already agrees with you but is not moving, an argument adds nothing, because there is no disagreement to resolve; there is inertia to dramatise. Nancy Duarte's Resonate (2010) frames the same tension as an oscillation between 'what is' and 'what could be'.\n\nAnd when does argument beat narrative? Whenever the room is adjudicating: a recommendation, a budget, a plan, an audit, a comparison, a risk decision. A story there reads as persuasion without evidence, and a room trained to evaluate will start evaluating the story instead of the proposal.\n\nThe safe hybrid, and the one to default to: narrative in the first two minutes to establish situation and tension, then the deductive argument and the ask. The failure mode to avoid is narrativising the data - a chart cannot be a character, and a customer who is also a metric will convince nobody.",
+      "principles": [
+        "Choose narrative when the task is change and inertia is the obstacle; choose argument when the task is adjudication and evidence is what is missing.",
+        "Map the decision arc explicitly: character, desire, obstruction, action, resistance, escalation, resolution - then check that each beat is on the page.",
+        "Use narrative for setup and argument for the ask; the two in sequence are stronger than either alone.",
+        "Never narrativise the data: charts and metrics stay in the argument, characters stay in the story.",
+        "Make the resolution a decision the audience can make, not a feeling the audience can admire."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Opening a budget review with a customer story, so the room spends five minutes emotionally invested in a case they will not act on.",
+          "fix": "Name the decision before the story and put a time on the story: two minutes maximum, then the argument."
+        },
+        {
+          "failure": "Using narrative to cover for missing evidence, so the story does the work the data should have done.",
+          "fix": "Test the argument without the story: if the recommendation collapses, you have a data problem, and no amount of narrative will fix it."
+        },
+        {
+          "failure": "Building a hero narrative in which the customer is the hero, which quietly makes the audience the audience - the wrong dynamic for change.",
+          "fix": "Put the audience in the hero seat: they are the person with the want, you are the guide who knows the path. That is the shape of most adoption."
+        },
+        {
+          "failure": "No resistance in the story, so the narrative feels like an advertisement and the room discounts it.",
+          "fix": "Give the obstruction real weight, including the objection your audience would raise. Believable resistance is what makes a resolution credible."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram of a circular eight-beat story structure mapped onto a business decision arc, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c8",
+      "title": "From Brain Dump to Spine: The 20-Minute Raw Capture and the Shaping Pass",
+      "summary": "The most reliable way to build a talk is to stop trying to build one and instead dump everything out, then shape. The raw capture is 20 minutes of unstructured writing or talking with no editing; the shaping pass is a separate, ruthless, 40-minute process that cuts, clusters, climbs the So-What Ladder, and produces the spine. Mixing the two modes destroys both.",
+      "detail": "There are two modes of work, and they have opposite rules. **Generative** mode is for producing material: no editing, no stopping, no structure, no judgement. **Editorial** mode is for shaping material: no new material, no exceptions. The most common failure in executive preparation is running both at once - pausing to restructure mid-dump, or adding new thoughts while editing. You get neither the raw material nor the structure, and you exhaust the time budget in the process.\n\n**The 20-minute raw capture.** Set a timer for twenty minutes. Write or speak continuously, in whatever form comes out, with three prompts on the page and no more:\n\n1. *What happened* - the facts, the numbers, the dates, the names, the quotes from people, the moments that surprised you. Specificity is only available in this pass; it is not available later from memory.\n2. *What it means* - your read, your interpretation, the pattern you think you are seeing, the reasons.\n3. *What you want* - what you want the room to think, feel, and do.\n\nDo not organise. Do not stop to make a slide. Do not write a summary at the end. If you run out of things to say, describe the room, the weather, what you ate. Raw material is cheap; structure is what is scarce.\n\n**The shaping pass.** A separate forty-minute block. Five moves, in order:\n\n1. *Mark* - underline every claim in the dump. Facts are not claims.\n2. *Cluster* - group the claims, looking for the MECE grouping that covers the question.\n3. *Climb* - run the So-What Ladder on each cluster until it reaches a load-bearing claim.\n4. *Select* - choose one governing thought. Cut everything that does not support it. Keep a parking lot for the cut material; you will need it in the Q and A.\n5. *Sequence* - write the spine: governing thought, ask, three arguments, evidence, counter-argument, opening line, closing line.\n\nThen, and only then, open the slide tool.\n\nThe two-pass structure also solves a subtler problem: writing prose first forces you to sentence every thought, and sentences commit you to a form of argument before you know what it is. Notes and fragments do not commit you. A dump in fragments can be reorganised; a dump in finished paragraphs usually cannot - which is why many executives find that their first draft sounds confident and wrong, and then spend the day rewriting sentences instead of fixing the structure underneath them.",
+      "principles": [
+        "Separate generative work from editorial work in time and on paper; never run both in the same sitting.",
+        "Capture in fragments, not sentences - prose commits you to an argument before you have found it.",
+        "Use the three prompts (what happened, what it means, what you want) and resist adding a fourth.",
+        "Save specificity in the raw pass - numbers, names, dates - because it is not recoverable later from memory.",
+        "Keep a parking lot for cut material; it becomes your Q and A ammunition and your appendix."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Writing the deck first and treating the raw dump as a script for slides, so the structure was fixed before the thinking was finished.",
+          "fix": "Do the dump in a text document with the slide tool closed. The deck is the last artefact, not the first."
+        },
+        {
+          "failure": "Ending the dump with a tidy summary, which is where the energy stops and nothing is gained.",
+          "fix": "Stop at the timer even mid-sentence. The raw pass should end abruptly; the shaping pass is where coherence gets imposed."
+        },
+        {
+          "failure": "Skipping the shaping pass because the dump already felt good in the moment.",
+          "fix": "The dump always feels good - it is unexamined. Insist on the separate 40-minute editorial block, even if it means the talk is ready on a Friday and the spine is not."
+        },
+        {
+          "failure": "Cutting during the dump, so you lose the half-formed thought that contained the actual insight.",
+          "fix": "Never cut in the dump. Only cut in the shaping pass, where you can see what the whole pile supports."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram of a two-stage talk construction process with a raw capture phase feeding into a shaping phase producing a structured spine, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "SCQA",
+      "summary": "A four-line opening that makes a recommendation feel derived rather than asserted, for rooms that share your context and need to decide.",
+      "steps": [
+        "Situation - write the minimum context the room needs in order to understand the problem. One or two sentences. If it needs a slide, it is too long.",
+        "Complication - state what is now true that makes the situation a problem, in the room's language rather than your internal categories.",
+        "Question - write the question the situation and complication force someone to ask, in the form of a question. This is the hinge sentence of the whole talk.",
+        "Answer - state your answer as a commitment, in one sentence, with the object of the recommendation attached ('We should fund X', not 'We might want to explore X').",
+        "Support - name the three arguments that earn the answer, in parallel grammatical form, before you produce any evidence.",
+        "Test - read the four lines alone. If the Answer does not follow from the Question, or the Question does not follow from the Complication, rewrite before you present."
+      ],
+      "whenToUse": "Use it in decision rooms that share your context: board meetings, budget asks, investment committee, operating reviews, cross-functional prioritisation. Use it when the recommendation itself is sound but the room does not yet know what you are proposing. Do not use it in cold rooms - a first all-hands, a customer conference, a new market - because the Situation becomes a lecture; use a decision arc instead. Do not use it when the belief itself is contested, because a Situation that asserts how the world works will be rejected along with everything else.",
+      "example": "A CFO must ask a board for 3 million dollars of headcount for a support pod. Situation: 'Enterprise onboarding currently takes four weeks and our renewal rate is 89 percent.' Complication: 'Two competitors shipped a guided onboarding flow this quarter, and our net revenue retention has been flat at 104 percent for three quarters.' Question: 'What is stopping enterprise onboarding from getting under two weeks?' Answer: 'We should fund a six-person onboarding pod for two quarters - it costs 3 million and should take onboarding to five days.' The board hears a derivation rather than a request, and the three support arguments (pod ownership, the five-day target, the churn cohort) follow immediately."
+    },
+    {
+      "name": "The Reverse Outline",
+      "summary": "A diagnostic that compresses your draft into one line per paragraph and reads the summaries alone, revealing the conclusion the audience will actually hear.",
+      "steps": [
+        "Take the finished draft, memo, or transcript - not an outline. The Reverse Outline works on prose, because prose is what the audience experiences.",
+        "Write one line per paragraph stating what that paragraph is for, not what it says. 'Argues that churn is concentrated in small accounts' rather than a summary of its sentences.",
+        "Read only the lines, in order, as though they were the talk. Resist adding the detail back in.",
+        "State in one sentence what the room would conclude from the lines alone. That is the conclusion your talk currently makes.",
+        "Compare it with the conclusion you intended. If they differ, you have a buried conclusion, and the gap tells you exactly how many paragraphs to move.",
+        "Repair by editing, not rewriting: move the recommendation to sentence one, rewrite each section as a reason the recommendation follows from it, and cut any section whose summary does not support the answer."
+      ],
+      "whenToUse": "Use it before every memo leaves your desk, after every talk you have rehearsed, and any time you suspect you are explaining rather than arguing. It is the fastest check for a buried conclusion and the best diagnostic for a talk that feels complete but does not add up. Skip it for genuinely narrative work where the conclusion is the resolution and you intend to withhold it until the end.",
+      "example": "A founder's draft says: 'Sales growth has slowed for three consecutive quarters, from 14 percent to 4 percent. The slowdown is concentrated in enterprise deals, where our cycle time has doubled since the security review was added. We believe the security review is the primary cause.' The summaries read: 'Sales have slowed' / 'The slowdown is in enterprise' / 'The security review is the likely cause'. Read alone they tell a diagnostic story, not an argument for a decision - the room would conclude that there is a problem, and stop there. Repair: lead with 'We need two security engineers to stop losing enterprise deals', then use the three paragraphs as the reasons that recommendation follows."
+    },
+    {
+      "name": "The One-Page Spine",
+      "summary": "A single-page argument plan written before any slide exists, holding the governing thought, the ask, the arguments, the evidence, and the counter-argument.",
+      "steps": [
+        "Governing thought - one sentence, a position with a verb and a direction, that everything in the talk serves. Not a topic.",
+        "The ask - who does what, by when, with the amount or decision attached. One ask only.",
+        "The three arguments - each a claim in parallel grammatical form, MECE, and no more than three. Four arguments means two talks.",
+        "The evidence - one checkable item per argument, each with a source and a time period.",
+        "The counter-argument - the strongest objection to your recommendation, written in the objection-holder's words. You will address it yourself, so find it now.",
+        "Opening line and closing line, written out verbatim - the opening states the recommendation, the closing returns to it with the ask.",
+        "Fitting test: if it does not fit on one page, it is not loaded. Cut a section or defer it to a written follow-up - never expand the page."
+      ],
+      "whenToUse": "Use it for every talk that has a decision attached, before the slide tool is opened and again the night before. Use it as the recovery document during a talk: if you are derailed, the spine tells you what you were trying to say. Skip it only for genuinely low-stakes updates where a three-bullet mental list will do - but then finish the three-bullet list in writing anyway.",
+      "example": "A VP of Product prepares a 15-minute proposal for a new onboarding flow. Governing thought: 'Guided onboarding is worth 3.1 points of net revenue retention and pays for itself in two quarters.' Ask: 'Approve 2 engineers for one quarter, starting 1 March.' Arguments: 'Current onboarding loses 60 percent of new accounts in week one' / 'Guided flow removed 3.1 points of churn in our pilot cohort of 340 accounts' / 'Two engineers cost 480,000 against a modelled 1.6 million retained ARR.' Counter-argument: 'Our pilot cohort is atypical.' Opening line and closing line written verbatim. Six fields, one page, no slide tool yet - and the deck that follows is now a servant of the argument instead of its author."
+    },
+    {
+      "name": "The So-What Ladder",
+      "summary": "A repeated test that climbs a statement one rung at a time until it becomes load-bearing - the level where a decision would change if the claim were false.",
+      "steps": [
+        "Write the statement as it currently appears in your material.",
+        "Ask 'so what?' and write the answer as one rung. Say it out loud - the spoken version exposes vagueness that reading hides.",
+        "Repeat until the claim is load-bearing: a claim whose falsity would change a decision someone in the room is about to make. That is the stopping point.",
+        "Check every rung for falsifiability. If you cannot say what would make it false, you have skipped a rung or found a vague one.",
+        "Look for over-climbing: a rung such as 'the business needs revenue' is a trivial truth. The stop rule is that the rung must name a decision, an owner, or a date.",
+        "Deliver the ladder out loud in the talk - the room needs the path as much as the top, because the path is where trust in a recommendation comes from."
+      ],
+      "whenToUse": "Use it on the opening evidence of every talk, on every claim you intend to make in the first five minutes, and on any slide title. Use it live when someone asks 'so what?' of your data - the question is a request for the rung you forgot to say, not a challenge to the evidence. Do not climb a supporting statistic looking for a recommendation; climb the governing claim and treat the statistic as an endpoint.",
+      "example": "Fact: 'We raised prices 8 percent in March.' Rung one: 'Revenue per account rose 11 percent on the affected tiers.' Rung two: 'Churn on those tiers did not move - 2.1 percent before and after.' Rung three: 'We should extend the increase to two more tiers and stop the discount tool we scoped in January.' Rung four, load-bearing: 'If we do not extend the increase, the January discount work and the 480,000 already spent on it should be cancelled, and Q3 net revenue will be 900,000 below plan.' That final sentence names a decision, an owner, an amount, and a date - and it is the sentence the talk is actually for."
+    },
+    {
+      "name": "StoryCircle (adapted as the Decision Arc)",
+      "summary": "Dan Harmon's eight-beat story structure, mapped onto a decision being made under resistance - the right architecture when the task is change rather than adjudication.",
+      "steps": [
+        "Character - who wants what? Usually your audience, not you. The hero of an adoption talk is the person doing the adopting.",
+        "Situation and desire - the world as it currently is, stated so the room recognises it without being lectured about it, and what the character is trying to reach. Make the desire concrete: a metric, a capability, a state of affairs.",
+        "Obstruction - the real resistance. Status quo, a competing priority, a switching cost, internal politics, or a belief you have already failed to move.",
+        "Action - what is being proposed, in the language of the resolution, not the language of the plan.",
+        "Resistance - why it is not happening today. This beat is where most business stories fail, and skipping it is what makes a talk sound like an advertisement.",
+        "Escalation - what happens if nothing changes, or what the change itself costs. This is where the stakes become real rather than asserted.",
+        "Resolution - the new equilibrium, expressed as a decision the audience can make, with the ask attached and the character credited with the change."
+      ],
+      "whenToUse": "Use it when the audience already agrees with you but is not moving - adoption, a new category, a reorganisation, a cultural change, a strategy that asks people to give something up. Use it when the obstacle is inertia or fear rather than disbelief. Do not use it in a room adjudicating a recommendation, budget, plan, audit, or risk decision: there, evidence is what is missing and a story reads as persuasion without proof. The safest default is narrative in the first two minutes, then the deductive argument and the ask.",
+      "example": "A CEO must land a decision to move from a channel model to a direct enterprise sales team. Character: 'Priya, a VP of Sales who has been handed a quota she cannot hit.' Situation: 'Enterprise pipeline coverage sits at 2.1x against a 4x target.' Desire: 'A pipeline she can actually close.' Obstruction: 'The channel partner takes 15 percent of ACV and owns the customer relationship.' Action: 'Direct enterprise pod, three quota-carrying reps.' Resistance: 'Partners threaten to stop sending referrals.' Escalation: 'At 2.1x coverage we run out of enterprise revenue in Q3 regardless of any pricing change.' Resolution: 'A direct pod covering the top 80 accounts by revenue, with a named ask: approve three headcount by 1 April.' The narrative earns attention; the deductive argument that follows carries the decision."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "s1",
+      "title": "Reading the board memo aloud",
+      "setting": "Your Series B board has asked you to walk through the quarterly operating memo. Eight directors, a 30-minute slot, and a memo you wrote three weeks ago - 14 pages, well evidenced, internally consistent. Your CFO is in the room and has read it. Two directors have not read it at all.",
+      "challenge": "The memo contains a proposal to kill a product line that represents 9 percent of revenue and to redirect two engineers to a new bet. It is buried on page 9 of 14. You have 30 minutes and you are holding the pages. Do you read them in order?",
+      "objectives": [
+        "Avoid the buried conclusion when the format is a document walk-through",
+        "Use the document's own evidence without reading it verbatim",
+        "Leave the board with a decision rather than a comprehension exercise"
+      ],
+      "options": [
+        {
+          "text": "Read the memo in order, page by page, summarising each section as you go.",
+          "outcome": "The directors are now doing two jobs: following your words and tracking the document's argument. The product-line decision arrives at minute 20 of 30, by which point two directors are on email. Worse, the question in the room becomes 'what did section four say' rather than 'should we kill the product line'.",
+          "rating": "poor",
+          "feedback": "A memo walk-through is not a reading. The document is the evidence, not the script. Run the Reverse Outline on your own memo first - if its paragraph summaries do not reach your recommendation, your argument is buried in your own writing."
+        },
+        {
+          "text": "State the decision you are asking for in the first ninety seconds, then walk only the evidence that supports it, referring to page numbers as a support rather than a script.",
+          "outcome": "The directors can now evaluate the proposal rather than reconstruct it. Because the memo already contains the analysis, they can check you - which raises, not lowers, your credibility. The 30 minutes go to the decision instead of the document.",
+          "rating": "excellent",
+          "feedback": "This is the standard. Name the decision, then say which pages support it and why those pages. Keep the walking-through for genuine questions rather than for the document's chronology."
+        },
+        {
+          "text": "Open with the 9 percent revenue figure and the trend, then build up to the proposal gradually over twenty minutes.",
+          "outcome": "A reasonable-sounding approach that quietly repeats your mistake. The directors are engaged with a fact rather than a decision, and they spend the whole meeting hoping one arrives. You have spent peak attention on something they already knew.",
+          "rating": "fair",
+          "feedback": "Leading with the data is not the same as leading with the conclusion. If the data is the frame, the room still has to find your point inside it. Lead with the point, then let the data be the proof."
+        },
+        {
+          "text": "Ask the board to read the memo before the meeting and open the session with questions.",
+          "outcome": "Two directors did not read it and one is on a flight. You now spend the first ten minutes summarising a document in a room of eight, which is a status update, not a board session - and you still have not told them what you want.",
+          "rating": "poor",
+          "feedback": "Pre-reading is a courtesy you can request, not a dependency you can assume. If you distribute in advance, still open with the decision and one line of proof, because the directors who did read it need to hear your framing too."
+        }
+      ],
+      "coachingNote": "A document walk-through is not a reading and not an agenda. The Reverse Outline of your own memo is the diagnostic: if the paragraph summaries do not reach your recommendation, the conclusion is buried in your own writing, and the board will find it late."
+    },
+    {
+      "id": "s2",
+      "title": "Twenty minutes with a partner who has read your deck",
+      "setting": "A Series A partner meeting. The lead partner has read your 22-page deck in advance and wants 20 minutes of discussion, not a presentation. She has led enterprise software investments for twelve years and is deciding between you and two other companies. She opens with 'You have 20 minutes - tell me what you want me to do'.",
+      "challenge": "Your deck is organised by the standard categories: market size, product, technology, team, financials. The thing that actually wins you this round - that you have already signed two enterprise logos against a category leader - appears in the appendix on page 19.",
+      "objectives": [
+        "Choose an architecture that matches the room's request for a decision",
+        "Lead with the answer rather than earning it slowly",
+        "Convert a 20-minute discussion into a next step"
+      ],
+      "options": [
+        {
+          "text": "Open with market sizing, then walk the deck's structure, saving the enterprise logos for the appendix section where they appear.",
+          "outcome": "She now knows what she already knew. The two logos that would have distinguished you are read aloud as a closing detail rather than presented as a reason, and the meeting ends without a decision about anything except what to read next.",
+          "rating": "poor",
+          "feedback": "Two decisions in one: your structure is deductive but inverted, and your differentiation is filed as a footnote. Lead with the answer - 'I want you to lead the round and open the data room next week' - then make the logos the first supporting argument."
+        },
+        {
+          "text": "State the answer in the first sixty seconds, name the two enterprise logos and what they prove, then give the two other arguments that earn the answer, and close with a specific dated next step.",
+          "outcome": "She has a position to react to within a minute, which is what a partner who read the deck needs. The logos land as the reason rather than as an appendix. The next step is concrete, so the meeting produces a process rather than an impression.",
+          "rating": "excellent",
+          "feedback": "Strong. The test: she can repeat your thesis in one sentence and knows what happens next. Make the next step small, concrete, and dated - opening the data room, two reference calls, a second meeting with your CTO - not 'let's stay in touch'."
+        },
+        {
+          "text": "Skip the deck entirely and tell the origin story of the company, the technical breakthrough, and the vision before getting to the ask.",
+          "outcome": "You have used the highest-attention three minutes of the meeting on material she could have read in the deck. She asked for a decision, and you gave her a history. The twenty minutes end with a question she was hoping you would have answered in minute one.",
+          "rating": "fair",
+          "feedback": "The narrative is not the sin; the sequence is. If you want one story - and a partner meeting can hold one - put it in minute one at 90 seconds, then state the answer, then the arguments. History before answer is the mistake, not history."
+        },
+        {
+          "text": "Give a full 15-minute presentation and hold the last five minutes for questions.",
+          "outcome": "She asked for 20 minutes of discussion and got a talk. The questions are rushed, the discussion never happens, and the meeting ends without her having been asked for anything.",
+          "rating": "poor",
+          "feedback": "When the room asks for discussion, a presentation is a format error. Bring the argument in miniature - answer, three arguments, ask - and then spend the time on what she wants to interrogate. The deck is a prop, not the event."
+        }
+      ],
+      "coachingNote": "When the room has already read the material, they want the decision, not the document. Lead with the answer, spend the first minute on the evidence they have not seen, and leave the meeting with a dated next step rather than a good impression."
+    },
+    {
+      "id": "s3",
+      "title": "The Series A story: narrative or argument?",
+      "setting": "You are pitching a Series A to a group of eight investors at a demo-day-style meeting. You have 12 minutes and a working product. Two of the investors have already told you privately that they are close to deciding elsewhere. Your co-founder is in the room, and your traction chart is not good - you have revenue, but it is flat for two quarters.",
+      "challenge": "You have two possible architectures. The story version opens with the founding insight: two years ago you watched a customer lose a week to a problem you now solve, and you built the tool that should have existed. The argument version opens with the flat traction chart and asks for a specific amount to fix a specific problem. Which do you lead with?",
+      "objectives": [
+        "Match architecture to the decision the room is actually making",
+        "Handle a weak number without hiding it or burying it",
+        "Move the room from listening to wanting"
+      ],
+      "options": [
+        {
+          "text": "Open with the founding insight and the customer story, build through the product, and get to the round at the end.",
+          "outcome": "You spend four minutes earning attention you would have used better, and the flat traction chart is discovered by an investor mid-question rather than offered by you. Because the room has an eight-minute memory of a good story, the flat number does disproportionate damage when it lands without your framing.",
+          "rating": "poor",
+          "feedback": "Two failures. You inverted the pyramid, and you let the room find your weakest point. Investors are adjudicating a decision, so the architecture must be deductive. Lead with the ask, and put the flat traction and its cause in the first three minutes."
+        },
+        {
+          "text": "Open with the ask and the reason it is safe now, use the founding insight as a 90-second framing of the problem, then present the plan for the next 18 months including what you will do about the flat line.",
+          "outcome": "The room knows within a minute what you are asking for and what you will do with it. The story does the work it is good at - making the problem feel real - and the argument does the work it is good at. Naming the flat quarter and your response to it reads as confidence, because they were going to find it.",
+          "rating": "excellent",
+          "feedback": "This is the right hybrid: narrative for the problem, deduction for the decision. The flat line must be addressed with a specific cause and a specific plan, not with optimism. Investors forgive a flat line with a credible plan; they do not forgive discovering it themselves."
+        },
+        {
+          "text": "Lead with the traction chart but spend four minutes explaining why the last two quarters look flat, then present the product, then the round.",
+          "outcome": "You have opened with your weakest evidence and given it the most attention in the room. The explanation is probably true and does not matter, because the room now has a frame - 'flat traction' - that will organise everything they hear afterwards.",
+          "rating": "fair",
+          "feedback": "Honest is not the same as leading with the weakness. Name the flat quarter in one sentence, give the cause and the plan in two, and get the room back onto the differentiation evidence while their attention is highest."
+        },
+        {
+          "text": "Open with the differentiation claim - the one thing competitors cannot copy - and hold the traction numbers for the questions.",
+          "outcome": "Better than a weak opener, but the room is left with an unfunded claim and no sense of what happens with the money. Two of the investors who were close to deciding elsewhere now have a reason to ask what you actually need.",
+          "rating": "fair",
+          "feedback": "Differentiation first is strong; omitting the round is not. State the ask by minute three even if you lead with the claim - the ask is what makes the differentiation fundable rather than merely interesting."
+        }
+      ],
+      "coachingNote": "Narrative earns attention for the problem; argument earns the decision. In an investor room the decision is the round, so the round is the spine and the story is ninety seconds of framing inside it."
+    },
+    {
+      "id": "s4",
+      "title": "The plan with a team that has been burned before",
+      "setting": "You are the new VP of Sales. The revenue team has heard this pitch before: a new forecasting tool, a new territory model, a new data dashboard. The last two initiatives were announced with conviction and quietly died. The 14-person team has stopped asking for tools and started asking whether you will still be here in six months. You have 25 minutes in the weekly pipeline review.",
+      "challenge": "You have a plan that is genuinely good, and you have a credibility deficit with this specific room. The team has correctly learned that confident announcements are cheap. You must open in a way that gets the plan adopted rather than politely tolerated.",
+      "objectives": [
+        "Earn the right to be believed before making the ask",
+        "Choose a structure that fits a room with a history of failed plans",
+        "Make the plan falsifiable enough to be credible"
+      ],
+      "options": [
+        {
+          "text": "Open with conviction: 'This is the most important operating change we will make this year', then present the plan and its milestones.",
+          "outcome": "You have done the one thing this team has learned to discount. The people who have seen two initiatives die respond exactly as trained - politely, and without adoption. Your conviction is now being read as another signal, not as a message.",
+          "rating": "poor",
+          "feedback": "Conviction is not a substitute for a reason. This room does not need to be told the plan matters; it needs to be told why this one will survive. Put the reason - the specific failure mode of the last two plans and what prevents it here - in the first two minutes."
+        },
+        {
+          "text": "Name what happened with the last two plans, say plainly that you are not asking them to believe this one works, and then make the plan falsifiable with a named test, owner, and date at which it will be judged.",
+          "outcome": "The team hears something they have never heard from a leader here: a willingness to be judged on a plan publicly. Falsifiability converts a promise into a test, and a test can be run - unlike a vision, which can only be agreed with.",
+          "rating": "excellent",
+          "feedback": "This is the move. Name the failure honestly, then make the plan testable: 'If pipeline coverage has not improved by 15 points by 1 July, kill the tool and we go back to the current process.' Named tests are what rebuild trust with a burned team."
+        },
+        {
+          "text": "Open with your own uncertainty - 'I am new here and I do not yet know what will work' - and invite the team to shape the plan with you.",
+          "outcome": "You have handed the plan away before you have made it, and a team that has been burned twice has learned to withhold participation too. Nothing is adopted, and the plan never becomes yours to be accountable for.",
+          "rating": "poor",
+          "feedback": "Collaborative framing belongs after you have shown a defensible position. The team wants a leader who has a point and is willing to be wrong on a named, dated measure - not a leader who has not decided."
+        },
+        {
+          "text": "Skip the plan entirely and spend the 25 minutes asking the team what has failed and what they would actually use.",
+          "outcome": "You have bought goodwill and learned real information, and you have also taught the team that you will not commit to anything. A plan is a commitment; leading with listening and never landing it is a way of avoiding the credibility test you were being tested on.",
+          "rating": "fair",
+          "feedback": "Listening is the second move, not the first. Take ten minutes of it if you like, but land a plan with a named test in the remaining fifteen - the team needs to see you commit to something before they commit to it."
+        }
+      ],
+      "coachingNote": "With a burned team, the credibility currency is falsifiability, not conviction. Say what you are not asking them to believe, then make the plan testable with a named owner and a date at which it will be judged and possibly killed."
+    },
+    {
+      "id": "s5",
+      "title": "Three good ideas and one slot",
+      "setting": "An executive committee has given you 20 minutes to make one prioritisation decision for next quarter: build a self-serve onboarding flow, expand into the EMEA market, or rebuild the reporting layer. All three have sponsors, all three have credible internal cases, and there is budget for exactly one. Your CFO will chair and will ask 'what are we doing'.",
+      "challenge": "You believe onboarding has the highest return, but the EMEA case has the loudest sponsor and the reporting rebuild is the one your CEO cares about. You have 20 minutes and one slot. You must not present a menu.",
+      "objectives": [
+        "Make one recommendation rather than three options",
+        "Use a governing thought and MECE supporting arguments",
+        "Handle the losing ideas without dismissing their sponsors"
+      ],
+      "options": [
+        {
+          "text": "Present all three options with their cases, the pros and cons, and let the committee choose.",
+          "outcome": "The committee now owns the decision you were supposed to make, and the loudest sponsor wins by default. 'What are we doing' is still unanswered at minute 20, and you have demonstrated that you do not have a view.",
+          "rating": "poor",
+          "feedback": "Presenting a menu is abdication dressed as thoroughness. Decide. The committee can always overrule a recommendation, but it cannot overrule the absence of one - and it will not, because arguing against a colleague is work."
+        },
+        {
+          "text": "State that onboarding has the highest return, give three arguments for it, address the other two ideas explicitly with a sequenced reason for why they are not this quarter, and name the decision you need.",
+          "outcome": "The committee has a position to react to and a clear ask. Naming the runners-up shows you considered them, which protects the relationships with their sponsors. The decision gets made in the meeting rather than in the follow-up emails.",
+          "rating": "excellent",
+          "feedback": "This is the standard. The structure is governing thought, three parallel arguments, and an explicit treatment of what is not being chosen and why. The ask should carry a date and a resource, not just a name."
+        },
+        {
+          "text": "Present the three options, but state at the start that you personally favour onboarding and will implement it unless the committee objects.",
+          "outcome": "You have framed the agenda, which is a real improvement, but you have also introduced a silence into the room - and a default-yes framing invites objections without inviting analysis. People who disagree will wait to see whether anyone else objects first.",
+          "rating": "fair",
+          "feedback": "Stating your preference is good; the default matters. Ask for a decision explicitly - 'I recommend onboarding; I need a decision today' - so that disagreement is voiced rather than withheld."
+        },
+        {
+          "text": "Build the case for all three as a sequence, arguing that the committee should do onboarding first, then EMEA, then reporting.",
+          "outcome": "The MECE grouping is broken: you have one priority, one sequence, and three arguments that belong to different projects. The room hears an attempt to have it both ways, and the one-slot constraint is never applied to the actual decision.",
+          "rating": "poor",
+          "feedback": "One slot means one choice. If you can present three things as equally right, you have not chosen - and you have given the loudest sponsor a procedural path to win."
+        }
+      ],
+      "coachingNote": "One slot, one recommendation, and an explicit account of what is not being chosen. A governing thought with three parallel arguments plus a clear treatment of the runners-up is the architecture; a menu is the absence of one."
+    },
+    {
+      "id": "s6",
+      "title": "Rebuilding trust with a customer who was burned by the last vendor",
+      "setting": "A renewal for 480,000 dollars, 11 days out. Your company is replacing a vendor that failed this customer badly - a two-year data-outage and a support response measured in weeks. The customer has invited you to a 30-minute call. Their VP of Operations, who was fired over the outage, has dialled in alongside the current procurement lead.",
+      "challenge": "You must present a proposal for a platform migration in one meeting, to a room whose instinct is to consolidate vendors and end the pain - which means terminating you. The trust deficit is real and it is not about your product.",
+      "options": [
+        {
+          "text": "Open with an acknowledgement of what the last vendor did, then move to why your platform is technically superior and what the migration plan is.",
+          "outcome": "You have opened with their pain rather than your argument, and the room now associates you with the outage for the entire call. The technical superiority lands as something they have no reason to trust from a vendor asking to replace another vendor.",
+          "rating": "fair",
+          "feedback": "Acknowledging it was right; stopping there was not. The acknowledgement should be one sentence, followed immediately by the mechanism of your difference - what specifically in your design makes that class of failure impossible. Credibility for a burned buyer is earned by mechanism, not by apology."
+        },
+        {
+          "text": "Open with the recommendation and the specific mechanism that makes the previous failure class impossible in your design, name the migration risk you cannot eliminate, and put the decision - with a contract structure that shares that risk - at the end.",
+          "outcome": "The room hears a proposal that has already thought about their worst fear, which is the single thing a burned buyer is shopping for. Naming the residual risk and sharing it contractually is what converts 'we say we are reliable' into 'we have an incentive to be reliable'. You have treated their history as a design input.",
+          "rating": "excellent",
+          "feedback": "Strong. Make the mechanism concrete - a specific architectural or process property, not 'we are more reliable'. And make the risk-sharing concrete: penalties, exit rights, a staged cutover that lets them stop after phase one. The structure of the proposal is the proof."
+        },
+        {
+          "text": "Tell the story of a similar customer who had the same experience and is now a reference, with data on their satisfaction.",
+          "outcome": "You have brought a story to a room that needs a reason, and a story about another customer is the weakest possible form of proof for someone who has been harmed. It also subtly implies the problem is rare and unusual, which they know is not true.",
+          "rating": "poor",
+          "feedback": "Reference stories are for rooms that already believe you. This room does not believe you. Lead with mechanism and risk-sharing, and keep the reference as a footnote for the evaluation stage."
+        },
+        {
+          "text": "Ask them to describe what went wrong with the last vendor in detail, and let the call be entirely diagnostic before you present anything.",
+          "outcome": "You have produced a sympathetic call and no proposal, eleven days before a renewal. The room now trusts you more and still has no reason to sign, and you have learned their story without connecting it to any decision.",
+          "rating": "fair",
+          "feedback": "Useful as the first five minutes of the call, useless as the whole call. Ask the diagnostic question, then connect their answer explicitly to the mechanism you have designed and the ask you are making. Time is short, and they know it."
+        }
+      ],
+      "coachingNote": "For a buyer who has been burned, credibility is not reassurance - it is mechanism plus risk-sharing. Name the failure class, state the specific design property that prevents it, name the risk you cannot eliminate, and put a decision with shared downside on the table.",
+      "objectives": [
+        "Rebuild credibility with a burned buyer using mechanism rather than reassurance",
+        "Lead with the recommendation and the risk-sharing structure rather than a story about another customer",
+        "Name the residual risk yourself before the customer does"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "title": "Reverse-outline your last real talk",
+      "type": "analytical",
+      "durationMinutes": 25,
+      "instructions": "Get the transcript or the draft of the last real talk you delivered - not a rehearsal, a live one. If you have no recording, reconstruct it from your notes and the calendar invite, and mark clearly what you are guessing. Write one line per paragraph or per slide section stating what that section is for, not what it says. Then read only the lines, in order, as though they were the talk. Write, in one sentence, the conclusion the room would have drawn from the lines alone. Then write the conclusion you actually intended, and compute the gap in sentences. Do not fix anything in this exercise; the diagnosis is the deliverable.",
+      "deliverable": "A one-page reverse outline, the one-sentence conclusion the room would have drawn, your intended conclusion, and the gap measured in sentences.",
+      "successCriteria": [
+        "The summary lines state the purpose of each section rather than restating its content.",
+        "The reconstructed conclusion is written without reference to your intentions - it is what the lines alone support.",
+        "The gap between reconstructed and intended conclusion is stated as a specific number of sentences, not as 'significant'.",
+        "The diagnosis names whether the problem was ordering, grouping, or a missing governing thought.",
+        "At least three summary lines are flagged as irrelevant to the intended conclusion."
+      ],
+      "liveCoachPrompt": "This one is a diagnosis, not a rewrite, and I want you to resist the urge to fix it as you go. Give me your talk's transcript or notes and I will hold you to the order of operations: summarise each section in one line, then read only the lines. Then you tell me the conclusion the room would have drawn, and only then the one you meant. The gap is the useful number - if it is more than one sentence, we have found your next hour of work."
+    },
+    {
+      "id": "e2",
+      "title": "The 90-second answer-first opening",
+      "type": "recorded",
+      "durationMinutes": 20,
+      "instructions": "Choose a real recommendation you need someone to make - a decision you are actually trying to get from your team, your board, or a client. Write a four-line SCQA on one page: Situation of no more than two sentences, Complication, Question, and Answer written as a commitment. Then record yourself delivering only the four lines, twice, ninety seconds maximum. First take: as written. Second take: with the Situation compressed to a single clause and the Answer rewritten in the audience's language of consequence rather than yours. Listen back and decide which take you would actually deliver, then write one sentence naming the change that did the work.",
+      "deliverable": "Two recorded takes of the four-line SCQA, the written four lines, and a one-sentence note on which take you would deliver and why.",
+      "successCriteria": [
+        "The Situation is two sentences or fewer and contains no background the audience does not need for the Complication to make sense.",
+        "The Answer is a commitment with a named object, not a question and not an option.",
+        "The Question is phrased as a question and follows logically from the Complication.",
+        "The second take differs from the first in substance - either the Situation is shorter or the Answer is in the audience's language.",
+        "The recording stays under 90 seconds and lands without trailing off at the end."
+      ],
+      "liveCoachPrompt": "Ninety seconds, four lines, two takes. The second take is the interesting one, because it almost always improves for the same two reasons - a shorter Situation and an Answer written in the room's words rather than yours. Send me your four lines before you record so we can check the Question actually follows from the Complication. Then record, listen back, and tell me which change did the work."
+    },
+    {
+      "id": "e3",
+      "title": "Climb the So-What Ladder out loud",
+      "type": "recorded",
+      "durationMinutes": 20,
+      "instructions": "Take one claim from your real material - a metric, a result, a market fact - and record yourself answering 'so what?' to it, out loud, five times, one rung per answer, with no pausing and no editing. Keep going even if you reach a rung that feels trivial; the point is to hear where you naturally stop. Then write down each rung you said and mark the first one that names a decision, an owner, or a date. That rung is your load-bearing claim. Record one final take where you deliver the ladder from your original fact to the load-bearing claim in under 60 seconds, and note the rungs you had to invent rather than remember.",
+      "deliverable": "A five-rung ladder written out, the rung marked as load-bearing with the reason it stops there, and a 60-second recorded delivery of the climb.",
+      "successCriteria": [
+        "Each rung is a single sentence and is falsifiable - you can say what would make it false.",
+        "The stop rung names a decision, an owner, or a date, and is not a trivial truth such as 'the business needs revenue'.",
+        "The 60-second take reaches the load-bearing rung without a gap where the audience would have to guess the connection.",
+        "The write-up names at least one rung you had to construct rather than recall, which is the rung your talk is currently missing.",
+        "The recording is one continuous take with no re-start."
+      ],
+      "liveCoachPrompt": "This is a listening exercise as much as a writing one, so record the first attempt without stopping. Most people discover they either stop at rung two - which means their claim is not yet load-bearing - or keep climbing past the useful point into 'the business needs revenue'. Send me your five rungs after, and we will find where your material actually breaks. Do not tidy the ladder before you send it."
+    },
+    {
+      "id": "e4",
+      "title": "Build a spine for a live decision",
+      "type": "realWorld",
+      "durationMinutes": 40,
+      "instructions": "Choose a decision that is genuinely in front of you in the next ten days - a hiring plan, a budget request, a prioritisation call, a strategy review. Write the six spine fields in one sitting: governing thought, the ask with an owner and a date, three MECE arguments in parallel grammatical form, one checkable evidence item per argument, the strongest objection in the objection-holder's own words, and your opening and closing lines written verbatim. Then test it: apply the hallway test, the which-one test, the argument-count test, and the parallel test. For each failure, edit the spine rather than explaining the failure away. Finally, deliver the governing thought and the ask out loud in 90 seconds to one colleague who has no context, and ask them afterwards what they think you want.",
+      "deliverable": "A completed one-page spine with all six fields, the four test results marked pass or fail with the edits made, and a colleague's one-sentence paraphrase of what you want.",
+      "successCriteria": [
+        "The spine fits on one page with all six fields present, and nothing is written on a second page.",
+        "The governing thought is a position with a verb and a direction - a colleague could not describe it as a topic.",
+        "The three arguments are in parallel grammatical form and are genuinely MECE; you can name what a sceptical colleague would say is missing from the grouping.",
+        "The counter-argument is written in the objection-holder's words, not in your characterisation of them.",
+        "The colleague's paraphrase names the same decision and the same ask as your spine."
+      ],
+      "liveCoachPrompt": "Let's build the real thing, not a template. Tell me the decision, who has to make it, and by when. We will fill the six fields in order, and I will push back on two things: a governing thought that is really a topic, and arguments that are the same argument in three costumes. Then you take it to a colleague with no context and get their one-sentence paraphrase. That paraphrase is the test - if it does not match your spine, the spine is not written yet."
+    },
+    {
+      "id": "e5",
+      "title": "Deliver a recommendation live with a spine in hand",
+      "type": "realWorld",
+      "durationMinutes": 35,
+      "instructions": "Take the spine from the previous exercise - or build one quickly for a real conversation you are due to have - and deliver the actual recommendation to a real person who can act on it. Use the opening line verbatim. Land the answer inside the first sixty seconds. Make the three arguments in order, and say the warrant sentence for each piece of evidence rather than leaving the connection implicit. Name the strongest objection yourself and answer it. Close with the ask, verbatim, and the date. Immediately afterwards, write five lines: what you said, what you saw in the other person's face, where you paused, whether you got the decision, and what you would move in the spine next time.",
+      "deliverable": "The delivered conversation, the five-line retrospective, and the one revision you will make to the spine.",
+      "successCriteria": [
+        "The recommendation is stated as a commitment inside the first 60 seconds, without a preamble of context-setting.",
+        "For every piece of evidence you produced, you also said the sentence that connects it to the claim.",
+        "You named the strongest objection before the other person did, and answered it with its real strength acknowledged.",
+        "The close ends on the ask and the date rather than on a summary of what you covered.",
+        "The retrospective names a specific point in the spine that did not survive contact with the room, and what you changed."
+      ],
+      "liveCoachPrompt": "This is the one that counts, so let's set it up properly. Tell me who you are talking to, what you need from them, and the one thing they are likely to push back on. We will finalise the opening line and the objection-handling, then you go and have the conversation. When you come back, I want the five lines - including what you saw in their face, because that tells you whether the structure landed even when the words did not."
+    },
+    {
+      "id": "e6",
+      "title": "Repair a broken argument: claim, evidence, warrant",
+      "type": "drill",
+      "durationMinutes": 25,
+      "instructions": "Take a claim from a real document, memo, or email you have written - a recommendation you have actually made. Underline every sentence that moves from a fact to a conclusion. For each, write the warrant sentence that should sit between them: the mechanism, assumption, or reason that makes the fact bear on the claim. Then do three further things: add the qualifier that bounds your claim (scope, exclusions, conditions), add the rebuttal (the circumstance that would make the claim wrong), and rewrite the weakest instance of each as a 30-second spoken answer to 'how do you get from that to that'. Record that 30-second answer.",
+      "deliverable": "A marked-up document with the missing warrants written in, the qualifiers and rebuttals added, and a 30-second recorded answer to 'how do you get from that to that'.",
+      "successCriteria": [
+        "Every fact-to-conclusion jump in the document has a warrant sentence written between the two.",
+        "At least two of the warrants name a genuine mechanism rather than a restatement of the claim.",
+        "The qualifier names a real exclusion, not a gesture at modesty.",
+        "The rebuttal is a circumstance you would genuinely concede would defeat the claim.",
+        "The 30-second spoken answer is under 35 seconds and ends on the claim, not on the evidence."
+      ],
+      "liveCoachPrompt": "Bring the document, not a description of it. We will underline the jumps together, and the interesting work is the warrants - the sentences that make a fact bear on a claim. Most people find two or three places where they assumed the room would connect things on its own. Then we add a real qualifier and a real rebuttal, and you record the 30-second answer, because speaking it once is how you find out whether it actually fits in 30 seconds."
+    },
+    {
+      "id": "e7",
+      "title": "Choose your architecture: spine, arc, or hybrid",
+      "type": "reflection",
+      "durationMinutes": 20,
+      "instructions": "List three real talks coming up in the next six weeks. For each, write four lines: what decision or behaviour is at stake, whether the audience already agrees with you or is adjudicating, whether the shared context exists or must be built, and what the audience is likely to resist. Then choose an architecture for each - deductive spine, decision arc, or a sequenced hybrid with a named time budget for the narrative section - and write the single sentence that justifies the choice. Finally, write the one sentence that would make you switch architectures for that talk. This is a design memo, not a talk.",
+      "deliverable": "A three-talk design memo with the four diagnostic lines, the chosen architecture, the justification, and the switch trigger for each.",
+      "successCriteria": [
+        "Each talk's 'at stake' line names a decision or a behaviour change, not a topic.",
+        "The architecture choice is justified by the audience's state (already-agreed versus adjudicating) and by whether shared context exists.",
+        "Any hybrid architecture has a stated time budget for the narrative section, and it is short enough to be plausible.",
+        "Each talk has a switch trigger that would cause you to change architecture on the day.",
+        "The memo identifies at least one talk where you were about to use the wrong architecture by default."
+      ],
+      "liveCoachPrompt": "Three talks, three decisions, one page. The diagnostic that matters most here is whether the room already agrees with you - if they do, you need a decision arc because the obstacle is inertia; if they do not, you need a deductive spine because the obstacle is missing evidence. Give me the three talks and we will pick the architecture for each and write the switch trigger. The switch trigger is the part people skip and the part that saves you on the day."
+    }
+  ],
+  "assessment": {
+    "id": "a2",
+    "title": "The eight-minute recommendation",
+    "brief": "You will deliver an 8-minute recommendation to a panel drawn from your real audience - a board, an investor group, a senior leadership team, or a customer executive panel - on a decision you genuinely need them to make. Two weeks before the session you submit your one-page spine, your SCQA opening written out word for word, and the reverse outline of your own draft. On the day, after the talk, the panel will press you on one piece of evidence and on the strongest objection to your recommendation. You are assessed on the architecture of the argument and its robustness under follow-up: a well-delivered talk with a buried conclusion, or a beautifully structured talk whose evidence will not survive one question, both fail.",
+    "rubric": [
+      {
+        "dimension": "Architecture: hierarchy, grouping, and one-idea discipline",
+        "weight": 20,
+        "excellent": "The talk has a single governing thought that is stated as a position, and every part of the talk is traceable to it. The supporting arguments are grouped MECE, expressed in parallel grammatical form, and capped at three. A listener who missed half the talk could still reconstruct the argument from the signposts. The submitted one-page spine matches the delivered talk.",
+        "adequate": "There is a discernible structure with a clear opening and a logical sequence, but the hierarchy is loose: two or three arguments compete for attention, one section drifts from the governing thought, or the paragraphs do not sum to a single claim. The talk is followable but the shape is only partly visible to the room.",
+        "poor": "No governing thought is visible at any point, or several unrelated ideas share the stage. The talk reads as a sequence of things the speaker cares about, and a listener could not state what the speaker is asking for."
+      },
+      {
+        "dimension": "Answer-first leadership and absence of a buried conclusion",
+        "weight": 15,
+        "excellent": "The recommendation is delivered as a commitment inside the first 60 seconds, stated as a position rather than an option, and then earned. The rest of the talk is recognisably the support for that answer, and the closing returns to it rather than summarising. The reverse outline submitted beforehand shows the recommendation appearing in the first line, not the fourth.",
+        "adequate": "The recommendation is present and reasonably early, but it is hedged, framed as something to consider, or arrived at after a length of setup - so the room spends time waiting to hear what is being proposed. The close summarises without recommitting.",
+        "poor": "The conclusion arrives late, or is implied but never stated, or is presented as one option among several. The room leaves unsure what was requested, and the speaker never answers it explicitly."
+      },
+      {
+        "dimension": "Claim-evidence-warrant integrity",
+        "weight": 20,
+        "excellent": "Every substantive claim has evidence attached, and the speaker states the bridge that makes the evidence relevant rather than leaving the audience to connect it. Qualifiers and exclusions are stated by the speaker before the panel raises them, and the strongest objection to the recommendation is named and answered with its actual strength acknowledged. Under questioning, the speaker can reconstruct the warrant rather than restating the evidence.",
+        "adequate": "Claims are generally supported and some mechanisms are explained, but at least one important inference is left for the audience to make, or a qualifier is omitted and only supplied when pressed. Objections are handled, but as rebuttals rather than as stated assumptions.",
+        "poor": "Assertions outrun the evidence, numbers are rounded or unsourced, or the evidence offered does not in fact bear on the recommendation. When the panel presses on one point, the speaker retreats into restating the same claim more emphatically, or cannot explain why the evidence supports the conclusion."
+      },
+      {
+        "dimension": "Fit of structure to audience, stakes, and decision type",
+        "weight": 15,
+        "excellent": "The architecture is chosen deliberately and defensibly for this room: deductive spine for an adjudicating panel, decision arc for a room that must change behaviour, or an explicitly sequenced hybrid with the narrative setup in the first two minutes. The language of stakes is the audience's, and the SCQA's Situation assumes shared context rather than lecturing it. The choice would still be the right one if the panel were reading the transcript rather than listening.",
+        "adequate": "The structure is appropriate but chosen by default rather than by design - for example a deductive spine in a room that actually needed a story, or a narrative opening that runs too long before the argument appears. The content is relevant but stated partly in the speaker's internal vocabulary.",
+        "poor": "The structure is mismatched to the decision in a way the panel experiences as evasive - a long narrative in a budget review, a bare assertion with no argument in a room expecting a recommendation, or an agenda delivered aloud with no governing thought underneath it."
+      },
+      {
+        "dimension": "Attention economy and structural hygiene",
+        "weight": 15,
+        "excellent": "The talk spends the room's attention where it matters: the highest-stakes point arrives early, the shape is signposted once in the first two minutes, slides carry evidence rather than the speaker's words, and action titles let a reader reconstruct the argument from the deck alone. Pauses fall after claims so the room can encode. Nothing is on screen that is not needed.",
+        "adequate": "The talk is followable and mostly signposted, but there are stretches of undifferentiated material, a slide or two that duplicates what is being said, or a section that could have been a paragraph. The room occasionally has to work out what a section was for.",
+        "poor": "The talk is dense and undifferentiated - long slides read aloud, several competing points, no signposting - and the panel visibly struggles to follow. The key message is not recoverable afterwards, and the deck adds load rather than reducing it."
+      },
+      {
+        "dimension": "Structural robustness under unscripted follow-up",
+        "weight": 15,
+        "excellent": "When the panel presses on a piece of evidence or raises the strongest objection, the speaker answers from the spine: names which argument is under attack, gives the warrant and any qualifier, and returns to the recommendation with the position modified or defended - never lost. A question about a discarded piece of material is answered from the parking lot rather than improvised.",
+        "adequate": "The speaker handles questions with composure and generally reaches the right evidence, but answers tend to expand rather than connect: they add context without showing how it bears on the recommendation, and the talk's central claim is not re-established afterwards.",
+        "poor": "Under questioning the speaker restates the claim, becomes defensive, or concedes a point that was never actually in dispute, and the panel is left unsure whether the recommendation still stands. Structure is treated as a script rather than as an architecture that can be navigated under pressure."
+      }
+    ],
+    "passMark": 70
+  },
+  "readingList": [
+    {
+      "title": "The Pyramid Principle",
+      "author": "Barbara Minto",
+      "why": "The source of the deductive structure, the governing thought, MECE grouping, and the SCQA opening, plus the action-title discipline. Read with the 'reverse the pyramid' move in m02 in mind - Minto's argument is that business writing should already answer-first. Pairs directly with the architecture and one-page-spine concepts in this module and with the Audience Contract in m01."
+    },
+    {
+      "title": "The Uses of Argument",
+      "author": "Stephen Toulmin",
+      "why": "The rigorous source of claim, grounds, warrant, qualifier, and rebuttal - the framework that names the connecting step business arguments skip. Parts are dense in places; read the introduction and the sections on warrants and on fields, and use the remainder as reference. Pairs with the claim-evidence-warrant concept in m02 and with the evidence material in m09."
+    },
+    {
+      "title": "Good Strategy Bad Strategy",
+      "author": "Richard Rumelt",
+      "why": "Short, hard, and directly useful: the strategy kernel of diagnosis, guiding policy, and coherent action gives the So-What Ladder a formal target - the diagnosis is the load-bearing sentence. Also a model of writing that refuses to pad. Pairs with the So-What Ladder and the brain-dump concepts in m02."
+    },
+    {
+      "title": "Resonate",
+      "author": "Nancy Duarte",
+      "why": "The best treatment of structure as a tension between 'what is' and 'what could be', which is the narrative energy wrapped around a deductive spine. Provides the vocabulary for deciding whether a room needs a story, an argument, or a sequenced hybrid. Pairs with the SCQA, StoryCircle, and decision-arc concepts in m02 and with the narrative material in m08."
+    },
+    {
+      "title": "Story Circle (published as an essay on Tumblr in 2011; developed further in Hunt a Thief)",
+      "author": "Dan Harmon",
+      "why": "The eight-beat story structure this module adapts into a decision arc, useful precisely because it is short enough to hold in your head while designing a talk. Pairs with the StoryCircle concept in m02 and with the narrative work in m08."
+    },
+    {
+      "title": "Decisive",
+      "author": "Chip Heath and Dan Heath",
+      "why": "Contains the ORID questioning sequence - Objective, Rationale, Implication, Decision - which is a compact, executive-grade test of whether an argument is complete enough to be acted on. Pairs with the spine, the ask, and the Q and A material in m07 and m02."
+    }
+  ],
+  "masteryChecklist": [
+    "I can state, in one sentence each, how Minto's deductive pyramid differs from a narrative arc, and name the two situations in my work where each is right.",
+    "I can write a four-line SCQA for a real upcoming talk in under ten minutes, with a Situation of two sentences or fewer.",
+    "I can run the So-What Ladder on any claim and tell you the exact rung where it becomes load-bearing, and where it should stop.",
+    "I can identify the warrant in my own argument and say the connecting sentence out loud rather than making the audience supply it.",
+    "I can write a complete one-page spine for a real talk in 40 minutes and fail it loudly if it runs to two ideas or four arguments.",
+    "I can run a Reverse Outline on a draft or a transcript and say plainly whether the room would draw my intended conclusion.",
+    "I can lead with the recommendation in the first sixty seconds of a decision talk and still earn it in the remaining minutes.",
+    "I can choose between a deductive spine, a decision arc, and a sequenced hybrid for a specific room, and defend the choice."
+  ]
+}

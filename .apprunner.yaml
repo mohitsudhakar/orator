@@ -1,0 +1,20 @@
+version: 1.0
+runtime: nodejs20
+cpu: 1024
+memory: 2048
+port: 3000
+startCommand: node server/index.js
+build:
+  commands:
+    - npm install --omit=dev
+  artifacts:
+    - path: server
+    - path: public
+    - path: content
+    - path: assets
+    - path: package.json
+    - path: node_modules
+environment:
+  variables:
+    ORATOR_DATA_DIR: /var/task/data
+    PORT: "3000"

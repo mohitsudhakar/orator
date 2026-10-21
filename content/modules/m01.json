@@ -1,0 +1,583 @@
+{
+  "id": "m01",
+  "number": 1,
+  "title": "Foundations: Presence, Credibility, and Audience",
+  "subtitle": "The three things that decide whether anyone believes you",
+  "level": "Foundation",
+  "durationMinutes": 90,
+  "outcome": "Design a room-winning presence for any high-stakes talk by writing an explicit audience contract, reading the room in three scans, and earning credibility with evidence that matches what the audience must decide.",
+  "abstract": "Most speakers treat presence as a personality trait they either have or lack, and spend their preparation on slides. This module reframes presence as the audience's structured experience of you, decomposing it into composed presence, credibility, and connection, and then ties each to a specific, examinable behaviour. It introduces the Credibility-Connection-Control triad as a diagnostic, the Audience Contract as the design document for any talk, and the 3-Scan Room Read as the live adaptation loop. It also treats the popular science of body language honestly: some of it is contested, so the module teaches only the parts that survive scrutiny, and it gives the time-poor executive a repeatable speaker operating system that can be run in under 30 minutes the night before a talk.",
+  "objectives": [
+    "Diagnose the three components of presence - composed presence, credibility, and connection - and identify which one is currently costing you the most.",
+    "Write an Audience Contract that names what the room came for, what they already believe, what they fear, and what decision you need them to make.",
+    "Read a room in three structured scans and adapt your opening, pace, and level of detail to what you find.",
+    "Separate baseline credibility from earned credibility and design a specific, evidence-based way to earn credibility inside a talk.",
+    "Manage listener cognitive load so that one idea, not five, survives the walk out of the room.",
+    "Build and run a repeatable speaker operating system that controls body, voice, and attention before and during a talk."
+  ],
+  "keyTerms": [
+    { "term": "Composed Presence", "definition": "The degree to which a speaker appears settled and in charge of the material, independent of whether they actually feel calm." },
+    { "term": "Credibility", "definition": "The audience's belief that the speaker's claims are both true and worth acting on." },
+    { "term": "Connection", "definition": "The audience's felt sense of engagement with the speaker as a person rather than as a data source." },
+    { "term": "Audience Contract", "definition": "The explicit agreement between speaker and audience about what attention is being exchanged for what value." },
+    { "term": "3-Scan Room Read", "definition": "A three-pass live assessment of composition, energy, and pending decision used to calibrate a talk in the first 90 seconds." },
+    { "term": "Warmth-Competence Model", "definition": "Cuddy, Glick, and Fiske's stereotype content model, under which audiences in evaluative contexts read competence as dominant and warmth as secondary." },
+    { "term": "Cognitive Load", "definition": "The mental effort a listener spends decoding and storing what is said, which competes with the listener's ability to understand it." },
+    { "term": "Working Memory Capacity", "definition": "The very limited number of items a person can hold in mind at once; roughly four chunks in contemporary estimates, not seven." },
+    { "term": "Baseline Credibility", "definition": "The trust a speaker arrives with, drawn from role, track record, company brand, and personal reputation." },
+    { "term": "Earned Credibility", "definition": "Trust built during the talk itself through specificity, corroboration, candour, and a fair hearing of the strongest objection." },
+    { "term": "Attention Budget", "definition": "The finite store of attention a room will give you, which is spent before you arrive and cannot be replenished mid-talk." },
+    { "term": "Speaker Operating System", "definition": "A rehearsed, repeatable pre-talk and in-talk protocol for state, plan, and recovery that runs on autopilot so adrenaline is not spent on decisions." },
+    { "term": "State Transformation", "definition": "Reinterpreting physiological arousal as usable energy rather than as a threat, which changes observable behaviour." }
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "title": "Presence Is the Audience's Experience, Not Your Interior State",
+      "summary": "Presence is not the calm you feel in your chest before you walk on; it is the structured experience you create for the people watching. The distinction matters because you cannot control nerves, but you can control what the audience receives and how reliably it lands. Presence, in the sense used by Amy Cuddy and Susan Wayland in The HBR Guide to Presence, is built from three observable components: composed presence, credibility, and connection.",
+      "detail": "Ask a room, ten minutes after a talk, what they remember, and nobody says 'she seemed calm'. They say 'she knew the material cold', 'I believed her numbers', and 'I actually wanted to hear what happened next'. The audience's memory of presence is always a report on evidence, not on your internal weather. This is the single most useful reframe in the module, because speakers waste enormous energy trying to manufacture a feeling - calm, confidence, alpha body language - that is famously unreliable to self-regulate, and then deliver a talk that is technically excellent and lands like a document read aloud.\n\nAmy Cuddy and Susan Wayland's The HBR Guide to Presence (2014) decomposes presence into three components that travel together:\n\n| Component | The audience's question | What it looks like from the stage |\n| --- | --- | --- |\n| Composed presence | Do you seem to be in charge of this material? | Stillness, unhurried movement, a stable stance, no apologising for the room |\n| Credibility | Is this true, and are you worth trusting on it? | Specific numbers, sourced claims, awareness of the strongest objection |\n| Connection | Do I have a reason to be in this conversation with you? | Attention visibly on the room, material chosen for their situation, plain respect for their time |\n\nErving Goffman's The Presentation of Self in Everyday Life (1959) supplies the underlying idea: any performance is a managed presentation of self, and management is not the same as fraud. A doctor who is composed in an operating theatre is not deceiving anyone. The point is that composure and credibility are the *observable residue* of preparation, so they can be engineered even on a bad night.\n\nTwo corollaries follow. First, you do not need to eliminate nerves; you need to convert them. Reappraisal research (the broader family behind the 'state transformation' work) shows that reframing arousal as readiness changes both feeling and behaviour - which is why speakers who tell themselves 'I am excited, this is a high-stakes room I am ready for' sound measurably different from those who tell themselves 'do not panic'. Second, since nerves consume attention, the more of your cognitive load you remove before you walk on, the more of your presence survives contact with the audience.\n\nDefine presence operationally: after 90 seconds, can the audience say what you are claiming, why they should trust it, and why it matters to them? If any of the three answers is no, the problem is not nerves. It is design.",
+      "principles": [
+        "Judge your preparation by what the audience can report afterwards, not by how you felt while delivering it.",
+        "Treat composed presence, credibility, and connection as three separate dials; a talk fails when one is at zero regardless of the other two.",
+        "Reframe arousal as readiness before you walk on - narration, not sensation, is what changes behaviour.",
+        "Composure is a deliverable you produce for other people; treat it like any other part of the talk and rehearse it.",
+        "Never open by telling the room how nervous you are, and never use nerves as a substitute for preparation."
+      ],
+      "pitfalls": [
+        { "failure": "Reading the room as a test of your nerve, so you spend your attention managing your own state instead of the audience's.", "fix": "Before you walk on, write down what you want the room to say, feel, and do. That is your job. Your nerves are noise on the line, not the job." },
+        { "failure": "Compensating for low credibility with high energy, which reads as selling rather than telling.", "fix": "Get one specific, checkable piece of evidence into the first three minutes. Energy earns attention for about a minute; evidence earns the rest of it." },
+        { "failure": "Assuming composure means stillness, then freezing for forty minutes.", "fix": "Composed presence permits deliberate movement: plant your feet, move on purpose, pause. What destroys composure is fidgeting and hurrying, not movement." },
+        { "failure": "Treating connection as warmth alone and delivering charm with no substance.", "fix": "Connection in a business room is relevance. Say the thing that shows you understand their actual situation." }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating presence as audience experience, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c2",
+      "title": "Composed Presence: What the Body Signals, and How Much of It Survives Scrutiny",
+      "summary": "The posture-and-power research is genuinely contested, and anyone selling you certainty about it is selling. The residue that survives scrutiny is modest but usable: stillness, planted feet, unhurried movement, and a voice that does not hurry. You should adopt the low-risk parts and ignore the hormone claims.",
+      "detail": "Amy Cuddy's 'power posing' work argued that assuming expansive postures produces hormonal and behavioural effects, most famously lower cortisol and higher testosterone, and that these changes could alter willingness to take risks. This has been heavily disputed, and an elite course should say so plainly.\n\nThe record: Cuddy's original 2010 studies were small and, by the field's standards, underpowered. Ranehill and colleagues attempted a direct replication with a larger sample in 2015 and failed to find the hormonal effects. A subsequent large multi-lab effort led by Ranehill in 2020 did recover some of the reported effects on *reported feelings* of power and some hormonal measures in some analyses - but not the original pattern across the board. The honest summary is: posture may shift how you feel, the downstream behavioural claims are inconsistently supported, and the broad 'body language reveals the soul' genre is weak. Nonverbal accuracy research shows only modest accuracy, and well-known experiments like the pen-in-mouth task are usually invoked to show how fragile many body-language claims are.\n\nSo what do you actually do with it? Take the low-risk, near-zero-downside interventions and discard the physiology:\n\n- Plant your feet. Weight even, feet roughly hip-width. This is a stability signal and it also stops the rocking and swaying that reads as anxiety.\n- Move slowly and deliberately. Executive audiences read fast, nervous movement as a lack of control. Movement is not the enemy; unowned movement is.\n- Reduce fidgeting to near zero by giving your hands a job - a clicker, a pointer, resting lightly on the lectern edge. Hands that need constant occupation are hands that will click the mic.\n- Use your height. Stand where the room can see you; do not shrink behind a laptop that contains your face and half your gestures.\n- Let the voice do the work of authority. Pitch stability and pace do more for perceived competence than any stance, and voice is far more trainable than posture.\n\nNote the asymmetry: the popularisation of posture science has mostly failed to be replicated, yet the prescriptions - stand tall, be still, do not fidget, speak slowly - persist because they are cheap, safe, and plausibly beneficial even if the mechanism story is wrong. Treat them as hygiene, not as neuroscience. The most important caveat for a founder: the audience is not evaluating your cortisol. They are evaluating whether you seem to have handled this before, and whether you are in a hurry.",
+      "principles": [
+        "Adopt posture practices on the basis of low risk and plausibility, not on the strength of the hormone claims.",
+        "Say out loud, to yourself, that the replication record is mixed - then use the parts that are cheap and safe anyway.",
+        "Give your hands a defined job so that fidgeting has nowhere to go.",
+        "Move slowly and on purpose; treat unowned movement, not movement, as the credibility risk.",
+        "Invest in voice control before posture coaching; it is cheaper to change and more visible to an audience."
+      ],
+      "pitfalls": [
+        { "failure": "Buying a course or a stance routine that promises to make you unrecognisably confident through posture alone.", "fix": "Budget any time and money into voice control, evidence quality, and room reading instead. Those compound; stance tricks do not." },
+        { "failure": "Reading your own body language for meaning, so a stiff shoulder becomes evidence of a bad day and derails you mid-talk.", "fix": "Run a fixed pre-stage protocol - feet, breath, hands, first line - instead of self-interpreting sensation. Protocol beats interpretation." },
+        { "failure": "Adopting expansive posture that looks aggressive in a conservative boardroom.", "fix": "Match the room's register. Boardrooms reward stillness and economy of movement far more than conferences do." },
+        { "failure": "Repeating Cuddy's findings as established fact in front of an audience that includes people who know the literature.", "fix": "Say 'contested and worth noting' instead of 'science shows'. Credibility with a sophisticated room comes from accurate calibration, not confidence." }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating composed presence signals and their evidentiary strength, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c3",
+      "title": "The Credibility-Connection-Control Triad",
+      "summary": "Presence in a high-stakes room is the product of three dials, and each has a distinct failure signature. Credibility is about truth. Connection is about relevance. Control is about stewardship of the room, the clock, and the outcome. Most speakers over-serve one of them and starve another.",
+      "detail": "Composed presence, credibility, and connection (from the previous concept) are not independent virtues you stack; they are a triad with a dependency structure. In an executive room, a failure in any one degrades the audience's experience of the other two, and each failure looks different from the outside.\n\n**Credibility** asks: *is this true, and is this person worth trusting on it?* It is purchased with specifics, sourced numbers, and the willingness to state the strongest objection yourself. A speaker can be warm and controlled and still have no credibility, which is why 'nice' fails so often in boardrooms.\n\n**Connection** asks: *why do I have a reason to be in this conversation with this person?* It is purchased with relevance and attention - evidence that you understand the audience's actual situation, their pressures, and their vocabulary. A speaker can be credible and controlled and still leave the room feeling like they were processed rather than met.\n\n**Control** asks: *does this room feel steered, or does it feel like it is happening to me?* Control is not dominance and it is not volume. It is stewardship: you own the agenda, the clock, and the decision you are asking for, and you do not visibly hand the wheel to the loudest person in the room. A speaker can be credible and connected and still lose the room because they let a single interruption redirect forty minutes of work.\n\nThe dependency structure is what makes the triad useful as a diagnostic rather than a slogan:\n\n| Weak dial | Signature in the room | Typical cause |\n| --- | --- | --- |\n| Low credibility | Polite attention, no follow-up questions, no requests | Vague claims, unsourced numbers, hedging |\n| Low connection | Professional silence; no one repeats your point to you afterwards | Talk built from your template rather than their situation |\n| Low control | The meeting drifts to whoever spoke last; the decision never lands | No agenda stated, no timeboxed close, no clear ask |\n\nThe most common executive failure is the high-credibility, low-control combination: a competent founder who presents well, gets asked a question, answers expansively, and leaves without a decision. The fix is not more content. It is a stated structure - what I am covering, how long, what I need from you - which transfers control from the room's mood to you.\n\nThe other common failure is the reverse: full control, no connection, which produces the polished operator nobody wants to work with. Connection is fixed by choosing material that is about them, not by adding warmth or anecdotes.\n\nUse the triad live. At any point in a talk, ask which dial is weakest and treat it as the intervention target, rather than trying to improve your performance in general.",
+      "principles": [
+        "Diagnose the weakest dial before you rehearse a line; general rehearsal rarely fixes a structural weakness.",
+        "Control is stewardship of the agenda, the clock, and the ask - not volume, dominance, or interrupting people.",
+        "State your structure out loud at the top: what you will cover, how long, and what you need from the room. This transfers control immediately.",
+        "Connection is bought with relevance to the audience's actual situation, not with warmth or anecdotes.",
+        "Make the ask explicit and singular; a talk that does not name a decision is a talk with no control."
+      ],
+      "pitfalls": [
+        { "failure": "Spending all your effort on credibility - more data, more detail - while the room never learns what you want from them.", "fix": "Write your one ask on the same page as your data, and rehearse the sentence that delivers it." },
+        { "failure": "Letting a single well-timed question consume the meeting because you answered expansively instead of parking it.", "fix": "Park and commit: 'I will come back to that at the end' - then actually come back to it. This is the single cheapest control move available." },
+        { "failure": "Equating connection with likeability, and over-indexing on warmth until the substance gets thin.", "fix": "In evaluative rooms, credibility leads and connection follows. Build the argument first and let relevance do the connecting." },
+        { "failure": "Talking as though the room is a captive audience, ignoring the mobile phone and the second screen.", "fix": "Scan for attention sinks before you start, and put your most consequential point early while attention is highest." }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating the Credibility Connection Control triad and its failure signatures, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c4",
+      "title": "The Audience Contract",
+      "summary": "Before you can design a talk you must write down the bargain you are offering the room: what attention you are asking for, what value you are delivering, and what decision you need at the end. Most bad talks are contract breaches, not delivery failures.",
+      "detail": "An audience is not an audience. It is a group of people with a reason for being in the room, a set of prior beliefs, a set of fears, and a decision they expect to be closer to the end than when it started. The Audience Contract is the explicit statement of that bargain. It is the most reusable artefact in this module because it converts 'I need to present X' into a design brief.\n\nFive questions define the contract:\n\n1. **What did they come for?** Not what you want to say - what they booked, were invited, or scheduled to hear. If the CFO came for the cash runway slide and you open with company philosophy, you have already broken the contract.\n2. **What do they already believe?** Every audience arrives holding an existing position - usually from prior conversations, prior readings, or a board member's opinion. You are not writing on a blank page; you are writing on theirs. A credible talk either confirms a belief with new evidence, or names the belief it intends to change and does the work to change it.\n3. **What are they afraid of?** Fear is the load-bearing structure under a decision. Naming the real fear - a bridge round, a down round, a credibility hit with a particular person - changes what evidence is relevant.\n4. **What do you need them to do?** Fund, approve, hire, believe, stop, introduce, act. One primary action. 'Take this seriously' is not an action.\n5. **What will they say in the hallway afterwards?** The hallway test. If the correct retelling is 'she explained our funnel problem', the talk has failed no matter how good it was, because your point was not their story.\n\nThe contract then produces the **why should they care** test. Take your central claim and rewrite it in the audience's language of consequence, not yours. 'Our activation funnel is underperforming' becomes 'Four out of five new customers never reach the value moment, which is why net revenue retention is stuck at 104'. The rewrite is not a stylistic flourish; it is a test of whether you have done the work of translating your world into theirs.\n\nA useful negative test: the why-should-they-care question asked at the level of consequence, not topic. Not 'why should they care about onboarding' but 'why should the CFO care about onboarding this quarter, given what she is measured on'. If the answer is a paragraph of generic benefit rather than a number, a name, or a decision, you do not yet understand the room.\n\nThe contract is written before any slide exists, and it is revised after the 3-Scan Room Read. A contract you write once and never re-check is a guess about the audience rather than a read of it.",
+      "principles": [
+        "Write the five contract answers on one page before you open a slide deck; the contract is the brief the deck serves.",
+        "Rewrite your central claim in the audience's language of consequence - numbers, names, and decisions, not categories.",
+        "One primary ask per talk. If you have three, you have not decided.",
+        "Run the hallway test: write the one sentence you want repeated after you leave, then build the talk to earn it.",
+        "Revise the contract after the room read; the first draft is a hypothesis about who is in the room."
+      ],
+      "pitfalls": [
+        { "failure": "Writing the contract from your own intent - 'I want them to understand our strategy' - instead of from their need.", "fix": "Rewrite every contract answer in the second person: 'They came for...', 'They will feel...', 'They will do...'." },
+        { "failure": "Assuming a sophisticated room has no prior belief, and presenting evidence that ignores the belief they already hold.", "fix": "Ask one colleague what the room currently thinks. If you cannot, assume a prior belief and address it head-on." },
+        { "failure": "Making the ask 'buy in' or 'support the plan', which gives the room nothing to do.", "fix": "Name the person, the amount, and the date: 'a 2 million bridge at a 30 percent discount, closed by the 15th'." },
+        { "failure": "A strong topic with no consequence attached, so nothing in the talk is worth the room's hour.", "fix": "Attach a stake to the first three minutes: what breaks, what is gained, by when, if this lands or does not." }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating the Audience Contract as a five-part brief between speaker and room, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c5",
+      "title": "Attention and Cognitive Load: Why Smart People Stop Listening",
+      "summary": "Your audience is not refusing to listen - they are running out of capacity to hold what you are giving them. Working memory is tiny, your voice already occupies the verbal channel, and dense slides add load without adding comprehension. Structure is the load-bearing element of a talk.",
+      "detail": "Cognitive load theory (Sweller) holds that working memory is severely limited, and that learning fails when load exceeds capacity. The classic estimate, Miller's 7+/-2, has been revised downward: Cowan and others suggest roughly four chunks of new information held at once. For a live talk the arithmetic is brutal. Your voice is continuously occupying the auditory channel and consuming verbal working memory; the slide is consuming the visual channel. When the slide duplicates what you are saying, you have spent capacity for nothing, and when the slide contradicts what you are saying, you have created split attention - a well-documented drag on comprehension (Mayer's coherence and redundancy principles).\n\nTwo implications follow directly, and they are the whole argument for structure.\n\n**First: one idea per unit of attention.** In a live audience, a claim should be introduced, supported, and released before the next is opened. This is not a stylistic preference; it is a capacity constraint. A talk with three pillars is already at the edge. A talk with seven is a list.\n\n**Second: the audience must never spend capacity on decoding your structure.** If they have to work out how your argument is organised, that capacity is not available for your argument. Signposting - 'three reasons, and the third is the one I would act on' - is not filler; it is a capacity donation. Concrete moves that reduce load:\n\n- Say the point, then show the support, never both at full strength simultaneously.\n- Keep one idea per slide, and let the slide carry the evidence rather than a paragraph of your words.\n- Use contrast rather than complexity; comparison is cheap for the listener, taxonomy is expensive.\n- Pause after a claim. Silence is the only pause that gives the listener time to encode.\n- Put your most consequential point early, while attention is at its highest, rather than saving it for a slide 14 that arrives after the room has started checking email.\n- Reduce the vocabulary of the talk: fewer named frameworks, fewer competing acronyms, one vocabulary that the room can reuse in the hallway.\n\nA note on the room itself: executives arrive with a pre-loaded question, not a blank slate. Their cognitive load is already high because they have spent the last hour preparing to test you. Your job is not to compete with a blank page but to displace a running objection - which is another argument for the Audience Contract: know what they are already chewing on, and answer it early so the rest of the talk has room to work.",
+      "principles": [
+        "Design for one new idea per section; anything else exceeds working memory capacity in a live room.",
+        "Never make the audience decode your structure - signpost the shape out loud, once, in the first two minutes.",
+        "Use the slide for evidence and the voice for the point; duplicated content is spent capacity.",
+        "Put your highest-stakes point early, while the room is still with you.",
+        "Pause after claims; the listener needs the quiet to encode, and the pause also signals confidence."
+      ],
+      "pitfalls": [
+        { "failure": "Reading your slides aloud, which duplicates information and splits the listener's attention.", "fix": "Slides carry the number or the diagram; you carry the meaning. If you can delete a bullet because you said it aloud, delete it." },
+        { "failure": "Front-loading structure and delaying the substance, so the room spends its peak attention on your table of contents.", "fix": "Open with the stake, then signpost. Sequence is: why now, what I found, what I need, and only then the shape of the detail." },
+        { "failure": "Seven pillars because seven feels thorough.", "fix": "Cut to three, and be explicit about which is the one that matters. Depth on one idea beats coverage of seven." },
+        { "failure": "Treating a strong idea followed by immediate noise as a finished point.", "fix": "Land the point, pause, and let it sit. Most speakers cut off the exact second the audience is encoding." }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating working memory capacity limits and cognitive load in live speaking, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c6",
+      "title": "Baseline Credibility Versus Earned Credibility",
+      "summary": "You arrive with credibility you did not earn, and it decays over a long meeting. The credibility that matters is earned inside the talk, and it is earned in only three ways: specificity, corroboration, and a fair hearing of the strongest objection.",
+      "detail": "Baseline credibility is the trust you inherit before you say a word: your title, your track record, the company brand, the funding round, the logo on the screen. It gets you the first two minutes. It also has a hard expiry date. In a room where you are known, baseline credibility is discounted quickly and often publicly; in a cold room it is close to zero, because nobody has any reason to believe you yet.\n\nEarned credibility is what you build during the talk, and it has a short, teachable list.\n\n**Specificity.** Generic claims are free and therefore worth nothing. 'Customers love it' buys nothing; 'median time to first value fell from eleven days to four after we moved onboarding to a two-person pod' buys a great deal, because it is checkable, falsifiable, and carries its own boundaries. Precision also signals that you have actually looked at the data rather than received it secondhand. Say the denominator. Say the time period. Say what you excluded.\n\n**Corroboration.** A claim you make about your own work is worth exactly what your incentives are worth. Evidence from a customer, a third party, a market segment you do not control, or a hard number with a source attached converts a promise into a fact. This is why the same number means two different things when it comes from your finance lead versus from an independent analyst or a named customer.\n\n**A fair hearing of the strongest objection.** A speaker who names the best counter-argument, with its actual strength, and then explains why the conclusion holds anyway, is more credible than one who pretends the objection is silly. This is not politeness; it is a test of whether you have actually considered it. Executives discount speakers who cannot articulate the case against themselves, because they assume you have not thought about it.\n\nOn the warmth-competence model: Cuddy, Glick, and Fiske's stereotype content model holds that people in evaluative contexts read warmth and competence as opposites, and therefore discount warmth when judging ability. Cuddy's advice to 'act more competent' is the most contested part of the popular presence literature and the 2015 replication failure undercut it. The defensible version, which survives scrutiny: **in evaluative rooms, lead with precision and let warmth follow**. Do not perform warmth, do not hedge, and never read a warm signal as a substitute for a specific claim. An audience that is asked to trust a number does not need to like you; it needs to find you reliable.\n\nA useful discipline: every talk should earn at least one new unit of credibility, even if the room already regards you as credible. Decide in advance which one - and make sure it appears in the first three minutes, not the appendix.",
+      "principles": [
+        "Assume baseline credibility buys roughly two minutes and then begins to decay; plan to earn credibility early in the talk.",
+        "Buy credibility with specificity: denominators, time periods, and what you excluded.",
+        "Corroborate your own claims with evidence you do not control wherever the stakes allow it.",
+        "State the strongest objection yourself and explain why the conclusion survives it.",
+        "In evaluative rooms lead with precision; treat warmth as a by-product of being useful, not a performance."
+      ],
+      "pitfalls": [
+        { "failure": "Borrowing credibility by name-dropping investors, advisors, or a famous customer who did not actually endorse the thing.", "fix": "If the connection is real, say what it is. If it is not, cut it. One caught exaggeration poisons the specific numbers that followed it." },
+        { "failure": "Relying on baseline credibility and treating the room as already convinced, so you never provide evidence.", "fix": "Include one piece of evidence the room has not seen. Confirming what is known does not persuade; it only maintains." },
+        { "failure": "Answering an objection before stating it, so the room notices the dodge.", "fix": "Name the objection in the room's own words, concede what is true, then give the reason the conclusion still holds." },
+        { "failure": "Under-using credibility by hiding behind the modesty of the operator, and letting the room guess.", "fix": "State the scope of what you know and what you do not. Calibrated confidence reads as credibility; excessive confidence reads as a red flag to a room trained to look for one." }
+      ],
+      "imagePrompt": "A clean instructional diagram contrasting baseline and earned credibility as two stacked components, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c7",
+      "title": "The Speaker Operating System",
+      "summary": "Adrenaline is a system, and if you have no pre-built protocol you will spend your first ninety seconds improvising. A speaker operating system is a repeatable, low-effort protocol that fixes state, plan, and recovery so that your attention stays on the room.",
+      "detail": "A founder's most common failure mode on stage is not a bad slide or a weak argument. It is an unsystematic first ninety seconds, during which adrenaline consumes working memory and the speaker spends their best cognitive resources deciding what to do. The fix is a protocol that runs without conscious thought.\n\nAn operating system has three layers.\n\n**Input** - the state you arrive in. Sleep, food, hydration, caffeine timing and dose, voice warm-up, and a two-minute movement routine. For a voice, a gentle hum and a few lip trills for two minutes is more reliable than anything more elaborate; a cold voice is a thin voice. Decide in advance your caffeine policy, because a decision made in the green room at 90 minutes to talk is a decision made under adrenaline.\n\n**Storage** - the plan you have loaded. One page. It contains: the single idea, the one ask, the three anchors you will say regardless of what happens, the first sentence verbatim, the open question you will close, and the evidence you will produce. If it does not fit on one page, it is not loaded. A great talks' worth of material is fine; a great talk requires one page. The one-page discipline is what lets you recover from derailment, because you always know what you were trying to say.\n\n**Execution** - the on-stage protocol. A fixed physical stance and a breathing pattern you can run without thinking; the first thirty seconds scripted word for word, because the words you improvise under adrenaline are the words you will be embarrassed by; and a recovery move for when you lose the thread. The recovery move is worth practising: name what happened, restate the point, and continue. 'Let me come back to that - the point I am making is...' converts a visible stumble into a transition, because the room reads hesitation as a mistake and named signposting as structure.\n\nA minimum viable operating system, for the time-poor executive, is 30 minutes the night before: read the Audience Contract, run the 3-Scan on the room from the agenda and the attendee list, script the first thirty seconds and the last two sentences, choose the one piece of evidence that will be remembered, and decide what you do if you are asked a question you cannot answer ('I will come back to you by Thursday' - and then you do).\n\nThe operating system is not a discipline of preparation. It is a discipline of not having to think in public, which is the only way to keep your attention on the room rather than on yourself.",
+      "principles": [
+        "Script the first thirty seconds word for word; improvised openings are where adrenaline does the most damage.",
+        "Keep the whole plan on one page, with the single idea, the one ask, three anchors, and the closing line visible.",
+        "Fix input variables in advance - caffeine, food, hydration, and voice warm-up - because they are decided in the green room otherwise.",
+        "Practise a named recovery phrase so that a derailment reads as structure rather than as a mistake.",
+        "Give the operating system a fixed nightly slot, ideally 30 minutes, so it survives a busy week."
+      ],
+      "pitfalls": [
+        { "failure": "Spending the night before on slide polish while the talk itself is unrehearsed.", "fix": "Slides are cheap to fix tomorrow. The opening, the ask, and the one evidence point are what decide the outcome. Rehearse those out loud, standing, with a timer." },
+        { "failure": "No recovery protocol, so a single awkward moment triggers a spiral that consumes the rest of the talk.", "fix": "Script the recovery line in advance and say it the first time you need it. Practice it once, badly, on purpose." },
+        { "failure": "An operating system so heavy it takes four hours, so it never gets run on the weeks when it matters.", "fix": "Design for the worst week, not the best. If the minimum viable version takes 30 minutes, it will happen." },
+        { "failure": "Running the protocol only in your head during the talk, so it consumes the attention it was meant to save.", "fix": "Externalise it - an index card, a phone note, a watch timer for your speaking segments. Anything kept only in memory will fail under load." }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a three-layer speaker operating system for talk preparation, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Credibility-Connection-Control Triad",
+      "summary": "A three-dial diagnostic for presence that tells you which component of your performance to fix before a talk.",
+      "steps": [
+        "Score each dial from 1 to 5 for the talk in front of you, with evidence rather than feeling: for credibility, can you name three specific, checkable claims you will make?",
+        "For connection, can you name three things the audience came for, believes, or fears? If you cannot name their fears, your connection is topical at best.",
+        "For control, can you state your agenda, your time allocation, and your one ask out loud in the first two minutes? If not, control is currently being donated to the room.",
+        "Identify the lowest dial. That is your single intervention for this talk - everything else is refinement.",
+        "Rebuild: for credibility, add one specific number with its source; for connection, rewrite the opening in the audience's stakes; for control, script the agenda, the timebox, and the ask.",
+        "Re-score after the room read and after delivery. Presence is a measured, improvable output, not a temperament."
+      ],
+      "whenToUse": "Use it in preparation for any high-stakes talk, and again immediately after a talk that landed badly. Do not use it to judge yourself as a person, and do not use it as the sole design method for a talk where the argument itself is weak - a triad diagnosis cannot rescue a bad idea.",
+      "example": "A founder is invited to a Series B partner meeting to present an 18-month plan. Baseline credibility is high (funding, brand), so the credibility dial scores 4. Connection scores 2: she cannot say what the partners believe about the current plan or what they fear. Control scores 3: she has a deck but no stated timebox and no explicit ask. The lowest dial is connection, so the intervention is a rewritten opening that names the partner's known objection - the round timing - and states the plan's implication for it. She does not add more data; the deck barely changes, and the meeting lands completely differently."
+    },
+    {
+      "name": "The Audience Contract",
+      "summary": "A one-page design brief that states the bargain between you and the room, written before any slide exists.",
+      "steps": [
+        "Write the five answers in a single block: they came for, they believe, they fear, they must decide, they will repeat in the hallway.",
+        "Convert your central claim into the audience's language of consequence: replace internal categories with numbers, names, and dates.",
+        "Name the one ask, with the person, the amount or action, and the deadline attached.",
+        "Decide the evidence you will produce, and choose the single piece they will remember; everything else is support.",
+        "Run the pre-talk check: if the contract cannot be satisfied in the time you have, renegotiate the scope now, not in the room.",
+        "Revise the contract after the 3-Scan Room Read, because the first draft is a hypothesis about who is actually present."
+      ],
+      "whenToUse": "Use it for every talk where a decision is expected, every high-stakes conversation, and every message you will repeat more than once. Skip it for genuinely low-stakes, low-consequence situations - a 30-second update to a trusted team needs a contract only in your head.",
+      "example": "A CFO invited a COO to a quarterly business review to ask for 3 million dollars of headcount for a new support pod. The contract: she came for the cost review, she believes support costs are out of control, she fears being blamed for churn, she must decide on the headcount, and the hallway sentence should be 'the support pod pays for itself within two quarters'. The rewritten claim: 'Net revenue retention is stuck at 104 because enterprise onboarding needs four weeks of ticket ping-pong; a 6-person pod at 3 million cuts that to 5 days.' Every slide in the review now serves that contract."
+    },
+    {
+      "name": "The 3-Scan Room Read",
+      "summary": "A structured, 90-second live assessment of the room that produces concrete adjustments before you are fully under way.",
+      "steps": [
+        "Scan 1 - Composition: who is actually here, which seniority, how many you know, where are they sitting relative to the decision-maker, and who is missing.",
+        "Scan 2 - Energy: the room's temperature, who is about to speak, which devices are open, whether a hard conversation is visibly pending, and whether the previous item ran over.",
+        "Scan 3 - Contract: what decision is on the table, what belief the room already holds, and which objection you should address early rather than late.",
+        "Convert the scans into three concrete decisions: your opening line, your time allocation across sections, and the one evidence point you will lead with.",
+        "If the room does not match your contract, downgrade the plan: cut to the single idea, move the ask to the top, and park the rest for a written follow-up.",
+        "Re-scan at the 50 percent mark. If energy has dropped, take a question early, change pace, or move to the ask - do not continue delivering into a dead room."
+      ],
+      "whenToUse": "Use it in the first two minutes of any room you have not walked into before, and any room with a surprise: an unexpected guest, a new decision-maker, a hostile attendee, or a shortened slot. Skip the formal scan when you have presented to the same group dozens of times - the scan is for uncertainty, and repeated scanning of a known room is theatre.",
+      "example": "A CEO arrives for a 4,000-person all-hands. Scan 1: the room is mostly remote, and the top 20 people are physically present in the front. Scan 2: the CFO is visibly unhappy and the previous item overran, leaving 25 minutes instead of 40. Scan 3: the pending decision is whether to close the Austin site, which the room already believes is coming. Adjustments: open with the decision itself rather than a company update, cut the strategy section entirely, use the 25 minutes for the decision plus a support plan, and put the CFO's known objection on the screen before she raises it."
+    },
+    {
+      "name": "The Presence Diagnostic",
+      "summary": "A 10-minute self-audit that scores the three components of presence against observable evidence before you rehearse.",
+      "steps": [
+        "Composed presence: record 60 seconds of yourself talking about your work. Count the number of distinct hand positions, note whether your feet stay planted, and note whether you apologise, backtrack, or rush the final sentence.",
+        "Credibility: list every claim in your talk that is not specific, sourced, or falsifiable, and mark it for rewriting or deletion.",
+        "Connection: write the first three sentences you plan to say, then mark any phrase that only your industry would understand and rewrite it in the room's language.",
+        "Attention: identify the single point you most want remembered and locate where it sits in your talk; if it is in the last 20 percent, move it to the first five minutes.",
+        "Control: script the agenda sentence, the timebox, and the one ask, and mark the exact moment each will be delivered.",
+        "Score each component from 1 to 5 using only the evidence you have just generated, and convert the lowest score into a single 30-minute rehearsal task."
+      ],
+      "whenToUse": "Use it once per talk as a pre-flight, and once per month as a maintenance habit on a piece of real work rather than a hypothetical. It is most useful when you have a recording - self-assessment in the moment is almost always rosier than the tape.",
+      "example": "A product founder prepares a 30-minute keynote. The recording shows 19 hand positions in 60 seconds, two 'sorry, let me go back' moments, and a rushed final sentence. Credibility check: 'the market is huge' is unspecific and gets deleted. Connection check: 'our cohort-based activation motion' is rewritten as 'new customers reach their first win in a week, not a month'. Attention check: the most memorable point is currently at minute 24 and moves to minute 4. Control: the agenda sentence and ask are scripted verbatim, and the ask is moved before the Q and A so it is not lost to the first question."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "s1",
+      "title": "First all-hands, four thousand people",
+      "setting": "Your 90th day as CEO of a 1,200-person company. The all-hands is being streamed to 4,000 people, including two divisions that were just reorganised. Your co-founder is in the second row and has not spoken to you since the reorg announcement.",
+      "challenge": "The host introduces you as 'our new CEO' and hands you the stage for 25 minutes with no further context. You have a written outline and a slide deck. The room is quiet, guarded, and clearly waiting to see whether you are another corporate appointment.",
+      "objectives": [
+        "Establish credibility and connection in the first 90 seconds without a track record to lean on",
+        "Read a divided room and adjust the talk in real time",
+        "End with a specific, credible ask rather than vague inspiration"
+      ],
+      "options": [
+        {
+          "text": "Start with your background: your career history, your companies, why you took this role, and your personal motivation.",
+          "outcome": "The room hears a stranger's CV in minute one. Attention, which is highest at the start, is spent on information they did not ask for, and the guardedness hardens because the talk is about you rather than about them.",
+          "rating": "poor",
+          "feedback": "A new CEO has no baseline credibility in the room, so the only thing that buys attention is relevance and stakes. Open with what the company is about to face and what you are going to do about it. Put the background in a single clause if it is needed at all, and let the substance carry authority."
+        },
+        {
+          "text": "Start with an honest, specific observation about the company's current state, name the hardest decision ahead, and state the one thing you need from this audience.",
+          "outcome": "The room recognises competence immediately because the observation is precise, not because you said you were competent. Naming the hard decision openly buys credibility through candour, and the ask converts a monologue into a contract.",
+          "rating": "excellent",
+          "feedback": "This is the right shape. Keep the observation narrow enough to be checkable, avoid performing candour with a weakness you do not actually have, and make the ask something a person can do this week."
+        },
+        {
+          "text": "Delegate the sensitive section to the co-founder and keep to a neutral company update.",
+          "outcome": "The room reads the split as avoidance and spends the talk forming its own conclusion, usually the worst one. Your co-founder looks ambushed, and you look like you cannot handle the hard part.",
+          "rating": "fair",
+          "feedback": "Avoiding the hard thing is legible to any room. If a decision affects people, your presence - not a delegate's - is what makes it feel legitimate. Hand over sections, not the difficult truth."
+        },
+        {
+          "text": "Improvise entirely, reading the room's mood and responding in the moment.",
+          "outcome": "In the first ninety seconds, improvisation spends the attention you needed for the argument. You get two easy laughs and no argument; the talk ends as a mood rather than a position.",
+          "rating": "poor",
+          "feedback": "Improvisation is a skill that requires a loaded plan and a loose delivery, not the other way round. Script the first 30 seconds, keep a one-page plan, and let the room read happen before you speak, not during."
+        }
+      ],
+      "coachingNote": "New authority has to be demonstrated, not announced. The first 90 seconds of a talk from someone with no baseline credibility should contain one specific observation, one honest statement of a hard thing, and one clear ask - in that order, and without any reference to your own résumé."
+    },
+    {
+      "id": "s2",
+      "title": "Delivering bad news to a board you have already disappointed",
+      "setting": "A quarterly board meeting. You are presenting a down quarter. Two of the eight directors are people whose money or reputation is tied to the previous guidance you missed. Your CEO and the head of finance are both in the room and you are presenting the numbers.",
+      "challenge": "The revenue number is 11 percent below plan. You have 20 minutes of material, and you have a choice about whether to lead with the miss or with the plan to recover.",
+      "objectives": [
+        "Protect earned credibility by making the bad news the opening rather than the surprise",
+        "Avoid the two failure modes of defensiveness and self-flagellation",
+        "Leave the board with a specific decision rather than a mood"
+      ],
+      "options": [
+        {
+          "text": "Open with the miss, give the full data set, then present the recovery plan in detail.",
+          "outcome": "The directors have the number before they can suspect you of managing it, which is the only way to keep their trust. But the board now has no objection to raise, and you have used your 20 minutes on data they cannot unsee. The meeting ends without a decision.",
+          "rating": "fair",
+          "feedback": "Ordering is right, stakes are wrong. Lead with the miss, state its cause in one sentence, then go straight to what you need from them. A board that has bad news without a decision is left with only the bad news."
+        },
+        {
+          "text": "Lead with the miss, name the cause, distinguish what is controllable from what is not, and put the specific ask and the recovery plan on the same slide.",
+          "outcome": "The board feels informed rather than processed, the cause is bounded rather than open-ended, and the meeting has a decision to make. Your credibility is unchanged, because you did not require them to discover the problem.",
+          "rating": "excellent",
+          "feedback": "This is the standard. The key move is the distinction between controllable and uncontrollable causes: it stops the room from spiralling into a blame search and keeps it on the decision."
+        },
+        {
+          "text": "Open with the operational and product progress, and mention the revenue variance in the final section.",
+          "outcome": "Every director with a financial interest spots the omission, and the room spends the rest of the talk reassessing everything else you said. The variance landing late reads as concealment, not sequencing.",
+          "rating": "poor",
+          "feedback": "Burying the headline number does not soften it; it converts a forecasting problem into an integrity problem. There is no room where the number is less important than the order in which it appears."
+        },
+        {
+          "text": "Take responsibility personally and extensively: what you missed, why you missed it, what you should have done.",
+          "outcome": "You spend your limited credit on an apology that changes no decision, signal an inability to delegate, and leave the board unsure whether the recovery plan is trustworthy. Self-flagellation reads as either guilt or as a bid for reassurance.",
+          "rating": "poor",
+          "feedback": "Own the miss once, in one sentence, then move to the remedy. Directors are not evaluating your guilt; they are evaluating the forecast. Self-attack is not humility, it is a deflection."
+        }
+      ],
+      "coachingNote": "When you already have a credibility deficit, the first sentence must spend it: bad news first, cause bounded, decision attached. Credibility in a boardroom is not the absence of bad news - it is the absence of surprise."
+    },
+    {
+      "id": "s3",
+      "title": "Twenty minutes with a skeptical partner",
+      "setting": "A Series A partner meeting. The lead partner has led software infrastructure investments for fifteen years, has read your space, and has already declined two competitors. You have a 20-minute slot and a 12-slide deck. She asks for it in the first ten seconds.",
+      "objectives": [
+        "Calibrate your evidence to a room that already knows the category",
+        "Avoid the beginner's error of explaining what your product does",
+        "Convert a general pitch into a decision about this company"
+      ],
+      "options": [
+        {
+          "text": "Walk through the 12 slides in order, covering market size, product, technology, and team.",
+          "outcome": "The partner disengages by slide four. A category expert needs the two things she cannot google: why this will win and why this team, and the format guarantees she gets neither in the first ten minutes.",
+          "rating": "poor",
+          "feedback": "Expert rooms are not interested in your category primer. Lead with the differentiation claim and the evidence for it, and cut anything that is true of every company in the space. Deck length is not a credibility signal."
+        },
+        {
+          "text": "Open with the specific claim that reverses her prior assumption, give the two pieces of evidence only she can verify, and ask for a specific next step.",
+          "outcome": "She has a reason to keep listening, and she has a reason to verify - which is what a partner does before writing a cheque. The ask converts a pleasant 20 minutes into a process.",
+          "rating": "excellent",
+          "feedback": "Strong. The test of whether it works: she can repeat your thesis in one sentence, and she knows what she will do next. Make the ask a small, concrete, dated step - a data room, two reference calls, a second meeting with your CTO."
+        },
+        {
+          "text": "Spend the first five minutes establishing your technical credibility and your founder-market fit before the business case.",
+          "outcome": "The partner, who reads a hundred decks a month, uses the first five minutes to decide she already knows enough about you. You have spent your highest-attention window on a credential she grants for free.",
+          "rating": "fair",
+          "feedback": "Founder-market fit matters, but it is supporting evidence, not the argument. One line, with the specific market you have actually won in, then move to the claim she must underwrite."
+        },
+        {
+          "text": "Skip the deck entirely and have a direct conversation about your view of the market and what you are building.",
+          "outcome": "Works if the partner asked for conversation, which she did not - she asked for the deck. A senior investor reads a deck faster and more carefully than a pitch narrative, and refusing the format reads as evasion or unpreparedness.",
+          "rating": "fair",
+          "feedback": "She asked for the deck for a reason: it is her medium for reviewing. Use the deck, but restructure it so that the first two slides are the claim and the evidence. Then talk over it rather than presenting it."
+        }
+      ],
+      "coachingNote": "Calibrate to the room's knowledge, not to your nervousness. An expert audience is checking your differentiation claim against what they already know; a novice audience needs your category primer. Giving the wrong room the wrong depth is a credibility failure even when the content is true."
+    },
+    {
+      "id": "s4",
+      "title": "Telling a customer you missed their date",
+      "setting": "A renewal is in 11 days. Your largest enterprise account, a 400,000-dollar contract, has been waiting eight weeks for a security review that your engineering team did not prioritise. Your CS lead is on the call with you. The customer is a procurement-heavy enterprise.",
+      "objectives": [
+        "Deliver a credibility-damaging update without losing the room",
+        "Show comprehension of what the delay costs the customer",
+        "Convert an apology into a specific, dated plan"
+      ],
+      "options": [
+        {
+          "text": "Explain the internal reprioritisation that pushed security review down the roadmap, and note that the team has now reallocated.",
+          "outcome": "The customer hears an explanation of your internal choices, which confirms they were not important enough to prioritise. You have made a process failure sound like a scheduling event.",
+          "rating": "poor",
+          "feedback": "Internal causes are for you, not for them. The customer only cares about the date, the risk, and the plan. Keep your own mis-prioritisation out of the room; own the miss in one clause and move to what happens now."
+        },
+        {
+          "text": "Own the miss, quantify the cost to them specifically, state exactly what is happening and by when, and give a named owner and a check-in date.",
+          "outcome": "The customer gets the three things they actually required - acknowledgement, a specific commitment, and a named person - and can escalate internally with something concrete. The relationship survives because the update is usable.",
+          "rating": "excellent",
+          "feedback": "This is the model. 'Own it, cost it, plan it, date it.' The named check-in date is what converts an apology into a process, and it buys you the internal argument you will have to have with your own engineering lead."
+        },
+        {
+          "text": "Bring your CTO to speak about the security review, showing that the team is taking it seriously.",
+          "outcome": "You have escalated visibly, which is often read as an admission that the senior team had to get involved - i.e. that the first response was insufficient. The customer now has to manage two vendors' senior people.",
+          "rating": "fair",
+          "feedback": "Escalation is appropriate when the problem is technical and the fix requires the person who can make it, but it must follow a clear plan, not substitute for one. If you bring the CTO, bring the date and the done criteria as well."
+        },
+        {
+          "text": "Offer a discount or a contract extension to compensate for the delay.",
+          "outcome": "You have priced your own mistake, and the discount becomes the conversation. Procurement will now ask for more, and the next delay will cost more. The customer still does not have their security review.",
+          "rating": "poor",
+          "feedback": "Do not pay to paper over a delivery failure. It is expensive, it teaches the customer that delays can be bought off, and it does not fix the actual blocker. Fix the date, then make a commercial gesture if the relationship is genuinely damaged and the plan is solid."
+        }
+      ],
+      "coachingNote": "In any credibility-damaging update, the room needs three things in this order: acknowledgement, comprehension of their cost, and a dated plan with an owner. Explanations of your internal process are a tell that you are managing their reaction rather than serving them."
+    },
+    {
+      "id": "s5",
+      "title": "Speaking to a team that does not respect you yet",
+      "setting": "You were promoted from engineering to head of product eight weeks ago. The team of 22 has not accepted the promotion; two senior engineers have stopped speaking in meetings, and the standing weekly review has become silent. You have 30 minutes for the first quarterly review with them.",
+      "objectives": [
+        "Establish composed presence and credibility without the authority of tenure",
+        "Read the room's scepticism without becoming defensive or weak",
+        "Set a direction the team can credibly commit to"
+      ],
+      "options": [
+        {
+          "text": "Open by acknowledging that you are new to this role and that you will be learning, and invite them to tell you where you are wrong.",
+          "outcome": "Humility is fine as a sentence; humility as a posture gives a team that does not trust you a licence to set the agenda. The review becomes a complaint session, and direction is never set.",
+          "rating": "poor",
+          "feedback": "Inviting critique is useful after you have set direction, not before. Open with what you have decided and why, then make critique a structured part of the meeting. New leaders who lead with deference rarely get to lead."
+        },
+        {
+          "text": "State the decision you have made about priorities, the reasoning you can defend, the part you are genuinely uncertain about, and what you need from the team.",
+          "outcome": "The team sees a person making calls under uncertainty with visible reasoning. The one area you flag as uncertain gives them somewhere legitimate to push, which converts resistance into contribution.",
+          "rating": "excellent",
+          "feedback": "Strong and demanding. You need a defensible decision, a clear reason, one honestly uncertain area, and a specific ask. Naming your uncertainty is not weakness - it is how a sceptical team finds the seam where it can legitimately test you."
+        },
+        {
+          "text": "Lead with customer evidence and metrics, showing the shift in usage and support load, to demonstrate you understand the product better than the team does.",
+          "outcome": "The data is accurate and it convinces nobody. Presented as a lesson to engineers who know the product better, it reads as a power move, and the silent senior engineers read it as a threat.",
+          "rating": "fair",
+          "feedback": "Data belongs in the reasoning for a decision, not in a lecture about product understanding. Present it as the basis of a choice you have made, and let it support rather than establish your standing."
+        },
+        {
+          "text": "Spend most of the 30 minutes listening, and defer the priority decision to the next meeting.",
+          "outcome": "The meeting feels collaborative, and nothing changes. The team learns that a new leader can be deferred, and the two silent engineers learn it too. Nothing in the review was hard.",
+          "rating": "poor",
+          "feedback": "Listening without a decision in the room is abdication. Take a position you can defend, name what you do not know, and use the last ten minutes for the objections you expect. A team respects a leader who is willing to be wrong in public on a stated point."
+        }
+      ],
+      "coachingNote": "Credibility with a sceptical, knowledgeable audience is built by showing your reasoning under uncertainty and being visibly willing to be corrected on a named point - not by withholding stakes, and not by deferring decisions until the room is exhausted."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "title": "The presence baseline capture",
+      "type": "recorded",
+      "durationMinutes": 20,
+      "instructions": "Record yourself on video for 90 seconds answering this prompt with no preparation: 'Explain to a smart stranger what your company does and why it will matter in three years.' Do not script it and do not re-record. Then watch the recording twice - once for content, once for behaviour - and write down, in one sentence each: your opener, your three hand positions, whether your feet stayed planted, whether you apologised or backtracked, and how you ended (rushed, trailing, or landed). Finally, record the same 90 seconds a second time using only three changes: feet planted, hands given a job, and a scripted first and last sentence. Keep both recordings; the pair is your baseline.",
+      "deliverable": "Two 90-second recordings of the same content, plus a five-line written comparison of the behaviours you changed.",
+      "successCriteria": [
+        "The first recording is unedited, unrehearsed, and 90 seconds long, produced in one take.",
+        "The comparison identifies at least three concrete observable behaviours, not feelings - for example hand movement count, foot movement, or sentence-ending pace.",
+        "The second recording demonstrates a planted stance and no more than two deliberate hand positions.",
+        "The final sentence in the second recording is audibly complete and unhurried rather than accelerating or trailing off.",
+        "The written comparison names one behaviour you did not manage to change and states what you will try next time."
+      ],
+      "liveCoachPrompt": "Welcome in. Your only job for the next 20 minutes is to make an unedited 90-second recording and then make one more with three specific changes - feet planted, hands given a job, and a scripted opening and closing sentence. Do not polish the content; we are measuring your behaviour, not your argument. When you have both takes, tell me which single behaviour you found most surprising in the first recording, and we will decide what to fix first."
+    },
+    {
+      "id": "e2",
+      "title": "Live 3-Scan on a real meeting",
+      "type": "realWorld",
+      "durationMinutes": 25,
+      "instructions": "Choose a real meeting in the next 72 hours that involves a decision. In the 90 seconds before you begin, run the 3-Scan: composition (who is here, what seniority, who is missing, where they are sitting), energy (temperature, who is about to speak, devices, whether the previous item overran), and contract (what decision is pending, what the room already believes, which objection to address early). Write the three resulting decisions on a card before you speak: your opening line, your time allocation, and the one piece of evidence you will lead with. You may not change the card afterwards. Deliver your item. Within 24 hours, write three lines: what the scan predicted, what actually happened, and which decision you would have made differently.",
+      "deliverable": "A pre-meeting card with the three scan conclusions and the three resulting decisions, plus a 24-hour retrospective of three lines.",
+      "successCriteria": [
+        "The scan was completed in the room, in the 90 seconds before your item, and written down rather than held in memory.",
+        "The card names a specific time allocation and a specific evidence point, not a general intention.",
+        "The retrospective distinguishes a scan that was wrong about the room from a decision that was wrong about the content.",
+        "You name one element of the scan that you would add, and one you would drop, with reasons tied to this specific room."
+      ],
+      "liveCoachPrompt": "Let's set this up before your meeting so you are not doing it cold. Tell me the meeting, the decision in play, and who will be in the room. We will draft the scan card together right now - composition, energy, contract - and the three decisions that follow. Then you go run the meeting, and come back with the three-line retrospective. The value here is in the calibration, so do not skip the write-down."
+    },
+    {
+      "id": "e3",
+      "title": "The presence autopsy",
+      "type": "analytical",
+      "durationMinutes": 30,
+      "instructions": "Take the last recorded talk you delivered of any length - a real one, not a rehearsal. Watch it at 1.5x with a pen. For each of the three dials, write the evidence you actually observed: for composed presence, count filler phrases and note the longest stretch of stillness; for credibility, list every unspecific or unsourced claim you made; for connection, note how many times you referenced the audience's actual situation rather than yours. Then score each dial 1 to 5 using only that evidence, and choose the lowest one. Write a single 30-minute rehearsal task that would raise that dial by one point. Do not attempt a general fix.",
+      "deliverable": "A one-page autopsy with per-dial evidence, three scores, the lowest dial, and one targeted rehearsal task.",
+      "successCriteria": [
+        "Every score is anchored to a timestamped observation from the recording, not to a recollection of how the talk felt.",
+        "Unspecific claims are listed verbatim, and at least three are rewritten into specific, checkable statements.",
+        "The lowest-scoring dial is identified, and the rehearsal task addresses only that dial.",
+        "The autopsy names one thing the recording proves that your memory got wrong."
+      ],
+      "liveCoachPrompt": "This one is a genuine autopsy, so expect it to sting a little and to be worth it. Send me your recording, or work from a transcript with timestamps if you do not have video. We will score each dial strictly against evidence, choose the lowest, and then write one 30-minute rehearsal task for it. What I want to avoid is you rewriting your whole talk - a single dial, one task, thirty minutes."
+    },
+    {
+      "id": "e4",
+      "title": "The 60-second why-should-they-care pitch",
+      "type": "recorded",
+      "durationMinutes": 20,
+      "instructions": "Write a 60-second answer to this exact question, asked by a CFO in a meeting: 'What is this actually going to change for the business?' Write it for the room's language of consequence - a number, a decision, and a stake - then record it three times. First take: as written. Second take: with the number made specific (denominator, time period, source). Third take: with the stake made personal to the CFO's own measurement. Then listen back and decide which take you would actually deliver, and write one sentence explaining why.",
+      "deliverable": "Three 60-second recordings and a one-paragraph written script, plus a sentence naming your preferred take and the reason.",
+      "successCriteria": [
+        "The script contains at least one specific number with its denominator and time period, and one named consequence.",
+        "The third take differs from the first in substance, not just in energy or pace.",
+        "The 60 seconds are used, with no rambling after the point has landed.",
+        "The written explanation names which change did the work, so you know what to reuse."
+      ],
+      "liveCoachPrompt": "Sixty seconds, one question, three takes. The point of the exercise is that the third version is usually better because you got specific and personal, not because you performed better. After your takes, tell me which change did the work for you - the number or the stake - because that tells you what to do in every future meeting."
+    },
+    {
+      "id": "e5",
+      "title": "The credibility repair conversation",
+      "type": "realWorld",
+      "durationMinutes": 35,
+      "instructions": "Identify one person whose trust in you has genuinely declined - a board member, a customer, a senior team member, or a key partner. Request 20 minutes and take the conversation. Do not open with an explanation of your intent. Use this order: acknowledge the specific thing they are right about, state the facts and your read of them, name what you are changing, and ask what would make it right from their side. Write the 20 minutes in advance as a one-page brief with the four parts, then deliver it and note afterwards which part you were tempted to skip.",
+      "deliverable": "A one-page conversation brief, the delivered conversation, and a five-line note on which part was hardest and what you learned about their actual standard.",
+      "successCriteria": [
+        "The opening acknowledges something the other person is right about, before any justification.",
+        "No explanation of your internal process or effort appears in the first half of the conversation.",
+        "The commitment is specific, dated, and observable, not a general promise to do better.",
+        "The final question asks what would make it right from their side, and you record the answer verbatim.",
+        "The retrospective names a standard you had not known you were being held to."
+      ],
+      "liveCoachPrompt": "This is a hard one to run, so let us be precise about the shape before you do it. Four parts, in this order: acknowledge what they are right about, state the facts, name the change, ask what would make it right from their side. I want you to write the brief before the call, because the temptation to explain yourself will be strongest in the first sentence. When you come back, tell me the one thing you were tempted to skip, and what they said they actually needed."
+    },
+    {
+      "id": "e6",
+      "title": "Build your speaker operating system",
+      "type": "reflection",
+      "durationMinutes": 25,
+      "instructions": "Write a one-page speaker operating system for yourself, covering three layers. Input: your fixed pre-talk protocol for sleep, food, hydration, caffeine, and voice warm-up, with timings relative to your start time. Storage: the one-page plan template you will use for every talk, with fields for the single idea, the one ask, three anchors, the first sentence verbatim, the open question, and the one piece of evidence. Execution: your stance and breath on stage, your first-30-seconds script, and your recovery line. Then specify a calendar block of 30 minutes, 24 to 48 hours before any talk, that you will defend.",
+      "deliverable": "A completed one-page speaker operating system plus the calendar block that protects it.",
+      "successCriteria": [
+        "The storage layer is genuinely one page and contains all six named fields.",
+        "The recovery line is written in your own words and is short enough to say without thinking.",
+        "The input layer specifies caffeine timing and dose, not just 'avoid coffee'.",
+        "The 30-minute calendar block is placed in a specific time window and defended against competing work.",
+        "The document includes a stated rule for what you skip when the time is short, so the minimum viable version is defined."
+      ],
+      "liveCoachPrompt": "We are going to write this once, properly, and then you will reuse it for every talk you give this year. Three layers - input, storage, execution - and the storage layer has to fit on a single page. Give me the real constraints: when do your talks usually start, what does your morning look like, and what is the one thing that reliably goes wrong for you? I will hold you to the one-page limit."
+    }
+  ],
+  "assessment": {
+    "id": "a1",
+    "title": "The presence audit",
+    "brief": "You will deliver a 6-minute talk to a panel drawn from your actual target audience - investors, board members, or senior leaders - on a topic you genuinely need them to act on. Two weeks before the session you will submit your one-page Audience Contract, your 3-Scan card from a comparable recent meeting, and a one-page spine. On the day you deliver the talk, the panel will also ask you two unscripted questions. You are assessed on the talk and the room handling together: a talk with excellent content and no control, or a talk with perfect delivery and no relevance, both fail.",
+    "rubric": [
+      {
+        "dimension": "Audience fit and connection",
+        "weight": 20,
+        "excellent": "The talk is built around what this room actually came for, believes, and fears. The opening names a stake in the audience's language, references their specific situation at least twice, and the hallway retelling of the talk would be a sentence about their problem rather than about your product.",
+        "adequate": "The talk is relevant and reasonably targeted, but the connection is generic: it speaks to the audience's role rather than to their situation, and the stakes are stated in your vocabulary rather than theirs.",
+        "poor": "The talk is a version of what you always give. The audience's priors, pressures, and decisions are never referenced, and there is no indication the material was selected for this room."
+      },
+      {
+        "dimension": "Credibility and evidence",
+        "weight": 20,
+        "excellent": "Specific, checkable claims with denominators, time periods, and sources; the strongest objection to the central claim is named and answered; at least one piece of evidence comes from outside the speaker's own control; confidence is calibrated, with scope limits stated.",
+        "adequate": "The claims are generally substantiated, with some specifics, but one or two claims are vague or unsourced, and the objection-handling is present but shallow. Confidence is acceptable but slightly overstated in places.",
+        "poor": "Assertions without evidence, hedged or padded numbers, or a confident tone unsupported by the material. The room can reasonably doubt the central claim."
+      },
+      {
+        "dimension": "Composed presence and delivery control",
+        "weight": 15,
+        "excellent": "Planted feet, stillness, deliberate movement, no filler phrases, no apologising for the room; the voice is unhurried and the final sentence lands. Under question, composure holds - a stumble is named and converted into structure.",
+        "adequate": "Generally composed with some nervous habits - hedging, touching the face, rocking, hurrying the close. The voice is steady enough and the talk is delivered without collapse.",
+        "poor": "Visible nerves drive the delivery: continuous movement, apologising, backtracking, rushing, or a trailing ending. Composure is broken by a question or an unexpected interruption."
+      },
+      {
+        "dimension": "Room reading and adaptation",
+        "weight": 15,
+        "excellent": "The 3-Scan card shows specific, non-generic observations about this room, and the talk visibly reflects them - sequencing, depth, and time allocation match what the scan found. If the room diverged from expectation mid-talk, the speaker adapts without visible loss of composure.",
+        "adequate": "A scan was performed and the talk is broadly appropriate to the room, but the observations are generic and there is little evidence the delivery changed in response to what was found.",
+        "poor": "No room read is evident, or the delivery is a fixed script delivered identically regardless of who is present, length, or mood."
+      },
+      {
+        "dimension": "Attention and cognitive load management",
+        "weight": 15,
+        "excellent": "One idea dominates and is repeated in different forms rather than restated. Support is signposted, each section has a single job, slides carry evidence rather than the speaker's words, and pauses let the room encode. A listener can state the single idea afterwards.",
+        "adequate": "The talk is followable and reasonably structured, but there are moments of competing points, dense slides, or undifferentiated sections where the audience must work to find the point.",
+        "poor": "The talk is a list of many points with no hierarchy, dense or text-heavy slides, and the key message is not identifiable afterwards - the audience is overloaded and the emphasis is flat."
+      },
+      {
+        "dimension": "Control of the outcome",
+        "weight": 15,
+        "excellent": "The agenda and timebox are stated at the top; exactly one ask is made, specific, dated, and attached to a named person or body; objections are parked and returned to; the talk ends with the ask rather than after it. The panel leaves knowing what was requested of them.",
+        "adequate": "An ask exists and the talk ends near it, but it is vague, buried, or accompanied by several secondary requests. Some structure is announced but not held to.",
+        "poor": "No clear ask, or the ask dissolves into a summary. The meeting can end without anyone knowing what was requested, and time is not managed."
+      }
+    ],
+    "passMark": 70
+  },
+  "readingList": [
+    { "title": "The HBR Guide to Presence", "author": "Amy Cuddy and Susan Wayland", "why": "The three-part definition of presence used throughout this module - composed presence, credibility, connection - plus practical guidance on reading a room. Pairs directly with modules m01 and m10. Read the presence material critically: the book is confident where the research is contested." },
+    { "title": "Presence: The More You Know, The More You Realize", "author": "Amy Cuddy", "why": "The fullest statement of the warmth-competence and stereotype content model work, and the most useful single explanation of why audiences in evaluative rooms discount warmth. Pairs with the credibility section of m01 and with m08 on persuasion." },
+    { "title": "The Presentation of Self in Everyday Life", "author": "Erving Goffman", "why": "The foundational argument that any performance is a managed presentation of self - which reframes composure as a deliverable rather than a personality trait. Pairs with the composed presence concepts in m01 and the room dynamics material in m10." },
+    { "title": "Thinking, Fast and Slow", "author": "Daniel Kahneman", "why": "The working memory and cognitive load research that justifies one idea per talk, and the bias literature that makes the credibility material more careful. Pairs with the cognitive load concept in m01 and the persuasion work in m08." },
+    { "title": "Talk Like TED", "author": "Chip Heath and Dan Heath", "why": "The most practical treatment of speaker-audience fit and idea staging for a demanding audience, including the argument design methods that feed directly into m02. Pairs with the Audience Contract in m01 and the opening archetypes in m03." }
+  ],
+  "masteryChecklist": [
+    "I can define presence as the audience's structured experience of me rather than as a feeling in my body, and I can name the three dials - composed presence, credibility, connection - in any talk I am preparing.",
+    "I can write a complete Audience Contract for a real talk in 10 minutes, including the one ask with a person, an amount, and a date attached.",
+    "I can run a 3-Scan Room Read in 90 seconds and convert it into three concrete decisions: my opening line, my time allocation, and the one evidence point I lead with.",
+    "I can distinguish baseline credibility from earned credibility in my own material, and I know the three specific moves - specificity, corroboration, and stating the strongest objection - that buy credibility inside a talk.",
+    "I can state the replication caveats for the power-posing research accurately enough that I would not mislead a room that knows the literature, while still using the low-risk practices that survive scrutiny.",
+    "I can identify the weakest of the three dials in my last recorded talk using timestamped evidence, and convert it into one 30-minute rehearsal task rather than a general overhaul.",
+    "I have a written one-page speaker operating system with input, storage, and execution layers, plus a recovery line I can say without thinking when I lose the thread."
+  ]
+}

@@ -1,0 +1,5 @@
+node_modules/
+data/
+assets/generated/
+*.log
+.DS_Store

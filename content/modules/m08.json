@@ -1,0 +1,712 @@
+{
+  "id": "m08",
+  "number": 8,
+  "title": "Persuasion: Framing, Ethos, and Narrative",
+  "subtitle": "Why they change their mind",
+  "level": "Advanced",
+  "durationMinutes": 90,
+  "outcome": "Move a skeptical audience from disagreement to commitment using honest framing, a structure they can follow, and a test you would pass in front of your harshest critic.",
+  "abstract": "Persuasion in a boardroom is not the art of winning a fight. It is the design of a path from where the audience currently believes to where you need them to believe, built out of facts they accept, a structure they can follow, and a case they can repeat to someone who was not in the room. This module covers the persuasion landscape, the ETHOS-PATHOS-LOGOS triad as it applies to technical audiences, the framing effect, narrative transport, Nancy Duarte's What Is / What Could Be structure, and inoculation against objections. It also draws a firm ethical line: no misstated facts, and the standing test of whether you would defend your argument to the most harshest critic in the room.",
+  "objectives": [
+    "Map a persuasion problem onto the ETHOS-LOGOS-PATHOS triad and diagnose which appeal is actually doing the work.",
+    "Demonstrate the framing effect by producing a defensible pair of frames for the same set of facts.",
+    "Construct a What Is / What Could Be sparkline that positions your proposal as the resolving tension rather than a request.",
+    "Apply inoculation by naming and defusing the strongest objections before the audience raises them.",
+    "Select Cialdini principles that are honest to use in a business context and reject the manipulative versions of them.",
+    "Apply the skeptic test to a persuasive argument and revise it until you would defend it in front of its harshest critic."
+  ],
+  "keyTerms": [
+    {
+      "term": "Ethos",
+      "definition": "The audience's judgment of your credibility, competence, and trustworthiness, established before and during the argument."
+    },
+    {
+      "term": "Pathos",
+      "definition": "The appeal to the audience's values, identity, and emotional stakes rather than to their reasoning."
+    },
+    {
+      "term": "Logos",
+      "definition": "The appeal to reasoning, evidence, and structure, which carries most of the weight in a technical audience."
+    },
+    {
+      "term": "Framing Effect",
+      "definition": "Tversky and Kahneman's finding that logically equivalent descriptions of the same choice produce systematically different preferences."
+    },
+    {
+      "term": "Gain Frame",
+      "definition": "Describing an outcome as what the audience gains, such as avoiding a cost or reaching a target."
+    },
+    {
+      "term": "Loss Frame",
+      "definition": "Describing an outcome as what the audience stands to lose, used with care because it can trigger loss aversion and defensive reaction."
+    },
+    {
+      "term": "What Is",
+      "definition": "The current, known, accepted state of the world, which the audience already believes and does not need persuading about."
+    },
+    {
+      "term": "What Could Be",
+      "definition": "The possible future the proposal unlocks, which supplies the energy and the direction of a persuasive talk."
+    },
+    {
+      "term": "Sparkline",
+      "definition": "Nancy Duarte's model of a presentation as a sparkline oscillating between the current state and the possible state."
+    },
+    {
+      "term": "Narrative Transport",
+      "definition": "Green and Brock's finding that absorption in a story lowers counter-arguing and increases acceptance of the story's message."
+    },
+    {
+      "term": "Inoculation",
+      "definition": "Naming the strongest objection and pre-empting it before the audience raises it, so the objection loses force when it arrives."
+    },
+    {
+      "term": "Skeptic Test",
+      "definition": "The discipline of checking whether you would defend your argument in front of the most skeptical person in the room."
+    },
+    {
+      "term": "Commitment and Consistency",
+      "definition": "Cialdini's principle that people tend to act consistently with prior commitments, used honestly by making small commitments before the ask."
+    },
+    {
+      "term": "Social Proof",
+      "definition": "Cialdini's principle that people infer correct behaviour from what similar others do, used honestly with verifiable, relevant examples."
+    },
+    {
+      "term": "Unity",
+      "definition": "Cialdini's principle that shared identity, values, or tribe strengthen influence, used honestly through shared purpose rather than manufactured in-group signals."
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "title": "The Persuasion Landscape: Cialdini Without the Manipulation",
+      "summary": "Cialdini's principles describe how people actually decide, and each one has a legitimate use and a manipulative counterfeit. The professional move is to use the legitimate version and be able to name why the manipulative version is off-limits.",
+      "detail": "Robert Cialdini's *Influence* identifies principles that reliably increase compliance: reciprocity, commitment and consistency, social proof, authority, liking, scarcity, and, in his later work, unity. These are descriptions of how people work, not inventions, and in a business context they are not unethical in themselves. What is unethical is the counterfeit version of each one: manufactured scarcity, fake authority, manufactured consensus, and the exploitation of a commitment someone did not meaningfully make.\n\nThe honest-versus-manipulative table is the whole point. **Reciprocity**: honest is giving something genuinely useful before asking (a real analysis, a candid risk disclosure, a piece of your team's time); manipulative is a gift engineered to trigger obligation. **Commitment and consistency**: honest is asking for a small yes, a pilot or a working session, and letting the larger yes follow from the behaviour; manipulative is the foot-in-the-door technique used to extract a commitment the person never weighed. **Social proof**: honest is pointing to verifiable, relevant customer outcomes; manipulative is implying a popularity the evidence does not support. **Authority**: honest is naming the actual source and its limits; manipulative is credential-stacking. **Liking**: honest is genuine warmth and similarity; manipulative is manufactured affinity, flattery, and fake common ground. **Scarcity**: honest is a real constraint on capacity, budget, or timeline; manipulative is fake urgency. **Unity**: honest is a shared mission the audience already holds; manipulative is manufactured in-group signalling that flatters you and demeans them.\n\nThe test for all seven: would this still work if your audience fully understood the mechanism? If a board knows you deployed commitment-and-consistency and still agrees, the principle served the argument. If the agreement evaporates when the mechanism is named, you were manipulating.\n\nA second discipline matters for executives. Cialdini's principles are about compliance, which is a low bar. The higher bar, and the one that matters for a board, is genuine commitment: the audience does not merely accept, it defends your position to someone who was not in the room. Test for that, not for compliance.",
+      "principles": [
+        "Use the legitimate version of each principle and be able to state why the counterfeit version is off-limits.",
+        "Ask whether the persuasion would survive the audience understanding the mechanism; if not, it is manipulation.",
+        "Do not use compliance as the success metric; measure whether the audience would defend the position to an absent third party.",
+        "Never manufacture scarcity, consensus, or authority; the reputational cost exceeds any single deal.",
+        "Lead with the highest-integrity available version of the ask, because a room remembers the first time you spent its trust."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Using social proof with a logo that has nothing to do with the buyer, hoping nobody checks.",
+          "fix": "Use only customers who are genuinely comparable, and say what makes them comparable. Weak but honest proof beats strong but false proof, and the false version gets discovered."
+        },
+        {
+          "failure": "Manufacturing urgency to close a deal you could have closed on merit, which teaches the room to discount your next deadline.",
+          "fix": "State real constraints plainly, and if the constraint is soft, do not use urgency language at all."
+        },
+        {
+          "failure": "Confusing being persuaded with being complied with, and walking out satisfied with a quiet non-answer.",
+          "fix": "Test for advocacy: will this person repeat your argument, unprompted, to someone who was not in the room?"
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram contrasting legitimate and manipulative versions of influence principles in paired columns, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c2",
+      "title": "ETHOS, PATHOS, LOGOS: Where Technical Audiences Actually Live",
+      "summary": "Aristotle's three appeals are a diagnostic tool, not a recipe. In a room of engineers, analysts, and investors, logos carries the load, pathos is a seasoning, and ethos is the admission price you pay before anyone listens.",
+      "detail": "Aristotle's rhetorical triangle has survived for a reason: it forces a speaker to ask which appeal is doing the work. Most speakers reach for the wrong one. A technical audience will forgive a plain delivery and an imperfect story, but it will not forgive a conclusion without a mechanism, or a number without a denominator.\n\n**Ethos** is the audience's pre-assessment of you. It is established before the talk, in references and track record, and it is adjusted live by two things: whether you show you understand the domain, and whether you are honest about the limits of your claim. Note the order: in a technical room, ethos is the admission price, not the argument. You do not earn ethos by asserting it; you earn it by demonstrating the competence the decision depends on. A founder who says 'we have been burned by this before' has bought ethos; a founder who says 'this is a well-known pattern in the industry' has bought nothing.\n\n**Pathos** is the appeal to values, identity, and stakes rather than to reasoning. It matters more than most engineers admit, because decisions are made by people who are not neutral. But pathos in a technical room must be attached to something real. 'This matters because customers are counting on us' is weak. 'Eleven of our twenty largest customers have a renewal in the next two quarters, and the person who owns those relationships is on your team' is pathos that is also logos. The rule: in a technical audience, pathos earns its place only by pointing at something concrete.\n\n**Logos** is the reasoning, and it is where technical audiences live. Logos is not a pile of data. It is a chain: premise, mechanism, implication, decision. A number with no mechanism attached is not logos, it is decoration, and technical audiences detect decoration faster than any other audience.\n\nThe practical audit: for each part of your argument, name which appeal is carrying it. If the answer is 'pathos', ask whether a skeptic would accept it. If the answer is 'ethos', ask whether you have demonstrated it or merely claimed it. If the answer is 'logos', check the chain for the missing link, which is usually the mechanism.",
+      "principles": [
+        "In technical rooms, lead with logos: conclusion, mechanism, evidence, implication, decision.",
+        "Treat ethos as the admission price; demonstrate competence, never assert it.",
+        "Attach every pathos appeal to a concrete fact or it will be dismissed as sentiment.",
+        "A number without a mechanism is decoration; technical audiences detect it immediately.",
+        "Run the audit per argument segment, not per talk, because the balance shifts between sections."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Opening with ethos: a long account of your credentials before any substance, which reads as insecurity to a room that already knows you.",
+          "fix": "Open with the stakes or the finding. Your credentials are known to the room; spend the first minute on their problem."
+        },
+        {
+          "failure": "Over-leaning on pathos in a technical room, where a story without a mechanism gets treated as a warm-up rather than an argument.",
+          "fix": "Keep the story to ninety seconds and follow it immediately with the mechanism it illustrates."
+        },
+        {
+          "failure": "Mistaking a pile of data for logos.",
+          "fix": "Rebuild the argument as a chain: premise, mechanism, implication, decision. If you cannot, you have evidence, not an argument."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram of a triangular structure with three load-bearing columns weighted unequally, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c3",
+      "title": "The Framing Effect: Identical Facts, Different Frames",
+      "summary": "Tversky and Kahneman's Asian disease problem demonstrated that people evaluate the same choice differently depending on how it is described. For an executive, the frame is not decoration; it is the first decision you make about a proposal.",
+      "detail": "In Kahneman and Tversky's classic framing experiment, participants chose between two programs for an Asian disease outbreak. Framed as lives saved, most chose the certain program; framed as lives lost, most chose the risky program. The outcomes were mathematically equivalent. The preference moved because of the description, and this became the canonical demonstration of the framing effect.\n\nThe executive implication is larger than the experiment. When you present a proposal, you are not only presenting facts; you are selecting the frame through which the facts will be interpreted, and the frame is often chosen before you know how the audience will respond to the substance. The choice of frame is therefore a strategic decision, and it should be made deliberately, with awareness of the ethical boundary.\n\n**Gain frames** describe what the audience gains: 'a 30 percent reduction in deployment time', 'a path to profitability within four quarters', 'protection for the customer base you have already paid to acquire'. **Loss frames** describe what stands to be lost: 'you forgo three quarters of runway by not acting now'. Loss frames work because losses loom larger than equivalent gains, a robust and widely replicated asymmetry. They also carry a specific risk: they can make a careful audience defensive, and in a board that is already sceptical, a loss frame can read as pressure or as fear-selling, which damages ethos.\n\nThe practice that follows is to build a **frame pair** for every important proposal: the same facts, described twice, once as gain and once as loss, then choose based on your read of the audience. Do this with the identical underlying facts, so you are changing the description and not the substance. If the two frames would produce different decisions for a reasonable person who understood both, you are manipulating rather than framing.\n\nOne practical note on sequence. If you present both frames, you look indecisive. Present one frame in the room, and keep the other as a private answer to the question 'why not the opposite framing?'.",
+      "principles": [
+        "Build a frame pair for every important proposal: same facts, gain version and loss version.",
+        "Choose loss frames sparingly with sceptical audiences; they can read as pressure and damage ethos.",
+        "Change the description, never the substance; if the facts differ between frames, it is manipulation.",
+        "Decide the frame before the rehearsal, because the frame determines what evidence you gather.",
+        "Prepare the answer to 'why did you frame it that way', because someone will ask."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Using a loss frame on a board that already suspects the proposal is a stretch, which compounds the existing distrust.",
+          "fix": "Use a gain frame and lead with the mechanism that makes the gain credible. If the board is defensive, precision builds trust and gain frames reward it."
+        },
+        {
+          "failure": "Framing so aggressively that a smart skeptic notices the choice of language and starts auditing the numbers instead of the idea.",
+          "fix": "Use a frame that is defensible out loud, and be willing to say why you chose it: 'I am describing this as a cost of waiting because that is the part the model is most sensitive to'."
+        },
+        {
+          "failure": "Changing the numbers between the deck and the follow-up note because the frame changed.",
+          "fix": "Freeze the fact set before you frame it. The frame chooses among true statements; it never edits them."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram showing one set of facts passing through two different frames into two different reader reactions, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c4",
+      "title": "What Is / What Could Be: The Sparkline of the Talk",
+      "summary": "Nancy Duarte's analysis of great speeches describes them as a sparkline oscillating between the current state the audience already accepts and the possible state the speaker wants to unlock. The talk is the motion between those two points.",
+      "detail": "Nancy Duarte's *Resonate* analyses the contrast between what she calls 'that was a great speech' and 'that was a boring speech' by looking at the structure of oscillating speech. The boring speech is a series of slides read aloud: one thought after another, linear, no tension. The great speech is a sparkline: a repeated movement between the audience's present reality and a possible future, each movement raising the stakes of the gap between them.\n\nThe mechanism is worth stating precisely because it is often misunderstood. The **What Is** is the current state of the world as the audience already believes it. It is not your data and not your argument; it is what they would say if you asked them to describe the situation. The **What Could Be** is a future that is both desirable and reachable, which is why it must be grounded in a mechanism you can explain. Between the two, the talk's energy comes from the *gap* and from the audience's own sense of that gap, not from your conviction.\n\nThe **What Is / What Could Be sparkline** in practice: open in the What Is, using the audience's own language and their existing beliefs, so they feel understood. Then move to the What Could Be, but do not oversell it; the moment you oversell, the audience starts auditing. Alternate. The typical shape of a strong talk is three or four oscillations, each one at a higher level of commitment than the last, ending in a What Could Be that the audience can see themselves inside. The closing line should live in the What Could Be, because the memory of a talk is a picture of the future, not a summary of the past.\n\nThe failure mode is what Duarte calls the 'glue' problem: a talk that only moves in one direction, presenting an endless list of insights that never creates tension. It is also the most common shape of a good-but-forgettable executive talk. The fix is structural: decide, before you write, what the What Is is in the audience's words, and what the What Could Be is in theirs, and then alternate between them deliberately rather than narrating.",
+      "principles": [
+        "State the What Is in the audience's own words, not yours, so the talk starts from a place they already agree with.",
+        "Make the What Could Be reachable through a mechanism you can explain on one slide.",
+        "Alternate between the two; a one-directional talk creates no tension and no memory.",
+        "Escalate with each oscillation, so the final What Could Be is the one they remember.",
+        "End in the What Could Be; the audience should leave holding a picture of the future, not a recap of the slides."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Opening with your own data as the What Is, so the audience spends the first five minutes hearing something they do not yet know is important.",
+          "fix": "Open with the situation in their language: what they are already seeing in their own business, in their own metrics."
+        },
+        {
+          "failure": "Pitching the What Could Be as inevitable, which triggers auditing and resistance instead of belief.",
+          "fix": "Present it as a possibility with a mechanism and a path, and let the audience do the believing."
+        },
+        {
+          "failure": "Building a sparkline in the opening and then flattening into a slide list for the rest of the talk.",
+          "fix": "Mark each section of the deck with which end of the sparkline it serves. Every section should be a move."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram showing a zigzag line oscillating between two horizontal reference levels, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c5",
+      "title": "Narrative Transport: Why a Story Argues Better Than a Slide",
+      "summary": "Green and Brock's research on narrative transportation found that people absorbed in a story generate less counter-arguing and accept the story's message more readily. That is a powerful tool for a technical audience, and a serious ethical responsibility.",
+      "detail": "Green and Brock's work on narrative transportation describes the phenomenon of being absorbed in a story: attention narrows, counter-arguing drops, and the reader's beliefs shift toward the story's message with less resistance than under expository presentation. This is one of the more robust findings in communication research, and it explains something executives observe constantly: a well-told customer story moves a room in a way that a slide of statistics does not.\n\nThe mechanism is worth understanding because it dictates the ethics. Transportation works partly by suspending the audience's critical evaluation. A story therefore carries more persuasive force per word than a chart, and that asymmetry creates an obligation. If a story carries more force, it also carries more of whatever is untrue in it. The rule that follows: **narrative gets a stricter truth standard, not a looser one.**\n\nA second mechanism matters: transport is highest when the audience can see themselves in the story, and lowest when the story is about you. A founder describing their own adversity to justify a raise is a case where transport is low and self-interest is high; a founder describing a named customer, a named problem, and a specific turning point is a case where transport is real. Use the second form.\n\nThe discipline for a technical audience is the order of operations: story first, mechanism immediately after. The story creates the felt problem; the mechanism converts feeling into reasoning. The reverse order kills the story, because an audience that has already heard the mechanism is now evaluating the story against it.\n\nOne warning about scope. Transport is a within-story effect. It does not make your overall argument true, and a sophisticated audience knows that. The test remains the skeptic test: if your story contains a claim you would not defend in front of the harshest skeptic, transportation will deliver that claim to people who otherwise would not have accepted it, and the damage lands later and harder.",
+      "principles": [
+        "Follow every story with the mechanism, so the emotional opening converts into reasoning rather than staying decorative.",
+        "Use a story in which the audience can see themselves; a story about you is the weakest available form.",
+        "Apply a stricter truth standard to narrative than to data, because narrative moves people further.",
+        "Name the customer, the problem, and the turning point; a story without a specific turning point is an anecdote with no plot.",
+        "Never use narrative to smuggle a claim you would not defend directly."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Opening with a customer story and never returning to the mechanism, so the talk ends on emotion and the board remembers the emotion but not the argument.",
+          "fix": "Design the story so the mechanism is the last thing you say about it, and keep the mechanism on the following slide."
+        },
+        {
+          "failure": "Telling your own founder story as the central proof.",
+          "fix": "Compress it to thirty seconds as a credibility marker and give the main story slot to a customer or an operator."
+        },
+        {
+          "failure": "Using a story whose facts are loosely true, which transportation delivers with unusual force.",
+          "fix": "Verify every factual element before you tell it, and treat unverifiable story details as unusable."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram showing an audience moving from a story panel into a mechanism panel with reduced counter-argument resistance, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c6",
+      "title": "Inoculation: Naming the Objection Before It Arrives",
+      "summary": "The strongest objection to your proposal is already in the room's head. Inoculation means naming it, answering it briefly, and letting the audience discharge it, so that when it is raised aloud it carries no new force.",
+      "detail": "Every persuasive proposal has an objection that is already circulating. Sometimes it is explicit ('we tried this two years ago'); sometimes it is a missing number; sometimes it is an unstated fear about what happens to the team if the plan fails. Inoculation means you raise it first, in your own words, with a short answer. When the objection then arrives in Q&A, it arrives spent.\n\nThe structure of an inoculation is three beats: **name** the objection in the strongest form it deserves, **answer** it in one or two sentences with something specific, and **return** to your argument. The naming must be fair. A straw man inoculation is worse than none, because the audience knows you softened it and now distrusts the rest of your argument. Say the objection as your harshest skeptic would say it.\n\nThe specific answer matters more than the naming. 'Yes, we have done this before and it did not work, because the pricing change was launched without the onboarding change; here is what is different this time' inoculates. 'We have thought carefully about the risks' does not, and it hands the room a new worry.\n\nThe mechanics of timing: place the inoculation in the prepared remarks, immediately before the point it protects, and never in an aside. It also has a second use: inoculating one objection creates a side-benefit, because the audience infers that you have considered the others too, which raises the perceived thoroughness of the whole argument. That is a legitimate inference to create, and it is honest as long as you actually have.\n\nA common failure in executive settings is inoculating only the objection you expect and being ambushed by the one you did not. A better habit is a **top-three objection set** written before the meeting: the three most likely, in the order of likely arrival, each with a named answer. If you can only prepare three things for a high-stakes meeting, prepare these.",
+      "principles": [
+        "Name the objection in its strongest, fairest form; a straw man is worse than silence.",
+        "Answer it in one or two sentences with something specific and checkable.",
+        "Place the inoculation immediately before the point it protects, in the prepared remarks, not as an aside.",
+        "Prepare a top-three objection set for any high-stakes meeting, in expected order of arrival.",
+        "Expect a side-benefit: the audience infers you have considered the rest, and you should actually have."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Inoculating against a soft version of the objection, so the real version lands unchallenged and now feels like you missed it.",
+          "fix": "Steelman your own objection. Write it as the smartest skeptic would phrase it, then answer that version."
+        },
+        {
+          "failure": "Over-inoculating, so the talk becomes a series of objections and the room never hears the proposal.",
+          "fix": "Limit to three inoculations in any talk, and give each no more than ninety seconds."
+        },
+        {
+          "failure": "Saying 'we have considered the risks' and moving on, which teaches the room that the risks were not actually considered.",
+          "fix": "Name the specific risk and the specific mitigation, or do not raise the risk at all."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram showing three objection nodes defused in advance of an audience, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c7",
+      "title": "The Ethics of Persuasion and the Skeptic Test",
+      "summary": "Persuasion is legitimate; persuasion built on false facts is a different act, and the room cannot always tell the difference at first. The discipline is a standing test you can apply to any argument in under a minute.",
+      "detail": "Most ethical problems in executive communication are not deliberate lies. They are small, defensible choices: a chart that starts its axis at a convenient point, a denominator that switches between slides, a case study that was selected because it flatters, a risk mentioned in the appendix rather than the main text. Each one is individually deniable, and collectively they are how a room stops believing the person presenting. The ethical line is therefore about the pattern, not the individual item.\n\nThree rules hold the line. **Never misstate a fact.** Not once, not approximately, not in a way that is technically defensible. If the true number is 62 percent, the slide says 62 percent. **Never let a framing hide a material fact.** The frame selects among true statements; it must never make a relevant fact disappear. **Never let the burden of proof sit with the audience.** If a claim is load-bearing for the decision, you supply the evidence, not a pointer to a document.\n\nThe **skeptic test** operationalizes this. Before you present, ask: would I defend this argument, in these words, to the most skeptical person in the room, if they demanded the receipts? If yes, you are ready. If no, the problem is not delivery; the problem is that you are relying on the room's trust in a way that would not survive daylight. The test is deliberately uncomfortable, because the whole purpose of the ethical line is that it makes you revise the argument, and revision is the work.\n\nThere is a second, more useful framing of the same discipline, and it is about your incentives rather than your facts. Ask what the argument is designed to make the room do, and then ask what happens if the room reads it correctly and still declines. If the argument has no survivable version in which you are told no, it is not a persuasive argument; it is a trap, and the room will eventually learn to see it as one.\n\nFinally, note the long game. A founder who persuades a board once by overselling will be re-audited forever, because the first time the numbers fail, the board assumes the earlier numbers were also wrong. Credibility in a boardroom is not per-meeting; it is a balance you either build or spend.",
+      "principles": [
+        "Never misstate a fact, and never let a framing remove a fact that is material to the decision.",
+        "Carry the burden of proof for every load-bearing claim; the audience should never have to go find the evidence.",
+        "Apply the skeptic test before you rehearse, not after you are asked the hard question.",
+        "Build arguments that survive a 'no'; an argument with no survivable failure state is a trap.",
+        "Remember that credibility is cumulative and auditable: one oversold number raises the suspicion on all the others."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Letting a chart or a selection do the dishonest work, so that every individual statement in the talk is technically true.",
+          "fix": "Audit the whole artefact set, not just the spoken claims. Ask what a sceptical reader would construct from the appendix and the deck together."
+        },
+        {
+          "failure": "Testing the argument only against the objections you expect, rather than against the harshest possible version of the claim.",
+          "fix": "Have one person whose job is to build the strongest honest case against your proposal, and then answer it."
+        },
+        {
+          "failure": "Treating a credibility hit as a single-event cost.",
+          "fix": "Assume it is permanent: assume every future number you present will be re-checked against this one."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram showing an argument held up to a scrutiny beam with a skeptical observer and a truth checkpoint, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The What Is / What Could Be Sparkline",
+      "summary": "A structural plan for a persuasive talk that alternates between the audience's accepted present and a reachable future, escalating with each oscillation.",
+      "steps": [
+        "Write the What Is in the audience's own words: what they would say if asked to describe the situation today, using their vocabulary and their framing.",
+        "Write the What Could Be as a specific, reachable future, backed by a mechanism you can explain in one sentence.",
+        "Mark the gap between them: the tension the audience already feels but has not named.",
+        "Plan three or four oscillations, each landing the audience at a higher level of commitment than the last.",
+        "Place the strongest evidence at the low point of each oscillation, where the audience is most receptive.",
+        "End in the What Could Be, with the audience able to see themselves inside it, not a summary of the slides."
+      ],
+      "whenToUse": "Use for any talk whose job is to move a group from where they are to somewhere they have not agreed to go: a strategy review, a funding ask, a reorganisation, a new product direction. Do not use it for status updates or reporting, where the flat shape is honest and appropriate.",
+      "example": "A CFO asking a board to approve a headcount freeze: What Is is 'we are spending faster than plan and hiring is the biggest line'. What Could Be is 'by Q3 we are at a run rate where every growth hire pays back inside a year'. The talk oscillates three times, and the last oscillation lands on the board describing the plan in its own words, which is the sign the What Could Be has been accepted."
+    },
+    {
+      "name": "The Frame-Pair Table",
+      "summary": "A two-column worksheet that states the same set of facts twice, once as gain and once as loss, so you can choose the frame deliberately and see the ethical boundary.",
+      "steps": [
+        "Write the frozen fact set: every number, date, and claim you will use, in one column, with sources.",
+        "Write the gain frame: the same facts described as what the audience gains by approving.",
+        "Write the loss frame: the same facts described as what the audience stands to lose by not approving.",
+        "Check that the fact set is identical in both columns; if not, you have changed the substance and must fix it.",
+        "Score each frame for audience fit: will a sceptical room read the gain frame as calm and the loss frame as pressure?",
+        "Choose one frame, and write the honest answer to 'why did you frame it that way'."
+      ],
+      "whenToUse": "Use before building any deck whose purpose is a decision, and always when the audience is sceptical. Skip it for a neutral information briefing where you have no ask.",
+      "example": "Facts: churn 4 percent, 11 of 20 top accounts renew within two quarters. Gain frame: 'protecting eleven renewal relationships worth X in contract value'. Loss frame: 'four percent logo churn puts X of renewals at risk this quarter'. The frozen fact set is identical; only the description changes. A hostile board gets the gain frame, and you keep the loss version for the skeptical one-on-one."
+    },
+    {
+      "name": "The ETHOS-LOGOS-PATHOS Audit",
+      "summary": "A per-section diagnostic that names which appeal is carrying each part of your argument and forces you to fix the ones that are doing nothing.",
+      "steps": [
+        "Break your talk into sections: opening, three to five body points, close.",
+        "For each section, write which appeal is carrying it: ethos, logos, or pathos.",
+        "For anything marked ethos, verify that you demonstrated competence rather than asserting it, and cut credential blocks.",
+        "For anything marked pathos, attach it to a concrete fact, name, or number, or remove it.",
+        "For anything marked logos, confirm the chain is present: premise, mechanism, implication, decision.",
+        "Rebalance: a technical audience should be predominantly logos, with pathos as seasoning and ethos as the admission price."
+      ],
+      "whenToUse": "Use at the outline stage, before you design a single slide. Do not use it on a short update where there is no argument to audit.",
+      "example": "A founder's product section fails the audit: it is 80 percent ethos ('we built this over three years with a team of PhDs') and 20 percent logos. The fix is one sentence of mechanism, replacing half the credential block, and one customer fact, which converts the section from a story about effort into a story about why the mechanism works."
+    },
+    {
+      "name": "The Objection Inoculation Set",
+      "summary": "A prepared top-three list of the strongest objections to your proposal, each named in its fairest form and answered briefly, deployed in the prepared remarks.",
+      "steps": [
+        "List the three objections most likely to be raised, in order of likely arrival, written from the sceptic's point of view.",
+        "Steelman each one: write it as the smartest, most specific critic would phrase it, with their real reasons attached.",
+        "Mark each as a fact gap, a judgement disagreement, or a value conflict; the type determines the answer type.",
+        "For a fact gap, produce the number and its source; for a judgement disagreement, produce the mechanism and the precedent; for a value conflict, name the value and explain the trade.",
+        "Write a ninety-second answer for each, and place each immediately before the point it protects.",
+        "Hold a third objection in reserve for the Q&A, and do not spend it in the prepared remarks."
+      ],
+      "whenToUse": "Use for every high-stakes meeting where a decision is being made, and always when you know the room has a prior opinion. Skip it for routine approvals where nobody has an objection.",
+      "example": "A pricing change proposal to a customer-facing board: objection one is 'sales will not be able to sell this' (judgement disagreement, answered with the pilot's win rate and the sales leader's own quote), objection two is 'our mid-market customers cannot absorb it' (fact gap, answered with the segment data), objection three is 'this signals we are losing pricing power' (value conflict, named openly and traded against retention)."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "s1",
+      "title": "The board that already believes you are wrong",
+      "setting": "A Series B board meeting. Two of the five directors are former operators who have publicly doubted your go-to-market thesis. They have read the market analysis you sent, and the two most sceptical are sitting next to the chair.",
+      "challenge": "You need the board to approve an expansion into a new segment that two directors think is a distraction from your core market. The last time you proposed it, you were told to 'prove it in the core first'.",
+      "objectives": [
+        "Move two committed sceptics without dismissing them",
+        "Use framing deliberately, not as camouflage",
+        "Earn a decision rather than a deferral"
+      ],
+      "options": [
+        {
+          "text": "Lead with the size of the new segment and the growth rate, arguing that the opportunity is large and you need to move now before someone else does.",
+          "outcome": "The two sceptics hear a request for money to chase a market they have already judged secondary, and the ask lands as ambition rather than evidence. You get a deferral.",
+          "rating": "poor",
+          "feedback": "Market size is the argument of someone who has already won the argument. When the room does not agree on the premise, size does not help; you have to change the framing of what the segment is."
+        },
+        {
+          "text": "Open in the What Is in their language, name the 'prove it in the core first' objection head on, and then reframe the segment as a test of the core capability rather than a new business.",
+          "outcome": "The sceptics are heard rather than attacked, the ask becomes smaller and more testable, and the board approves a bounded pilot rather than the full expansion. A smaller yes that you can execute beats a larger no.",
+          "rating": "excellent",
+          "feedback": "This is the sparkline and the inoculation working together. You started from their belief, named their own objection before they raised it, and reframed the ask so the cost of being wrong fell."
+        },
+        {
+          "text": "Discredit the market view by pointing out that the two sceptical directors do not have experience in this new segment.",
+          "outcome": "The board now hears a personal attack on two of its own members, and your proposal becomes a referendum on their competence rather than on the opportunity.",
+          "rating": "poor",
+          "feedback": "Attacking the sceptic's expertise is the fastest way to lose the room. If their experience is genuinely irrelevant, describe why the segment does not depend on it."
+        },
+        {
+          "text": "Present both the gain frame and the loss frame and let the board pick the one that convinces them.",
+          "outcome": "The room experiences indecision rather than persuasion, and the framing choice, which was your job, is now visibly delegated.",
+          "rating": "fair",
+          "feedback": "Showing your work on framing is intellectually honest and rhetorically weak. Choose the frame, and be ready to explain why you chose it."
+        }
+      ],
+      "coachingNote": "Persuading a committed sceptic is not about winning the argument they are already having. Change the argument, or change the size of the ask, so that saying yes is cheap and saying no is expensive."
+    },
+    {
+      "id": "s2",
+      "title": "The investor who wants a story",
+      "setting": "A partner at a top-tier fund, thirty minutes into a first meeting, has just said, 'I have seen the numbers. Tell me the story of what happens if you get this right.' She is not buying the deck; she is testing whether the company is bigger than its spreadsheet.",
+      "challenge": "You need to make the scale of the opportunity felt, without overclaiming and without describing a scenario you cannot support.",
+      "objectives": [
+        "Use narrative transport deliberately and honestly",
+        "Follow the story with the mechanism",
+        "Make the story verifiable rather than aspirational"
+      ],
+      "options": [
+        {
+          "text": "Tell a vivid customer story, roughly ninety seconds, about a specific person, a specific problem, and the moment the product changed their week. Then move to the market model.",
+          "outcome": "The partner is transported, sees the use case concretely, and then accepts the model because the story gave her a reason to care about the model's assumptions.",
+          "rating": "excellent",
+          "feedback": "This is correct sequence and correct length. The story makes the market legible, and the mechanism that follows converts the feeling into reasoning. You have also given her a story she can retell to her investment committee."
+        },
+        {
+          "text": "Open with a long, detailed account of how hard the founding team worked and what the product took to build.",
+          "outcome": "The partner gets an accurate picture of your effort and no picture of your market. Effort is not an investment thesis, and she now has a less clear idea of the company than before.",
+          "rating": "poor",
+          "feedback": "Your own adversity has low narrative transport because the audience cannot see themselves in it. Compression is the fix: thirty seconds maximum, and only as a credibility marker."
+        },
+        {
+          "text": "Skip the story and go straight to the bottom-up market model with the segment assumptions and the penetration percentages.",
+          "outcome": "The model is correct and does almost nothing. The partner is doing arithmetic instead of feeling, and you have given her no reason to believe the model rather than audit it.",
+          "rating": "fair",
+          "feedback": "Logos alone can persuade, but it works far harder and slower, and it leaves the audience auditing rather than agreeing. A ninety-second story before the model makes the model faster to believe."
+        },
+        {
+          "text": "Tell a story about a customer you have since lost, so the risk feels real, then pivot to the current customer base.",
+          "outcome": "The honesty is genuine and lands as unusual, which builds trust, but you have used your one story on the case that weakens you and left the scaling case undescribed.",
+          "rating": "fair",
+          "feedback": "Losing a customer is a strong inoculation if you use it on the risk and keep the story for the opportunity. Used the other way round, it is a good story in the wrong slot."
+        }
+      ],
+      "coachingNote": "A story carries more persuasive force per word than a chart, which is exactly why narrative demands a stricter truth standard than data. Transport is a tool for making the mechanism matter, not a device for smuggling in claims you would not defend directly."
+    },
+    {
+      "id": "s3",
+      "title": "The request that needs commitment and consistency",
+      "setting": "Your VP of Engineering has spent six months with you building a new platform. She is fully aligned on the strategy but has not yet committed her team, because she is worried about hiring into a role she cannot staff locally.",
+      "challenge": "You need her to commit her four engineers to the new platform for the next two quarters. She does not disagree with you; she simply asks, practically, 'who is going to do this work?'",
+      "objectives": [
+        "Move from verbal agreement to a real commitment",
+        "Use commitment and consistency honestly",
+        "Solve the underlying constraint rather than apply a technique"
+      ],
+      "options": [
+        {
+          "text": "Point out that she has already agreed to the strategy in three previous planning meetings and ask her to honour that consistency.",
+          "outcome": "She feels managed rather than supported, and any real constraint she raised is now a debate about her integrity rather than about staffing.",
+          "rating": "poor",
+          "feedback": "Using consistency as leverage on a person who raised a genuine logistical problem is the manipulative counterfeit of the principle. It converts a solvable constraint into a trust issue."
+        },
+        {
+          "text": "Ask for a smaller first commitment, a two-week spike with two engineers, that answers the staffing question definitively, and make the larger commitment something she can choose after.",
+          "outcome": "She has a way to say yes that does not over-commit, the spike resolves the actual uncertainty, and the larger commitment becomes hers to make with better information.",
+          "rating": "excellent",
+          "feedback": "This is commitment and consistency used honestly: a small voluntary yes that makes the behaviour easy and creates its own momentum, and it respects that her constraint is real."
+        },
+        {
+          "text": "Bring her a finished headcount plan showing you have already recruited two contractors, and ask her to name the remaining people.",
+          "outcome": "She has less to decide, so the meeting becomes short and the commitment feels made for her. Her trust in the process takes a small hit, because she was managed rather than consulted.",
+          "rating": "fair",
+          "feedback": "Pre-empting someone's decision reduces their sense of ownership and, for a leader, reduces the quality of the work afterwards. Bring options and constraints, not a finished plan."
+        },
+        {
+          "text": "Frame the request as what the team will lose by not committing: momentum, the chance to own the architecture, and the credibility of the strategy.",
+          "outcome": "The loss frame lands on a leader who is already anxious about hiring, and it reads as pressure. She agrees, but she agrees reluctantly, and the risk she named is still unresolved.",
+          "rating": "fair",
+          "feedback": "Loss frames work against losses people perceive as real, and here the perceived loss is an abstraction while the constraint is concrete. Fix the constraint, not the mood."
+        }
+      ],
+      "coachingNote": "When someone raises a real constraint, they are not refusing you; they are negotiating for a workable path. Answer the constraint first. The commitment follows because the path is now clear, not because you applied pressure."
+    },
+    {
+      "id": "s4",
+      "title": "The compliance question that is really a trust question",
+      "setting": "A large enterprise customer's procurement and security teams are reviewing your company for a seven-year contract. Their real concern, which they have not stated, is whether your security posture will still be there in year three, when the original champion has left.",
+      "challenge": "Their lead asks, 'Can you give me a five-year commitment that you will not change your security team or your data residency model?'",
+      "objectives": [
+        "Read the unstated concern beneath the literal request",
+        "Commit only to what you can genuinely guarantee",
+        "Convert a trap into a relationship-building moment"
+      ],
+      "options": [
+        {
+          "text": "Say yes to the five-year commitment on the spot to secure the deal, and plan to negotiate internally later if it becomes difficult.",
+          "outcome": "You have made a commitment you may not be able to keep, and you have taught a sophisticated customer that your yes is negotiable. The problem returns in year two with a much larger legal team.",
+          "rating": "poor",
+          "feedback": "This is commitment and consistency used against yourself. The customer is testing durability, and a fast yes is exactly the wrong answer to a durability question."
+        },
+        {
+          "text": "Name what they are actually asking about, the continuity of the relationship, and commit to what you can control: a documented roadmap, an annual attestation, and a named executive sponsor who is contractually obliged to stay involved.",
+          "outcome": "The customer gets something more useful than a promise, and you have demonstrated that you read the real question, which is itself a trust signal.",
+          "rating": "excellent",
+          "feedback": "This is the label-and-calibrate move applied to persuasion: name the concern behind the request, then answer it with mechanisms rather than adjectives."
+        },
+        {
+          "text": "Refuse the commitment and explain in detail why your security roadmap requires flexibility, citing three previous incidents where rigid commitments caused problems.",
+          "outcome": "You have answered the literal question accurately and confirmed their suspicion, because you have explained at length why you cannot be relied upon to hold still.",
+          "rating": "fair",
+          "feedback": "Explaining your flexibility is an argument for why you are the wrong vendor. Answer the underlying durability concern with durable mechanisms."
+        },
+        {
+          "text": "Offer to have your CEO co-sign a one-page commitment letter that covers the three things you will actually hold for five years.",
+          "outcome": "The customer gets a rare artefact that will make them look thorough internally, and you have made a small, high-integrity commitment that you can keep.",
+          "rating": "excellent",
+          "feedback": "Small, keepable, written commitments outperform large verbal ones. It also gives the customer's champion something to use in their own internal approval, which serves both sides."
+        }
+      ],
+      "coachingNote": "Most loaded questions are asking about something adjacent to their literal words. Diagnose the real question first, then answer that, and commit only to what you can keep for the full term."
+    },
+    {
+      "id": "s5",
+      "title": "The all-hands where you need a behaviour change",
+      "setting": "A 4,000-person all-hands six weeks after you announced a reorganisation. Engineering morale is visibly low. Your head of engineering has asked you to set the direction and explain what happens next.",
+      "challenge": "The room needs to believe that the new priorities are real and that the people who lost out are not being written off, and they need to believe it from you rather than from the org chart.",
+      "objectives": [
+        "Make a real change in behaviour visible, not just a message",
+        "Balance pathos and logos honestly",
+        "Earn belief without over-promising"
+      ],
+      "options": [
+        {
+          "text": "Explain the strategic rationale in detail, walk through the org chart, and end with the metrics you will be judged on.",
+          "outcome": "The room has a clear picture of the plan and no sense of what it means for them. Attendance at the follow-up Q&A drops, and the people you most need are the least visible.",
+          "rating": "fair",
+          "feedback": "Logos explains; it does not persuade about belonging. A large audience needs to see the plan and to see themselves honoured inside it."
+        },
+        {
+          "text": "Name the true cost out loud, say who made the hard calls, thank the people who lost out by name for what they built, and then state the new priorities with a mechanism and a date.",
+          "outcome": "The room exhales. The credibility comes from the honesty and the naming, and the priorities land because they are attached to something concrete.",
+          "rating": "excellent",
+          "feedback": "Naming the cost and the people is the pathos that a technical audience will accept because it is specific and verifiable. You have not avoided the bad news; you have front-run it."
+        },
+        {
+          "text": "Make a live commitment to a visible behaviour change, such as personally sitting in the weekly reviews of every team that lost headcount, and hold the Q&A to it.",
+          "outcome": "The room watches to see whether the commitment survives three months, and it largely does because it is observable and specific.",
+          "rating": "excellent",
+          "feedback": "A behaviour change that is observable in a specific setting is the strongest possible credibility signal, and it uses the audience's existing sense of what commitment means without manipulating anyone."
+        },
+        {
+          "text": "Focus on the opportunity: 'This reorganisation means we can move faster on the thing that matters most to customers.'",
+          "outcome": "The framing is a loss frame in disguise and it insults the people in the room who lost something. The technical staff read it as a non-answer to a real question about fairness.",
+          "rating": "poor",
+          "feedback": "Framing a painful change as an opportunity without acknowledging the pain is a way of asking the audience to distrust their own reaction, and it rarely works."
+        }
+      ],
+      "coachingNote": "When a room's trust is down, the fastest repair is accurate candour plus one visible, specific behavioural commitment. Persuasion at that stage is a matter of what you do next, not what you say next."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "title": "Build the Frame-Pair Table",
+      "type": "analytical",
+      "durationMinutes": 30,
+      "instructions": "Choose one real proposal you need a decision on. Build the Frame-Pair Table for it: freeze the fact set with sources, write the gain frame, write the loss frame, and mark which fits your audience. Then write the 30-second answer to 'why did you frame it that way'. Confirm that every fact in both columns is identical; if any fact appears in one column and not the other, delete it or justify its absence in writing.",
+      "deliverable": "A one-page Frame-Pair Table with the frozen fact set, both frames, your chosen frame, and the honest justification.",
+      "successCriteria": [
+        "The fact set is listed once, with a source for each item, and reused in both frames.",
+        "The gain and loss frames describe the same facts with no additions or omissions.",
+        "You can state in one sentence why the chosen frame fits this audience and this room.",
+        "The unused frames version reads as legitimately strong, not as a straw man.",
+        "The table is under 500 words, so it can be used while preparing a live answer."
+      ],
+      "liveCoachPrompt": "This exercise is about honesty, so I am going to be strict about one thing: the facts must be identical in both columns. If you find yourself wanting to leave a fact out of the gain frame, that is not framing, that is concealment, and we will catch it. Start by freezing the fact set, then we will write both frames."
+    },
+    {
+      "id": "e2",
+      "title": "The sparkline outline",
+      "type": "recorded",
+      "durationMinutes": 35,
+      "instructions": "Choose a talk that must move a group, and outline it as four oscillations between the What Is and the What Could Be. Write the audience's own words for the What Is in their opening line, then write each What Could Be as a picture the audience could see themselves inside. Record yourself delivering the outline as spoken language, no slides, six to eight minutes, and mark on the transcript where each oscillation begins and ends. Then listen back and note where you flattened into a slide list.",
+      "deliverable": "A spoken eight-minute recording with a marked transcript showing four oscillations, plus a list of the two places where the structure flattened.",
+      "successCriteria": [
+        "The opening uses the audience's framing of the situation, not yours.",
+        "Each What Could Be is attached to a mechanism you can state in one sentence.",
+        "Each oscillation lands at a higher level of commitment than the one before it.",
+        "The closing line is in the What Could Be and paints a future the audience is inside of.",
+        "You have identified at least two specific places where the structure flattened, and can say what moved the talk there."
+      ],
+      "liveCoachPrompt": "I want you talking, not writing, and I want the alternation audible. If I hear three What Is sections in a row, I am going to stop you, because that is where a good talk dies. Come in on the current state in the audience's words, and we will build upward from there."
+    },
+    {
+      "id": "e3",
+      "title": "Persuade a real person toward a real decision",
+      "type": "realWorld",
+      "durationMinutes": 45,
+      "instructions": "Pick a real decision you need from a real person: a budget approval, a headcount, a contract signature, an internal priority. Arrange a conversation with them and apply the full stack: frame the same facts as a gain, name the strongest objection yourself before they can, and follow any story with the mechanism. Do not manipulate: no manufactured scarcity, no fake authority, no manufactured consensus. After the conversation, ask them one question: 'What convinced you?' and one: 'What almost stopped you?' Write both answers down verbatim.",
+      "deliverable": "A note recording the decision, the frame you used, the objection you inoculated, and the two verbatim answers about what convinced and nearly stopped them.",
+      "successCriteria": [
+        "The conversation was a real request for a real decision, not a simulation.",
+        "You used only honest versions of influence principles and can name each one you used.",
+        "You raised the strongest objection yourself, in its strongest form, before the other person did.",
+        "You collected two verbatim answers rather than paraphrasing them.",
+        "You wrote one specific revision to the argument based on what you heard."
+      ],
+      "liveCoachPrompt": "This is the field test, and the part most people skip is the debrief. After the conversation, do not ask 'was that okay'. Ask what convinced them and what nearly stopped them, and write down the exact words. Those two sentences are worth more than any framework in this module."
+    },
+    {
+      "id": "e4",
+      "title": "Steelman your strongest objection",
+      "type": "analytical",
+      "durationMinutes": 30,
+      "instructions": "Write down the strongest objection to your most important current proposal, written the way your smartest, most specific critic would phrase it, with their real reasons included. Then write a 90-second inoculation answer that names the objection, answers it with something specific, and returns to your argument. Then find one person who disagrees with you and ask them to write their version of the objection, and compare it to yours.",
+      "deliverable": "A one-page document with the steelmanned objection, your 90-second inoculation answer, and the critic's own version of the objection next to yours.",
+      "successCriteria": [
+        "The objection includes a specific reason, not just a sentiment like 'they will not like it'.",
+        "You have classified it as a fact gap, a judgement disagreement, or a value conflict.",
+        "The inoculation names the objection in the first sentence and returns to your argument in the last.",
+        "The critic's version is not weaker than yours; if it is, you have not steelmanned it yet.",
+        "Your revised objection is at least as specific as the one you received."
+      ],
+      "liveCoachPrompt": "The trap here is that you will unconsciously make the objection weaker so that your answer feels better. Fight that. Write it as if you were the person you would most dread hearing from, and only then write the answer. If your first version was too soft, the critic's version will show it immediately."
+    },
+    {
+      "id": "e5",
+      "title": "The skeptic test on your deck",
+      "type": "recorded",
+      "durationMinutes": 40,
+      "instructions": "Take your most important recent deck and run the skeptic test line by line: for every claim, ask whether you would defend it in these words to the most skeptical person in the room, demanding the receipts. Flag any claim you would not defend, and fix it by removing it, qualifying it honestly, or supporting it. Then record a five-minute spoken version of the revised argument and play it back, listening for anything that sounds like persuasion rather than evidence.",
+      "deliverable": "A marked-up deck with every flagged claim either removed, honestly qualified, or supported, plus a five-minute recorded version of the revised argument.",
+      "successCriteria": [
+        "Every claim on the revised deck has a source, a qualifier, or a removal note.",
+        "At least one claim was removed or honestly downgraded, rather than only defended.",
+        "The recorded version contains no assertion you could not show receipts for.",
+        "You can state in one sentence which part of the argument changed and why.",
+        "The argument still ends in a clear, survivable ask, not a demand."
+      ],
+      "liveCoachPrompt": "The test is simple and it is uncomfortable: would you defend this sentence, in these words, to the person in the room most likely to destroy you? If the answer is no, we change the sentence now, in daylight, rather than in the room under pressure. Read me your weakest claim first."
+    },
+    {
+      "id": "e6",
+      "title": "Tell one story and attach the mechanism",
+      "type": "recorded",
+      "durationMinutes": 30,
+      "instructions": "Write and record a ninety-second story about a specific customer, colleague, or operator: who they are, what problem they had, what was tried, the turning point, and the measurable result. Verify every factual element before you record. Then, immediately after the story, in the same recording, state the mechanism that explains why the result was possible, in one sentence, with no adjectives. Total recording: two to three minutes. Then listen back and mark the second where the mechanism lands.",
+      "deliverable": "A two-to-three minute recording of the story followed by the mechanism, with a written note listing the factual elements you verified.",
+      "successCriteria": [
+        "The story has a named person, a specific problem, and a clear turning point.",
+        "Every factual element in the story was verified before you recorded it.",
+        "The mechanism follows within five seconds of the story ending, with no gap.",
+        "The mechanism is one sentence and contains no adjectives of quality.",
+        "You can describe what the audience should now believe that they did not believe before."
+      ],
+      "liveCoachPrompt": "Ninety seconds, then the mechanism, with no gap between them. If the mechanism does not follow immediately, the story becomes decoration and the room will start auditing your words instead of feeling them. Also: verify the facts first. Transportation delivers whatever is in the story, including anything untrue."
+    }
+  ],
+  "assessment": {
+    "id": "a8",
+    "title": "Why they change their mind",
+    "brief": "You are the CTO of a 90-person infrastructure software company presenting a two-year technical strategy to a board that includes two directors with strong opinions and one newly appointed independent director who has never heard you present. The board must approve an 18-month investment in a new multi-tenant architecture, which will delay two customer-facing features and will require hiring a platform team you do not yet have. You have 15 minutes of prepared remarks and 20 minutes of discussion. You may bring one page of notes containing a frame pair, a top-three objection set, and a What Is / What Could Be outline. The recording is scored on whether the board would change its mind, and on whether they would repeat your argument to someone who was not in the room.",
+    "rubric": [
+      {
+        "dimension": "Framing integrity and choice",
+        "weight": 20,
+        "excellent": "The frame is chosen deliberately for this audience, the same facts appear with no additions or omissions, and the speaker can articulate why this frame fits this room; the loss-framed version is held in reserve rather than displayed.",
+        "adequate": "A clear frame is used consistently, but the justification is generic or the speaker seems to have picked it by instinct rather than by audience fit.",
+        "poor": "The facts differ between the framing of the talk and the appendix, a fact is omitted because it undercuts the case, or the framing reads as obvious advocacy."
+      },
+      {
+        "dimension": "Logos: chain and mechanism",
+        "weight": 20,
+        "excellent": "The argument runs as premise, mechanism, implication, decision; every load-bearing number has a denominator and a source; the mechanism is stated in one sentence and is genuinely the reason the outcome follows.",
+        "adequate": "The chain is mostly present, but one or two claims are asserted without mechanism, or a key figure is given without a denominator or source.",
+        "poor": "The argument is a sequence of assertions and numbers with no mechanism; a listener cannot reconstruct how the outcome follows from the inputs."
+      },
+      {
+        "dimension": "Inoculation and objection handling",
+        "weight": 15,
+        "excellent": "The three strongest objections are named in fair, specific form before the audience raises them, each answered within ninety seconds with something concrete; the remaining objection is handled well when it surfaces in discussion.",
+        "adequate": "One or two objections are pre-empted, or the objections are named but the answers are generic; discussion objections are handled but arrive with some force.",
+        "poor": "No objection is pre-empted, or a straw man is used, or an objection is raised in discussion and the speaker becomes visibly defensive."
+      },
+      {
+        "dimension": "Ethos and pathos discipline",
+        "weight": 15,
+        "excellent": "Ethos is demonstrated rather than asserted; the story (if used) is about a customer or operator, is factual, and is followed immediately by the mechanism; pathos points at something concrete and never substitutes for an argument.",
+        "adequate": "Competence is demonstrated, but the talk leans on a self-focused founder story, or the story is used without a mechanism, or there is an unearned emotional appeal somewhere.",
+        "poor": "Ethos is asserted through credentials and backslashing, pathos is used to compensate for absent evidence, or the emotional appeal is not tied to any verifiable fact."
+      },
+      {
+        "dimension": "Ethical integrity and the skeptic test",
+        "weight": 15,
+        "excellent": "No fact is misstated anywhere in the deck or the talk; every claim the speaker would be asked to defend in front of the harshest skeptic is one they would defend; material risks are named before they are asked about.",
+        "adequate": "No deliberate misstatement, but one or two figures are optimistic in framing or a material risk is raised late, in a way that reads as defensiveness rather than candour.",
+        "poor": "A fact is overstated or omitted, a risk is buried, or the argument is designed so that the room cannot decline without contradicting an earlier claim."
+      },
+      {
+        "dimension": "Structure: the sparkline in practice",
+        "weight": 15,
+        "excellent": "The talk alternates between the audience's present reality and a reachable future, escalating with each movement, and closes in the future rather than in a summary of what was said.",
+        "adequate": "The opening establishes the present and the close points to the future, but the middle flattens into a list of points with little tension between them.",
+        "poor": "The talk moves in one direction only, reads as a sequence of updates, and ends on a summary or a request rather than on a picture of the future."
+      }
+    ],
+    "passMark": 70
+  },
+  "readingList": [
+    {
+      "title": "Influence: The Psychology of Persuasion",
+      "author": "Robert B. Cialdini",
+      "why": "The source of the persuasion landscape in module 8, and the basis for the honest-versus-manipulative distinction that the module's ethics depend on. Read it as a description of how people decide, and pair it with the skeptic test rather than with a desire to close more deals. Pairs with the ETHOS-LOGOS-PATHOS Audit and the Objection Inoculation."
+    },
+    {
+      "title": "Resonate: Present Visual Stories that Transform Audiences",
+      "author": "Nancy Duarte",
+      "why": "The source of the What Is / What Could Be analysis and the sparkline structure, plus the 'glue' problem that describes most forgettable executive talks. Pairs with the What Is / What Could Be Sparkline framework and the narrative transport concept."
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "why": "The framing effect, loss aversion, and the difference between a System 1 reaction and a reasoned judgement, all in the prospect theory and choice chapters. Use it to understand why the same facts need a chosen frame. Pairs with the Frame-Pair Table."
+    },
+    {
+      "title": "Made to Stick",
+      "author": "Chip Heath and Dan Heath",
+      "why": "Practical treatment of concreteness, simplicity, and the SUCCESs framework for ideas that survive being retold, which is the advocacy bar this module sets for a board. Pairs with the narrative transport concept and with the closing of a persuasive talk."
+    },
+    {
+      "title": "The Scout Mindset",
+      "author": "Julia Galef",
+      "why": "Explains why a persuasion attempt in a technical room is usually read as an attempt to protect the speaker rather than to inform the room, and gives the vocabulary for defending evidence instead of identity. Pairs with the skeptic test and the ETHOS-LOGOS-PATHOS Audit."
+    }
+  ],
+  "masteryChecklist": [
+    "I can name, for each of Cialdini's principles, the honest version I will use and the manipulative version I refuse.",
+    "I can produce a frame pair for any important proposal using an identical fact set, and I can say why I chose one frame.",
+    "I can identify which of ethos, pathos, or logos is carrying each section of my argument, and I can fix the sections that are doing nothing.",
+    "I can build a What Is / What Could Be sparkline with three or four escalating oscillations, and I can close in the What Could Be.",
+    "I can name my three strongest objections in their fairest form and answer each in under ninety seconds.",
+    "I can tell a ninety-second factual story and attach the mechanism to it within five seconds.",
+    "I can apply the skeptic test to any argument in under a minute and revise what fails it."
+  ]
+}

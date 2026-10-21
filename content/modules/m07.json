@@ -1,0 +1,706 @@
+{
+  "id": "m07",
+  "number": 7,
+  "title": "Delivery Under Pressure: Q&A and Hostility",
+  "subtitle": "The unscripted hour",
+  "level": "Advanced",
+  "durationMinutes": 90,
+  "outcome": "Answer any question, including hostile ones, with a structure that buys you time, protects your credibility, and leaves the room more confident than when you started.",
+  "abstract": "The prepared talk is the part of a presentation you control; the Q&A is the part that decides what the room believes. This module treats live Q&A as a separate discipline with its own architecture, its own tells, and its own failure modes. It covers the difference between performing an answer and processing one, the four-beat Answer Architecture, honest techniques for buying thinking time, and an honest adaptation of Chris Voss's negotiation tools for business settings, with their limits stated plainly. It also addresses the technical trap, the hostile-versus-curious distinction, and the disciplined use of 'I don't know'.",
+  "objectives": [
+    "Diagnose why live Q&A exposes speakers who rehearse well and think poorly in real time.",
+    "Structure every live answer with the Answer Architecture: Answer-First, Bridge, Evidence, Land.",
+    "Buy thinking time honestly using a menu of phrases that carry content rather than evasion.",
+    "Distinguish a hostile question from a curious one and choose the matching response strategy.",
+    "Answer the room rather than the questioner, and treat an attack as information about the room's unspoken concern.",
+    "Deliver calibrated honesty by stating what you do not know, what would close the gap, and by when."
+  ],
+  "keyTerms": [
+    {
+      "term": "Answer-First",
+      "definition": "The opening one to two sentences of a live answer that states the conclusion before any supporting reasoning."
+    },
+    {
+      "term": "Bridge Phrase",
+      "definition": "A neutral restatement of the question that buys thinking time and lowers the temperature before you commit to an answer."
+    },
+    {
+      "term": "Evidence Beat",
+      "definition": "The specific figure, precedent, or example that substantiates the answer-first claim and makes it checkable."
+    },
+    {
+      "term": "Land",
+      "definition": "The closing sentence of a live answer that restates the takeaway in your own words and signals that the answer is complete."
+    },
+    {
+      "term": "Accusation Audit",
+      "definition": "Chris Voss's technique of inventorying the negative assumptions an audience already holds so they can be neutralized before they are voiced."
+    },
+    {
+      "term": "Label and Calibrate",
+      "definition": "Naming the concern behind a question ('It seems like you are asking whether...') to lower arousal and signal that you understood the real question."
+    },
+    {
+      "term": "Mirroring",
+      "definition": "Repeating the last few words of a question as a statement, which invites elaboration and buys thinking time."
+    },
+    {
+      "term": "Buy-Time Menu",
+      "definition": "A short list of honest, content-bearing phrases that create five to fifteen seconds of thinking time without reading as evasion."
+    },
+    {
+      "term": "Room-Read Rule",
+      "definition": "Treat the room, not the questioner, as the audience; the room wants the question answered well, not the asker defeated."
+    },
+    {
+      "term": "Technical Trap",
+      "definition": "A question posed in loaded technical detail by a peer to expose a gap in the presenter's understanding of their own system."
+    },
+    {
+      "term": "Premise Trap",
+      "definition": "A question built on a false or loaded assumption, where accepting the premise by arguing would cost more time than it wins."
+    },
+    {
+      "term": "Calibrated Honesty",
+      "definition": "Stating the exact limits of your knowledge with a commitment to close the gap, rather than bluffing or retreating into vagueness."
+    },
+    {
+      "term": "Question Capture",
+      "definition": "Identifying the real question beneath the question asked, which is usually a concern about risk, trust, or the plan."
+    },
+    {
+      "term": "Unscripted Hour",
+      "definition": "The period after prepared remarks in which a speaker is judged on judgment rather than on delivery of rehearsed content."
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c1",
+      "title": "Q&A Is the Assessment, Not the Intermission",
+      "summary": "Executives rehearse the talk they can control and improvise the part that decides their credibility. Q&A is where an audience sees judgment instead of slide design, so it deserves the same preparation budget as the deck itself.",
+      "detail": "Executives almost always rehearse the prepared talk and improvise the Q&A. The prepared talk is the part they control; the Q&A is the part that determines what the room believes. Speaker evaluation consistently moves most after the slides stop, because an audience can only judge a prepared talk by how good it looks and can only judge a speaker by how they behave when the material runs out.\n\nThis produces a distinction that runs through the whole module. Performing is replaying a script and hoping a question matches a line you prepared. Processing is receiving input, diagnosing what is actually being asked, retrieving a relevant answer, checking it against what the room needs, and producing it in a form the room can use. Performing is memory. Processing is expertise under load. Rehearsal trains memory; Q&A requires processing, which is why the two skills must be trained separately.\n\nThree practical consequences follow. First, treat the hand-off as a designed part of the event. Saying 'I will stop there and take your questions' is better than silence, because silence lets the most aggressive person in the room define the frame for everyone else. Second, change your tempo deliberately. Prepared remarks run at the pace you set; Q&A runs at the pace of the asker. An answer that is two sentences too long at Q&A speed feels defensive; the same words delivered inside a structured frame feel rigorous. Third, remember what the room is actually evaluating. Every question is a chance to demonstrate judgment, because the default assumption in the room is that you know more than the deck shows.\n\nA useful diagnostic: after every Q&A, ask yourself which answer you would least want replayed. That answer, not your opening, is what the room will be discussing in the hallway afterward.",
+      "principles": [
+        "Budget rehearsal time for eight real questions, not just the deck: half the answers you give will come from the Q&A.",
+        "Design the hand-off to Q&A out loud so the room knows who is driving and how fast.",
+        "Rehearse retrieval, not scripts: practice answering unfamiliar questions so you build processing reps rather than memorized lines.",
+        "Track your worst answer after every session, not your best opening."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Ending on 'Any questions?' with no framing, letting a hostile asker set the agenda for the whole Q&A.",
+          "fix": "Name the arc: 'Let me take the ones that will change what we do next first.' It bounds the session and makes every subsequent answer sound deliberate."
+        },
+        {
+          "failure": "Rehearsing only the talk and treating Q&A as an appendix.",
+          "fix": "Add a Q&A block to every rehearsal: run twelve questions, one at a time, timed, and note which ones broke you."
+        },
+        {
+          "failure": "Answering with more detail than the question required, which reads as either padding or defensiveness.",
+          "fix": "Cap the answer at four beats and four sentences for a simple question; scale detail to the stakes the asker signalled."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a stage presenter with a prepared script on one side and a live question flow on the other, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c2",
+      "title": "The Answer Architecture: Answer-First, Bridge, Evidence, Land",
+      "summary": "Every live answer is built from four beats. Answer-First gives the conclusion in one sentence, Bridge buys thinking time by restating the question, Evidence substantiates the claim with something checkable, and Land restates the takeaway so the room knows you are finished.",
+      "detail": "The Answer Architecture is the load-bearing structure of this module. It is deliberately short because a live answer under pressure has very few beats available before the room starts to wonder whether you have an answer.\n\n**Answer-First.** Open with the conclusion, in one sentence, in the first ten seconds. Not the context, not the history, not the qualification. 'Short answer: yes, the churn increase is real, and it is concentrated in one cohort.' Executives often reverse this order out of a politeness habit, giving context before the point, which makes the room do the synthesis work while also waiting to see whether you have an answer at all.\n\n**Bridge.** A one-clause restatement of what you understood, placed either before the answer (to buy time) or immediately after it (to confirm and connect). The bridge is where you can also narrow the question: 'You are asking whether the number is real or whether the trend is real; let me take the second one first and come back to the first.' Narrowing is a legitimate move when a question contains two questions, and it converts a trap into a sequence.\n\n**Evidence.** One specific, checkable thing: a number with a denominator, a date, a named source, a precedent, a decision that was made and by whom. 'The number is not great' is not evidence. 'Q3 enterprise NRR was 104 percent on a 14-company base, and the 4 largest accounts are doing the heavy lifting' is evidence, because the room can now check you and also decide whether 14 is enough.\n\n**Land.** One sentence that restates the takeaway and closes. 'So the churn problem is real, it is narrow, and it is a pricing-cohort issue rather than a product issue.' The land is not filler; it is the sentence that survives the hallway conversation, because it is the one the room can repeat without notes.\n\nThe architecture scales. A simple factual question gets four short sentences. A hostile or high-stakes question gets the same four beats but with more air, more bridging, and evidence that includes the limits of what you know.",
+      "principles": [
+        "Give the conclusion in the first ten seconds; context comes after the point, never before it.",
+        "Restate what you heard in your own words before committing to content, especially when the question is long or loaded.",
+        "One piece of checkable evidence per answer beats three vague assertions.",
+        "Close every answer with a land sentence the room could repeat in the hallway.",
+        "Scale the architecture to the stakes: simple questions get four short beats, hostile questions get more air and more bridging."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Opening with context: 'Great question, so as I mentioned in the deck...'.",
+          "fix": "Cut the throat-clearing and lead with the verdict; the room can always ask for the context afterwards."
+        },
+        {
+          "failure": "Giving three pieces of evidence and no verdict, so the room has to infer your position.",
+          "fix": "One verdict, one piece of evidence, one land. If the question is genuinely multi-part, answer part one explicitly and name the part you are deferring."
+        },
+        {
+          "failure": "Landing on something weaker than you opened with, because you softened under pressure.",
+          "fix": "Write the land sentence before you walk in. Under stress, people downgrade their own claim; a pre-committed land prevents the drift."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram showing four stacked structural blocks forming a live answer, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c3",
+      "title": "The Buy-Time Menu: Thinking Time Without Evasion",
+      "summary": "You do not need to fill silence to think; you need to fill it with content. A short menu of honest phrases buys five to fifteen seconds, and each one either restates, decomposes, narrows, or hands the floor back with a specific question.",
+      "detail": "Cognitive research on problem solving is consistent on one point: producing a usable answer under time pressure is materially worse than producing the same answer with a few more seconds, and fluent speakers are often rated more competent partly because they hide the pause. The honest conclusion is not to fake fluency. It is to buy time using language that carries weight.\n\nThe **Buy-Time Menu** has four families.\n\n**Restate and narrow.** 'If I understand the question, you are asking whether the Q4 pipeline is real or whether the win rates we have shown are real. Let me take the second.' Restating buys three to five seconds; narrowing decides what you will actually answer, which is a strategic gain on top of the seconds.\n\n**Decompose.** 'That is really two things, so let me separate them.' Splitting a compound question gives you a structure to work inside and tells the room you are organizing rather than stalling.\n\n**Invite precision.** 'Is the question about the absolute level, or about the trend?' This is the strongest move in the menu because it hands the floor back. It frequently converts a vague challenge into a specific one that you can answer, and it puts the burden of specificity on the asker, where it belongs.\n\n**Commit with a clock.** 'That one deserves a careful answer. Give me ten seconds to get the cohort right.' This is only honest if you actually use the ten seconds and only safe if the room believes you are buying precision rather than hiding a hole. It fails in rooms where the speaker has no track record of following up.\n\nWhat is not on the menu: 'great question', 'I will come back to that', long pauses while staring at the ceiling, drinking water you do not want, and asking the room 'is that clear?' when it is not. These read as stalling because they carry no content. The test is simple: if the phrase removed from your answer leaves nothing behind, it was a stall. If it leaves a restatement, a decomposition, a narrowing, or a check, it was a bridge.",
+      "principles": [
+        "Fill thinking time with content, not with filler; if removing the phrase leaves nothing, delete the phrase.",
+        "Prefer moves that hand the floor back, because they buy time and improve the question at once.",
+        "Never use the same stall twice in one session; a repeated device reveals itself as a device.",
+        "State the length of your buy when you use one: 'ten seconds' is credible, 'a moment' is not.",
+        "Practise the menu under a timer so the phrases become automatic and cost you no attention."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Using 'that is a great question' as a reflex, until the room hears it as a signal that you do not have an answer.",
+          "fix": "Ban the phrase in rehearsal. Replace it with a restatement of the question, which buys the same time and reads as engagement."
+        },
+        {
+          "failure": "Buying time with a long pause and a slide advance, which reads as a technical failure.",
+          "fix": "Never advance a slide to buy time. If you need a beat, buy it in words."
+        },
+        {
+          "failure": "Asking the room to clarify a question you actually understood, which the room will read as avoidance.",
+          "fix": "Ask for precision only when the ambiguity genuinely changes the answer, and make the question specific enough to signal that you understood the range."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a menu of four time-buying phrase types around a central speaker, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c4",
+      "title": "The Hostile Question Playbook, Adapted Honestly",
+      "summary": "Chris Voss's negotiation tools are useful in business if you state their limits: they come from hostage negotiation, they are not validated in boardrooms, and they work because they lower arousal and buy time, not because they are magic phrases.",
+      "detail": "Chris Voss's negotiation work is the most useful available body of practice for handling hostile questions, and it is important to be honest about what it is and is not. The tools originate in hostage negotiation, where the goal is de-escalation of a person, not the defence of a position. There is no controlled evidence that they transfer to boardrooms. What does transfer is the mechanism: naming a concern out loud reduces the tension of being named, and buying a few seconds of silence prevents the worst version of your answer.\n\n**Label and calibrate.** Voss's core move is to label the emotion under the words: 'It seems like you're concerned that...' or, more gently, 'It sounds like the real question is whether the churn number is survivable.' In business, calibrate to the actual concern rather than the emotion, and use a frequency that fits the room. In a board, a label every third answer will read as manipulative. In a hostile analyst meeting, a label on the first challenge is often exactly what lowers the temperature.\n\n**Mirroring.** Repeating the last two or three words of the question as a statement, with a slight upward inflection: 'Your churn numbers look engineered.' becomes 'Engineered?' It invites elaboration, which buys time and frequently reveals the real concern. The honest caveat: in a business room mirroring can land as sarcasm or mockery, especially if your tone is clipped. A safer business variant is to mirror with warmth and follow with a bridge: 'So the concern is whether the number is engineered. Let me take that directly.'\n\n**The accusation audit.** Voss's most transferable tool. Before a high-stakes meeting, you list the negative things the other side believes about you, then neutralize them before they are voiced. In a fundraise these are: the numbers are engineered, the team is too small, the market is crowded, the burn is too high, the founder will not sell. Each gets a one-sentence, evidence-bearing neutralization that you can deploy voluntarily, which is far stronger than a defensive answer to an accusation you did not make.\n\nTwo rules keep this ethical. You never use the tools to avoid a real answer; every mirror must be followed by substance. And you never deploy a neutralization for an accusation that is actually true. If churn really is engineered, no technique saves you; only the numbers do.",
+      "principles": [
+        "Name the concern out loud before answering it; naming reduces the heat the audience feels on your behalf.",
+        "Mirror only with a warm tone and always follow with a bridge, or it reads as mockery.",
+        "Build the accusation audit before the meeting and deploy the neutralizations voluntarily.",
+        "Every mirroring or labeling move must be followed by substance; a technique that replaces an answer is a stalling tactic.",
+        "Keep the label and calibrate frequency low in senior rooms; it is a tool, not a tic."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Adopting negotiation vocabulary verbatim, so the room hears 'this person has a script for managing us'.",
+          "fix": "Translate the tools into the room's language: concern, risk, and assumption instead of emotion and tactics."
+        },
+        {
+          "failure": "Using label and calibrate on every question, including friendly ones, which makes it meaningless.",
+          "fix": "Reserve it for questions carrying visible pressure; neutral questions get a direct answer."
+        },
+        {
+          "failure": "Running an accusation audit but only listing accusations you can rebut, which produces denial rather than resolution.",
+          "fix": "For each accusation, write the true part out loud first. Credibility comes from conceding the real kernel."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram showing pressure and temperature dropping across a series of conversational steps, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c5",
+      "title": "The Room-Read Rule: The Questioner Is Not the Audience",
+      "summary": "The room does not want the asker to lose; it wants the question answered well enough that the room can act. Fighting the questioner recruits the room against you, while answering the questioner well wins the room.",
+      "detail": "The most common way executives lose a hostile Q&A is by treating it as a contest with the asker. That instinct is usually cultural: you earned the right to be asked, and the challenge feels like an attack on your competence. But the audience is not watching a duel. The audience is watching whether the person at the front can hold a room together.\n\nThe Room-Read Rule is simple: the questioner is the vehicle, the room is the audience. The room's real want is a usable answer and a sense that the person speaking is someone they can rely on under uncertainty. That want is satisfied when the answer is clear, honest, and proportionate, and it is satisfied whether the asker is satisfied or not.\n\nThis changes what you do in the middle of a hostile question. First, do not treat the asker as an enemy to be neutralized; treat them as the person who surfaced the room's unspoken worry, because almost always they are. A lead investor who calls your churn number engineered is not usually attacking you. They are asking, in a way they think is safe, whether your numbers will hold. The rest of the table wants to know the same thing and is relieved someone asked.\n\nSecond, answer toward the room rather than back at the asker. Look at the room when you land the answer. Use inclusive language: 'That is a fair question, and I suspect it is the one most of us are holding', and 'Here is what I would want to know if I were sitting in that seat.' Third, never let the answer become an argument about the asker's competence, their motives, or their sources. The moment it becomes that, the room stops learning.\n\nFourth, watch the room for a second-order signal. If several people shift, look at their notes, or start typing, your answer has hit something live and you should slow down and check: 'Does that land the way I am describing it?' The room tells you what to do next. The asker does not.",
+      "principles": [
+        "The win condition is the room's confidence, not the asker's defeat.",
+        "Read a hostile question as the room's unspoken worry, and answer that worry first.",
+        "Land the answer looking at the room, not at the asker; it visually transfers ownership of the answer to the table.",
+        "Use inclusive language that widens the frame: 'the question most of us are holding'.",
+        "If several people react at once, slow down and check comprehension before moving on."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Scoring a comeback off the asker, which is satisfying in the moment and corrosive in the room.",
+          "fix": "Define success in advance as 'the table now has an answer'. Grade yourself on the room's expressions, not the asker's."
+        },
+        {
+          "failure": "Answering only the asker in a technical register that excludes everyone else.",
+          "fix": "Translate the technical answer into business consequence before you land it: 'which means the plan still works' or 'which means it does not'."
+        },
+        {
+          "failure": "Ignoring the room's energy and pushing to the next question to get through the list.",
+          "fix": "After any visibly charged answer, ask one brief comprehension question to the table before continuing."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a single questioner with a larger group as the true audience, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c6",
+      "title": "Saying 'I Don't Know' Without Handing the Room to Someone Else",
+      "summary": "Calibrated honesty has four parts: what you do know, the precise gap, what would close it, and by when. An audience forgives a bounded unknown; it does not forgive a discovered fabrication, and it rarely forgives vague retreat.",
+      "detail": "Executives are trained to project certainty, which makes 'I don't know' feel like career suicide. It is not, provided it is done precisely. The failure modes are vagueness and bluffing, not admission. 'Well, it depends' with no follow-through reads as weakness. A number invented on the spot reads as a lie, and unlike a soft answer, a lie cannot be repaired later.\n\nCalibrated honesty has four parts, and all four must appear.\n\n**What you do know.** Never open with the gap. Open with the part you are certain about, because the gap is only alarming in isolation. 'The retention picture is the thing I understand well. On enterprise, cohort retention has been stable for six quarters.' Now the room knows your competence is real, and the gap reads as a specific limit rather than a general emptiness.\n\n**The precise gap.** Name it exactly. Not 'I am not sure about the numbers'. 'I do not know the March cohort split by channel' is answerable. Vague gaps invite the room to assume the worst and to start asking variants of the same question.\n\n**What would close it.** 'That comes out of the data warehouse, and the report exists but I have not looked at it since the migration.' Or: 'I would need the retention team to pull it.' This is the step people skip, and it is the step that converts an admission into a plan.\n\n**By when.** A date, a day, and a mechanism: 'I will have it to you by Thursday morning, in writing.' A bounded unknown with a commitment is a professional answer. A bounded unknown without a commitment is a deferral, and the room will escalate because it does not know whether to trust you.\n\nOne further point, and it is the important one. Confidence is not competence, and even brilliant people are routinely overconfident in their own recall. The relevant research on calibration is the same research that should govern your whole Q&A: the goal is not to look certain, it is to be right, and to be visibly right more often than a competitor who bluffs. The technical trap in particular is designed to catch a bluff.",
+      "principles": [
+        "Never lead with the gap; lead with what you are certain about, then bound the uncertainty.",
+        "Name the gap precisely enough that someone could go and close it.",
+        "Always pair an admission with a mechanism and a date.",
+        "Never invent a number, a date, or a source in a live room; a fabrication is unrecoverable, an admission is not.",
+        "Judge yourself on accuracy, not on how certain you sounded; the two diverge more than most speakers admit."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Leading with 'I don't know', which makes the uncertainty the room's headline instead of your competence.",
+          "fix": "Reorder: known first, gap second, mechanism third, date last."
+        },
+        {
+          "failure": "Giving a soft, non-committal version of the truth: 'roughly in the low hundreds, I think'.",
+          "fix": "Commit to what you know, refuse to guess at what you do not, and commit to a date for the rest."
+        },
+        {
+          "failure": "Promising to follow up and then not following up, which teaches the room that your commitments are cheap.",
+          "fix": "Set a time you will actually honour; the follow-up note, when it arrives, builds more credibility than the answer would have."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a bounded region of known and unknown information with a clear boundary, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    },
+    {
+      "id": "c7",
+      "title": "The Technical Trap and the Premise Trap",
+      "summary": "A technical trap is a question posed in loaded detail by a peer to expose a gap in your understanding of your own system. The rule that saves you: you never argue with the question's premise under time pressure.",
+      "detail": "The technical trap has a specific shape. A peer, usually one with real domain expertise and some standing in the room, asks a question that is technically specific enough to imply a gap. 'Was the Q3 enterprise cohort skewed by the migration that completed in August?' is the classic. The question appears to assume a fact, and if the fact is wrong, the questioner will correct you publicly and the room will remember the correction rather than your answer.\n\nThe governing rule: you never argue with the question's premise under time pressure. Correcting a false premise is intellectually satisfying and strategically expensive, because it spends your credibility on the premise instead of the point, and the room will hear the correction as a claim that you do not know your own business. Time pressure is exactly the condition under which people argue, because arguing feels like evidence. It is not.\n\nThere are three better moves. **Acknowledge and reframe.** 'If the August migration did skew that cohort, then the right way to read retention is adjusted, and I will give you the adjusted figure.' You have neither confirmed nor denied the premise, and you have answered the question the room actually cares about. **Answer the consequence.** 'The cohort question is fair. What matters for the plan is the forward number, and that is where we are.' **Decompose the technical claim.** 'Let me separate the two things in that: the migration timing, which I can confirm, and the cohort composition, which I can get you.'\n\nIf the technical detail is genuinely beyond you, the calibrated-honesty structure is the answer, and you should use it faster rather than slower: known, gap, mechanism, date. One additional diagnostic matters: the questioner may not be attacking at all. A curious expert asks the same question in a different tone. Read the framing, not the content.\n\nOne related trap deserves naming: the premise trap in a non-technical form, such as 'Your churn numbers look engineered'. You do not need to litigate 'engineered' in the moment. You need to answer the question behind it, which is whether the number is real.",
+      "principles": [
+        "Never argue with a question's premise under time pressure; answer the real question and correct later, in writing if needed.",
+        "Acknowledge-and-reframe is the default response to a loaded technical premise.",
+        "When the detail is beyond you, deploy calibrated honesty faster, not slower.",
+        "Read the tone and framing to distinguish a curious expert from a hostile one before choosing a strategy.",
+        "Follow up in writing on any premise you chose not to correct on stage."
+      ],
+      "pitfalls": [
+        {
+          "failure": "Spending ninety seconds correcting a false premise in front of peers, which is remembered as a defensive performance.",
+          "fix": "Answer the real question in one sentence, then say: 'There is a detail in the framing I will correct in the appendix.' Then actually send it."
+        },
+        {
+          "failure": "Answering a technical trap with a vague, high-level answer that the room reads as not understanding the domain.",
+          "fix": "Name the specific thing you do understand and the specific thing you do not. Vagueness is what a trap is designed to produce."
+        },
+        {
+          "failure": "Assuming every sharp question is hostile, and answering defensively a questioner who was simply being precise.",
+          "fix": "Before choosing a defensive posture, ask what the room would need from this answer. If a straight answer serves them, give a straight answer."
+        }
+      ],
+      "imagePrompt": "A clean instructional diagram illustrating a loaded question entering a trap structure with a safe exit path, flat vector infographic style, muted professional palette, generous white space, labeled callouts, no text labels, no watermarks, high detail, 16:9"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "The Answer Architecture",
+      "summary": "A four-beat structure for every live answer that makes it clear, checkable, and closable.",
+      "steps": [
+        "Answer-First: state the conclusion in one sentence inside the first ten seconds.",
+        "Bridge: restate what you heard, and narrow the question if it contains two.",
+        "Evidence: give one specific, checkable fact, ideally with a denominator, a date, or a named source.",
+        "Land: close with one sentence that restates the takeaway so it can be repeated without notes.",
+        "Audit: after each answer ask whether the land is stronger than the answer-first; if not, you softened."
+      ],
+      "whenToUse": "Use for every live answer, from a one-line factual question to a hostile challenge. Scale the length to the stakes, never to your nerves: a simple question gets four short beats, a hostile one gets more air and more bridging. Do not use it for the prepared talk; this is for the unscripted hour.",
+      "example": "A board director asks, 'Your gross margin went down six points. What happened?' Answer-First: 'Six points of margin, and about four of them are the new enterprise discounting we decided to run in Q3.' Bridge: 'So the question is whether the discounting was a mistake or a decision.' Evidence: 'Enterprise deals in Q3 closed at a 22 percent discount rate against a 12 percent trailing average.' Land: 'We spent four points of margin to buy 11 points of net revenue retention, and the plan still works.'"
+    },
+    {
+      "name": "The Accusation Audit",
+      "summary": "A pre-meeting inventory of the negative assumptions the room already holds, each paired with a one-sentence, evidence-bearing neutralization you can deploy voluntarily.",
+      "steps": [
+        "List every negative belief the audience may hold about you, your company, or your numbers, without filtering for whether you can rebut it.",
+        "For each one, mark whether it is true, partly true, or false. Partly true accusations need a concession first, then a narrowing.",
+        "For the true and partly true ones, write the sentence that concedes the kernel honestly.",
+        "For the false ones, write a one-sentence neutralization with a specific number, date, or decision attached.",
+        "Decide which of these you will volunteer unprompted, and where in your remarks you will say them.",
+        "Keep the list. It becomes your script for the first three hostile questions, which are usually on the list."
+      ],
+      "whenToUse": "Use before any meeting where money, reputation, or a decision is at stake: fundraises, board meetings, diligence conversations, and key customer negotiations. Skip it for friendly internal briefings, where a formal audit produces a defensive tone.",
+      "example": "For a Series B meeting, the audit might contain: churn is engineered; the team is too thin; the market is crowded; the burn is too high; the founder will not sell. The neutralizations: 'Our logo churn is 4 percent; the net number is diluted by a low-ACV segment we are exiting, and here is the cohort by segment.' Volunteering the churn question before anyone asks changes the terms of the entire meeting."
+    },
+    {
+      "name": "The Buy-Time Menu",
+      "summary": "A menu of honest, content-bearing phrases that create five to fifteen seconds of thinking time while improving the question.",
+      "steps": [
+        "Restate and narrow: 'If I understand this, you are asking whether X or whether Y. Let me take Y.'",
+        "Decompose: 'That is really two questions, so let me separate them.'",
+        "Invite precision: 'Is the question about the level, or about the trend?'",
+        "Commit with a clock: 'That deserves a careful answer; give me ten seconds to get the cohort right.'",
+        "Reject the empty stalls: 'great question', 'I will come back to that', long pauses, drinking water.",
+        "Rule of thumb: if removing the phrase leaves nothing behind, it was a stall rather than a bridge."
+      ],
+      "whenToUse": "Use in the first ten seconds of any question you have not pre-heard, especially hostile or compound ones. Do not use it on questions you can answer instantly; a stall on an easy question is a signal that you are over-rehearsed or nervous.",
+      "example": "A skeptical partner asks, 'Why should I believe your cohort numbers?' The answer begins with an invite to precision: 'Is the concern the cohort definition, or the retention math?' That question buys five seconds, and it usually produces a narrower, more answerable question, and it hands the frame back to the person who raised a concern without conceding anything."
+    },
+    {
+      "name": "The Room-Read Rule",
+      "summary": "A decision rule for every charged question: optimize for the room's confidence, not the questioner's defeat.",
+      "steps": [
+        "Identify the asker's real concern beneath the words; hostility is usually fear wearing a suit.",
+        "Decide the answer that serves the whole table, not just the asker.",
+        "Answer with inclusive framing: 'That is the question most of us are holding.'",
+        "Land looking at the room; the answer belongs to the table now.",
+        "Scan the room for a reaction cluster: note-takers, glances, shifts in posture.",
+        "If a cluster appears, slow down and check comprehension before advancing."
+      ],
+      "whenToUse": "Use in every Q&A, and especially in rooms where one person is visibly dominant. It costs nothing to obey and it is the difference between winning a room and winning an argument you did not need to have.",
+      "example": "A director says, 'Your churn number looks engineered, and honestly it looks like you knew it would.' The room is watching to see if the founder defends or folds. The answer: 'It is fair to be suspicious of a single number, and I would be suspicious of mine too if I had not sat with the cohort data. Here is the segment detail that explains the movement.' That serves the table, because every other director was thinking the same thing."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "s1",
+      "title": "Two different net revenue retention numbers",
+      "setting": "A Series B lead investor meeting with eight people in the room. The investor who controls the term sheet has the floor and is holding a printed copy of your deck from this morning.",
+      "challenge": "'Last month you told us net revenue retention was 118 percent. This morning your slide says 112. Which one is it, and which of you did I actually meet?'",
+      "objectives": [
+        "Answer the reliability question before the metric question",
+        "Stay precise without becoming defensive",
+        "Land a takeaway the table can repeat"
+      ],
+      "options": [
+        {
+          "text": "Launch into a full explanation of the metric redefinition, the cohort boundaries, and the timing of the change, at length.",
+          "outcome": "The room stops listening somewhere in the second minute and starts wondering whether the number moved because the definition did. You have spent your credibility on the framing and lost the point.",
+          "rating": "poor",
+          "feedback": "Defending with detail before conceding the real issue reads as evasion. The investor did not ask about the metric definition; they asked whether your numbers are stable and whether you are straight with them."
+        },
+        {
+          "text": "Acknowledge the discrepancy in one sentence, explain the cause in one sentence, give both numbers with the reason, and close with what it means for the plan.",
+          "outcome": "The room relaxes slightly. The answer-first move signals that you noticed the gap yourself, which is stronger than being caught by it. The table can repeat the land.",
+          "rating": "excellent",
+          "feedback": "This is the Answer Architecture under load. It answers the reliability question first, then the metric question, and it does not ask the investor to do the reconciliation for you."
+        },
+        {
+          "text": "Challenge the premise: 'The 118 figure was for a different segment, and the deck is correct.'",
+          "outcome": "The room hears 'the number he gave us before was wrong', and now both numbers are suspect. You have converted a definitional question into a trust question.",
+          "rating": "poor",
+          "feedback": "Never argue with the premise under time pressure. Concede, explain, and land. The correction can go in a follow-up note."
+        },
+        {
+          "text": "Defer: 'Let us take that offline and come back to it in the data room.'",
+          "outcome": "The room reads this as 'he does not want to answer it in front of us', and the question reappears at the end of the meeting with three other people watching.",
+          "rating": "fair",
+          "feedback": "Deferral is sometimes right, but it must be explicit and specific: what you will send, by when, and why. Vague deferral in front of eight people is worse than a partial answer."
+        }
+      ],
+      "coachingNote": "When two of your numbers disagree, the room is really asking whether your reporting is reliable. Answer that first. Concede what is true in one sentence, explain the cause in one sentence, then land on the business consequence."
+    },
+    {
+      "id": "s2",
+      "title": "The all-hands question about layoffs",
+      "setting": "A 4,000-person all-hands, ten minutes into Q&A. An employee with a microphone asks whether the company is about to announce layoffs and whether her team is safe. She is visibly shaken and the room is silent.",
+      "challenge": "'Are you going to fire my team? Just tell us. Are we going to have layoffs this quarter?'",
+      "objectives": [
+        "Answer the human question before the policy question",
+        "Do not disclose what you cannot disclose",
+        "Leave the room steadier than you found it"
+      ],
+      "options": [
+        {
+          "text": "'I'm not going to discuss individual situations or personnel decisions in an all-hands.'",
+          "outcome": "The room hears a refusal to engage. The employee looks foolish for asking, and the rest of the company hears that the topic is real enough to warrant a legalistic dodge.",
+          "rating": "poor",
+          "feedback": "A refusal that starts with 'I'm not going to' tells a large audience the answer is bad. Address the person first, then draw the boundary."
+        },
+        {
+          "text": "Answer the emotional and factual question at the level you can: no announcement is planned, and if anything changes the company will communicate it directly, with the criteria stated in advance.",
+          "outcome": "The room exhales. The employee was answered at the level of honesty available to you, and the company is now seen as someone who communicates early rather than late.",
+          "rating": "excellent",
+          "feedback": "Name the fear, answer what you can answer truthfully, and commit to a communication rule in advance. This is a case where the land sentence is the most valuable part of the answer."
+        },
+        {
+          "text": "Deflect with humor: 'Nobody is getting fired, except my calendar.'",
+          "outcome": "The laugh is polite and slightly hollow, and it teaches the room that anxiety is not a serious topic here. People who were not going to ask now believe the company treats them as unserious.",
+          "rating": "fair",
+          "feedback": "Humor is defensible only with an audience that is already comfortable. Use it with a visibly anxious room and you signal that you are managing their reaction rather than answering them."
+        },
+        {
+          "text": "Refer the person to HR and move on to the next question.",
+          "outcome": "The question is handled, but the room now believes the topic is off-limits, and you have lost the chance to set a communication standard.",
+          "rating": "fair",
+          "feedback": "A referral is correct for individual cases, but it needs a bridge: acknowledge the concern, set the policy-level expectation, and then offer the individual path."
+        }
+      ],
+      "coachingNote": "Answer the question the person is actually asking, in the level of detail you can honestly give, and set a rule for how the company will communicate. The audience for a large all-hands is judging your composure and your honesty, not your HR policy."
+    },
+    {
+      "id": "s3",
+      "title": "The technical trap from a peer",
+      "setting": "A board meeting. A director who was previously the CTO of a direct competitor asks a sharply specific question about your data pipeline, and you know from her tone that she is testing whether you actually understand the system you claim to own.",
+      "challenge": "'Your retention model excludes any account that ever touched a sales-assisted deal. Given that sales-assisted accounts are exactly your growth segment, isn't the Q3 number just a selection artifact?'",
+      "objectives": [
+        "Avoid arguing with the premise under time pressure",
+        "Answer the business consequence, not the methodology",
+        "Preserve credibility with a technically literate room"
+      ],
+      "options": [
+        {
+          "text": "Spend two minutes explaining the exact inclusion criteria, the historical treatment of sales-assisted accounts, and the statistical reasoning behind the exclusion.",
+          "outcome": "You have defended the methodology to a hostile expert at length. The board has now spent its attention on a technical debate it did not request, and the director has scored a point.",
+          "rating": "poor",
+          "feedback": "This is the trap working exactly as designed. A methodology lecture is a sign of insecurity and it hands the floor to the person with more domain depth than you."
+        },
+        {
+          "text": "'That is a fair challenge. Whatever the inclusion rule does to the number, the question that matters is whether the forward plan survives it, and here is the forward plan on the conservative definition.'",
+          "outcome": "You have avoided both confirming the premise and denying the concern, and you have answered what the board actually needs. The director can pursue the methodology afterwards and now looks like she is nitpicking.",
+          "rating": "excellent",
+          "feedback": "This is acknowledge-and-reframe. It neither endorses the false premise nor attacks the questioner, and it moves the room to the decision-relevant number."
+        },
+        {
+          "text": "'That is exactly right, and that is why we moved to a stricter definition in the appendix.'",
+          "outcome": "You have agreed to a false premise for the sake of a smooth sentence. The director now knows you will concede ground to avoid a fight, and the next question will be sharper.",
+          "rating": "poor",
+          "feedback": "Agreeing with a false premise to buy peace is a purchase, and the room can tell. Never validate a premise you do not believe in order to end a sentence."
+        },
+        {
+          "text": "'I will get our data team to send you the full model with the sensitivity analysis by Friday.'",
+          "outcome": "A reasonable promise, but it leaves the board without an answer in a meeting where the answer was available to you, and it gives the director a follow-up to press on.",
+          "rating": "fair",
+          "feedback": "Follow-up is only credible when paired with a partial answer now. Give what you have, and use the follow-up for what genuinely requires analysis."
+        }
+      ],
+      "coachingNote": "A technical trap is designed to make you defend a methodology. The room does not need the methodology; it needs the business consequence. Answer the consequence, avoid the premise, and follow up in writing."
+    },
+    {
+      "id": "s4",
+      "title": "The question that is really about you",
+      "setting": "A press event after a launch. A journalist who has covered the company twice and was skeptical of your last story asks a question with a sympathetic tone that is designed to be quotable out of context.",
+      "challenge": "'Your board includes two people who have left other companies after disagreements with their founders. Should investors read that as a warning about how you handle disagreement internally?'",
+      "objectives": [
+        "Answer the fact without supplying a quote",
+        "Do not read the subtext of the question to the microphone",
+        "Keep the door open without conceding the frame"
+      ],
+      "options": [
+        {
+          "text": "Explain in detail why each board member left their previous company and what you have learned from their experience.",
+          "outcome": "You have done the reporter's framing work for them, provided a long answer with quotable phrases, and handed a columnist a thread about executive departures.",
+          "rating": "poor",
+          "feedback": "A question shaped to be quoted should be answered in the fewest words possible, and in the register that is safe to lift out of context."
+        },
+        {
+          "text": "Give the short, quotable-safe answer, then redirect to what the board is actually doing, then stop talking.",
+          "outcome": "The story gets a short line from you that cannot be twisted, and the substance of your answer is lost to a reporter who is looking for a headline.",
+          "rating": "excellent",
+          "feedback": "For press, brevity is control. Answer in one or two sentences, land a safe line, and decline the invitation to expand."
+        },
+        {
+          "text": "Answer the subtext directly: 'I am sure some people here think I am difficult to work with.'",
+          "outcome": "You have said the reporter's sentence out loud, on the record, in front of a camera, and the resulting clip now exists independently of the reporter's framing.",
+          "rating": "poor",
+          "feedback": "Never narrate the hostile interpretation aloud. The subtext only becomes real when you say it."
+        },
+        {
+          "text": "Ask the reporter to make the question more specific about which board members and which disagreements.",
+          "outcome": "The reporter either gives up a quote or commits to specifics, and you have bought time. The exchange can still look evasive on camera if it goes on too long.",
+          "rating": "fair",
+          "feedback": "Buying precision is legitimate, but keep it to one move and then answer. Two clarifying questions on camera reads as stonewalling."
+        }
+      ],
+      "coachingNote": "In front of a microphone, the room is the audience that will read the piece, not the person asking. Answer short, answer safely, and never speak the subtext aloud."
+    },
+    {
+      "id": "s5",
+      "title": "The procurement counter-question",
+      "setting": "A 400,000 euro annual contract with a global manufacturer. Procurement, not the business sponsor, runs this call, and procurement's only objective is to find a defensible reason to negotiate your price down.",
+      "challenge": "'Your competitor is offering the same scope for 40 percent less. Before we discuss your premium, can you explain to me why your price is defensible?'",
+      "objectives": [
+        "Answer the sponsor's actual question, not procurement's game",
+        "Do not attack the competitor",
+        "Land value in terms the sponsor will repeat internally"
+      ],
+      "options": [
+        {
+          "text": "Enumerate every feature difference between your product and the competitor's, feature by feature, for five minutes.",
+          "outcome": "Procurement now has a long list it can use to argue that you are charging for line items. The sponsor, who does not care about feature counts, disengages.",
+          "rating": "poor",
+          "feedback": "Feature enumeration is a trap in a procurement call. It converts a value conversation into a comparison sheet, and the comparison sheet is the buyer's document."
+        },
+        {
+          "text": "Reframe to cost of ownership and business risk in the sponsor's terms, name one number, and hand the internal argument to the sponsor.",
+          "outcome": "The sponsor can repeat the number to procurement. The conversation moves to the right level, and procurement's comparison frame loses force.",
+          "rating": "excellent",
+          "feedback": "Procurement fights on price; sponsors fight on risk and cost. Give the sponsor a line they can use on your behalf, and give them one number, not five."
+        },
+        {
+          "text": "Say the competitor's pricing is probably a lower-tier product and that the comparison is not like for like.",
+          "outcome": "You have made a claim you cannot verify in the room, and you have invited a documentary exchange you will lose on evidence rather than value.",
+          "rating": "fair",
+          "feedback": "Comparing directly to a competitor on price drags you into their frame. If you must address the comparison, do it once, briefly, and pivot to your own customer's economics."
+        },
+        {
+          "text": "Ask procurement what their success criteria for this purchase are, and what their internal approval process requires.",
+          "outcome": "You have gained real information and shifted the meeting toward process, which is where procurement has more room to move than price. It also reads as a stall if you do not close with substance.",
+          "rating": "good",
+          "feedback": "This is a strong buy-time move because it changes the game, but it must be followed by an answer. Pair it with a clear value statement."
+        }
+      ],
+      "coachingNote": "Every person in a procurement call is not your audience. Find the person whose win is your price, speak to their win, and give them a number they can repeat to the person who wants to haggle."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "title": "The Answer Architecture Ladder",
+      "type": "drill",
+      "durationMinutes": 25,
+      "instructions": "Write twelve questions that a real audience could ask about your most recent presentation, including at least three that are hostile and two that contain two questions inside them. Work through all twelve on a voice memo, one at a time, without pausing to plan. For each answer, speak four beats in order: answer-first, bridge, evidence, land. Stop the recording after each answer and score it against the four beats; if a beat is missing, mark it and move on rather than re-recording. At the end, tally which beat you drop most often.",
+      "deliverable": "One voice memo containing twelve labeled answers, plus a tally of the beat you drop most often.",
+      "successCriteria": [
+        "Every answer states a conclusion within the first ten seconds, before any context.",
+        "At least ten of twelve answers contain a bridge that restates the question in your own words.",
+        "Every answer contains one checkable piece of evidence, ideally with a number and a denominator.",
+        "Every answer ends with a land sentence that restates the takeaway.",
+        "The tally identifies a single recurring failure rather than a vague sense of difficulty."
+      ],
+      "liveCoachPrompt": "Welcome in. We are drilling the four-beat answer architecture under time pressure, so I want you to say twelve answers out loud, one after another, with no planning time. I will hold you to the sequence every single time: conclusion first, then the restatement, then one checkable fact, then the closing line. Rough answers are fine, missing beats are not. Ready for the first question."
+    },
+    {
+      "id": "e2",
+      "title": "Three hostile questions, three structured answers",
+      "type": "recorded",
+      "durationMinutes": 30,
+      "instructions": "Record yourself on video, seated, answering three hostile questions that you write yourself, each framed against a real piece of your work. Use 60 to 90 seconds per answer. Play each recording back and, using a written answer-first line you prepared beforehand, check whether your first sentence is the conclusion. Then check for one specific failure: softening. If the land sentence is weaker than the answer-first sentence, re-record that answer once and keep the better take.",
+      "deliverable": "A three-clip video set with a written note for each clip giving the intended answer-first line and the final land line.",
+      "successCriteria": [
+        "All three answers open with a conclusion in the first ten seconds.",
+        "No answer begins with context, preamble, or appreciation for the question.",
+        "At least two of the three include an honest buy of time using the Buy-Time Menu.",
+        "The land sentence in each clip is equal to or stronger than the answer-first sentence.",
+        "Your posture and pace stay stable across the three clips rather than deteriorating on the hardest one."
+      ],
+      "liveCoachPrompt": "This is the recorded round, so I want you talking to the camera, not to me. Take three questions that would genuinely embarrass you if you handled them badly, and answer each one with the four beats. I care most about two things: does your first sentence land the conclusion, and does your last sentence sound like you or like you are hedging. Start with the first one."
+    },
+    {
+      "id": "e3",
+      "title": "Live Q&A with a hostile proxy",
+      "type": "realWorld",
+      "durationMinutes": 45,
+      "instructions": "Find a colleague, a mentor, or a board member who will act as a hostile questioner and run a real 20-minute Q&A, live, on a topic of your choosing. Give them three instructions in advance: attack your weakest number, question your competence, and ask a compound question that contains two separate challenges. Record the session with consent. Afterwards, identify in the transcript every answer where you entered a debate about the question's premise, and every answer where you lost the room by being too long. Write a one-page retro on the three worst moments.",
+      "deliverable": "A 20-minute recorded live Q&A, a transcript or notes identifying the three worst moments, and a one-page retro with a specific rule for each.",
+      "successCriteria": [
+        "The session is genuinely live, with no prepared script beyond a list of likely questions.",
+        "You deploy at least two different buy-time moves rather than repeating one stall.",
+        "The retro names specific moments with timestamps, not general impressions.",
+        "Each rule in the retro is a behaviour you can execute in under three seconds.",
+        "You never enter a debate about a question's premise during the session."
+      ],
+      "liveCoachPrompt": "This one is live and out of your hands, which is exactly why it counts. Ask your hostile proxy to be genuinely uncomfortable, and give them permission to interrupt you. While it runs, apply one rule only: the room is your audience, not the person asking. Afterwards we will go straight to the three moments where it went wrong."
+    },
+    {
+      "id": "e4",
+      "title": "The Accusation Audit",
+      "type": "analytical",
+      "durationMinutes": 30,
+      "instructions": "Choose one upcoming high-stakes meeting. Write down, without filtering, at least ten negative beliefs the room could hold about you, your company, or your numbers. Mark each true, partly true, or false. For each true or partly true one, write the sentence that concedes the honest kernel. For each false one, write a one-sentence neutralization with a specific number, date, or named decision attached. Then select the three you will volunteer unprompted and note where in the meeting you will say them.",
+      "deliverable": "A one-page accusation audit with ten items, marked by truth status, each with a written response line, plus the three you plan to volunteer.",
+      "successCriteria": [
+        "The list contains at least three accusations that are true or partly true, written without softening.",
+        "Every false accusation has a neutralization containing a specific, checkable fact.",
+        "The three volunteered items are placed at deliberate moments rather than defensively at the end.",
+        "No neutralization relies on claiming the audience is wrong about something that is actually true.",
+        "The document is under 400 words, so it can be used in the room."
+      ],
+      "liveCoachPrompt": "This is the most useful pre-meeting document in the whole module, and it is only useful if it is honest. I want ten accusations, and I want the true ones left in the list. The instinct will be to argue every one; resist it. For the true items, your task is the one-sentence concession, and that is the sentence that will buy you the room."
+    },
+    {
+      "id": "e5",
+      "title": "The bounded unknown",
+      "type": "recorded",
+      "durationMinutes": 25,
+      "instructions": "Record three answers to questions you genuinely cannot fully answer, for example a metric you have not checked, a customer situation you do not know about, or a technical detail outside your expertise. Each answer must contain all four parts in order: what you do know, the precise gap, the mechanism that closes the gap, and a date. Run each between 45 and 90 seconds. Listen back specifically for vagueness: if a listener could not tell exactly what you do not know, the gap was not stated precisely enough, so record that one again.",
+      "deliverable": "Three recorded answers, each 45 to 90 seconds, with a note confirming the four parts are present and the gap is precisely named.",
+      "successCriteria": [
+        "Each answer opens with what you do know, not with the admission.",
+        "The gap is named so specifically that someone could go and close it.",
+        "Every answer names a mechanism and a date, not just an intention.",
+        "No number, date, or source is invented in any of the three answers.",
+        "Your tone stays level and unapologetic; you are stating a boundary, not confessing a failure."
+      ],
+      "liveCoachPrompt": "We are practising the one answer people are most afraid of giving. Remember the order: what you know first, then the exact gap, then what closes it, then by when. The gap is not a confession, it is a scoped boundary with a plan attached. Start with the one you are most afraid of."
+    },
+    {
+      "id": "e6",
+      "title": "Take one real question in the wild",
+      "type": "realWorld",
+      "durationMinutes": 40,
+      "instructions": "In your next real meeting, board session, investor conversation, or customer call, deliberately choose one question to answer using the full Answer Architecture, with a pre-written answer-first line and a pre-written land sentence. Tell nobody you are doing it. Immediately after the meeting, ask one person who was in the room for two questions only: did that answer feel more or less clear than your usual answers, and did anything in it sound defensive. Record their answers verbatim.",
+      "deliverable": "A short note documenting the meeting, the question you chose, your answer-first and land lines, and the two verbatim pieces of feedback you collected.",
+      "successCriteria": [
+        "The meeting was a real high-stakes conversation, not a rehearsal.",
+        "You used a pre-committed answer-first line and a pre-committed land sentence.",
+        "You collected feedback from someone who was actually in the room, not from memory.",
+        "The feedback identifies at least one specific behaviour that worked and one that did not.",
+        "You wrote a specific rule you will keep for the next real meeting."
+      ],
+      "liveCoachPrompt": "This is the field test, and nobody knows you are running it, which is the point. Pick one question in a real room and answer it as if the structure were invisible. Then get one honest sentence from someone who was there. Tell me which question you chose and what the room actually thought."
+    }
+  ],
+  "assessment": {
+    "id": "a7",
+    "title": "The unscripted hour",
+    "brief": "You are the CEO of a 120-person infrastructure software company presenting a Series B plan to a lead investor, two board members, and a partner from a fund. After twelve minutes of prepared remarks, the lead investor attacks your net revenue retention figure, a board member raises a technical question about your data model designed to expose whether you understand it, and a partner asks what happens if your key engineer leaves. Deliver twelve minutes of prepared remarks and then fifteen minutes of unscripted Q&A, answering a minimum of five questions including all three of the above. The recording is scored on the live portion. You may bring one page of notes containing a written answer-first line and land sentence for each of the three named challenges; nothing else.",
+    "rubric": [
+      {
+        "dimension": "Composure under challenge",
+        "weight": 20,
+        "excellent": "Posture, pace, and vocal register stay stable across all three attacks; no audible acceleration, no defensive sigh, no apology spiral; the speaker is visibly comfortable being challenged.",
+        "adequate": "Composure holds on the first and third challenges but visibly tightens on the second; some acceleration and shortened sentences, still recoverable.",
+        "poor": "Visible fluster, argument with the questioner's premise, or defensive escalation; the room can see that the challenge landed."
+      },
+      {
+        "dimension": "Answer Architecture discipline",
+        "weight": 20,
+        "excellent": "Every answer opens with the conclusion in the first ten seconds, contains a bridge that restates the question, one piece of checkable evidence, and a land sentence; the four beats are audible and consistent across all five questions.",
+        "adequate": "Architecture present in most answers but inconsistent; some answers start with context or run long without landing.",
+        "poor": "Answers wander, begin with preamble, or end without a takeaway; the listener cannot tell what the position was."
+      },
+      {
+        "dimension": "Room awareness and judgment",
+        "weight": 15,
+        "excellent": "Consistently answers toward the room rather than the questioner, uses inclusive framing, lands with eyes off the asker, and treats hostile questions as information about the table's unspoken concern.",
+        "adequate": "Aware of the room most of the time; occasionally drifts into a duel with a single asker and recovers.",
+        "poor": "Engages the asker as an opponent, ignores the rest of the table, or misreads the room's mood entirely."
+      },
+      {
+        "dimension": "Evidence discipline and calibrated honesty",
+        "weight": 15,
+        "excellent": "Every factual claim is specific and attributable; the speaker states the limits of their knowledge precisely, names a mechanism and a date, and never invents a figure, date, or source.",
+        "adequate": "Mostly specific; a few claims are approximate or unattributed, and one gap is handled with vagueness rather than a bound and a date.",
+        "poor": "Bluffs a number or a date, or retreats into vagueness that leaves the listener with no picture of what is actually known."
+      },
+      {
+        "dimension": "Use of time and buying time honestly",
+        "weight": 15,
+        "excellent": "Buy-time moves carry content, are varied, and are used only where needed; simple questions get short answers; hard questions get more air, and the buy never reads as evasion.",
+        "adequate": "Some hesitation fills are visible; a few stalls are content-free, but the answer still arrives and the time is roughly controlled.",
+        "poor": "Frequent filler, long pauses, or repeated reliance on a single stall; the speaker appears to be thinking from scratch on every question."
+      },
+      {
+        "dimension": "Substance and follow-through",
+        "weight": 15,
+        "excellent": "Answers contain material a board could act on: real numbers with denominators, dated commitments, and named owners; the final answer of each sequence leaves a clear next step for the room.",
+        "adequate": "Answers are reasonable but stay at the level of principle; few specifics, and next steps are implied rather than stated.",
+        "poor": "Answers are generic, contain no checkable specifics, and end with no discernible action the room could take."
+      }
+    ],
+    "passMark": 70
+  },
+  "readingList": [
+    {
+      "title": "Never Split the Difference",
+      "author": "Chris Voss with Sarah Silverman",
+      "why": "The source of the accusation audit, labeling, and mirroring used in module 7. Read it for the mechanics, and read it with the caveat that the author himself notes the tools come from hostage negotiation, not business. Pairs with the hostile question playbook and the Accusation Audit framework."
+    },
+    {
+      "title": "The Scout Mindset",
+      "author": "Julia Galef",
+      "why": "Explains why an audience will read your numbers to confirm what they already believe, and why defensive answers in a Q&A confirm the doubt rather than answering it. Pairs with the Room-Read Rule and the hostile-versus-curious distinction."
+    },
+    {
+      "title": "Crucial Conversations: Tools for Talking When Stakes Are High",
+      "author": "Patterson, Grenny, McMillan, Switzler",
+      "why": "Gives a practical protocol for high-stakes exchanges: establish safety, find common ground, then explore the other party's view. Its 'state the other side's view accurately' step maps directly onto label and calibrate and onto the technical trap. Pairs with the Answer Architecture."
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "why": "Useful for two specific ideas: that System 2 answers are markedly worse under time pressure, which justifies buying time, and that confidence is not competence, which justifies calibrated honesty. Use the relevant chapters, not the whole book. Pairs with the Buy-Time Menu and the bounded unknown exercise."
+    },
+    {
+      "title": "Radical Candor",
+      "author": "Kim Scott",
+      "why": "A practitioner's account of moving from hiding facts to surfacing them inside organizations, which is the real answer to the technical trap: a culture where bad news is hard to say produces rooms where bad news arrives as traps. Pairs with the Accusation Audit."
+    }
+  ],
+  "masteryChecklist": [
+    "I can take a hostile question and buy myself ten seconds of thinking time without it reading as evasion.",
+    "I can give any live answer in four beats: conclusion, restatement, one checkable fact, closing line.",
+    "I can tell a hostile question from a curious one by its framing rather than its content, and choose a different response for each.",
+    "I can answer toward the room instead of the asker, and I can name the room's unspoken worry in one sentence.",
+    "I can say what I do not know with a mechanism and a date, and I never invent a figure under pressure.",
+    "I can run an accusation audit before a high-stakes meeting and volunteer the true items before someone else raises them.",
+    "I can avoid arguing with a question's premise under time pressure, and I follow up with the correction in writing."
+  ]
+}
