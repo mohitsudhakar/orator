@@ -18,7 +18,7 @@ export const MODELS = {
   tutor: 'gemini-3.8-flash',
   image: 'gemini-3.1-flash-image',
   imageLite: 'gemini-3.1-flash-lite-image',
-  live: process.env.ORATOR_LIVE_MODEL || 'gemini-3.1-flash-live-preview',
+  live: process.env.ORATOR_LIVE_MODEL || 'gemini-3.8-live',
   transcribe: 'gemini-3.5-transcribe',
 };
 

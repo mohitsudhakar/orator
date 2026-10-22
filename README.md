@@ -50,15 +50,28 @@ All confirmed live against this account (2026-10-21):
 
 | Role | Model | Notes |
 |---|---|---|
-| Live voice coach | `gemini-3.1-flash-live-preview` | **AUDIO-only response modality.** TEXT-only and AUDIO+TEXT both return error 1007. |
+| Live voice coach | `gemini-3.8-live` | **AUDIO-only response modality.** TEXT-only and AUDIO+TEXT both return error 1007. |
 | Tutor / grading | `gemini-3.8-flash` | SSE streaming, JSON mode for grading. |
 | Concept diagrams | `gemini-3.1-flash-image` | Nano Banana 2. `gemini-3.1-flash-lite-image` is the cheaper variant. |
 
-**`gemini-3.8-flash-live` does not exist.** Every plausible live model name was
-probed with a timeout (`server/test/live_model_probe.mjs`): `gemini-3.1-flash-live-preview`
-is the only live-capable model on this account. `models.list` does not surface live
-models at all, and connecting to a non-existent live model **hangs** rather than
-rejecting, so the only way to discover one is to try it under a timeout.
+### Live model discovery
+
+`models.list` does **not** surface live models at all, and connecting to a
+non-existent live model **hangs** rather than rejecting. So the only way to
+find one is to probe candidate names under a timeout.
+
+`server/test/live_model_probe2.mjs` probes 29 names with a known-good
+control. Two models work, both **6/6** reliable for audio output:
+
+| Model | Audio per turn |
+|---|---|
+| `gemini-3.8-live` | ~206 KB |
+| `gemini-3.1-flash-live-preview` | ~179 KB |
+
+Names that **do not exist** despite being plausible:
+`gemini-3.8-flash-live`, `gemini-3.8-flash-live-preview`,
+`gemini-3.8-flash-native-audio`, `gemini-3.8-realtime`, `gemini-3.8-omni`,
+and the bare `gemini-3.x-live` family other than `gemini-3.8-live`.
 
 Set `ORATOR_LIVE_MODEL` to switch when a newer live model ships; the server
 falls back through `LIVE_FALLBACKS` automatically.

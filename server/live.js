@@ -76,16 +76,25 @@ export const DEFAULT_VOICE = 'Puck';
 /**
  * Candidate live models, in preference order.
  *
- * Verified on this account (2026-10-21) by probing every plausible name:
- * `gemini-3.1-flash-live-preview` is the ONLY live-capable model. Names like
- * `gemini-3.8-flash-live` do not exist - `models.list` does not surface live
- * models at all, and connecting to a non-existent live model HANGS rather than
- * rejecting, so the only way to discover one is to try it with a timeout.
+ * Verified on this account (2026-10-21) by probing 29 plausible names with
+ * a timeout. `models.list` does NOT surface live models at all, and
+ * connecting to a non-existent live model HANGS rather than rejecting, so
+ * the only way to discover one is to try it under a timeout.
+ *
+ * Two models work, both 6/6 reliable for audio output:
+ *   - gemini-3.8-live                 (newer; ~206 KB of audio per turn)
+ *   - gemini-3.1-flash-live-preview   (~179 KB per turn)
+ *
+ * Names that DO NOT exist, despite being plausible: gemini-3.8-flash-live,
+ * gemini-3.8-flash-live-preview, gemini-3.8-flash-native-audio,
+ * gemini-3.8-realtime, gemini-3.8-omni, and the whole bare "gemini-3.x-live"
+ * family other than 3.8-live.
  *
  * If a newer live model ships, set ORATOR_LIVE_MODEL and it is used instead.
  * The rest of this list is a safety net for that switchover.
  */
 export const LIVE_FALLBACKS = [
+  'gemini-3.8-live',
   'gemini-3.1-flash-live-preview',
   'gemini-3.1-flash-lite-live-preview',
   'gemini-2.5-flash-native-audio-preview',
