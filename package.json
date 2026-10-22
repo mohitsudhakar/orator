@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server/index.js",
     "dev": "node --watch server/index.js",
-    "test": "node server/test/fft.test.js && node server/test/metrics.test.js && node server/test/word_timing.test.js && node server/test/markdown.test.js && node server/test/table.test.js && node server/test/prose_check.js && node server/test/scenario_quality.js && node server/test/curriculum_markdown.js && node server/test/curriculum_report.js",
+    "test": "node server/test/fft.test.js && node server/test/metrics.test.js && node server/test/word_timing.test.js && node server/test/markdown.test.js && node server/test/table.test.js && node server/test/prose_check.js && node server/test/scenario_quality.js && node server/test/plaintext_markdown.js && node server/test/curriculum_markdown.js && node server/test/curriculum_report.js",
     "test:live": "node server/test/live.e2e.mjs",
     "test:browser": "python3 server/test/browser_e2e.py",
     "seed": "node server/seed.js",
