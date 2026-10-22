@@ -32,9 +32,28 @@ const PORT = process.env.PORT || 4173;
 const app = express();
 app.use(cors());
 app.use(express.json({ limit: '60mb' }));
-app.use(express.static(path.join(ROOT, 'public')));
-app.use('/assets/generated', express.static(path.join(ROOT, 'assets', 'generated')));
-app.use('/content', express.static(path.join(ROOT, 'content')));
+
+// Static assets must not be cached, or a browser keeps serving an old app.js
+// after a deploy - which silently breaks new frontend features. The asset
+// filenames are not content-hashed, so caching them is unsafe.
+//
+// The generated-diagrams route is registered FIRST because its files ARE
+// content-named and immutable, so they can be cached for a year.
+app.use('/assets/generated', express.static(path.join(ROOT, 'assets', 'generated'), {
+  maxAge: '1y',
+  immutable: true,
+}));
+
+app.use(express.static(path.join(ROOT, 'public'), {
+  setHeaders: (res, filePath) => {
+    if (filePath.endsWith('.html') || filePath.endsWith('.js') || filePath.endsWith('.css')) {
+      res.setHeader('Cache-Control', 'no-cache, must-revalidate');
+    }
+  },
+}));
+app.use('/content', express.static(path.join(ROOT, 'content'), {
+  setHeaders: (res) => res.setHeader('Cache-Control', 'no-cache, must-revalidate'),
+}));
 
 /* ------------------------------------------------------------------ */
 /* Health + meta                                                       */
