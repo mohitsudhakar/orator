@@ -420,6 +420,69 @@ a:hover { text-decoration: underline; }
   background: var(--bg-3); padding: 2px 6px; border-radius: 4px;
   font-family: var(--mono); font-size: 12.5px;
 }
+.chat-msg.model .bubble pre {
+  background: var(--bg-1); border: 1px solid var(--line);
+  border-radius: var(--radius-sm); padding: 12px 14px; overflow-x: auto;
+  margin: 12px 0;
+}
+.chat-msg.model .bubble pre code {
+  background: none; padding: 0; font-size: 12.5px; line-height: 1.6;
+}
+
+/* ---- GFM tables in tutor output ---- */
+
+.table-wrap {
+  margin: 16px 0;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-1);
+}
+.md-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  margin: 0;
+}
+.md-table th {
+  background: var(--bg-3);
+  color: var(--fg);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 700;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line-2);
+  text-align: left;
+  white-space: nowrap;
+}
+.md-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--bg-2);
+  color: var(--fg-2);
+  vertical-align: top;
+  line-height: 1.6;
+}
+.md-table tr:last-child td { border-bottom: none; }
+.md-table tbody tr:hover { background: rgba(94, 234, 212, .04); }
+.md-table strong { color: var(--fg); }
+.md-table code {
+  background: var(--bg-3); padding: 1px 5px; border-radius: 4px;
+  font-family: var(--mono); font-size: 12px;
+}
+.md-table em { color: var(--fg-2); }
+
+/* ---- other block types the tutor emits ---- */
+
+.chat-msg.model .bubble ol {
+  margin: 8px 0 8px 22px;
+  padding-left: 4px;
+}
+.chat-msg.model .bubble ol li { margin-bottom: 6px; }
+.chat-msg.model .bubble hr {
+  border: none; border-top: 1px solid var(--line); margin: 18px 0;
+}
+.chat-msg.model .bubble a { color: var(--accent-2); }
 .chat-input {
   border-top: 1px solid var(--line); padding: 16px 24px;
   display: flex; gap: 11px; align-items: flex-end;

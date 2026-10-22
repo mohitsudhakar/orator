@@ -56,6 +56,10 @@ vm.runInContext(`
   const escapeHtml = (s) => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   ${extract('md')}
   ${extract('inline')}
+  ${extract('isTableRow')}
+  ${extract('isAlignRow')}
+  ${extract('splitRow')}
+  ${extract('renderTable')}
   this.md = md; this.inline = inline;
 `, ctx);
 const { md } = ctx;
